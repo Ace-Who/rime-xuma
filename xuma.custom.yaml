@@ -55,7 +55,7 @@ patch:
       - xform/([nljqxy])v/$1ü/
       - xform/eh[0-5]?/ê/
       - xform/([a-z]+)[0-5]/$1/
-    tips: all
+    tips: char
 
   key_binder/bindings/+:
     - {accept: "Control+Shift+R", toggle: radical_resolver, when: always}
