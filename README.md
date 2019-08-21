@@ -1,13 +1,14 @@
 # 徐码三重注解补丁
 
-发布地址：[https://github.com/Ace-Who/rime-xuma-spelling]()
+[发布地址](https://github.com/Ace-Who/rime-xuma-spelling) ·
+[项目主页](https://ace-who.github.io/rime-xuma-spelling/)
 
 ![效果图](demo.png)
 
 ## 功能
 
 字根拆分提示 + 编码提示 + 拼音提示
-（用快捷键 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> 开关）
+（快捷键 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>）
 
 ## 说明
 
