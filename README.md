@@ -1,5 +1,7 @@
 # 徐码三重注解补丁
 
+发布地址：https://github.com/Ace-Who/rime-xuma-spelling
+
 ![效果图](demo.png)
 
 ## 特色功能
