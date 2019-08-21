@@ -1,0 +1,61 @@
+# xuma.custom.yaml
+#
+# 徐码三重注解补丁 by 局外人
+#
+# 字根分解提示 + 编码提示 + 拼音提示
+#
+# 用快捷键 Ctrl + Shift + R 开关此功能。
+#
+# 须与一起打包的 opencc 文件配合使用。
+
+patch:
+  switches/+:
+    - name: radical_resolver
+      # reset: 1
+      states: [ 码, 根 ]
+  engine/filters/+:
+    - simplifier@radical_resolver
+
+  radical_resolver:
+    opencc_config: xuma_spelling_qmod.json
+    option_name: radical_resolver
+    tags: [ abc, reverse_lookup ]
+    show_in_comment: true
+    comment_format:
+      - xlit/_[]/ 〔〕/
+      - xform/·/ · /
+      # 拼音声调
+      - xform ([aeiou])(ng?|r)([1234]) $1$3$2
+      - xform ([aeo])([iuo])([1234]) $1$3$2
+      - xform a1 ā
+      - xform a2 á
+      - xform a3 ǎ
+      - xform a4 à
+      - xform e1 ē
+      - xform e2 é
+      - xform e3 ě
+      - xform e4 è
+      - xform o1 ō
+      - xform o2 ó
+      - xform o3 ǒ
+      - xform o4 ò
+      - xform i1 ī
+      - xform i2 í
+      - xform i3 ǐ
+      - xform i4 ì
+      - xform u1 ū
+      - xform u2 ú
+      - xform u3 ǔ
+      - xform u4 ù
+      - xform v1 ǖ
+      - xform v2 ǘ
+      - xform v3 ǚ
+      - xform v4 ǜ
+      - xform/([nljqxy])v/$1ü/
+      - xform/eh[0-5]?/ê/
+      - xform/([a-z]+)[0-5]/$1/
+    tips: all
+
+  key_binder/bindings/+:
+    - {accept: "Control+Shift+R", toggle: radical_resolver, when: always}
+
