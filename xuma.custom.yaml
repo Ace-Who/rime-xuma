@@ -12,7 +12,7 @@
 patch:
   switches/+:
     - name: radical_resolver
-      # reset: 1
+      # reset: 1   # 默认启用
       states: [ 码, 根 ]
   engine/filters/+:
     - simplifier@radical_resolver
