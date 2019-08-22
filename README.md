@@ -15,8 +15,13 @@
 本补丁用于 rime 徐码输入方案。
 需要 xuma.schema.yaml 文件，请自备。
 
-将 xuma.custom.yaml 放到 rime 用户目录（通常与 xuma.schema.yaml 并列），
-将 opencc 内的文件放到「程序目录/opencc」目录。
+1. 将 xuma.custom.yaml 放到 rime 用户目录（通常与 xuma.schema.yaml 并列），
+2. 将 opencc 内的文件放到「程序目录/opencc」目录。
+
+默认使用 `xuma_spelling_qmod.json`，可修改 xuma.custom.yaml 以改用
+`xuma_spelling_qmod_xumaCase.json`，效果是大码大写。
+
+![大码大写版本效果图](demo_xumaCase.png)
 
 字根拆分提示数据由 QQ 徐码输入法官方群（218210590）小鸮（1360057135）提供。
 Ace Who 加入编码和拼音提示。
