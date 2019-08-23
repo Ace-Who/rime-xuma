@@ -23,6 +23,14 @@
 
 ![大码大写版本效果图](demo_xumaCase.png)
 
+或用 `xuma_spelling_qmod_2in1code.json`，效果是简全合一。
+
+![简全合一版本效果图](demo_2in1code.png)
+
+还有 `xuma_spelling_qmod_xumaCase_2in1code`，两者兼得。
+
+![大码大写简全合一版本效果图](demo_xumaCase_2in1code.png)
+
 ## 提示
 
 结合反查功能使用效果更佳，三重注解滤镜已经配置为对 `tag` 为 `reverse_lookup` 的

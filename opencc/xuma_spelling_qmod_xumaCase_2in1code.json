@@ -1,0 +1,16 @@
+{
+  "name": "xuma_spelling",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "xuma_spelling_qmod_xumaCase_2in1code.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "xuma_spelling_qmod_xumaCase_2in1code.txt"
+    }
+  }]
+}

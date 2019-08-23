@@ -19,6 +19,12 @@ patch:
 
   radical_resolver:
     opencc_config: xuma_spelling_qmod.json
+    # 大码大写
+    # opencc_config: xuma_spelling_qmod_xumaCase.json
+    # 简全合一
+    # opencc_config: xuma_spelling_qmod_xumaCase_2in1code.json
+    # 大码大写 + 简全合一
+    # opencc_config: xuma_spelling_qmod_2in1code.json
     option_name: radical_resolver
     tags: [ abc, reverse_lookup ]
     show_in_comment: true
