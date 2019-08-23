@@ -30,6 +30,5 @@
 
 ## 其它
 
-字根拆分提示数据由 QQ 徐码输入法官方群（218210590）小鸮（1360057135）提供。
-Ace Who 加入编码和拼音提示。
-拼音数据取自 [Mozillazg 整理的汉典数据](https://github.com/mozillazg/pinyin-data)。
+字根拆分提示数据由 QQ 徐码输入法官方群（218210590）小鸮（1360057135）提供。  
+拼音数据来自 [Mozillazg 整理的汉典数据](https://github.com/mozillazg/pinyin-data)。
