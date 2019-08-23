@@ -19,15 +19,15 @@
 2. 将 opencc 内的文件放到「程序目录/opencc」目录。
 
 默认使用 `xuma_spelling_qmod.json`，可修改 xuma.custom.yaml 以改用
-`xuma_spelling_qmod_xumaCase.json`，效果是大码大写。
+`xuma_spelling_qmod_xumaCase.json`，效果是「**大码大写**」。
 
 ![大码大写版本效果图](demo_xumaCase.png)
 
-或用 `xuma_spelling_qmod_2in1code.json`，效果是简全合一。
+或用 `xuma_spelling_qmod_2in1code.json`，效果是「**简全合一**」。
 
 ![简全合一版本效果图](demo_2in1code.png)
 
-还有 `xuma_spelling_qmod_xumaCase_2in1code`，两者兼得。
+还有 `xuma_spelling_qmod_xumaCase_2in1code`，「**两者兼得**」。
 
 ![大码大写简全合一版本效果图](demo_xumaCase_2in1code.png)
 
