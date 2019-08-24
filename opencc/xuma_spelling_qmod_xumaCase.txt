@@ -27458,7 +27458,7 @@
 龊	[止人龰·LUL_LULz·chuò]
 龋	[止人冂·LUM_LUMz·qǔ]
 龌	[止人土·LUJ_LUJz·wò]
-龍	[{龍右}·Ysl_Ysll·lóng_lǒng]
+龍	[立月{龍右}·Ysl_Ysll·lóng_lǒng]
 龎	[厂立{龍右}·GYLc·páng]
 龏	[立月廾·YSH_YSHl·gōng_wò]
 龐	[广立{龍右}·WYLg·páng]
