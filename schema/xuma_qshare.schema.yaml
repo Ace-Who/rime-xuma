@@ -1,0 +1,200 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: xuma_qshare
+  name: 徐码／爾雅·Q分享版
+  version: "18.31"
+  author:
+    - 發明人 徐国银先生
+    - rime schema by Q
+  description: |
+    徐码简繁通打
+    chinput.com/xuma
+  dependencies:
+    - luna_pinyin
+    - stroke
+
+switches:
+  - options: [ gb2312, gbk, big5, utf8 ]
+    states: [ gb2312, GBK, BIG5, UTF-8 ]
+    reset: 1
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: traditionalization
+    reset: 0
+    states: [ 简体保持, 簡入繁出 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: radical_resolver
+    reset: 1
+    states: [ 码, 根 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@luna_pinyin_lookup
+    - affix_segmentor@stroke_lookup
+    - affix_segmentor@reverse_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@fixed
+    - table_translator
+    - script_translator@luna_pinyin_lookup
+    - table_translator@stroke_lookup
+  filters:
+    - charset_filter@gb2312
+    - charset_filter@gbk
+    - charset_filter@big5
+    - charset_filter@utf8
+    - simplifier@simplify
+    - simplifier@traditionalize
+    - simplifier@radical_resolver
+    - uniquifier
+    - reverse_lookup_filter@luna_pinyin_reverse_lookup
+    - reverse_lookup_filter@stroke_reverse_lookup
+
+simplify:
+  option_name: simplification
+  tips: all
+  tags: [ abc, reverse_lookup, luna_pinyin, stroke ]
+
+traditionalize:
+  opencc_config: s2t.json
+  option_name: traditionalization
+  tips: all
+  tags: [ abc, reverse_lookup, luna_pinyin, stroke ]
+
+radical_resolver:
+  # opencc_config: xuma_spelling_qmod.json
+  # opencc_config: xuma_spelling_qmod_xumaCase.json
+  opencc_config: xuma_spelling_qmod_xumaCase_2in1code.json
+  # opencc_config: xuma_spelling_qmod_2in1code.json
+  option_name: radical_resolver
+  tags: [ abc, luna_pinyin_lookup, stroke_lookup, punct ]
+  show_in_comment: true
+  comment_format:
+    - xform/\[/〔 /
+    - xform/\]/ 〕/
+    - xlit/_/ /
+    - xform/·/ · /
+  tips: char
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " ;'"
+  # max_code_length: 4
+  # auto_select: true
+
+fixed:
+  __include: translator
+  enable_user_dict: false
+  initial_quality: 100000
+
+translator:
+  dictionary: xuma
+  enable_charset_filter: true #汉字过滤
+  enable_sentence: true
+  enable_user_dict: true
+  enable_encoder: true
+  encode_commit_history: true
+  max_phrase_length: 5
+  preedit_format:
+    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|糸阝女尸王扌石艹木土日虫山目口魚禾月亻忄金宀火言氵|"
+
+reverse_lookup:
+  tag: reverse_lookup
+  prefix: "`"    # 反查引導鍵「`」
+  suffix: "'"
+  tips: 【反查：拼音+笔画】
+  closing_tips: 【反查关闭】
+  # preedit_format:
+    # - xform/([nljqxy])v/$1ü/
+  extra_tags:
+    - luna_pinyin_lookup
+    - stroke_lookup
+
+luna_pinyin:
+  tag: luna_pinyin
+  dictionary: luna_pinyin
+  prism: luna_pinyin
+  # prefix: P
+  # suffix: ;
+  tips: 【朙月拼音】
+  closing_tips: 【徐码】
+  initial_quality: 0.2
+
+stroke:
+  tag: stroke
+  dictionary: stroke
+  # prefix: S
+  tips: 【五笔画】
+  closing_tips: 【徐码】
+  initial_quality: 0.1
+
+luna_pinyin_lookup:
+  __include: luna_pinyin
+  tag: luna_pinyin_lookup
+  prefix: '`P'
+  suffix: ;
+  tips: 【朙月拼音反查】
+  closing_tips: 【反查关闭】
+  initial_quality: 0.2
+
+stroke_lookup:
+  tag: stroke_lookup
+  prefix: '`B'
+  suffix: ;
+  dictionary: stroke
+  tips: 【五笔画反查】
+  closing_tips: 【反查关闭】
+  initial_quality: 0.5
+
+luna_pinyin_reverse_lookup:
+  tags: [ luna_pinyin_lookup ]
+  dictionary: xuma_qshare
+  overwrite_comment: true  # 覆蓋其他提示
+  comment_format:
+    - xform/$/〕/
+    - xform/^/〔/
+
+stroke_reverse_lookup:
+  __include: luna_pinyin_reverse_lookup
+  tags: [ stroke_lookup ]
+
+__patch: symbols:/patch
+
+key_binder:
+  import_preset: default
+  bindings:
+    - {accept: "Control+Shift+F", toggle: traditionalization, when: always}
+    - {accept: "Control+Shift+R", toggle: radical_resolver, when: always}
+
+recognizer:
+  import_preset: default
+  patterns:
+    # punct: '^/([0-9]0?|[A-Za-z]+)$'
+      # 已通过 __patch 指令引用 symbols.yaml 中的定义，故可省略
+    uppercase: "(?<![`;])[A-Z][-_+.'0-9A-Za-z]*$"
+    reverse_lookup: '`[a-z]*;?$'
+    luna_pinyin_lookup: '`P[a-z]*;?$'
+    stroke_lookup: '`B[a-z]*;?$'
