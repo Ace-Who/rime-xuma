@@ -192,8 +192,6 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    # punct: '^/([0-9]0?|[A-Za-z]+)$'
-      # 已通过 __patch 指令引用 symbols.yaml 中的定义，故可省略
     uppercase: "(?<![`;])[A-Z][-_+.'0-9A-Za-z]*$"
     reverse_lookup: '`[a-z]*;?$'
     luna_pinyin_lookup: '`P[a-z]*;?$'
