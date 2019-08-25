@@ -1,7 +1,8 @@
 # Rime 徐码三重注解方案与补丁
 
 [发布地址](https://github.com/Ace-Who/rime-xuma-spelling) ·
-[项目主页](https://ace-who.github.io/rime-xuma-spelling/)
+[项目主页](https://ace-who.github.io/rime-xuma-spelling/) ·
+[徐码文档](https://www.xumax.top)
 
 ![效果图](demo.png)
 
