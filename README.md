@@ -2,6 +2,7 @@
 
 [发布地址](https://github.com/Ace-Who/rime-xuma-spelling) ·
 [项目主页](https://ace-who.github.io/rime-xuma-spelling/) ·
+[Rime 输入法引擎](https://rime.im/) ·
 [徐码文档](https://www.xumax.top)
 
 ![效果图](demo.png)
