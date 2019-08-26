@@ -168,6 +168,9 @@ stroke_lookup:
   tips: 【五笔画反查】
   closing_tips: 【反查关闭】
   initial_quality: 0.5
+  preedit_format:
+    - 'xform/^([hspnz]+)$/$1\t（\U$1\E）/'
+    - xlit/HSPNZ/一丨丿丶乙/
 
 luna_pinyin_reverse_lookup:
   tags: [ luna_pinyin_lookup ]
@@ -188,6 +191,7 @@ key_binder:
   bindings:
     - {accept: "Control+Shift+F", toggle: traditionalization, when: always}
     - {accept: "Control+Shift+R", toggle: radical_resolver, when: always}
+    - {accept: "Control+c", toggle: radical_resolver, when: composing}
 
 recognizer:
   import_preset: default
