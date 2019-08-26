@@ -75,13 +75,13 @@ engine:
 simplify:
   option_name: simplification
   tips: all
-  tags: [ abc, reverse_lookup, luna_pinyin, stroke ]
+  tags: [ abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
 
 traditionalize:
   opencc_config: s2t.json
   option_name: traditionalization
   tips: all
-  tags: [ abc, reverse_lookup, luna_pinyin, stroke ]
+  tags: [ abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
 
 radical_resolver:
   # opencc_config: xuma_spelling_qmod.json
