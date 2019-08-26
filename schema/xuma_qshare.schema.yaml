@@ -12,7 +12,7 @@ schema:
     徐码简繁通打
     chinput.com/xuma
 
-    三重注解 + 双重反查 + 简入繁出
+    三重注解 + 双重反查 + 简入繁出 + ...
     https://ace-who.github.io/rime-xuma-spelling/
   dependencies:
     - luna_pinyin
@@ -136,27 +136,9 @@ reverse_lookup:
     - luna_pinyin_lookup
     - stroke_lookup
 
-luna_pinyin:
-  tag: luna_pinyin
-  dictionary: luna_pinyin
-  prism: luna_pinyin
-  # prefix: P
-  # suffix: ;
-  tips: 【朙月拼音】
-  closing_tips: 【徐码】
-  initial_quality: 0.2
-
-stroke:
-  tag: stroke
-  dictionary: stroke
-  # prefix: S
-  tips: 【五笔画】
-  closing_tips: 【徐码】
-  initial_quality: 0.1
-
 luna_pinyin_lookup:
-  __include: luna_pinyin
   tag: luna_pinyin_lookup
+  dictionary: luna_pinyin
   prefix: '`P'
   suffix: ;
   tips: 【朙月拼音反查】
@@ -165,9 +147,9 @@ luna_pinyin_lookup:
 
 stroke_lookup:
   tag: stroke_lookup
+  dictionary: stroke
   prefix: '`B'
   suffix: ;
-  dictionary: stroke
   tips: 【五笔画反查】
   closing_tips: 【反查关闭】
   initial_quality: 0.5
@@ -177,7 +159,7 @@ stroke_lookup:
 
 luna_pinyin_reverse_lookup:
   tags: [ luna_pinyin_lookup ]
-  dictionary: xuma_qshare
+  dictionary: xuma
   overwrite_comment: true  # 覆蓋其他提示
   comment_format:
     - xform/$/〕/
