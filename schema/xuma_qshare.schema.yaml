@@ -11,6 +11,9 @@ schema:
   description: |
     徐码简繁通打
     chinput.com/xuma
+
+    三重注解 + 双重反查 + 简入繁出
+    https://ace-who.github.io/rime-xuma-spelling/
   dependencies:
     - luna_pinyin
     - stroke
