@@ -2,27 +2,23 @@
 
 [发布地址](https://github.com/Ace-Who/rime-xuma-spelling) ·
 [项目主页](https://ace-who.github.io/rime-xuma-spelling/) ·
-[Rime 输入法引擎](https://rime.im/) ·
-[徐码文档](https://www.xumax.top)
+[徐码文档](https://www.xumax.top) ·
+[Rime 输入法引擎 | 中州韻 | 小狼毫 | 鼠须管](https://rime.im/)
 
 ![效果图](demo.png)
 
 ## 功能
 
-<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：三重注解（字根拆分提示 + 编
+多种实用功能，尤其适合「徐码简繁通打输入法／爾雅输入法」初学者（我）。
+
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：三重注解（字根拆分提示 + 编
 码提示 + 拼音提示）
-
-<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>：简入繁出
-
-引导符「\`」：双重反查（全拼 + 五笔画）
-
-引导符「\`P」：全拼反查
-
-引导符「\`B」：五笔画反查（横h 竖s 撇p 捺/点n 折z）
-
-<kbd>Ctrl</kbd> + <kbd>C</kbd>：三重注解的另一个快捷键，仅在选字界面有效。
-
-<kbd>F4</kbd> / <kbd>Ctrl</kbd> + <kbd>\` </kbd> 选单：可控制字符集选择（默认
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>：简入繁出
+- 引导符「\`」：双重反查（全拼 + 五笔画）
+- 引导符「\`P」：全拼反查
+- 引导符「\`B」：五笔画反查（横h 竖s 撇p 捺/点n 折z）
+- <kbd>Ctrl</kbd> + <kbd>C</kbd>：三重注解的另一个快捷键，仅在选字界面有效。
+- <kbd>F4</kbd> / <kbd>Ctrl</kbd> + <kbd>\` </kbd> 选单：可控制字符集选择（默认
 GBK）、繁体简化（繁入简出，默认开启）、简入繁出、三重注解（码／根）等。
 
 还有其它贴心特性，省略介绍。
@@ -34,8 +30,8 @@ GBK）、繁体简化（繁入简出，默认开启）、简入繁出、三重�
 也可使用补丁，文件在 patch 目录下。需要自备基础方案，包括 xuma.schema.yaml 文件
 和词典文件。补丁仅包含三重注解功能。
 
-注意：完整方案与补丁并非配套，补丁仅用于你既有的 xuma.schema.yaml。用完整方案不
-需要补丁。
+注意：完整方案与补丁并非配套，只选一个来用，opencc 文件为共用。补丁仅用于你既有
+的 xuma.schema.yaml。
 
 1. 将方案或补丁文件放到 rime 用户目录（补丁与 xuma.schema.yaml 并列），
 2. 将 opencc 内的文件放到「程序目录/opencc」目录。
