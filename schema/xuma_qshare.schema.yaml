@@ -114,7 +114,7 @@ fixed:
 
 translator:
   dictionary: xuma
-  enable_charset_filter: true #汉字过滤
+  enable_charset_filter: false #汉字过滤
   enable_sentence: true
   enable_user_dict: true
   enable_encoder: true
