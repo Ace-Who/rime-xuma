@@ -25,12 +25,17 @@
 <kbd>F4</kbd> / <kbd>Ctrl</kbd> + <kbd>\` </kbd> 选单：可控制字符集选择（默认
 GBK）、繁体简化（繁入简出，默认开启）、简入繁出、三重注解（码／根）等。
 
+还有其它贴心特性，省略介绍。
+
 ## 说明
 
 可使用完整方案，文件在 schema 目录下。
 
 也可使用补丁，文件在 patch 目录下。需要自备基础方案，包括 xuma.schema.yaml 文件
 和词典文件。补丁仅包含三重注解功能。
+
+注意：完整方案与补丁并非配套，补丁仅用于你既有的 xuma.schema.yaml。用完整方案不
+需要补丁。
 
 1. 将方案或补丁文件放到 rime 用户目录（补丁与 xuma.schema.yaml 并列），
 2. 将 opencc 内的文件放到「程序目录/opencc」目录。
@@ -44,8 +49,8 @@ GBK）、繁体简化（繁入简出，默认开启）、简入繁出、三重�
 
 ![简全合一版本效果图](demo_2in1code.png)
 
-还有 `xuma_spelling_qmod_xumaCase_2in1code`，「**两者兼得**」。完整方案使用此版
-本。
+还有 `xuma_spelling_qmod_xumaCase_2in1code`，「**两者兼得**」。完整方案默认使用
+此版本。
 
 ![大码大写简全合一版本效果图](demo_xumaCase_2in1code.png)
 
