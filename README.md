@@ -34,7 +34,7 @@ GBK）、繁体简化（繁入简出，默认开启）、简入繁出、三重�
 的 xuma.schema.yaml。
 
 1. 将方案或补丁文件放到 rime 用户目录（补丁与 xuma.schema.yaml 并列），
-2. 将 opencc 内的文件放到「程序目录/opencc」目录。
+2. 将 opencc 内的文件放到「程序目录/data/opencc」目录。
 
 补丁默认使用 `xuma_spelling_qmod.json`，可修改 xuma.custom.yaml 以使用
 `xuma_spelling_qmod_xumaCase.json`，效果是「**大码大写**」。
