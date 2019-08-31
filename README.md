@@ -5,7 +5,7 @@
 [徐码文档](https://www.xumax.top) ·
 [Rime 输入法引擎 | 中州韻 | 小狼毫 | 鼠须管](https://rime.im/)
 
-![效果图](demo.png)
+![效果图](demo/demo.png)
 
 ## 功能
 
@@ -39,16 +39,16 @@ GBK）、繁体简化（繁入简出，默认开启）、简入繁出、三重�
 补丁默认使用 `xuma_spelling_qmod.json`，可修改 xuma.custom.yaml 以使用
 `xuma_spelling_qmod_xumaCase.json`，效果是「**大码大写**」。
 
-![大码大写版本效果图](demo_xumaCase.png)
+![大码大写版本效果图](demo/demo_xumaCase.png)
 
 或用 `xuma_spelling_qmod_2in1code.json`，效果是「**简全合一**」。
 
-![简全合一版本效果图](demo_2in1code.png)
+![简全合一版本效果图](demo/demo_2in1code.png)
 
 还有 `xuma_spelling_qmod_xumaCase_2in1code`，「**两者兼得**」。完整方案默认使用
 此版本。
 
-![大码大写简全合一版本效果图](demo_xumaCase_2in1code.png)
+![大码大写简全合一版本效果图](demo/demo_xumaCase_2in1code.png)
 
 ## 提示
 
