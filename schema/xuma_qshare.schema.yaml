@@ -98,7 +98,7 @@ radical_resolver:
     - xform/\[/〔 /
     - xform/\]/ 〕/
     - xlit/_/ /
-    - xform/·/ · /
+    - xform/,/ · /
   tips: char
 
 speller:
