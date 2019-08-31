@@ -28,8 +28,6 @@
 ![自带说明](demo/help.shortcut_keys.png)
 ![自带说明](demo/help.reverse_lookup.png)
 
-![环境变量支持](demo/environment_variable.png)
-
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：三重注解
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>：简入繁出
 - <kbd>Ctrl</kbd> + <kbd>C</kbd>：三重注解，仅在选字界面有效。
@@ -43,6 +41,10 @@
 
 还有其它贴心特性，省略介绍。
 
+![自造词注解](demo/user_dict_comment.png)
+
+![环境变量支持](demo/environment_variable.png)
+
 ## 安装说明
 
 1. 将 schema 目录下的文件放到 rime 用户目录。
@@ -51,5 +53,5 @@
 ## 数据来源
 
 字根拆分原始数据由 QQ 徐码输入法官方群（218210590）小鸮（1360057135）提供。  
-拼音数据来自 [Mozillazg 整理的汉典数据](https://github.com/mozillazg/pinyin-data)。
+拼音数据来自 [Mozillazg 整理的汉典数据](https://github.com/mozillazg/pinyin-data)。  
 五笔画数据来自 Rime 五笔画方案。
