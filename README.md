@@ -15,8 +15,11 @@
 
 方案自带说明：
 
-![快捷键效果](demo/shortcut_keys.gif)
 ![自带说明](demo/help.gif)
+
+快捷键演示：
+
+![快捷键效果](demo/shortcut_keys.gif)
 
 ## 功能
 
