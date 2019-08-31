@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_qshare
   name: 徐码／爾雅·Q分享版
-  version: "18.31"
+  version: "2019-09-01"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -34,9 +34,13 @@ switches:
     states: [ 简体保持, 簡入繁出 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: radical_resolver
+  - name: xuma_spelling
     reset: 1
-    states: [ 码, 根 ]
+    states: [ 拆, 扌⺁丅丶 ]
+  - name: single_char_only
+    states: [ 词组包括, 单字仅含 ]
+  - name: lazy_clock
+    states: [ 懒钟下班, ㍡开工 ]
 
 engine:
   processors:
@@ -63,17 +67,21 @@ engine:
     - table_translator
     - script_translator@luna_pinyin_lookup
     - table_translator@stroke_lookup
+    - lua_translator@os_env
+    - lua_translator@helper
   filters:
+    - lua_filter@single_char_only
     - charset_filter@gb2312
     - charset_filter@gbk
     - charset_filter@big5
     - charset_filter@utf8
     - simplifier@simplify
     - simplifier@traditionalize
-    - simplifier@radical_resolver
-    - uniquifier
+    - lua_filter@lazy_clock
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
+    - lua_filter@xuma_spelling
+    - uniquifier
 
 simplify:
   option_name: simplification
@@ -86,25 +94,10 @@ traditionalize:
   tips: all
   tags: [ abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
 
-radical_resolver:
-  # opencc_config: xuma_spelling_qmod.json
-  # opencc_config: xuma_spelling_qmod_xumaCase.json
-  opencc_config: xuma_spelling_qmod_xumaCase_2in1code.json
-  # opencc_config: xuma_spelling_qmod_2in1code.json
-  option_name: radical_resolver
-  tags: [ abc, luna_pinyin_lookup, stroke_lookup, punct ]
-  show_in_comment: true
-  comment_format:
-    - xform/\[/〔 /
-    - xform/\]/ 〕/
-    - xlit/_/ /
-    - xform/,/ · /
-  tips: char
-
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " ;'"
-  # max_code_length: 4
+  max_code_length: 4
   # auto_select: true
 
 fixed:
@@ -175,8 +168,9 @@ key_binder:
   import_preset: default
   bindings:
     - {accept: "Control+Shift+F", toggle: traditionalization, when: always}
-    - {accept: "Control+Shift+R", toggle: radical_resolver, when: always}
-    - {accept: "Control+c", toggle: radical_resolver, when: composing}
+    - {accept: "Control+c", toggle: xuma_spelling, when: composing}
+    - {accept: "Control+s", toggle: single_char_only, when: composing}
+    - {accept: "Control+t", toggle: lazy_clock, when: composing}
 
 recognizer:
   import_preset: default
@@ -185,3 +179,5 @@ recognizer:
     reverse_lookup: '`[a-z]*;?$'
     luna_pinyin_lookup: '`P[a-z]*;?$'
     stroke_lookup: '`B[a-z]*;?$'
+    os_env: '^env/\w+'
+    helper: '^help/$'

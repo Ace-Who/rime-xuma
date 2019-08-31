@@ -5,7 +5,7 @@
 #
 # 码表去重 by Q
 #
-# 字频取自 Rime 郑码词典，由 Q 添加
+# 词频信息取自 Rime 郑码方案 rime/rime-zhengma 词典，由 Q 添加
 # https://github.com/lotem/rime-zhengma
 
 ---
