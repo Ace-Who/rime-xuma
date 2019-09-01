@@ -1,9 +1,11 @@
 -- rime.lua
 
-xuma_spelling = require("xuma_spelling")
+helper = require("ace/helper")
 
-single_char_only = require("single_char_only")
+single_char_only = require("ace/single_char_only")
 
-local os_tools = require("os_tools")
+local os_tools = require("ace/os_tools")
 lazy_clock = os_tools.lazy_clock_filter
-os_env = os_tools.os_env_filter
+os_env = os_tools.os_env_translator
+
+xuma_spelling = require("ace/xuma_spelling")

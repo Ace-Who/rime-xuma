@@ -10,7 +10,7 @@ local function translator(input, seg)
     yield(Candidate("text", seg.start, seg._end, '`', ' 双重反查'))
     yield(Candidate("text", seg.start, seg._end, '`P', ' 全拼反查'))
     yield(Candidate("text", seg.start, seg._end, '`B', ' 笔画反查'))
-    yield(Candidate("text", seg.start, seg._end, 'env/VAR', ' 环境变量'))
+    yield(Candidate("text", seg.start, seg._end, 'env/', ' 环境变量'))
   end
 end
 
