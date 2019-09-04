@@ -6,7 +6,10 @@ local function lazy_clock_filter(input, env)
     for cand in input:iter() do yield(cand) end
     return
   end
+  -- 如何读取配置中 menu/page_size 的值？ 
+  --   https://github.com/hchunhui/librime-lua/issues/17
   local page_size = env.engine.schema.page_size
+  -- Or env.engine.schema.config:get_int('menu/page_size')
   local i = 1
   local done = false
   for cand in input:iter() do

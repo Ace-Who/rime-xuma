@@ -1,17 +1,39 @@
--- xuma_phrase_spelling.lua
--- 为词组的三重注解进行简化处理，仅显示词组编码和对应字根。
--- 实现障碍：simplifier 返回的类型，无法修改其注释。
---    https://github.com/hchunhui/librime-lua/issues/16
--- 一个思路：show_in_commet: false
---    然后读取 cand.text 修改后作为注释显示，问题是无法直接将 cand.text 改回。
---    理论上只能用 Candidate() 生成简单类型候选。
+-- xuma_spelling.lua
 
--- 编码存在多个的情况，先捕获全部再确定全码，最后提取词组编码。
--- 考虑到词组中单字的字根和编码可能缺失，仅对无缺失词组作注解。
--- Handle multibye string in Lua:
---   https://stackoverflow.com/questions/9003747/splitting-a-multibyte-string-in-lua
+--[[
+单字的字根拆分三重注解直接利用 simplifier 通过预制的 OpenCC 词库查到。
+问题：这个方法，词组只能显示每个单字的注解，需要进行简化合并处理，仅显示词组编
+码和对应字根。
+计划：用 Lua 处理词组注解。
+
+
+实现障碍：simplifier 返回的类型，无法修改其注释。
+   https://github.com/hchunhui/librime-lua/issues/16
+一个思路：show_in_commet: false
+   然后读取 cand.text 修改后作为注释显示，问题是无法直接将 cand.text 改回。
+   理论上只能用 Candidate() 生成简单类型候选。
+
+现在的方案：完全弃用 simplifier + OpenCC，单字和词组都用 Lua 处理。
+
+注解数据来源与 OpenCC 方法相同，编成伪方案的伪词典，通过写入主方案的
+schema/dependencies 来让 rime 编译为反查库 *.reverse.bin，最后通过 Lua 的反查函
+数查询。
+
+词组中有的取码单字可能没有注解数据，这类词组不作注解。
+
+Todo: 自造词中单字编码存在多个的情况，先捕获全部再确定全码，最后提取词组编码。
+注意特殊单字：八个八卦名，排除其特殊符号编码 dl?g.
+
+Handle multibye string in Lua:
+  https://stackoverflow.com/questions/9003747/splitting-a-multibyte-string-in-lua
+
+lua_filter 如何判断 cand 是否来自反查或当前是否处于反查状态？
+  https://github.com/hchunhui/librime-lua/issues/18
+--]]
 
 local function xform(input)
+  -- "[radicals,code_code...,pinyin_pinyin...]" ->
+  -- "〔radicals · code code ... · pinyin pinyin ...〕"
   if input == "" then return "" end
   input = input:gsub('%[', '〔 ')
   input = input:gsub('%]', ' 〕')
@@ -43,7 +65,7 @@ local function utf8chars(str, ...)
   return chars
 end
 
-function radicals(str, ...)
+local function radicals(str, ...)
   -- Handle spellings like "{于下}{四点}丶"(求) where some radicals are
   -- represented by multiple characters.
   local first, last = ...
@@ -96,18 +118,6 @@ local function parse_spll(str)
   return string.gsub(s, '^%[', '')
 end
 
-local function wrap_comment(s, c, cand, env)
-  -- 'completion' 类型的候选来自固态词典还是用户词典，通过查询词组编码来确定。
-  if cand.type == 'user_table' or cand.type == 'completion' and
-      env.code_rvdb:lookup(cand.text) == '' then
-    return '〈 ' .. s .. ' 〉' .. cand.comment
-  elseif cand.type == 'table' or cand.type == 'completion' then
-    return '〔 ' .. s .. ' · ' .. c .. ' 〕' .. cand.comment
-  else
-    return cand.comment
-  end
-end
-
 local function spell_phrase(s, spll_rvdb)
   local chars = utf8chars(s)
   local rvlk_results
@@ -135,9 +145,23 @@ local function spell_phrase(s, spll_rvdb)
   end
 end
 
+local function wrap_comment(s, c, cand)
+  -- 'completion' 类型的候选来自固态词典还是用户词典，通过查询词组编码来确定。
+  -- 一个问题：反查候选中预计为 talbe 类型的，全都是 user_table 类型。因此改为
+  -- 仅判断 code。
+  if c ~= '' then
+    return '〔 ' .. s .. ' · ' .. c .. ' 〕' .. cand.comment
+  else
+    return '〈 ' .. s .. ' 〉' .. cand.comment
+  end
+end
+
 local function set_comment(input, env)
   for cand in input:iter() do
-    if cand.type == 'sentence' then  -- Do not modify the comment of this type.
+    -- Modify the comment only if the cand is of one of these types.
+    if not (cand.type == 'table' or cand.type == 'user_table' or
+        cand.type == 'completion' or cand.type == 'user_phrase' or
+        cand.type == 'phrase') then
     elseif utf8.len(cand.text) == 1 then
       local rvlk_result = env.spll_rvdb:lookup(cand.text)
       if rvlk_result ~= '' then
@@ -146,8 +170,10 @@ local function set_comment(input, env)
       end
     else
       local spelling = spell_phrase(cand.text, env.spll_rvdb)
-      local code = env.code_rvdb:lookup(cand.text)
-      cand:get_genuine().comment = wrap_comment(spelling, code, cand, env)
+      if spelling ~= '' then
+        local code = env.code_rvdb:lookup(cand.text)
+        cand:get_genuine().comment = wrap_comment(spelling, code, cand)
+      end
     end
     yield(cand)
   end

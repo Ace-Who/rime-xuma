@@ -12,4 +12,3 @@ local function filter(input, env)
 end
 
 return filter
-

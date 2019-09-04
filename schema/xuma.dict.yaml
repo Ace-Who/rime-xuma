@@ -10,7 +10,7 @@
 
 ---
 name: "xuma"
-version: "2019.08.25"
+version: "2019.09.04"
 sort: weight
 columns:
   - text
@@ -22,7 +22,8 @@ encoder:
     - '^[a-z]$'  # 一简不参与造词
     - '^bg(zs|zx|ys|yx|jc|hx|sx)$'  # 表格
     - '^sz[lyeswlqbj]'  # 数字
-    - '^dl..$'  # 特殊字符和八卦名 "乾兑坎坤巽离艮震" 的符号编码（dl?g）.
+    # - '^dl..$'  # 特殊字符和八卦名 "乾兑坎坤巽离艮震" 的符号编码（dl?g）.
+      # 误伤太多，取消这条。
   rules:
     - length_equal: 2
       formula: "AaAbBaBb"
@@ -72058,7 +72059,7 @@ encoder:
 ▁	bghx
 ▏	bgsx
 ▔	bghx
-▕ 	bgsx
+▕	bgsx
 ▂	bghx
 ▎	bgsx
 ▃	bghx
@@ -72129,7 +72130,7 @@ encoder:
 ⑽	szyl
 ⒑	szyl
 ⑾	szyy
-⒒	szye
+⒒	szyy
 ⑿	szye
 ⒓	szye
 ⒀	szys
@@ -178100,7 +178101,6 @@ encoder:
 ㏈	dldb
 ├	dldd
 ䷹	dldd
- デ	dlde
 ㎗	dlde
 ☱	dldg
 ䷞	dldg
@@ -178557,7 +178557,6 @@ $	dlmy
 ㎭	dlra
 ㎮	dlra
 ㎯	dlra
- レ	dlre
 ₨	dlrs
 ¥	dlry
 ☂	dls
@@ -179051,7 +179050,6 @@ $	dlmy
 ㋉	dlyl
 ㍨	dlyl
 ㏯	dlyl
- よ	dlyo
 ˉ	dlyp
 ˊ	dlyp
 ㍩	dlyq
@@ -179194,7 +179192,6 @@ $	dlmy
 ䷧	dlzk
 ䷶	dlzl
 ䷏	dlzn
- ゾ	dlzo
 ䷡	dlzq
 ↸	dlzs
 ⇖	dlzs
@@ -179334,8 +179331,6 @@ $	dlmy
 ㉀	sfs
 ㈪	sv
 ㊊	sv
-# 疑似错码 tag:error
-# ⒍	sz
 ➇	szb
 ❽	szb
 ➑	szb
