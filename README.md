@@ -28,7 +28,7 @@
 ![自带说明](demo/help.shortcut_keys.png)
 ![自带说明](demo/help.reverse_lookup.png)
 
-- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：三重注解
+- ~<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：三重注解~ (划掉)
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>：简入繁出
 - <kbd>Ctrl</kbd> + <kbd>C</kbd>：三重注解，仅在选字界面有效。
 - <kbd>Ctrl</kbd> + <kbd>S</kbd>：屏蔽词组，仅在选字界面有效。
