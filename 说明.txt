@@ -1,2 +1,3 @@
 以后通过 github 更新维护。QQ 群文件不保证更新。
-请前往 https://github.com/Ace-Who/rime-xuma-spelling 阅读说明、下载最新版本。
+请前往 https://github.com/Ace-Who/rime-xuma-spelling 阅读说明（务必）、下载最新
+版本。
