@@ -111,6 +111,7 @@ speller:
 fixed:
   __include: translator
   enable_user_dict: false
+  enable_sentence: false
   initial_quality: 100000
 
 translator:
@@ -124,6 +125,11 @@ translator:
   preedit_format:
     - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|糸阝女尸王扌石艹木土日虫山目口魚禾月亻忄金宀火言氵|"
+
+# 拼音混输
+# abc_segmentor:
+  # extra_tags:
+    # - luna_pinyin_lookup
 
 reverse_lookup:
   tag: reverse_lookup
