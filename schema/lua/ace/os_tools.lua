@@ -6,11 +6,9 @@ local function lazy_clock_filter(input, env)
     for cand in input:iter() do yield(cand) end
     return
   end
-  -- 如何读取配置中 menu/page_size 的值？ 
-  --   https://github.com/hchunhui/librime-lua/issues/17
   local page_size = env.engine.schema.page_size
-  -- Or env.engine.schema.config:get_int('menu/page_size')
   local i = 1
+  local prev_cand = {}
   local done = false
   for cand in input:iter() do
     if page_size > 1 and not done and i == page_size then
@@ -18,10 +16,12 @@ local function lazy_clock_filter(input, env)
       yield(Candidate("time", cand.start, cand._end, os.date("%H:%M:%S"), " 懒钟"))
     end
     yield(cand)
-    i = i+1
+    -- Only count unique candidates.
+    if cand.text ~= prev_cand.text then i = i+1 end
+    prev_cand = cand
   end
   if not done then
-    yield(Candidate("time", 1, -1, os.date("%H:%M:%S"), " 敌不动我不动"))
+    yield(Candidate("time", 1, -1, os.date("%H:%M:%S"), " 不打不走"))
   end
 end
 

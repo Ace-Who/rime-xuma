@@ -3,14 +3,20 @@
 -- List features and usage of the schema.
 local function translator(input, seg)
   if input:find('^help/$') then
-    yield(Candidate("text", seg.start, seg._end, 'Ctrl + Shift + F', ' 簡入繁出'))
-    yield(Candidate("text", seg.start, seg._end, 'Ctrl + C', ' 三重注解'))
-    yield(Candidate("text", seg.start, seg._end, 'Ctrl + S', ' 屏蔽词组'))
-    yield(Candidate("text", seg.start, seg._end, 'Ctrl + T', ' 显示时钟'))
-    yield(Candidate("text", seg.start, seg._end, '`', ' 双重反查'))
-    yield(Candidate("text", seg.start, seg._end, '`P', ' 全拼反查'))
-    yield(Candidate("text", seg.start, seg._end, '`B', ' 笔画反查'))
-    yield(Candidate("text", seg.start, seg._end, 'env/', ' 环境变量'))
+    local table = {
+          { '簡入繁出', 'Ctrl + Shift + F' }
+        , { '三重注解', 'Ctrl + C' }
+        , { '屏蔽词组', 'Ctrl + S' }
+        , { '显示时钟', 'Ctrl + T' }
+        , { '双重反查', '`' }
+        , { '全拼反查', '`P' }
+        , { '笔画反查', '`B' }
+        , { '环境变量', 'env/' }
+        , { '显示帮助', 'help/' }
+    }
+    for k, v in ipairs(table) do
+      yield(Candidate('text', seg.start, seg._end, v[2], ' ' .. v[1]))
+    end
   end
 end
 

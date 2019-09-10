@@ -190,7 +190,7 @@ local function filter(input, env)
 end
 
 local function init(env)
-  env.spll_rvdb = ReverseDb("lua/ace/data/xuma_spelling.reverse.bin")
+  env.spll_rvdb = ReverseDb("build/xuma_spelling_pseudo.reverse.bin")
   env.code_rvdb = ReverseDb("build/xuma.reverse.bin")
 end
 
