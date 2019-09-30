@@ -82,6 +82,7 @@ engine:
     - lua_filter@xuma_spelling
     - lua_filter@lazy_clock
     - uniquifier
+    # - lua_filter@debug
 
 # 防止对 punct 进行过滤
 gb2312:
@@ -124,7 +125,7 @@ translator:
   max_phrase_length: 5
   preedit_format:
     - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
-    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|糸阝女尸王扌石艹木土日虫山目口魚禾月亻忄金宀火言氵|"
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|糸阝女尸王扌石艹木土日虫山目口⺮魚禾月亻忄金宀火言氵|"
 
 # 拼音混输
 # abc_segmentor:
