@@ -16,12 +16,13 @@
 现在的方案：完全弃用 simplifier + OpenCC，单字和词组都用 Lua 处理。
 
 注解数据来源与 OpenCC 方法相同，编成伪方案的伪词典，通过写入主方案的
-schema/dependencies 来让 rime 编译为反查库 *.reverse.bin，最后通过 Lua 的反查函
-数查询。
+schema/dependencies 来让 rime 编译为反查库 *.reverse.bin，最后通过 Lua 的反查
+函数查询。
 
 词组中有的取码单字可能没有注解数据，这类词组不作注解。
 
-Todo: 自造词中单字编码存在多个的情况，先捕获全部再确定全码，最后提取词组编码。
+Todo: 自造词中的单字存在一字多码的情况，先捕获全部再确定全码，最后提取词组编码
+。
 注意特殊单字：八个八卦名，排除其特殊符号编码 dl?g.
 
 Handle multibye string in Lua:
@@ -31,38 +32,20 @@ lua_filter 如何判断 cand 是否来自反查或当前是否处于反查状态
   https://github.com/hchunhui/librime-lua/issues/18
 --]]
 
+local basic = require('ace/lib/basic')
+local map = basic.map
+local index = basic.index
+local utf8chars = basic.utf8chars
+
 local function xform(input)
   -- "[radicals,code_code...,pinyin_pinyin...]" ->
-  -- "〔radicals · code code ... · pinyin pinyin ...〕"
+  -- "〔 radicals · code code ... · pinyin pinyin ... 〕"
   if input == "" then return "" end
   input = input:gsub('%[', '〔 ')
   input = input:gsub('%]', ' 〕')
   input = input:gsub('_', ' ')
   input = input:gsub(',', ' · ')
   return input
-end
-
--- Unused function.
-local function utf8sub(str, first, ...)
-  local last = ...
-  if last == nil or last > utf8.len(str) then
-    last = utf8.len(str)
-  elseif last < 0 then
-    last = utf8.len(str) + 1 + last
-  end
-  local fstoff = utf8.offset(str, first)
-  local lstoff = utf8.offset(str, last + 1)
-  if fstoff == nil then fstoff = 1 end
-  if lstoff ~= nil then lstoff = lstoff - 1 end
-  return string.sub(str, fstoff, lstoff)
-end
-
-local function utf8chars(str, ...)
-  local chars = {}
-  for pos, code in utf8.codes(str) do
-    chars[#chars + 1] = utf8.char(code)
-  end
-  return chars
 end
 
 local function radicals(str, ...)
@@ -93,23 +76,9 @@ local function radicals(str, ...)
   return table.concat{ table.unpack(radicals, first, last) }
 end
 
-local function map(table, func)
-  local t = {}
-  for k, v in pairs(table) do
-    t[k] = func(v)
-  end
-  return t
-end
-
 local function lookup(db)
   return function (str)
     return db:lookup(str)
-  end
-end
-
-local function index(table, item)
-  for k, v in pairs(table) do
-    if v == item then return k end
   end
 end
 
@@ -145,47 +114,54 @@ local function spell_phrase(s, spll_rvdb)
   end
 end
 
-local function wrap_comment(s, c, cand)
-  -- 'completion' 类型的候选来自固态词典还是用户词典，通过查询词组编码来确定。
-  -- 一个问题：反查候选中预计为 talbe 类型的，全都是 user_table 类型。因此改为
-  -- 仅判断 code。
-  if c ~= '' then
-    return '〔 ' .. s .. ' · ' .. c .. ' 〕' .. cand.comment
+local function get_tricomment(cand, env)
+  if utf8.len(cand.text) == 1 then
+    local spll_raw = env.spll_rvdb:lookup(cand.text)
+    if spll_raw ~= '' then
+      return xform(spll_raw)
+    end
   else
-    return '〈 ' .. s .. ' 〉' .. cand.comment
-  end
-end
-
-local function set_comment(input, env)
-  for cand in input:iter() do
-    -- Modify the comment only if the cand is of one of these types.
-    if not (cand.type == 'table' or cand.type == 'user_table' or
-        cand.type == 'completion' or cand.type == 'user_phrase' or
-        cand.type == 'phrase') then
-    elseif utf8.len(cand.text) == 1 then
-      local rvlk_result = env.spll_rvdb:lookup(cand.text)
-      if rvlk_result ~= '' then
-        cand:get_genuine().comment = xform(rvlk_result) .. cand.comment
-            -- .. ' (' ..  lookup(code_rvdb)(cand.text) .. ')'
-      end
-    else
-      local spelling = spell_phrase(cand.text, env.spll_rvdb)
-      if spelling ~= '' then
-        local code = env.code_rvdb:lookup(cand.text)
-        cand:get_genuine().comment = wrap_comment(spelling, code, cand)
+    local spelling = spell_phrase(cand.text, env.spll_rvdb)
+    if spelling ~= '' then
+      local code = env.code_rvdb:lookup(cand.text)
+      -- 'completion' 类型的候选来自固态词典还是用户词典，可通过查询词组编码来
+      -- 确定。问题是：反查候选中预计为 talbe 类型的，全都是 user_table 类型。
+      -- 因此改为仅判断 code。
+      if code ~= '' then
+        return '〔 ' .. spelling .. ' · ' .. code .. ' 〕'
+      else
+        return '〈 ' .. spelling .. ' 〉'
       end
     end
-    yield(cand)
   end
+  return ''
 end
 
 local function filter(input, env)
   if env.engine.context:get_option("xuma_spelling") then
-    set_comment(input, env)
-  else
     for cand in input:iter() do
-      yield(cand)
+      --[[
+      用户有时需要通过拼音反查简化字并显示三重注解，但 luna_pinyin 的简化字排
+      序不合理且靠后。开启 simplification 是一个办法，但是 simplifier 会强制覆
+      盖注释，所以为了同时能显示三重注解，只能重新生成一个简单类型候选，并代替
+      原候选。
+      --]]
+      if cand.type == 'simplified' and env.name_space == 'xmsp_for_rvlk' then
+        local comment = get_tricomment(cand, env) .. cand.comment
+        yield(Candidate("simp_rvlk", cand.start, cand._end, cand.text, comment))
+      else
+        local add_comment = ''
+        if cand.type == 'punct' then
+          add_comment = env.code_rvdb:lookup(cand.text)
+        elseif cand.type ~= 'sentence' then
+          add_comment = get_tricomment(cand, env)
+        end
+        cand:get_genuine().comment = add_comment .. cand.comment
+        yield(cand)
+      end
     end
+  else
+    for cand in input:iter() do yield(cand) end
   end
 end
 

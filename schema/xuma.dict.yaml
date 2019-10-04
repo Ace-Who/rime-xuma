@@ -10,7 +10,7 @@
 
 ---
 name: "xuma"
-version: "2019.09.08"
+version: "2019.10.04"
 sort: weight
 columns:
   - text
@@ -46,7 +46,8 @@ encoder:
 是	k	2210000000
 上	l	4250000000
 同	m	804000000
-国	n	526000000
+# 国	n	526000000  # qmod:del
+当	n	810000000  # qmod:add
 中	o	2720000000
 我	p	2310000000
 多	q	1730000000
@@ -58,7 +59,8 @@ encoder:
 家	w	1100000000
 道	x	619000000
 这	y	1090000000
-为	z	2930000000
+没	z	441000000	# qmod:add
+# 为	z	2930000000	# qmod:del
 出来	a
 了解	b
 以为	c
@@ -84,7 +86,8 @@ encoder:
 家伙	w
 道理	x
 这个	y
-为了	z
+没有	z	# qmod:add
+# 为了	z	# qmod:del
 垒	aa	9710000
 幻	ab	173000000
 幼	ac	59900000
@@ -426,7 +429,8 @@ encoder:
 貝	nb	21100000
 助	nc	217000000
 眠	nd	21900000
-睛	ne	5560000
+# 睛	ne	5560000  # qmod:del
+国	ne	526000000  # qmod:add
 因	nf	301000000
 骨	ng	73400000
 瞒	nh	9660000
@@ -461,7 +465,8 @@ encoder:
 忠	ok	32200000
 虽	ol	60200000
 员	om	386000000
-咽	on	18300000
+# 咽	on	18300000  # qmod:del
+嗯	on	44700000  # qmod:add
 品	oo	332000000
 吃	op	516000000
 吹	oq	86300000
@@ -727,7 +732,8 @@ encoder:
 亢	yq	11200000
 意	yr	159000000
 韵	ys	65200000
-六	yt	610000000
+# 六	yt	610000000  # qmod:del
+齐	yt	123000000  # qmod:add
 方	yu	759000000
 言	yv	287000000
 文	yw	665000000
@@ -736,7 +742,9 @@ encoder:
 迹	yz	14400000
 治	za	103000000
 词	zb	455000000
-沙	zc	108000000
+为了	zb	# qmod:add
+# 沙	zc	108000000	# qmod:del
+为	zc	2930000000	# qmod:add
 记	zd	222000000
 计	ze	92200000
 头	zf	340000000
@@ -1608,7 +1616,8 @@ encoder:
 不辞辛苦	gr
 不得而知	gs
 不假思索	gt
-一阵	gu
+# 一阵	gu  # qmod:del
+不会	gu  # qmod:add
 死亡	gv
 矿产	gw
 磋商	gx
@@ -5449,7 +5458,8 @@ encoder:
 瞫	nek	28700
 瞋	nen	699000
 賳	neo	60800
-圊	nes	247000
+# 圊	nes	247000  # qmod:del
+睛	nes	5560000  # qmod:add
 閏	nev	598000
 閛	nex	48600
 盹	nfa	1190000
@@ -5861,7 +5871,8 @@ encoder:
 呐	omu	22900000
 躢	onc	19500
 躩	ond	16800
-嗯	onf	44700000
+# 嗯	onf	44700000  # qmod:del
+咽	onf	18300000  # qmod:add
 咣	ong	1250000
 蹚	onj	187000
 唢	onm	845000
@@ -7153,7 +7164,8 @@ encoder:
 勺	swu	7000000
 鸵	swv	400000
 袅	swy	996000
-朕	sxf	3970000
+# 朕	sxf	3970000  # qmod:del
+胖	sxf	69200000  # qmod:add
 胼	sxh	263000
 腾	sxj	70200000
 膁	sxl	39400
@@ -8927,7 +8939,8 @@ encoder:
 涵	zbx	14600000
 淄	zck	1770000
 洳	zco	698000
-娑	zcp	3830000
+# 娑	zcp	3830000	# qmod:del
+沙	zcp	108000000	# qmod:add
 谬	zcs	2260000
 濯	zct	2800000
 汝	zcv	11000000
@@ -64741,7 +64754,7 @@ encoder:
 祴	wfhs	597000
 竁	wrrx	30000
 罦	mvbw	42800
-羋	hfu	221000
+羋	hkfu	221000
 耾	hhae	34900
 膇	suzd	33600
 蕫	hyjv	70100
@@ -113340,6 +113353,7 @@ encoder:
 䕆	hisl	5340
 䕇	hwug	7190
 䕈	hthi	6580
+䕈	hahi	6580
 䕉	hmxe	5770
 䕊	hykg	4110
 䕋	hjko	4260
@@ -117784,7 +117798,7 @@ encoder:
 𭆰	bqdb
 𥸮	jxm	0
 𦄺	awas	0
-𠨨	uptb	0
+𠨨	uutb	0
 𥓆	gdgv	0
 𬃲	iigm	0
 𡲘	daas	0
@@ -118588,7 +118602,7 @@ encoder:
 𩻯	iupq	0
 𥇝	nfxe	0
 𣤋	oecq	0
-𫩦	omgg	0
+𫩦	oomu	0
 𭠎	fdo
 𨬭	vlea	0
 𬄵	iukc	0
@@ -123064,7 +123078,7 @@ encoder:
 𧆈	hygg	0
 𪟑	ystd	0
 𪹡	xiis	0
-𠆭	ugbu	0
+𠆭	uebu	0
 𬊗	xfrj	0
 𭏑	tkpj
 𢆪	jxke	0
@@ -126845,7 +126859,7 @@ encoder:
 𡶶	mvfu	0
 𥻆	lnux	0
 𢆺	gcva	0
-𠔀	hbu	0
+𠔀	hwu	0
 𫋆	lvv	0
 𨫻	vftw	0
 𫀭	rdfu	0
@@ -133853,7 +133867,7 @@ encoder:
 𨻒	bfgx	0
 𠎌	tjxv	0
 𨛍	nsbv	0
-𢦫	hlfg	0
+𢦫	hfg	0
 𧙯	xjwy	0
 𥆍	nhcu	0
 	zbew
@@ -134671,7 +134685,7 @@ encoder:
 𣷦	zuxm	0
 𭋇	ohdp
 𭞬	ugnk
-𪚧	qokj	0
+𪚧	qobk	0
 𣰻	hotr	0
 𡠞	cpti	0
 𪣥	jgfl	0
@@ -135274,7 +135288,7 @@ encoder:
 𤫞	ewpn	0
 𣃪	jqjy	0
 𩠔	xtrm	0
-𡔻	jqck	0
+𡔻	jqsk	0
 𭮺	dhod
 𡾣	mgxg	0
 𥣈	rlxt	0
@@ -139188,7 +139202,7 @@ encoder:
 𮪁	ugoe
 𭿑	nkhe
 𤦫	ejvv	0
-𦧄	jvah	0
+𦧄	jvgh	0
 𥍓	nohp	0
 𥅖	nwev	0
 𠋊	tgsy	0
@@ -145344,7 +145358,7 @@ encoder:
 𫜘	gmkt	0
 𡏭	juiv	0
 𭄗	wdnl
-𠕄	mmgg	0
+𠕄	omu	0
 𪫮	ugkv	0
 𭂲	mgqq
 𣜌	ius	0
@@ -149060,7 +149074,8 @@ encoder:
 𤑀	vexx	0
 𬃌	iwbc	0
 𧅬	hkyl	0
-𦥮	cbuu	0
+𦥮	fduf	0
+𦥮	vdlu	0
 𫦂	gkol	0
 𪯷	yxy	0
 𢆌	lgeg	0
@@ -149780,7 +149795,7 @@ encoder:
 𫜡	naqy	0
 𣎖	sjrw	0
 𫽼	fkeb	0
-𨈐	tbgu	0
+𨈐	tbgp	0
 𦓐	ulu	0
 𫬈	ofki	0
 𧖜	ljuu	0
@@ -165531,7 +165546,7 @@ encoder:
 𨾑	beti	0
 𦚋	msvw	0
 𥻕	xxim	0
-⺬	ws
+⺬	fs
 𠝃	aals	0
 𭚿	dxlg
 𨈻	ttzs	0
@@ -172920,7 +172935,8 @@ encoder:
 𪉱	lrml	0
 𢥫	yorn	0
 𢓯	sver	0
-𠙙	rmqg	0
+𠙙	rcqg	0
+𠙙	raqg	0
 𦏉	xmhy	0
 𬯽	jzby	0
 𭒀	fpcy

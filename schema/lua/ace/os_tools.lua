@@ -25,13 +25,14 @@ local function lazy_clock_filter(input, env)
   end
 end
 
--- 将 `env/VAR` 翻译为系统环境变量。长度限制为 256 字节。
+-- 将 `env/VAR` 翻译为系统环境变量。
+-- 长度限制为 199 字节。太长时 UI 卡住，且实际上屏的是前 199 字节。
 local function os_env_translator(input, seg)
   local prefix = '^env/'
   if input:find(prefix .. '%w+') then
     local val = os.getenv(input:gsub(prefix, ''))
     if val ~= '' then
-      yield(Candidate("text", seg.start, seg._end, val:sub(1,256), " 环境变量"))
+      yield(Candidate("text", seg.start, seg._end, val:sub(1,199), " 环境变量"))
     end
   end
 end

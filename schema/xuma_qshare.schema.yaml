@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_qshare
   name: 徐码／爾雅·Q分享版
-  version: "2019-09-01"
+  version: "2019-10-04"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -79,7 +79,8 @@ engine:
     - simplifier@traditionalize
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
-    - lua_filter@xuma_spelling
+    - lua_filter@xuma_spelling@xmsp
+    - lua_filter@xuma_spelling@xmsp_for_rvlk
     - lua_filter@lazy_clock
     - uniquifier
     # - lua_filter@debug
@@ -102,6 +103,16 @@ traditionalize:
   opencc_config: s2t.json
   option_name: traditionalization
   tips: all
+
+xmsp:
+  tag: xmsp
+  tags: [ abc, punct ]
+
+xmsp_for_rvlk:
+  tag: xmsp_for_rvlk
+  tags:
+    __include: reverse_lookup/extra_tags
+    __append: [ reverse_lookup ]
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
