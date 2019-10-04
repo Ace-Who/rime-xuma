@@ -46,8 +46,8 @@ encoder:
 是	k	2210000000
 上	l	4250000000
 同	m	804000000
-# 国	n	526000000  # qmod:del
-当	n	810000000  # qmod:add
+# 国	n	526000000			  # qmod:del
+当	n	810000000			  # qmod:add
 中	o	2720000000
 我	p	2310000000
 多	q	1730000000
@@ -59,8 +59,8 @@ encoder:
 家	w	1100000000
 道	x	619000000
 这	y	1090000000
-没	z	441000000	# qmod:add
-# 为	z	2930000000	# qmod:del
+没	z	441000000				# qmod:add
+# 为	z	2930000000				# qmod:del
 出来	a
 了解	b
 以为	c
@@ -86,8 +86,8 @@ encoder:
 家伙	w
 道理	x
 这个	y
-没有	z	# qmod:add
-# 为了	z	# qmod:del
+没有	z				# qmod:add
+# 为了	z				# qmod:del
 垒	aa	9710000
 幻	ab	173000000
 幼	ac	59900000
@@ -429,8 +429,8 @@ encoder:
 貝	nb	21100000
 助	nc	217000000
 眠	nd	21900000
-# 睛	ne	5560000  # qmod:del
-国	ne	526000000  # qmod:add
+# 睛	ne	5560000			  # qmod:del
+国	ne	526000000			  # qmod:add
 因	nf	301000000
 骨	ng	73400000
 瞒	nh	9660000
@@ -465,8 +465,8 @@ encoder:
 忠	ok	32200000
 虽	ol	60200000
 员	om	386000000
-# 咽	on	18300000  # qmod:del
-嗯	on	44700000  # qmod:add
+# 咽	on	18300000			  # qmod:del
+嗯	on	44700000			  # qmod:add
 品	oo	332000000
 吃	op	516000000
 吹	oq	86300000
@@ -732,8 +732,8 @@ encoder:
 亢	yq	11200000
 意	yr	159000000
 韵	ys	65200000
-# 六	yt	610000000  # qmod:del
-齐	yt	123000000  # qmod:add
+# 六	yt	610000000			  # qmod:del
+齐	yt	123000000			  # qmod:add
 方	yu	759000000
 言	yv	287000000
 文	yw	665000000
@@ -742,9 +742,9 @@ encoder:
 迹	yz	14400000
 治	za	103000000
 词	zb	455000000
-为了	zb	# qmod:add
-# 沙	zc	108000000	# qmod:del
-为	zc	2930000000	# qmod:add
+为了	zb				# qmod:add
+# 沙	zc	108000000				# qmod:del
+为	zc	2930000000				# qmod:add
 记	zd	222000000
 计	ze	92200000
 头	zf	340000000
@@ -1616,8 +1616,8 @@ encoder:
 不辞辛苦	gr
 不得而知	gs
 不假思索	gt
-# 一阵	gu  # qmod:del
-不会	gu  # qmod:add
+# 一阵	gu			  # qmod:del
+不会	gu			  # qmod:add
 死亡	gv
 矿产	gw
 磋商	gx
@@ -1686,6 +1686,7 @@ encoder:
 考虑	jj
 埋怨	jk
 赴美	jl
+考虑	jl				# qmod:add
 老当益壮	jn
 露出	jo
 故事	jp
@@ -5458,8 +5459,8 @@ encoder:
 瞫	nek	28700
 瞋	nen	699000
 賳	neo	60800
-# 圊	nes	247000  # qmod:del
-睛	nes	5560000  # qmod:add
+# 圊	nes	247000			  # qmod:del
+睛	nes	5560000			  # qmod:add
 閏	nev	598000
 閛	nex	48600
 盹	nfa	1190000
@@ -5871,8 +5872,8 @@ encoder:
 呐	omu	22900000
 躢	onc	19500
 躩	ond	16800
-# 嗯	onf	44700000  # qmod:del
-咽	onf	18300000  # qmod:add
+# 嗯	onf	44700000			  # qmod:del
+咽	onf	18300000			  # qmod:add
 咣	ong	1250000
 蹚	onj	187000
 唢	onm	845000
@@ -7164,8 +7165,8 @@ encoder:
 勺	swu	7000000
 鸵	swv	400000
 袅	swy	996000
-# 朕	sxf	3970000  # qmod:del
-胖	sxf	69200000  # qmod:add
+# 朕	sxf	3970000			  # qmod:del
+胖	sxf	69200000			  # qmod:add
 胼	sxh	263000
 腾	sxj	70200000
 膁	sxl	39400
@@ -8939,8 +8940,8 @@ encoder:
 涵	zbx	14600000
 淄	zck	1770000
 洳	zco	698000
-# 娑	zcp	3830000	# qmod:del
-沙	zcp	108000000	# qmod:add
+# 娑	zcp	3830000				# qmod:del
+沙	zcp	108000000				# qmod:add
 谬	zcs	2260000
 濯	zct	2800000
 汝	zcv	11000000
