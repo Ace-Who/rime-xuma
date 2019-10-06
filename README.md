@@ -23,6 +23,15 @@
 
 ![快捷键效果](demo/shortcut_keys.gif)
 
+## 安装说明（已经很短的）
+
+1. 将 schema 目录下的文件放到 rime 用户目录（易错题：什么是[用户目录](
+  https://github.com/rime/home/wiki/UserData)）。
+2. 在输入法设定中添加方案「徐码／爾雅·Q分享版」。
+
+注：从 v0.5 起，不再使用 v0.4 中预编译的
+`lua/ace/data/xuma_spelling.reverse.bin` 文件，可以直接删除之。
+
 ## 功能
 
 重点总结：
@@ -53,6 +62,10 @@
 会成为用户词，所以不影响已有用户词。
 - 自造词自动调序：即自造词排在内置词（固态词典）之后，内置词顺序固定。
 
+## 使用说明
+
+自带说明请善加利用：
+
 ![自带说明](demo/help.shortcut_keys.png)
 ![自带说明](demo/help.reverse_lookup.png)
 
@@ -63,28 +76,17 @@
 - <kbd>Ctrl</kbd> + <kbd>T</kbd>：显示时钟，仅在选字界面有效。
 - <kbd>F4</kbd> / <kbd>Ctrl</kbd> + <kbd>\` </kbd> 选单：可控制以上开关和字符集
 选择、繁体简化（繁入简出）、全码单字后置。
-- 引导符「\`」：双重反查（全拼 + 五笔画）
-- 引导符「\`P」：全拼反查
-- 引导符「\`B」：五笔画反查（横h 竖s 撇p 捺/点n 折z）
+- 引导符「\`」：双重反查（全拼 + 五笔画）。
+- 引导符「\`P」：全拼反查。
+- 引导符「\`B」：五笔画反查（横h 竖s 撇p 捺/点n 折z）。
+- `env/`：获取系统环境变量，后跟变量名。
+- `help/`：查看本方案简要使用说明。
 
 更多细节演示：
 
 ![自造词注解](demo/user_dict_comment.png)
 
 ![环境变量支持](demo/environment_variable.png)
-
-## 安装说明
-
-1. 将 schema 目录下的文件放到 rime 用户目录（易错题：什么是[用户目录](
-  https://github.com/rime/home/wiki/UserData)）。
-2. 在输入法设定中添加方案「徐码／爾雅·Q分享版」。
-
-注1：如果正在使用本方案的 v0.4 版本，`xuma_spelling.reverse.bin` 文件会被
-Rime 算法服务进程锁定，新文件无法直接覆盖替换，需要先退出算法服务，完成以下步骤
-后需要手动启动算法服务。
-
-注2：从 v0.5 起不再使用预编译的 `xuma_spelling.reverse.bin` 文件，可以直接删除之
-，使用 v0.5 之后的版本时也不会再锁定前述 `.bin` 文件。
 
 ## 关于码表
 
