@@ -4,13 +4,14 @@
 # 官方网址：www.chinput.com/xuma
 #
 # 码表去重 by Q
+# 并调整了一些简码，在注释中以 qmod:* 标出。
 #
 # 词频信息取自 Rime 郑码方案 rime/rime-zhengma 词典，由 Q 添加
 # https://github.com/lotem/rime-zhengma
 
 ---
 name: "xuma"
-version: "2019.10.04"
+version: "2019.10.06"
 sort: weight
 columns:
   - text
@@ -40,14 +41,19 @@ encoder:
 要	e	1520000000
 大	f	1790000000
 一	g	2830000000
-在	h	2700000000
+# qmod:del
+# 在	h	2700000000
+# qmod:add
+有	h	2310000000
 来	i	2460000000
 地	j	853000000
 是	k	2210000000
 上	l	4250000000
 同	m	804000000
-# 国	n	526000000			  # qmod:del
-当	n	810000000			  # qmod:add
+# qmod:del
+# 国	n	526000000
+# qmod:add
+当	n	810000000
 中	o	2720000000
 我	p	2310000000
 多	q	1730000000
@@ -59,8 +65,10 @@ encoder:
 家	w	1100000000
 道	x	619000000
 这	y	1090000000
-没	z	441000000				# qmod:add
-# 为	z	2930000000				# qmod:del
+# qmod:add
+没	z	441000000
+# qmod:del
+# 为	z	2930000000
 出来	a
 了解	b
 以为	c
@@ -86,8 +94,12 @@ encoder:
 家伙	w
 道理	x
 这个	y
-没有	z				# qmod:add
-# 为了	z				# qmod:del
+# qmod:add
+没有	z
+# qmod:add
+谢谢	z
+# qmod:del
+# 为了	z
 垒	aa	9710000
 幻	ab	173000000
 幼	ac	59900000
@@ -242,7 +254,10 @@ encoder:
 戊	fw	5990000
 拦	fx	16300000
 牙	fy	69700000
-达	fz	393000000
+# qmod:del
+# 达	fz	393000000
+# qmod:add
+连	fz	423000000
 到	ga	2060000000
 不	gb	2140000000
 厂	gc	178000000
@@ -279,7 +294,10 @@ encoder:
 若	hh	243000000
 左	hi	186000000
 基	hj	142000000
-存	hk	175000000
+# qmod:del
+# 存	hk	175000000
+# qmod:add
+在	hk	2700000000
 蓝	hl	281000000
 英	hm	213000000
 菌	hn	34700000
@@ -429,8 +447,10 @@ encoder:
 貝	nb	21100000
 助	nc	217000000
 眠	nd	21900000
-# 睛	ne	5560000			  # qmod:del
-国	ne	526000000			  # qmod:add
+# qmod:del
+# 睛	ne	5560000
+# qmod:add
+国	ne	526000000
 因	nf	301000000
 骨	ng	73400000
 瞒	nh	9660000
@@ -455,7 +475,10 @@ encoder:
 叫	oa	445000000
 跟	ob	312000000
 别	oc	301000000
-呢	od	457000000
+# qmod:del
+# 呢	od	457000000
+# qmod:add
+吧	od	645000000
 叶	oe	158000000
 吴	of	215000000
 践	og	4790000
@@ -465,8 +488,10 @@ encoder:
 忠	ok	32200000
 虽	ol	60200000
 员	om	386000000
-# 咽	on	18300000			  # qmod:del
-嗯	on	44700000			  # qmod:add
+# qmod:del
+# 咽	on	18300000
+# qmod:add
+嗯	on	44700000
 品	oo	332000000
 吃	op	516000000
 吹	oq	86300000
@@ -607,7 +632,10 @@ encoder:
 化	tv	678000000
 隹	tw	3840000
 伙	tx	13900000
-位	ty	1270000000
+# qmod:del
+# 位	ty	1270000000
+# qmod:add
+信	ty	372000000
 自	tz	831000000
 泉	ua	69800000
 白	ub	355000000
@@ -703,7 +731,10 @@ encoder:
 着	xn	726000000
 总	xo	873000000
 炸	xp	32100000
-将	xq	1740000000
+# qmod:del
+# 将	xq	1740000000
+# qmod:add
+次	xq	1750000000
 遂	xr	20600000
 前	xs	1440000000
 准	xt	141000000
@@ -728,12 +759,17 @@ encoder:
 市	ym	1260000000
 音	yn	434000000
 就	yo	1720000000
-产	yp	128000000
+# qmod:del
+# 产	yp	128000000
+# qmod:add
+放	yp	653000000
 亢	yq	11200000
 意	yr	159000000
 韵	ys	65200000
-# 六	yt	610000000			  # qmod:del
-齐	yt	123000000			  # qmod:add
+# qmod:del
+# 六	yt	610000000
+# qmod:add
+齐	yt	123000000
 方	yu	759000000
 言	yv	287000000
 文	yw	665000000
@@ -742,9 +778,12 @@ encoder:
 迹	yz	14400000
 治	za	103000000
 词	zb	455000000
-为了	zb				# qmod:add
-# 沙	zc	108000000				# qmod:del
-为	zc	2930000000				# qmod:add
+# qmod:add
+为了	zb
+# qmod:del
+# 沙	zc	108000000
+# qmod:add
+为	zc	2930000000
 记	zd	222000000
 计	ze	92200000
 头	zf	340000000
@@ -905,6 +944,8 @@ encoder:
 东西	fe
 轻轻	ff
 感到	fg
+# qmod:add
+达到	fg
 拥有	fh
 技术	fi
 天下	fj
@@ -1595,7 +1636,10 @@ encoder:
 控制	fw
 拼音	fx
 接触	fy
-达到	fz
+# qmod:del
+# 达到	fz
+# qmod:add
+连续	fz
 到处	ga
 不要	gb
 历史	gc
@@ -1616,8 +1660,10 @@ encoder:
 不辞辛苦	gr
 不得而知	gs
 不假思索	gt
-# 一阵	gu			  # qmod:del
-不会	gu			  # qmod:add
+# qmod:del
+# 一阵	gu
+# qmod:add
+不会	gu
 死亡	gv
 矿产	gw
 磋商	gx
@@ -1686,7 +1732,8 @@ encoder:
 考虑	jj
 埋怨	jk
 赴美	jl
-考虑	jl				# qmod:add
+# qmod:add
+考虑	jl
 老当益壮	jn
 露出	jo
 故事	jp
@@ -3485,7 +3532,10 @@ encoder:
 较	fyt	241000000
 掖	fyv	2050000
 摔	fyx	34400000
-连	fzd	423000000
+# qmod:del
+# 连	fzd	423000000
+# qmod:add
+达	fzd	393000000
 抖	fze	18700000
 	fzf	0
 护	fzh	83800000
@@ -3957,6 +4007,8 @@ encoder:
 荚	hjx	1390000
 蓮	hjz	51700000
 蔂	hka	73200
+# qmod:add
+存	hkb	175000000
 慕	hkc	14400000
 鞸	hke	19700
 莫	hkf	96500000
@@ -4108,6 +4160,8 @@ encoder:
 蒯	hss	773000
 蓯	hsu	98900
 有	hsv	2310000000
+# qmod:add
+期	hsv	354000000
 葱	hsw	10000000
 荇	hsx	1130000
 鞫	hsy	869000
@@ -5459,8 +5513,10 @@ encoder:
 瞫	nek	28700
 瞋	nen	699000
 賳	neo	60800
-# 圊	nes	247000			  # qmod:del
-睛	nes	5560000			  # qmod:add
+# qmod:del
+# 圊	nes	247000
+# qmod:add
+睛	nes	5560000
 閏	nev	598000
 閛	nex	48600
 盹	nfa	1190000
@@ -5729,7 +5785,10 @@ encoder:
 跽	odr	131000
 踊	ods	2970000
 趹	odu	30600
-跜	odv	24000
+# qmod:del
+# 跜	odv	24000
+# qmod:add
+呢	odv	457000000
 蹬	odx	9800000
 躃	ody	27000
 嗉	oea	570000
@@ -5872,8 +5931,10 @@ encoder:
 呐	omu	22900000
 躢	onc	19500
 躩	ond	16800
-# 嗯	onf	44700000			  # qmod:del
-咽	onf	18300000			  # qmod:add
+# qmod:del
+# 嗯	onf	44700000
+# qmod:add
+咽	onf	18300000
 咣	ong	1250000
 蹚	onj	187000
 唢	onm	845000
@@ -5884,7 +5945,10 @@ encoder:
 遣	ood	8450000
 碞	oog	215000
 躁	ooi	6040000
-患	ook	96700000
+# qmod:del
+# 患	ook	96700000
+# qmod:add
+串	ook	71000000
 踀	ool	43500
 贵	oom	89900000
 遺	oon	6310000
@@ -7165,8 +7229,10 @@ encoder:
 勺	swu	7000000
 鸵	swv	400000
 袅	swy	996000
-# 朕	sxf	3970000			  # qmod:del
-胖	sxf	69200000			  # qmod:add
+# qmod:del
+# 朕	sxf	3970000
+# qmod:add
+胖	sxf	69200000
 胼	sxh	263000
 腾	sxj	70200000
 膁	sxl	39400
@@ -8425,7 +8491,10 @@ encoder:
 酋	xey	1640000
 遒	xez	843000
 炖	xfa	6370000
-郑	xfb	72000000
+# qmod:del
+# 郑	xfb	72000000
+# qmod:add
+炼	xfb	30900000
 冻	xfc	36900000
 类	xfd	534000000
 頖	xfg	263000
@@ -8529,7 +8598,10 @@ encoder:
 酱	xqe	12000000
 奖	xqf	151000000
 瓷	xqh	19300000
-桨	xqi	2670000
+# qmod:del
+# 桨	xqi	2670000
+# qmod:add
+将	xqi	1740000000
 籶	xqj	21600
 资	xqm	97500000
 資	xqn	25900000
@@ -8792,10 +8864,16 @@ encoder:
 誕	ypl	4000000
 颜	ypm	34200000
 誥	ypo	494000
-放	ypp	653000000
+# qmod:del
+# 放	ypp	653000000
+# qmod:add
+族	ypp	108000000
 旅	ypr	163000000
 彦	yps	11800000
-膐	ypu	28700
+# qmod:del
+# 膐	ypu	28700
+# qmod:add
+产	ypu	128000000
 詵	ypv	61200
 詄	ypw	25800
 譒	ypx	31900
@@ -8851,7 +8929,8 @@ encoder:
 說	yto	189000000
 竧	yts	59800
 交	ytt	348000000
-齐	ytu	123000000
+# qmod:del
+# 齐	ytu	123000000
 夜	ytv	395000000
 誰	ytw	210000000
 詯	ytz	25300
@@ -8940,8 +9019,10 @@ encoder:
 涵	zbx	14600000
 淄	zck	1770000
 洳	zco	698000
-# 娑	zcp	3830000				# qmod:del
-沙	zcp	108000000				# qmod:add
+# qmod:del
+# 娑	zcp	3830000
+# qmod:add
+沙	zcp	108000000
 谬	zcs	2260000
 濯	zct	2800000
 汝	zcv	11000000
@@ -122123,7 +122204,7 @@ encoder:
 𬑡	nssa	0
 𫼆	lxxf	0
 𫝟	jyke	0
-𡿴	gkic	0
+𡿴	glcc	0
 𥈿	ninb	0
 𨼬	bqdp	0
 𨚸	gacb	0
@@ -134880,7 +134961,7 @@ encoder:
 𧋾	lodb	0
 𠇒	tvvr	0
 𥠷	rvdk	0
-𬵀	ujaj	0
+𬵀	ujvj	0
 𣑮	iro	0
 𣹜	zbaa	0
 𤲸	xaak	0
@@ -141833,7 +141914,7 @@ encoder:
 𡏢	jem	0
 𩾯	zun	0
 𩺤	qeiv	0
-𬴾	ujls	0
+𬴾	ujvl	0
 𨔁	lnvz	0
 𭊮	ohuu
 𭋹	ovvx
@@ -151705,7 +151786,7 @@ encoder:
 𢃵	vgqm	0
 𬉁	zylv	0
 𮣰	vntd
-𬵙	ujaq	0
+𬵙	ujvq	0
 𪼄	ejor	0
 𫻑	ufon	0
 𥤟	rflm	0
@@ -155746,7 +155827,7 @@ encoder:
 𤚦	pjin	0
 𫨉	gkmc	0
 𨵋	nrcm	0
-𩲇	ubzg	0
+𩲇	ujvb	0
 𨱳	ertc	0
 𩅆	jkzy	0
 𢼪	fgpf	0
@@ -162960,7 +163041,7 @@ encoder:
 𤳓	gltd	0
 𮄭	yjjl
 𫍧	zixy	0
-𡿰	fgcf	0
+𡿰	glcc	0
 𬣚	znwy	0
 𣱉	eafe	0
 𭯯	rynm
@@ -163698,7 +163779,7 @@ encoder:
 𩦘	ehtm	0
 𩾔	funq	0
 𠩳	gldc	0
-𠖡	uqig	0
+𠖡	ujgi	0
 𨵠	ndam	0
 𫷛	eetg	0
 𦤆	teaz	0

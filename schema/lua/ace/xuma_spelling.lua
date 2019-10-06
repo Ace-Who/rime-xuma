@@ -115,15 +115,21 @@ local function spell_phrase(s, spll_rvdb)
 end
 
 local function get_tricomment(cand, env)
-  if utf8.len(cand.text) == 1 then
-    local spll_raw = env.spll_rvdb:lookup(cand.text)
+  -- 不用 cand.text 是因为对于 simplified 类型中转换前后相同的候选，cand.text
+  -- 读取到的不是期望的值，例如经 s2t.json 转换的「了→了」「同→同」，读取到
+  -- 的是「瞭」「衕」。而且这类候选的 comment 被修改后是可以显示的。而且最好赋
+  -- 值给 cand.comment 而不是用 get_genuine，因为后者似乎改变了 cand，会使
+  -- cand.comment 读取到「〔了〕」「〔同〕」。
+  local ctext = cand:get_genuine().text
+  if utf8.len(ctext) == 1 then
+    local spll_raw = env.spll_rvdb:lookup(ctext)
     if spll_raw ~= '' then
       return xform(spll_raw)
     end
   else
-    local spelling = spell_phrase(cand.text, env.spll_rvdb)
+    local spelling = spell_phrase(ctext, env.spll_rvdb)
     if spelling ~= '' then
-      local code = env.code_rvdb:lookup(cand.text)
+      local code = env.code_rvdb:lookup(ctext)
       -- 'completion' 类型的候选来自固态词典还是用户词典，可通过查询词组编码来
       -- 确定。问题是：反查候选中预计为 talbe 类型的，全都是 user_table 类型。
       -- 因此改为仅判断 code。
@@ -156,7 +162,7 @@ local function filter(input, env)
         elseif cand.type ~= 'sentence' then
           add_comment = get_tricomment(cand, env)
         end
-        cand:get_genuine().comment = add_comment .. cand.comment
+        cand.comment = add_comment .. cand.comment
         yield(cand)
       end
     end

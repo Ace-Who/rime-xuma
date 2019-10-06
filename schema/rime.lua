@@ -9,3 +9,5 @@ lazy_clock = os_tools.lazy_clock_filter
 os_env = os_tools.os_env_translator
 
 xuma_spelling = require("ace/xuma_spelling")
+
+xuma_postpone_fullcode = require("ace/xuma_postpone_fullcode")

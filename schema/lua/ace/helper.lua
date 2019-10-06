@@ -15,7 +15,7 @@ local function translator(input, seg)
         , { '显示帮助', 'help/' }
     }
     for k, v in ipairs(table) do
-      yield(Candidate('text', seg.start, seg._end, v[2], ' ' .. v[1]))
+      yield(Candidate('help', seg.start, seg._end, v[2], ' ' .. v[1]))
     end
   end
 end
