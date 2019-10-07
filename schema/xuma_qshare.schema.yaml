@@ -37,6 +37,9 @@ switches:
   - name: xuma_spelling
     reset: 1
     states: [ 拆, 扌⺁丅丶 ]
+  - name: xuma_postpone_fullcode
+    reset: 1
+    states: [ 关闭全码单字后置, 开启全码单字后置 ]
   - name: single_char_only
     states: [ 词组包括, 单字仅含 ]
   - name: lazy_clock
