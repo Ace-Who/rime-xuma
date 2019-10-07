@@ -15,6 +15,7 @@ schema:
     三重注解 + 双重反查 + 简入繁出 + ...
     https://ace-who.github.io/rime-xuma-spelling/
   dependencies:
+    - xuma_spelling_pseudo
     - luna_pinyin
     - stroke
 
