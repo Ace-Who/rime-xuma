@@ -115,12 +115,7 @@ local function spell_phrase(s, spll_rvdb)
 end
 
 local function get_tricomment(cand, env)
-  -- 不用 cand.text 是因为对于 simplified 类型中转换前后相同的候选，cand.text
-  -- 读取到的不是期望的值，例如经 s2t.json 转换的「了→了」「同→同」，读取到
-  -- 的是「瞭」「衕」。而且这类候选的 comment 被修改后是可以显示的。而且最好赋
-  -- 值给 cand.comment 而不是用 get_genuine，因为后者似乎改变了 cand，会使
-  -- cand.comment 读取到「〔了〕」「〔同〕」。
-  local ctext = cand:get_genuine().text
+  local ctext = cand.text
   if utf8.len(ctext) == 1 then
     local spll_raw = env.spll_rvdb:lookup(ctext)
     if spll_raw ~= '' then
@@ -151,6 +146,10 @@ local function filter(input, env)
       序不合理且靠后。开启 simplification 是一个办法，但是 simplifier 会强制覆
       盖注释，所以为了同时能显示三重注解，只能重新生成一个简单类型候选，并代替
       原候选。
+      Todo: 测试在对 simplifier 定义 tips: none 的条件下，用 cand.text 和
+      cand:get_genuine().text 分别读到什么值。若分别读到转换前后的候选，则可以
+      仅修改 comment 而不用生成简单类型候选来代替原始候选。这样做的问题是关闭
+      xuma_spelling 时就不显示 tips 了。
       --]]
       if cand.type == 'simplified' and env.name_space == 'xmsp_for_rvlk' then
         local comment = get_tricomment(cand, env) .. cand.comment

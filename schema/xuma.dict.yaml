@@ -15,7 +15,7 @@
 
 ---
 name: "xuma"
-version: "2019.10.06"
+version: "2019.10.09"
 sort: weight
 columns:
   - text
@@ -106804,7 +106804,7 @@ encoder:
 斦	rjrj	24400
 斱	jkrj	20100
 斴	xqjm	20800
-斵	vprj	27500
+斵	vwrj	27500
 斺	yutu	148000
 斾	ypmj	137000
 旀	yacx	743000
@@ -179645,3 +179645,6 @@ $	dlmy
 ㊮	zqns
 ㊟	zwe
 ▕	dlsx
+
+# 添加词组不必定义编码，重新部署时 rime 会自动为它们编码。
+无编码词组测试之一
