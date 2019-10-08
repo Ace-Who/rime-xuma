@@ -12,7 +12,7 @@ schema:
     徐码简繁通打
     chinput.com/xuma
 
-    三重注解 + 双重反查 + 简入繁出 + ...
+    三重注解、双重反查、屏蔽词组、全码后置、简入繁出...
     https://ace-who.github.io/rime-xuma-spelling/
   dependencies:
     - xuma_spelling_pseudo
@@ -35,12 +35,12 @@ switches:
     states: [ 简体保持, 簡入繁出 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: xuma_spelling
+  - name: xuma_spelling  # 三重注解
     reset: 1
     states: [ 拆, 扌⺁丅丶 ]
-  - name: xuma_postpone_fullcode
+  - name: xuma_postpone_fullcode  # 仅作用于单字。
     reset: 1
-    states: [ 关闭全码单字后置, 开启全码单字后置 ]
+    states: [ 关闭全码后置, 开启全码后置 ]
   - name: single_char_only
     states: [ 词组包括, 单字仅含 ]
   - name: lazy_clock
