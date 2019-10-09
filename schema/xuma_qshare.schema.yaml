@@ -40,9 +40,9 @@ switches:
     states: [ 拆, 扌⺁丅丶 ]
   - name: xuma_postpone_fullcode  # 仅作用于单字。
     reset: 1
-    states: [ 关闭全码后置, 开启全码后置 ]
+    states: [ ＝原始排序, ↓全码后置 ]
   - name: single_char_only
-    states: [ 词组包括, 单字仅含 ]
+    states: [ 词组派, 单字派 ]
   - name: lazy_clock
     states: [ 懒钟下班, ㍡开工 ]
 
@@ -127,7 +127,7 @@ xuma_postpone_fullcode:
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " ;'"
+  delimiter: " '"
   max_code_length: 4
   # auto_select: true
 
@@ -157,7 +157,6 @@ translator:
 reverse_lookup:
   tag: reverse_lookup
   prefix: "`"    # 反查引導鍵「`」
-  suffix: "'"
   tips: 【反查：拼音+笔画】
   closing_tips: 【反查关闭】
   # preedit_format:
@@ -170,7 +169,6 @@ luna_pinyin_lookup:
   tag: luna_pinyin_lookup
   dictionary: luna_pinyin
   prefix: '`P'
-  suffix: ;
   tips: 【朙月拼音反查】
   closing_tips: 【反查关闭】
   initial_quality: 0.2
@@ -179,7 +177,6 @@ stroke_lookup:
   tag: stroke_lookup
   dictionary: stroke
   prefix: '`B'
-  suffix: ;
   tips: 【五笔画反查】
   closing_tips: 【反查关闭】
   initial_quality: 0.5
@@ -205,13 +202,14 @@ key_binder:
     - {accept: "Control+c", toggle: xuma_spelling, when: composing}
     - {accept: "Control+s", toggle: single_char_only, when: composing}
     - {accept: "Control+t", toggle: lazy_clock, when: composing}
+    # - {accept: semicolon, send: 2, when: has_menu}  # 分号次选
 
 recognizer:
   import_preset: default
   patterns:
     uppercase: "(?<![`;])[A-Z][-_+.'0-9A-Za-z]*$"
-    reverse_lookup: '`[a-z]*;?$'
-    luna_pinyin_lookup: '`P[a-z]*;?$'
-    stroke_lookup: '`B[a-z]*;?$'
+    reverse_lookup:     "`([a-z]+'?)*$"
+    luna_pinyin_lookup: "`P([a-z]+'?)*$"
+    stroke_lookup:      "`B([a-z]+'?)*$"
     os_env: '^env/\w+'
     helper: '^help/$'
