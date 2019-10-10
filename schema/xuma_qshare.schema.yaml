@@ -194,7 +194,10 @@ stroke_reverse_lookup:
   __include: luna_pinyin_reverse_lookup
   tags: [ stroke_lookup ]
 
-__patch: symbols:/patch
+punctuator:
+  import_preset: default
+
+__patch: symbols:/patch?
 
 key_binder:
   import_preset: default

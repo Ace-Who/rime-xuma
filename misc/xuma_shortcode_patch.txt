@@ -81,3 +81,8 @@
 - 摄	fhd
 + 除	bu
 - 队	bu
++ 能	a
+- 出	a
++ 出	aa
+- 垒	aa
++ 垒	aaj
