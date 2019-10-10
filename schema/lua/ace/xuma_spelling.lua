@@ -6,7 +6,6 @@
 码和对应字根。
 计划：用 Lua 处理词组注解。
 
-
 实现障碍：simplifier 返回的类型，无法修改其注释。
    https://github.com/hchunhui/librime-lua/issues/16
 一个思路：show_in_commet: false
@@ -21,7 +20,8 @@ schema/dependencies 来让 rime 编译为反查库 *.reverse.bin，最后通过 
 
 词组中有的取码单字可能没有注解数据，这类词组不作注解。
 
-Todo: 自造词中的单字存在一字多码的情况，先捕获全部再确定全码，最后提取词组编码
+Todo: 如果要为自造词添加编码注释，其中的单字存在一字多码的情况，先捕获全部再确
+定全码，最后提取词组编码。
 。
 注意特殊单字：八个八卦名，排除其特殊符号编码 dl?g.
 
@@ -38,38 +38,33 @@ local index = basic.index
 local utf8chars = basic.utf8chars
 
 local function xform(input)
-  -- "[radicals,code_code...,pinyin_pinyin...]" ->
-  -- "〔 radicals · code code ... · pinyin pinyin ... 〕"
+  -- From: "[spelling,code_code...,pinyin_pinyin...]"
+  -- To: "〔 spelling · code code ... · pinyin pinyin ... 〕"
   if input == "" then return "" end
   input = input:gsub('%[', '〔 ')
   input = input:gsub('%]', ' 〕')
+  input = input:gsub('{', '<')
+  input = input:gsub('}', '>')
   input = input:gsub('_', ' ')
   input = input:gsub(',', ' · ')
   return input
 end
 
-local function radicals(str, ...)
+local function subspelling(str, ...)
   -- Handle spellings like "{于下}{四点}丶"(求) where some radicals are
   -- represented by multiple characters.
   local first, last = ...
-  if first == nil then return str end
+  if not first then return str end
   local radicals = {}
-  local radical = ''
-  local is_single = true
-  for _, code in utf8.codes(str) do
-    local char = utf8.char(code)
-    if is_single then
-      if char ~= '{' then
-        table.insert(radicals, char)
-      else
-        is_single = false
-        radical = '{'
-      end
+  local s = str
+  s = s:gsub('{', ' {')
+  s = s:gsub('}', '} ')
+  for seg in s:gmatch('%S+') do
+    if seg:find('^{.+}$') then
+      table.insert(radicals, seg)
     else
-      radical = radical .. char
-      if char == '}' then
-        table.insert(radicals, radical)
-        is_single = true
+      for pos, code in utf8.codes(seg) do
+        table.insert(radicals, utf8.char(code))
       end
     end
   end
@@ -99,18 +94,18 @@ local function spell_phrase(s, spll_rvdb)
   if index(rvlk_results, '') then return '' end
   local spellings = map(rvlk_results, parse_spll)
   local sup = '◇'
-  if #spellings == 2 then
-    return radicals(spellings[1] .. sup, 1, 2) ..
-           radicals(spellings[2] .. sup, 1, 2)
-  elseif #spellings == 3 then
-    return radicals(spellings[1], 1, 1) ..
-           radicals(spellings[2], 1, 1) ..
-           radicals(spellings[3] .. sup, 1, 2)
+  if #chars == 2 then
+    return subspelling(spellings[1] .. sup, 1, 2) ..
+           subspelling(spellings[2] .. sup, 1, 2)
+  elseif #chars == 3 then
+    return subspelling(spellings[1], 1, 1) ..
+           subspelling(spellings[2], 1, 1) ..
+           subspelling(spellings[3] .. sup, 1, 2)
   else
-    return radicals(spellings[1], 1, 1) ..
-           radicals(spellings[2], 1, 1) ..
-           radicals(spellings[3], 1, 1) ..
-           radicals(spellings[4], 1, 1)
+    return subspelling(spellings[1], 1, 1) ..
+           subspelling(spellings[2], 1, 1) ..
+           subspelling(spellings[3], 1, 1) ..
+           subspelling(spellings[4], 1, 1)
   end
 end
 
@@ -124,6 +119,7 @@ local function get_tricomment(cand, env)
   else
     local spelling = spell_phrase(ctext, env.spll_rvdb)
     if spelling ~= '' then
+      spelling = spelling:gsub('{(.-)}', '<%1>')
       local code = env.code_rvdb:lookup(ctext)
       -- 'completion' 类型的候选来自固态词典还是用户词典，可通过查询词组编码来
       -- 确定。问题是：反查候选中预计为 talbe 类型的，全都是 user_table 类型。

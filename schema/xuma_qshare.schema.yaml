@@ -156,7 +156,8 @@ translator:
 
 reverse_lookup:
   tag: reverse_lookup
-  prefix: "`"    # 反查引導鍵「`」
+  prefix: "`"    # 反查引导符「`」
+  # suffix:   # 反查关闭符，暂不定义
   tips: 【反查：拼音+笔画】
   closing_tips: 【反查关闭】
   # preedit_format:
@@ -202,7 +203,7 @@ key_binder:
     - {accept: "Control+c", toggle: xuma_spelling, when: composing}
     - {accept: "Control+s", toggle: single_char_only, when: composing}
     - {accept: "Control+t", toggle: lazy_clock, when: composing}
-    # - {accept: semicolon, send: 2, when: has_menu}  # 分号次选
+    - {accept: semicolon, send: 2, when: has_menu}  # 分号次选
 
 recognizer:
   import_preset: default
