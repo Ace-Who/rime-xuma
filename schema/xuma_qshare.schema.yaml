@@ -60,6 +60,7 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@luna_pinyin
     - affix_segmentor@luna_pinyin_lookup
     - affix_segmentor@stroke_lookup
     - affix_segmentor@reverse_lookup
@@ -69,6 +70,7 @@ engine:
     - punct_translator
     - table_translator@fixed
     - table_translator
+    - script_translator@luna_pinyin
     - script_translator@luna_pinyin_lookup
     - table_translator@stroke_lookup
     - lua_translator@os_env
@@ -113,14 +115,11 @@ traditionalize:
   tips: all
 
 xmsp:
-  tag: xmsp
   tags: [ abc, punct ]
 
 xmsp_for_rvlk:
-  tag: xmsp_for_rvlk
   tags:
     __include: reverse_lookup/extra_tags
-    __append: [ reverse_lookup ]
 
 xuma_postpone_fullcode:
   tags: [ abc ]
@@ -149,10 +148,17 @@ translator:
     - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|糸阝女尸王扌石艹木土日虫山目口⺮魚禾月亻忄金宀火言氵|"
 
-# 拼音混输
+# 用于混输
+luna_pinyin:
+  tag: luna_pinyin
+  dictionary: luna_pinyin
+  initial_quality: 0.2
+
+# 拼音混输。不使用 luna_pinyin_lookup，是因为那样做会导致所有常规编码段和常规候
+# 选被同时打上 abc 和 luna_pinyin_lookup 标签，从而同时被 xmsp 和 xmsp_for_rvlk
+# 接收，被添加两次注释。
 # abc_segmentor:
-  # extra_tags:
-    # - luna_pinyin_lookup
+  # extra_tags: [ luna_pinyin ]
 
 reverse_lookup:
   tag: reverse_lookup
@@ -186,7 +192,7 @@ stroke_lookup:
     - xlit/HSPNZ/一丨丿丶乙/
 
 luna_pinyin_reverse_lookup:
-  tags: [ luna_pinyin_lookup ]
+  tags: [ luna_pinyin, luna_pinyin_lookup ]
   dictionary: xuma
   # overwrite_comment: true  # 覆蓋其他提示
 

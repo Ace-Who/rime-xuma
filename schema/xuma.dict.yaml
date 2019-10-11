@@ -38,7 +38,10 @@ encoder:
       formula: "AaBaCaZa"
 ...
 
-出	a	1860000000
+# qmod:del
+# 出	a	1860000000
+# qmod:add
+能	a	1820000000
 了	b	1690000000
 以	c	884000000
 对	d	1200000000
@@ -107,7 +110,10 @@ encoder:
 谢谢	z
 # qmod:del
 # 为了	z
-垒	aa	9710000
+# qmod:del
+# 垒	aa	9710000
+# qmod:add
+出	aa	1860000000
 幻	ab	173000000
 幼	ac	59900000
 盈	ad	71200000
@@ -2162,6 +2168,8 @@ encoder:
 之上	zz
 淼	aaa	4030000
 祟	aaf	4310000
+# qmod:add
+垒	aaj	9710000
 畿	aak	1540000
 骀	aao	171000
 骖	aas	404000
@@ -138468,7 +138476,7 @@ encoder:
 ⽵	pkpb
 𦑓	eecy	0
 𥮛	pquj	0
-𮆔	plit
+𮆔	peit
 𨫳	vhvv	0
 𦥸	ugph	0
 𬿄	tmkd
@@ -152637,7 +152645,7 @@ encoder:
 𢿥	pxkl	0
 𢴜	fuxq	0
 𨥸	vstc	0
-𭜳	jlbr
+𭜳	jgbr
 𧌆	lwig	0
 𤩝	ermo	0
 𤘰	qvpn	0
@@ -154553,7 +154561,7 @@ encoder:
 𪽎	keot	0
 𭑙	fnmt
 𭵧	fpxe
-𮓝	lluh
+𮓝	lvlh
 𦌀	masw	0
 𮤔	nkxm
 𮖁	wgui
@@ -166240,7 +166248,7 @@ encoder:
 𪑄	mprh	0
 𪅴	enue	0
 殮	guqd
-𣥠	llzz	0
+𣥠	lelz	0
 𮉬	cyej
 𥥿	wqxx	0
 𤾡	uxwb
@@ -176962,7 +176970,7 @@ encoder:
 𭘫	musj
 𪡳	yool	0
 𤹛	whrb	0
-𣥗	llzz	0
+𣥗	llez	0
 𮦿	jzjy
 𭚕	pbds
 𧻬	rlqy	0
