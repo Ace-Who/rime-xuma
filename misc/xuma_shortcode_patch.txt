@@ -86,3 +86,15 @@
 + 出	aa
 - 垒	aa
 + 垒	aaj
++ 传	te
+- 何	te
++ 何	teo
+# 原与「中 o oku」重码，现消除。
+- 喝	oku
++ 喝	ok
+- 忠	ok
++ 忠	okr
++ 群	bp
+- 君	bp
++ 君	bpo
+- 群	bpo

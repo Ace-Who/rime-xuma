@@ -4,18 +4,19 @@
 # 官方网址：www.chinput.com/xuma
 #
 # 码表去重 by Q
-# 并调整了一些简码，在注释中以 qmod:* 标出。
+# 不定期合并编码修订。
+# 还调整了一些简码，在注释中以 qmod:* 标出。
 #
 # 词频信息取自 Rime 郑码方案 rime/rime-zhengma 词典，由 Q 添加
 # https://github.com/lotem/rime-zhengma
 # 仅添加了单字权重，因为若采用郑码的词组权重，会导致一些重码词组排在单字之前
 # 。
 # Todo: 添加词组权重，并保证重码时首选永远是单字，简码词组至少占据次选和三选
-# 。最好能保证一简词组为次选。
+# ，且一简词组为次选。
 
 ---
 name: "xuma"
-version: "2019.10.09"
+version: "2019.10.13"
 sort: weight
 columns:
   - text
@@ -154,7 +155,10 @@ encoder:
 矛	bm	8570000
 阻	bn	44600000
 亟	bo	10200000
-君	bp	220000000
+# qmod:del
+# 君	bp	220000000
+# qmod:add
+群	bp	606000000
 隐	bq	48300000
 孤	br	56200000
 阴	bs	50400000
@@ -507,7 +511,10 @@ encoder:
 哄	oh	15800000
 味	oi	156000000
 器	oj	615000000
-忠	ok	32200000
+# qmod:del
+# 忠	ok	32200000
+# qmod:add
+喝	ok	226000000
 虽	ol	60200000
 员	om	386000000
 # qmod:del
@@ -634,7 +641,10 @@ encoder:
 鼻	tb	70200000
 川	tc	88200000
 分	td	1310000000
-何	te	430000000
+# qmod:del
+# 何	te	430000000
+# qmod:add
+传	te	744000000
 代	tf	303000000
 使	tg	739000000
 希	th	70200000
@@ -2531,7 +2541,10 @@ encoder:
 陞	bph	1960000
 阼	bpl	243000
 瞀	bpn	132000
-群	bpo	606000000
+# qmod:del
+# 群	bpo	606000000
+# qmod:add
+君	bpo	220000000
 孜	bpp	4190000
 鹜	bps	791000
 尹	bpu	18700000
@@ -5927,8 +5940,11 @@ encoder:
 踶	okl	50300
 盅	okm	4930000
 鼉	oko	47200
+# qmod:add
+忠	okr	32200000
 呻	oks	1580000
-喝	oku	226000000
+# qmod:del
+# 喝	oku	226000000
 喁	oky	177000
 迚	okz	206000
 卟	olb	1210000
@@ -7335,6 +7351,8 @@ encoder:
 傅	tei	19100000
 债	tem	19900000
 值	ten	335000000
+# qmod:add
+何	teo	430000000
 傲	teq	61300000
 倩	tes	18600000
 什	teu	37300000
@@ -8803,7 +8821,6 @@ encoder:
 頀	yhd	65500
 誀	yhe	21600
 韺	yhf	80800
-譁	yhh	976000
 謨	yhk	855000
 講	yhm	44200000
 讙	yho	73300
@@ -63640,7 +63657,7 @@ encoder:
 雊	sotw	25300
 魋	utwg	54900
 緌	arcv	98500
-韡	dhew	138000
+韡	dhhw	138000
 魨	qfau	90100
 觱	fgsw	50800
 讙	yhot	73300
@@ -64027,7 +64044,7 @@ encoder:
 麛	wdhl	34000
 蝟	lksv	961000
 閱	ntvm	22100000
-譁	yhhe	976000
+譁	yheh	976000
 遝	mczw	133000
 穄	rsfs	68200
 鼩	usos	61100
@@ -64264,7 +64281,7 @@ encoder:
 鍰	vved	1180000
 邆	dgxz	24300
 碕	gfeo	506000
-華	hghe	84700000
+華	hehu	84700000
 鍐	vttv	2500000
 閛	nexm	48600
 鷫	beau	36400
@@ -65697,7 +65714,7 @@ encoder:
 鐎	vtsh	2880000
 鐨	vdtn	2410000
 騙	ezmm	15800000
-驊	ehem	1160000
+驊	ehhm	1160000
 臘	sczc	2770000
 芵	hduu	81700
 賜	nksb	5830000
@@ -66302,7 +66319,7 @@ encoder:
 鯤	qkvb	228000
 鰈	qhiv	294000
 鶷	wiou	23600
-鷨	hgeu	58600
+鷨	hehu	58600
 鼴	ufcs	186000
 齇	tlnb	31900
 絔	agkv	615000
@@ -67318,7 +67335,7 @@ encoder:
 玾	ekj	47600
 樑	izti	2160000
 嚜	omjv	1340000
-澕	zhhe	122000
+澕	zheh	122000
 螿	aslp	71100
 灚	zuqn	538000
 姎	cmfd	454000
@@ -69049,7 +69066,7 @@ encoder:
 蟙	lyfg	21300
 瀁	zxwb	91600
 浬	zkee	1100000
-樺	ihhe	6530000
+樺	iheh	6530000
 薞	hgvs	25200
 嗚	ouw	8000000
 篫	piqr	33400
@@ -69514,7 +69531,7 @@ encoder:
 湳	zexe	921000
 斨	arjp	51100
 彫	sjos	2590000
-鏵	vhhe	218000
+鏵	vheh	218000
 籃	pfpm	11400000
 淨	zvbb	16000000
 個	tnjg	282000000
@@ -69975,7 +69992,7 @@ encoder:
 镺	eryc	23700
 璅	ecki	481000
 僑	trmo	6400000
-嘩	ohhe	5420000
+嘩	oheh	5420000
 搷	fent	168000
 橠	iwqq	29200
 阠	bbeu	34400
@@ -70153,7 +70170,7 @@ encoder:
 熩	xzod	31200
 應	wtrg	46000000
 颶	qntf	122000
-曄	khhe	1290000
+曄	kheh	1290000
 梪	igox	66800
 摝	fwl	123000
 釵	vdwu	1560000
@@ -70390,7 +70407,7 @@ encoder:
 嵹	mdol	35600
 媕	cuoh	36000
 鰎	qbfb	165000
-燁	xhhe	1710000
+燁	xheh	1710000
 寶	wepn	52600000
 區	foof	323000000
 洊	zhkb	137000
@@ -71062,7 +71079,7 @@ encoder:
 躂	ojzz	353000
 峐	myh	21800
 箂	piuu	81500
-瞱	nhhe	36900
+瞱	nheh	36900
 隢	bjjg	79500
 甗	lghh	66300
 妦	cif	162000
@@ -71084,7 +71101,7 @@ encoder:
 杋	iqa	35800
 襙	woii	65900
 碖	gugm	23000
-嬅	chhe	2130000
+嬅	cheh	2130000
 桾	ibpo	84300
 溫	znum	17900000
 櫧	iyjk	188000
@@ -103834,7 +103851,7 @@ encoder:
 鸴	zqsn	23400
 睗	nkss	39700
 霡	jszy	48900
-鞾	hheg	32900
+鞾	hhhg	32900
 蒒	hugm	42300
 穉	rdap	67900
 鹡	xuss	80200
@@ -105929,7 +105946,7 @@ encoder:
 墴	jhkt	232000
 墵	jjea	85200
 墶	jjxz	41200
-墷	jhhe	35200
+墷	jheh	35200
 墸	jhjk	62600
 墹	jnkv	60000
 墻	jjno	1470000
@@ -106745,7 +106762,7 @@ encoder:
 撪	fafj	60700
 撯	fxnv	187000
 撴	fybp	1290000
-撶	fhhe	939000
+撶	fheh	939000
 撹	fzqn	387000
 擆	fhjk	50100
 擈	flxt	56900
@@ -106893,7 +106910,7 @@ encoder:
 曁	uvgb	136000
 曂	khkt	32200
 曃	kbaz	23900
-曅	khhe	102000
+曅	kheh	102000
 曍	ktxe	23100
 曎	kmxe	28400
 曐	kkkp	95400
@@ -107635,7 +107652,7 @@ encoder:
 爒	sxkc	22000
 爕	yxxx	29200
 爖	xysl	30800
-爗	xkhe	21900
+爗	xkeh	21900
 爘	xldv	23400
 爜	xlhd	267000
 爠	xnnt	62800
@@ -107795,7 +107812,7 @@ encoder:
 璂	ehjv	51400
 璄	eyve	62200
 璌	ewkt	19700
-璍	ehhe	32700
+璍	eheh	32700
 璏	ecpv	56700
 璑	epgs	65000
 璓	ehra	160000
@@ -107932,7 +107949,7 @@ encoder:
 癴	wyrb	32300
 癶	du	378000
 癷	deg	21400
-発	deve	47000000
+発	decu	47000000
 皀	uvib	94300
 皃	uveb	114000
 皅	udbb	39800
@@ -107946,7 +107963,7 @@ encoder:
 皠	umtb	86600
 皡	uueb	34500
 皢	ujgb	219000
-皣	uheb	27300
+皣	uhhb	27300
 皥	uteb	124000
 皧	uvvb	183000
 皨	uujb	45000
@@ -109231,7 +109248,7 @@ encoder:
 㒬	ggev	4250
 㒭	ovov	4220
 㒮	gggs	4020
-㒯	nghe	3990
+㒯	ngeh	3990
 㒰	vigr	4730
 㒱	vqxr	4270
 㒲	vkvr	4560
@@ -110092,7 +110109,7 @@ encoder:
 㠌	mhqq	4850
 㠍	mtiv	4710
 㠎	mtiv	4810
-㠏	mhhe	4660
+㠏	mheh	4660
 㠐	mrmo	5060
 㠑	mmlf	4400
 㠒	mefl	4230
@@ -110469,7 +110486,7 @@ encoder:
 㦇	uwl	4720
 㦈	uxjm	3930
 㦉	ujox	4300
-㦊	uhhe	4310
+㦊	uheh	4310
 㦋	ufjk	4030
 㦌	rrrm	4530
 㦍	uoxa	4200
@@ -112497,7 +112514,7 @@ encoder:
 䅼	rkmd	4400
 䅽	jdqr	4090
 䅾	rfvk	4050
-䅿	rhhe	4470
+䅿	rheh	4470
 䆀	rmh	5800
 䆁	rmxe	4470
 䆂	rwlt	4420
@@ -118060,7 +118077,7 @@ encoder:
 𨘺	spaz	0
 𪤑	jnog	0
 𡧥	wokb	0
-𧃹	hghi	0
+𧃹	hehi	0
 𪸖	xquu	0
 𦚢	skvi	0
 𢷜	fiio	0
@@ -118538,7 +118555,7 @@ encoder:
 𦮭	huas	0
 𡝬	cwew	0
 𥗸	gutg	0
-華	hhfu
+華	hehu
 𬞳	hscw	0
 𨧝	vtkg	0
 𥓣	gkqv	0
@@ -118594,7 +118611,7 @@ encoder:
 𧆗	hllm	0
 𫒦	venq	0
 𦲸	hjy	0
-𦾏	hgek	0
+𦾏	hehk	0
 𠤇	ssov	0
 𡢋	clll	0
 𢷨	furr	0
@@ -118680,7 +118697,7 @@ encoder:
 𧠯	jonj	0
 𡹤	mnrv	0
 𦃲	awgs	0
-𧤻	qshe	0
+𧤻	qseh	0
 𪂟	tmtu	0
 𭈉	owzg
 𫓜	vykx	0
@@ -120122,7 +120139,7 @@ encoder:
 𨫂	vwxq	0
 𣫒	jdci	0
 𥇓	nwgl	0
-𦠜	shhe	0
+𦠜	sheh	0
 𣤗	uyqq	0
 𡝁	iocv	0
 𡆍	oypq	0
@@ -120885,7 +120902,7 @@ encoder:
 𮟩	omtz
 𪴇	iwcs	0
 𣿏	ziro	0
-𪟥	hgfc	0
+𪟥	hefc	0
 𣂉	yxze	0
 𡉖	jdg	0
 𧄌	hkgl	0
@@ -126301,7 +126318,7 @@ encoder:
 𣯯	mtrm	0
 𭴠	wcxv
 𠮿	omv	0
-𭨋	kkhe
+𭨋	kkeh
 𣜀	irfc	0
 𣡐	iwvo	0
 𤩕	exxo	0
@@ -128166,7 +128183,7 @@ encoder:
 𦭬	hqmj	0
 𤈜	xgaj	0
 𤋏	xxcv	0
-𤒃	xkhe	0
+𤒃	xkeh	0
 𡝴	chgg	0
 𪕼	xbtu	0
 𦴋	hmqd	0
@@ -128206,7 +128223,7 @@ encoder:
 𣡙	kiqn	0
 𡓤	juun
 𫨱	lxja	0
-𬒢	ghhf	0
+𬒢	gheh	0
 𫤋	ygva	0
 𣉵	kssa	0
 𣌏	kgtd	0
@@ -128633,7 +128650,7 @@ encoder:
 𪍈	iulk	0
 𤑉	xugt	0
 𥟖	rsuc	0
-𧂽	ekhe	0
+𧂽	ekeh	0
 龶	eu
 𭑍	oofd
 𣇨	kbas	0
@@ -129881,7 +129898,7 @@ encoder:
 𧋖	lhcu	0
 𪨁	vbcx	0
 𦡃	soke	0
-𩀵	hget	0
+𩀵	heht	0
 𩹲	qeic	0
 𬄪	icei	0
 𦂏	axrv	0
@@ -131411,7 +131428,7 @@ encoder:
 𢞲	uwpl	0
 𮭆	vjun
 𭢜	ftzd
-𠎑	thhe	0
+𠎑	theh	0
 𤇂	xdjv	0
 𡭒	vdgo	0
 𮔩	lgjp
@@ -131913,7 +131930,7 @@ encoder:
 𫢂	yoql	0
 𮒚	hjpa
 𥈘	nykc	0
-𨯮	vkhe	0
+𨯮	vkeh	0
 𠽐	oqv	0
 𠟡	xxxl	0
 𣇋	kxov	0
@@ -136688,7 +136705,7 @@ encoder:
 𬝑	huec	0
 𪴡	ipkc	0
 𦽺	hojp	0
-𦅠	ahhe	0
+𦅠	aheh	0
 𨿹	vfkt	0
 𤠨	hgtj	0
 𨹤	bplv	0
@@ -138476,7 +138493,7 @@ encoder:
 ⽵	pkpb
 𦑓	eecy	0
 𥮛	pquj	0
-𮆔	peit
+𮆔	plit
 𨫳	vhvv	0
 𦥸	ugph	0
 𬿄	tmkd
@@ -139109,7 +139126,7 @@ encoder:
 𭌗	olgb
 𣖾	ihps	0
 𤁅	zjaj	0
-𪏥	hgkt	0
+𪏥	hekt	0
 𨢅	xeue	0
 𡀿	odoc	0
 𡗑	nqoh	0
@@ -140117,7 +140134,7 @@ encoder:
 𣈖	kefu	0
 𦞧	svdk	0
 𡩣	wqfi	0
-𫤨	nghf	0
+𫤨	ngeh	0
 𩺏	qekk	0
 𮉚	annx
 𠅛	ytak	0
@@ -140998,7 +141015,7 @@ encoder:
 𢱑	fwrz	0
 𮌧	stdp
 𣸫	zaaj	0
-𬟠	hgmk	0
+𬟠	hemk	0
 	uttv
 𡠡	clgl	0
 𥄪	gdnv	0
@@ -143189,7 +143206,7 @@ encoder:
 𮨞	qnrg
 𥖠	gmsl	0
 𠑿	tive	0
-𪩓	mjhf	0
+𪩓	mheh	0
 𨘀	egzd	0
 𬽊	ykbz
 𤒀	xxyq	0
@@ -145835,7 +145852,7 @@ encoder:
 𫳣	wccc	0
 𬆄	glwn	0
 𨛜	odod	0
-𪓕	odck	0
+𪓕	ocdk	0
 𠏴	tebl	0
 𭎡	jlkv
 𣰛	hjmr	0
@@ -146744,7 +146761,7 @@ encoder:
 𨮜	zjjv	0
 𠰘	omm	0
 𦿐	hctf	0
-𡪤	whhe	0
+𡪤	wheh	0
 𧣍	qsqq	0
 𫰾	cvv	0
 𪢞	cpuo	0
@@ -148127,7 +148144,7 @@ encoder:
 𡀛	ojxi	0
 𭦦	kbsk
 𧤰	qsze	0
-𣟦	hgai	0
+𣟦	heai	0
 𡌟	jdbo	0
 𧩇	yraw	0
 𪻰	eavp	0
@@ -149199,7 +149216,7 @@ encoder:
 𮋡	yxwg
 𢘪	uhjv	0
 𮩢	xtxw
-𩏧	hged	0
+𩏧	hehd	0
 𠷞	vxwj	0
 𥶁	pyio	0
 𧍞	logj	0
@@ -150132,7 +150149,7 @@ encoder:
 𪣺	jugo	0
 𬫷	vgov	0
 𫝄	puu	0
-𧑍	lhhe	0
+𧑍	lheh	0
 𭾭	pfnr
 𤯾	hqgp	0
 𢤱	uysl	0
@@ -152943,7 +152960,7 @@ encoder:
 𪇙	pfeu	0
 𪂢	mgeu	0
 𣝳	ipuv	0
-𤒹	xkhe	0
+𤒹	xkeh	0
 𪄽	jqau	0
 沈	zqve
 𥲼	ptul	0
@@ -153473,7 +153490,7 @@ encoder:
 𦀣	paaa	0
 𧑷	ldap	0
 𭹰	elvq
-𩻮	qhhe	0
+𩻮	qheh	0
 𨨻	vdqs	0
 𣝸	ihgm	0
 𦥼	olbt	0
@@ -154651,7 +154668,7 @@ encoder:
 𫑹	eiuy	0
 𡗌	qqtx	0
 𭫇	tili
-𫛓	uhfn	0
+𫛓	uhhn	0
 𥻱	xonm	0
 𤘭	pxvn	0
 𬡏	wyly	0
@@ -155813,7 +155830,7 @@ encoder:
 𢁕	mswj	0
 𩜜	vjes	0
 𩊌	hylg	0
-𨣄	ehey	0
+𨣄	ehhy	0
 𭼻	wntb
 𪀒	ugjn	0
 ⼿	rs
@@ -156997,7 +157014,7 @@ encoder:
 𥘷	wccs	0
 𮂕	fxms
 𨡀	ensy	0
-𨅯	ohez	0
+𨅯	ohhz	0
 𢑚	fgbf	0
 𩒷	jgyc	0
 𮜎	ovsz
@@ -158075,7 +158092,7 @@ encoder:
 𡉸	aaji	0
 𩮼	ebcb	0
 𡆡	nwuw	0
-𥛵	whes	0
+𥛵	whhs	0
 ⾫	tw
 𤢂	vexq	0
 𤴯	wrwb	0
@@ -158676,7 +158693,7 @@ encoder:
 𫒄	xdem	0
 𬘳	csmj	0
 跋	ohwz
-𧠁	ehex	0
+𧠁	ehhx	0
 𩪟	nyog	0
 𮗎	jnjg
 𧚔	wdsi	0
@@ -167556,7 +167573,7 @@ encoder:
 𩲴	umfg	0
 𫗐	vues	0
 𥽰	xwxm	0
-𨶱	nhem	0
+𨶱	nhhm	0
 𪪱	uebb	0
 𪋜	wkel	0
 𤼋	wugb	0
@@ -170850,7 +170867,7 @@ encoder:
 𧶍	nfab	0
 𥼏	xjpm	0
 𢈬	weng	0
-𭘲	mhej
+𭘲	mhhj
 𢈇	wpvg	0
 𭆎	gnic
 𫌺	eyvx	0
@@ -171956,7 +171973,7 @@ encoder:
 𣂛	ptjn	0
 𫍹	zlny	0
 𭄢	coal
-𫖛	yhfn	0
+𫖛	yhhn	0
 𦕧	hfhe	0
 𧺌	jvrz	0
 𨑰	gzdd	0
@@ -172152,7 +172169,7 @@ encoder:
 𧵺	nptb	0
 𫃃	xtbm	0
 糖	xwom
-𬚦	hhfe	0
+𬚦	hhhe	0
 𤘽	pson	0
 𧟫	eeox	0
 𩢭	elvm	0
@@ -177452,7 +177469,7 @@ encoder:
 𤠪	cnjc	0
 𮄢	wosx
 𣤠	lfqz	0
-𦪠	rheo	0
+𦪠	rhho	0
 𤳚	kbit	0
 𠫲	thei	0
 	wkgi
