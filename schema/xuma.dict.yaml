@@ -791,10 +791,7 @@ encoder:
 市	ym	1260000000
 音	yn	434000000
 就	yo	1720000000
-# qmod:del
-# 产	yp	128000000
-# qmod:add
-放	yp	653000000
+产	yp	128000000
 亢	yq	11200000
 意	yr	159000000
 韵	ys	65200000
@@ -8908,16 +8905,10 @@ encoder:
 誕	ypl	4000000
 颜	ypm	34200000
 誥	ypo	494000
-# qmod:del
-# 放	ypp	653000000
-# qmod:add
-族	ypp	108000000
+放	ypp	653000000
 旅	ypr	163000000
 彦	yps	11800000
-# qmod:del
-# 膐	ypu	28700
-# qmod:add
-产	ypu	128000000
+膐	ypu	28700
 詵	ypv	61200
 詄	ypw	25800
 譒	ypx	31900
@@ -120902,7 +120893,7 @@ encoder:
 𮟩	omtz
 𪴇	iwcs	0
 𣿏	ziro	0
-𪟥	hefc	0
+𪟥	hehc	0
 𣂉	yxze	0
 𡉖	jdg	0
 𧄌	hkgl	0
@@ -124393,7 +124384,7 @@ encoder:
 𢳦	fwrr	0
 𤅌	zucc	0
 𧌵	lcgl	0
-𬚩	mmnh	0
+𬚩	mgnh	0
 𡟓	cwov	0
 𩽅	qelg	0
 𧈰	lbd	0
@@ -128145,7 +128136,7 @@ encoder:
 𡺕	mncl	0
 𩺅	qook	0
 𭔇	wndv
-𫠦	gkpb	0
+𫠦	glpb	0
 𦑉	kscy	0
 𥣐	rkqj	0
 𤓳	vgcu	0
@@ -134078,7 +134069,7 @@ encoder:
 𡻏	muav	0
 𢠑	upoo	0
 𧆉	hoqa	0
-𧢛	nnqq	0
+𧢛	nqnq	0
 𢛊	urcv	0
 𫵦	djuz	0
 𡞭	cumj	0
@@ -153833,7 +153824,7 @@ encoder:
 𨏙	jmrc	0
 𡥘	cbzm	0
 𮠱	eroy
-𮗇	egax
+𮗇	egbx
 𬧌	olsz	0
 𬡩	wdgi	0
 𫓱	prtj	0
@@ -169783,7 +169774,7 @@ encoder:
 𡈝	nusw	0
 𥐉	ppxi	0
 𬼳	wbim
-𧾭	rrly	0
+𧾭	rlly	0
 𪼻	hntw	0
 𤴥	wbib	0
 𠀜	htgj	0

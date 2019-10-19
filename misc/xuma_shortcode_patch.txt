@@ -60,12 +60,13 @@
 - 岸	mg
 ?+ 清	zes
 ?- 请	zes
-+ 放	yp
-- 产	yp
-+ 族	ypp
-- 放	ypp
-+ 产	ypu
-- 膐	ypu
+# 误删了「放」的全码 ypp，撤销这一组修改。
+# + 放	yp
+# - 产	yp
+# + 族	ypp
+# - 放	ypp
+# + 产	ypu
+# - 膐	ypu
 + 信	ty
 - 位	ty
 + 连	fz
