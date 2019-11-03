@@ -114,7 +114,11 @@ local function get_tricomment(cand, env)
   if utf8.len(ctext) == 1 then
     local spll_raw = env.spll_rvdb:lookup(ctext)
     if spll_raw ~= '' then
-      return xform(spll_raw)
+      if env.engine.context:get_option("xmsp_hide_pinyin") then
+        return xform(spll_raw:gsub('%[(.-,.-),.+%]', '[%1]'))
+      else
+        return xform(spll_raw)
+      end
     end
   else
     local spelling = spell_phrase(ctext, env.spll_rvdb)
@@ -122,7 +126,7 @@ local function get_tricomment(cand, env)
       spelling = spelling:gsub('{(.-)}', '<%1>')
       local code = env.code_rvdb:lookup(ctext)
       -- 'completion' 类型的候选来自固态词典还是用户词典，可通过查询词组编码来
-      -- 确定。问题是：反查候选中预计为 talbe 类型的，全都是 user_table 类型。
+      -- 确定。问题是：反查候选中预计为 table 类型的，全都是 user_table 类型。
       -- 因此改为仅判断 code。
       if code ~= '' then
         return '〔 ' .. spelling .. ' · ' .. code .. ' 〕'
@@ -157,7 +161,18 @@ local function filter(input, env)
         elseif cand.type ~= 'sentence' then
           add_comment = get_tricomment(cand, env)
         end
-        cand.comment = add_comment .. cand.comment
+        if add_comment ~= '' then
+          -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
+          -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
+          if cand.type ~= 'completion' and (
+              (env.name_space == 'xmsp' and env.is_mixtyping) or
+              (env.name_space == 'xmsp_for_rvlk')
+              ) then
+            cand.comment = add_comment
+          else
+            cand.comment = add_comment .. cand.comment
+          end
+        end
         yield(cand)
       end
     end
@@ -167,8 +182,13 @@ local function filter(input, env)
 end
 
 local function init(env)
-  env.spll_rvdb = ReverseDb("build/xuma_spelling_pseudo.reverse.bin")
-  env.code_rvdb = ReverseDb("build/xuma.reverse.bin")
+  local config = env.engine.schema.config
+  local spll_rvdb = config:get_string('lua_reverse_db/spelling')
+  local code_rvdb = config:get_string('lua_reverse_db/code')
+  local abc_extags_size = config:get_list_size('abc_segmentor/extra_tags')
+  env.spll_rvdb = ReverseDb('build/' .. spll_rvdb .. '.reverse.bin')
+  env.code_rvdb = ReverseDb('build/' .. code_rvdb .. '.reverse.bin')
+  env.is_mixtyping = abc_extags_size > 0
 end
 
 return { init = init, func = filter }

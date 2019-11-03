@@ -17,9 +17,9 @@
 + 谢谢	z
 - 为了	z
 + 为了	zb
++ 离	yt
 - 六	yt
-+ 齐	yt
-# 原与「六 ytu」重码，现消除。
+# 消除与「六 ytu」的重码。
 - 齐	ytu
 - 嗯	onf
 + 嗯	on
@@ -58,8 +58,8 @@
 - 同	m
 + 同	mg
 - 岸	mg
-?+ 清	zes
-?- 请	zes
++ 清	zes
+- 请	zes
 # 误删了「放」的全码 ypp，撤销这一组修改。
 # + 放	yp
 # - 产	yp
@@ -90,7 +90,7 @@
 + 传	te
 - 何	te
 + 何	teo
-# 原与「中 o oku」重码，现消除。
+# 消除与「中 o oku」的重码。
 - 喝	oku
 + 喝	ok
 - 忠	ok
@@ -99,3 +99,12 @@
 - 君	bp
 + 君	bpo
 - 群	bpo
++ 嘛	ow
+- 踪	ow
++ 踪	owf
++ 寒	wht
+- 塞	wht
+# 消除与「爾 je」的重码。
+- 赶	je
++ 赶	jeg
+- 軒	jeg

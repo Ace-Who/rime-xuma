@@ -16,8 +16,8 @@
 
 ---
 name: "xuma"
-version: "2019.10.13"
-sort: weight
+version: "2019.11.03"
+sort: by_weight
 columns:
   - text
   - code
@@ -366,7 +366,8 @@ encoder:
 教	jb	250000000
 車	jc	242000000
 起	jd	634000000
-赶	je	82800000
+# qmod:del
+# 赶	je	82800000
 夫	jf	92500000
 古	jg	266000000
 趣	jh	75400000
@@ -529,7 +530,10 @@ encoder:
 只	ot	776000000
 响	ou	79500000
 口	ov	279000000
-踪	ow	19500000
+# qmod:del
+# 踪	ow	19500000
+# qmod:add
+嘛	ow	122000000
 蹲	ox	30000000
 咬	oy	40100000
 咏	oz	13800000
@@ -798,7 +802,7 @@ encoder:
 # qmod:del
 # 六	yt	610000000
 # qmod:add
-齐	yt	123000000
+离	yt	693000000
 方	yu	759000000
 言	yv	287000000
 文	yw	665000000
@@ -4655,7 +4659,10 @@ encoder:
 霒	jeb	42700
 霋	jec	27200
 埔	jef	12200000
-軒	jeg	20700000
+# qmod:del
+# 軒	jeg	20700000
+# qmod:add
+赶	jeg	82800000
 堙	jej	312000
 垣	jek	4800000
 墙	jen	78200000
@@ -6083,6 +6090,8 @@ encoder:
 踉	owb	1920000
 踱	owd	4670000
 喧	owe	4330000
+# qmod:add
+踪	owf	19500000
 啶	owg	4310000
 躔	owj	139000
 蹿	owk	2540000
@@ -8262,7 +8271,10 @@ encoder:
 祐	who	6150000
 祺	whq	7890000
 庶	whs	2940000
-塞	wht	74400000
+# qmod:del
+# 塞	wht	74400000
+# qmod:add
+寒	wht	82200000
 襔	whv	37300
 庹	whw	2160000
 痖	whx	77900
@@ -9090,7 +9102,10 @@ encoder:
 滇	zen	13100000
 河	zeo	202000000
 溱	zer	698000
-请	zes	2510000000
+# qmod:del
+# 请	zes	2510000000
+# qmod:add
+清	zes	281000000
 阗	zet	1110000
 斗	zeu	79200000
 汪	zev	31300000
@@ -69773,7 +69788,7 @@ encoder:
 斪	sorj	50700
 劻	fecf	83700
 墥	jyjv	45500
-崋	mghf	320000
+崋	mehu	320000
 幗	mngj	724000
 氥	pexq	432000
 仩	tls	849000
@@ -106388,7 +106403,7 @@ encoder:
 庽	wkyg	20300
 庿	whkg	21600
 廀	wwdg	19900
-廃	wdvg	3790000
+廃	wdcg	3790000
 廍	wybg	57400
 廏	wuqg	33600
 廐	wbvg	58700
@@ -106396,7 +106411,7 @@ encoder:
 廫	wssg	23000
 廭	wrng	22800
 廰	whrg	183000
-廵	bcc	29600
+廵	cbdc	29600
 廸	kbdo	229000
 廹	ubdb	39600
 廻	nobw	867000
@@ -107407,7 +107422,7 @@ encoder:
 溇	zxcv	150000
 溊	zddd	23400
 溋	zadm	30800
-溌	zdev	143000
+溌	zdec	143000
 溑	znnb	21400
 溕	zqgg	28000
 溚	zhgo	35900
@@ -108621,7 +108636,7 @@ encoder:
 酫	euey	33800
 酭	ehsy	30100
 酻	evby	20300
-醗	edvy	94500
+醗	edcy	94500
 醘	ejmy	40600
 醤	xvie	1500000
 醩	ehky	77400
@@ -111604,7 +111619,7 @@ encoder:
 㷵	xmh	4500
 㷶	thss	4110
 㷷	xdht	4420
-㷸	xkhf	4320
+㷸	xkeh	4320
 㷹	xhlk	4140
 㷺	qupx	14600
 㷻	xpgs	4190
@@ -112045,7 +112060,7 @@ encoder:
 㾮	wueb	5160
 㾯	wkfb	4990
 㾰	wjsb	5460
-㾱	wdvb	4810
+㾱	wdcb	4810
 㾲	wepb	4490
 㾳	wxcb	4570
 㾴	winb	9570
@@ -119923,7 +119938,7 @@ encoder:
 𤏽	xxjy	0
 𧉲	lreg	0
 𥐦	gdj	0
-𡆓	oniu	0
+𡆓	onek	0
 𡀉	ooqn	0
 𡔦	johu	0
 𭋂	oeen
@@ -138659,7 +138674,7 @@ encoder:
 𡛀	chdo	0
 𢫨	ffhu	0
 𥁩	zpfm	0
-𣷨	zxvl	0
+𣷨	zxcl	0
 𣆓	kdig	0
 𦹾	hyqr	0
 𪚘	sysl	0
@@ -142137,7 +142152,7 @@ encoder:
 𪔲	joiz	0
 𪳱	iook	0
 𨖷	pbfz	0
-𫝼	fdev	0
+𫝼	fdec	0
 𬚶	muwe	0
 𤦧	ehzz	0
 𦀖	ajac	0
@@ -151891,7 +151906,7 @@ encoder:
 𡅫	ojmo	0
 𢸡	flc	0
 𦄼	asgy	0
-𬀽	kghf	0
+𬀽	kehu	0
 𦺇	hzec	0
 嗂	ovpf
 𣍩	srv	0
@@ -152915,7 +152930,7 @@ encoder:
 𦟀	ycbf	0
 𦿾	hrta	0
 𧛀	iiwy	0
-𡴬	tuaa	0
+𡴬	tuua	0
 𤆭	xphv	0
 𢜀	ugbl	0
 𦆓	asqp	0
@@ -159924,7 +159939,7 @@ encoder:
 𤖏	awpp	0
 𮂓	fhfs
 𩢦	evzm	0
-𦌂	mkfw	0
+𦌂	mkiw	0
 𠨚	thai	0
 𮊒	masw
 𩯟	eoib	0
@@ -168364,7 +168379,7 @@ encoder:
 𩛡	vwbs	0
 𬶊	qewy	0
 𥥠	wqbx	0
-𠭌	ddvo	0
+𠭌	ddco	0
 𩾕	vuni	0
 𬳱	eonm	0
 𬡡	wtwy	0

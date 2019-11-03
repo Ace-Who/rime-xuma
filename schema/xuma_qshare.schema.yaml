@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_qshare
   name: 徐码／爾雅·Q分享版
-  version: "2019-10-04"
+  version: "2019-10-11"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -38,6 +38,8 @@ switches:
   - name: xuma_spelling  # 三重注解
     reset: 1
     states: [ 拆, 扌⺁丅丶 ]
+  - name: xmsp_hide_pinyin  # 是否显示三重注解中的拼音
+    # states: [ 音, 哑 ]
   - name: xuma_postpone_fullcode  # 仅作用于单字。
     reset: 1
     states: [ ＝原始排序, ↓全码后置 ]
@@ -114,6 +116,10 @@ traditionalize:
   option_name: traditionalization
   tips: all
 
+lua_reverse_db:
+  spelling: xuma_spelling_pseudo
+  code: xuma
+
 xmsp:
   tags: [ abc, punct ]
 
@@ -134,7 +140,7 @@ fixed:
   __include: translator
   enable_user_dict: false
   enable_sentence: false
-  initial_quality: 100000
+  initial_quality: 1000
 
 translator:
   dictionary: xuma
@@ -210,6 +216,7 @@ key_binder:
   bindings:
     - {accept: "Control+Shift+F", toggle: traditionalization, when: always}
     - {accept: "Control+c", toggle: xuma_spelling, when: composing}
+    - {accept: "Control+y", toggle: xmsp_hide_pinyin, when: composing}
     - {accept: "Control+s", toggle: single_char_only, when: composing}
     - {accept: "Control+t", toggle: lazy_clock, when: composing}
     - {accept: semicolon, send: 2, when: has_menu}  # 分号次选
