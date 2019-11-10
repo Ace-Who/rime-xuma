@@ -144,12 +144,12 @@ fixed:
 
 translator:
   dictionary: xuma
-  enable_charset_filter: false #汉字过滤
+  enable_charset_filter: false  # 汉字过滤
   enable_sentence: true
   enable_user_dict: true
   enable_encoder: true
-  encode_commit_history: true
-  max_phrase_length: 5
+  encode_commit_history: false  # 对连续上屏的词自动成词
+  max_phrase_length: 5  # 自动成词的最大词长
   preedit_format:
     - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|糸阝女尸王扌石艹木土日虫山目口⺮魚禾月亻忄金宀火言氵|"
