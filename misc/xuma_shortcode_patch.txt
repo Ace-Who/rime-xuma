@@ -11,13 +11,12 @@
 
 + 没	z
 - 为	z
-# 占用了「没」的全码 zqs。
+# 占用了「没 z zqs」的全码 zqs。
 + 设	zqs
 + 为	zc
 - 沙	zc
 + 沙	zcp
 - 娑	zcp
-+ 为什么	z
 + 离	yt
 - 六	yt
 # 消除与「六 ytu」的重码。
@@ -34,8 +33,6 @@
 - 睛	ne
 + 睛	nes
 - 圊	nes
-+ 不会	gu
-- 一阵	gu
 + 串	ook
 - 患	ook
 + 有	h
@@ -43,7 +40,7 @@
 + 在	hk
 - 存	hk
 + 存	hkb
-# 占用了「有」的全码 hsv。
+# 占用了「有 h hsv」的全码 hsv。
 + 期	hsv
 + 有点	h
 - 在下	h
@@ -62,7 +59,7 @@
 - 岸	mg
 + 清	zes
 - 请	zes
-# 误删了「放」的全码 ypp，撤销这一组修改。
+# 误删了「放 ypp」的全码，撤销这一组修改。
 # + 放	yp
 # - 产	yp
 # + 族	ypp
@@ -75,9 +72,6 @@
 - 达	fz
 + 达	fzd
 - 连	fzd
-+ 达到	fg
-- 达到	fz
-+ 连续	fz
 + 摸	fh
 - 拔	fh
 + 拔	fhd
@@ -89,10 +83,6 @@
 + 出	aa
 - 垒	aa
 + 垒	aaj
-+ 能否	a
-- 出来	a
-+ 出来	ai
-- 幻想	ai
 + 传	te
 - 何	te
 + 何	teo
@@ -110,12 +100,128 @@
 + 踪	owf
 + 寒	wht
 - 塞	wht
-# 消除与「爾 je」的重码。并将「爾 je」条目提前至简码位置以保证其为首选。
-- 赶	je
-+ 赶	jeg
-- 軒	jeg
 + 套	fec
 - 抚	fec
 + 仅仅	t
 + 所以	r
 - 和尚	r
++ 慰	dfi
+- 尉	dfi
++ 都	jk
+- 都	jkb
+- 者	jk
+- 輥	jkv
+# 消除与「爲 vsu」的重码。
+- 鏦	vsu
+# 占用了「巛 cc」的全码。
++ 丝	cc
+# 占用了「馬 em」的全码。
++ 现	em
+- 现	emv
+# 占用了「齒 lc」的全码。
++ 叔	lc
+- 叔	lcd
+# 占用了「鹵 ll」的全码。
++ 卡	ll
+# 占用了「攴 lp」的全码。
++ 临	lp
+- 临	lpk
+# 占用了「缶 pf」的全码。
++ 看	pf
+- 看	pfn
+# 占用了「攵 pp」的全码。
++ 铁	pp
+- 铁	ppw
+# 占用了「風 qf」的全码。
++ 军	qf
+# 占用了「鳥 un」的全码。
++ 悄	un
+- 悄	uns
+# 占用了「飛 bf」的全码。
++ 那	bf
+- 那	bfb
++ 建	bfb
+# 占用了「貝 nb」的全码。
++ 眼	nb
+# 占用了「見 nj」的全码。
++ 固	nj
+- 固	njg
+# 占用了「䀦 njg」的全码。
++ 骷	njg
+# 占用了「門 nm」的全码。
++ 尚	nm
+- 尚	nmo
++ 敞	nmo
+
+
+# 以下是单字二级简码与成字字根重码情况的汇总
+
+# 徐码全集原码表中的重码（最后一列是可行的简码修改方案）
+
+# 第一主根
+
+av 允 糸糹 ave
+bv 降 阝 bvf
+fv 指 扌 fvk
+hv 获 卅廾艹卄卌卝 hvj
+tv 化 亻 tvi
+uv 仑 忄 uvi
+wv 它 宀 wvi
+zv 洛 氵 zvo
+
+# 第二主根不考虑，因为本身一码多根，互相已经存在重码。
+
+# 副根（可能不全）
+
+ai 綝 厶 aii
+ap 收 爿 app
+bd 丞 廴 bdg
+dw 尽 韋 dwz
+ff 找 匚 ffg
+hj 基 丌 hjv
+je 赶 爾 jeg
+jk 者 丂 jkv
+lh 蝶 虍 lhi
+nd 眠 鬥 ndf
+ol 虽 〇 olv
+om 员 黽 omb
+pj 等 钅 pji
+rh 垂 戶 rhu
+sh 腊 灬 shk
+sr 循 彳 srn
+ti 体 乂 tig
+uw 今 烏 uwb
+uq 懈 僉 uqd
+xw 粮 為 xwb
+zd 记 辶 zdj
+zy 流 讠 zya
+
+# 我增设或修改的单字二级简码出现的重码（最后是原先的简码）：
+
+bf 那 飛 bfb
+cc 丝 巛
+em 现 馬 emv
+lc 叔 齒 lcd
+ll 卡 鹵
+lp 临 攴 lpk
+nb 眼 貝
+nj 固 見 njg
+nm 尚 門 nmo
+pf 看 缶 pfn
+pp 铁 攵 ppw
+qf 军 風 
+un 悄 鳥 uns
+
+jk 都 丂 jkb
+
+# 所有重码的成字字根
+
+糸糹阝扌卅廾艹卄卌卝亻忄宀氵
+厶爿廴韋匚丌爾丂虍鬥〇黽钅戶灬彳乂烏僉為辶讠
+飛巛馬齒鹵攴貝見門缶攵風鳥
+
+# 其中属于 GB2312 的字根：
+
+糸阝扌卅廾艹亻忄宀氵
+厶爿廴匚丌虍钅灬彳辶讠
+巛攴缶攵

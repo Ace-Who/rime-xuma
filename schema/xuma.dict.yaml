@@ -11,7 +11,7 @@
 # 权重信息取自 Rime 郑码方案 rime/rime-zhengma 词典，由 Q 添加
 # https://github.com/lotem/rime-zhengma
 # 该权重不完全合理，如 iov 的顺序是「杏束」。且为实现以下目标，现已不按权重排
-# 序（sort: original），该权重仅作参考之用。
+# 序（sort: original），该权重仅作参考和调试之用。
 
 # 排序目标之一：保证重码时首选永远是单字，简码词组为次选和三选。
 # 《徐码全集码表（+词）》的排序满足这点，定义排序方式为 original 即可。
@@ -30,7 +30,7 @@
 
 ---
 name: "xuma"
-version: "2019.12.06"
+version: "2020.01.08"
 sort: original
 columns:
   - text
@@ -103,6 +103,7 @@ encoder:
 上来	l	121000000
 见到	m	50700000		# qmod:add
 # 同时	m	375000000		# qmod:del
+当然	n	215000000		# qmod:add
 国家	n	464000000
 中国	o	2130000000
 我们	p	3110000000
@@ -120,7 +121,6 @@ encoder:
 这个	y	546000000
 没有	z	1060000000		# qmod:add
 # 为了	z	333000000		# qmod:del
-为什么	z	207000000		# qmod:add
 
 # 单字二级简码或二码全码区
 出	aa	1860000000		# qmod:add
@@ -155,7 +155,8 @@ encoder:
 孙	bc	82600000
 丞	bd	9510000
 也	be	982000000
-飛	bf	64900000
+那	bf	500000000		# qmod:add
+# 飛	bf	64900000		# qmod:del
 艮	bg	5590000
 随	bh	420000000
 乙	bi	82300000
@@ -180,7 +181,8 @@ encoder:
 子	bz	501000000
 始	ca	77700000
 好	cb	1780000000
-巛	cc	709000
+丝	cc	202000000		# qmod:add
+# 巛	cc	709000		# qmod:del
 经	cd	423000000
 续	ce	51700000
 练	cf	66200000
@@ -241,7 +243,8 @@ encoder:
 瑚	ej	1570000
 理	ek	137000000
 刊	el	70900000
-馬	em	99400000
+现	em	275000000		# qmod:add
+# 馬	em	99400000		# qmod:del
 真	en	612000000
 可	eo	1360000000
 班	ep	221000000
@@ -366,14 +369,14 @@ encoder:
 教	jb	250000000
 車	jc	242000000
 起	jd	634000000
-爾	je	39000000		# qmod:add
-# 赶	je	82800000		# qmod:del
+赶	je	82800000
 夫	jf	92500000
 古	jg	266000000
 趣	jh	75400000
 寺	ji	49200000
 考	jj	223000000
-者	jk	1680000000
+都	jk	1370000000		# qmod:add
+# 者	jk	1680000000		# qmod:del
 赴	jl	59400000
 规	jm	46000000
 趟	jn	29000000
@@ -417,7 +420,8 @@ encoder:
 早	kz	279000000
 蚂	la	3110000
 卜	lb	18400000
-齒	lc	5400000
+叔	lc	16900000		# qmod:add
+# 齒	lc	5400000		# qmod:del
 紧	ld	125000000
 歧	le	3200000
 非	lf	485000000
@@ -426,11 +430,13 @@ encoder:
 虹	li	79400000
 虾	lj	58900000
 桌	lk	75400000
-鹵	ll	4110000
+卡	ll	452000000		# qmod:add
+# 鹵	ll	4110000		# qmod:del
 贞	lm	15400000
 步	ln	245000000
 点	lo	1190000000
-攴	lp	192000
+临	lp	61500000		# qmod:add
+# 攴	lp	192000		# qmod:del
 虎	lq	106000000
 虑	lr	9960000
 肯	ls	95100000
@@ -469,19 +475,22 @@ encoder:
 赔	my	36500000
 罚	mz	43000000
 县	na	219000000
-貝	nb	21100000
+眼	nb	200000000		# qmod:add
+# 貝	nb	21100000		# qmod:del
 助	nc	217000000
 眠	nd	21900000
-# 睛	ne	5560000		# qmod:del
 国	ne	526000000		# qmod:add
+# 睛	ne	5560000		# qmod:del
 因	nf	301000000
 骨	ng	73400000
 瞒	nh	9660000
 团	ni	220000000
-見	nj	486000000
+固	nj	73700000		# qmod:add
+# 見	nj	486000000		# qmod:del
 髃	nk	71400
 眦	nl	939000
-門	nm	68000000
+尚	nm	224000000		# qmod:add
+# 門	nm	68000000		# qmod:del
 瞿	nn	4090000
 回	no	1380000000
 眨	np	10200000
@@ -530,7 +539,8 @@ encoder:
 长	pc	867000000
 第	pd	1710000000
 镇	pe	252000000
-缶	pf	15400000
+看	pf	2210000000		# qmod:add
+# 缶	pf	15400000		# qmod:del
 钱	pg	333000000
 错	ph	179000000
 矢	pi	31600000
@@ -540,7 +550,8 @@ encoder:
 制	pm	281000000
 牛	pn	182000000
 知	po	218000000
-攵	pp	2920000
+铁	pp	137000000		# qmod:add
+# 攵	pp	2920000		# qmod:del
 气	pq	155000000
 笑	pr	568000000
 生	ps	798000000
@@ -556,7 +567,8 @@ encoder:
 尔	qc	175000000
 色	qd	819000000
 馕	qe	515000
-風	qf	145000000
+军	qf	142000000		# qmod:add
+# 風	qf	145000000		# qmod:del
 写	qg	338000000
 饵	qh	4010000
 朵	qi	46700000
@@ -670,7 +682,8 @@ encoder:
 个	uk	1460000000
 企	ul	78700000
 帛	um	3710000
-鳥	un	47400000
+悄	un	6600000		# qmod:add
+# 鳥	un	47400000		# qmod:del
 向	uo	684000000
 性	up	977000000
 懈	uq	2140000
@@ -890,14 +903,14 @@ encoder:
 以后	cr	221000000
 以往	cs	49300000
 如何	ct	482000000
-女性	cu	380000000
+综合	cu	337000000
 加入	cv	871000000
 力度	cw	89800000
 以前	cx	462000000
 母亲	cy	160000000
 经济	cz	386000000
 引发	da	106000000
-登录	db	975000000
+勇敢	db	32900000
 已经	dc	567000000
 居民	dd	68500000
 展现	de	31900000
@@ -932,10 +945,10 @@ encoder:
 现在	eh	816000000
 互相	ei	54300000
 环境	ej	265000000
-理由	ek	155000000
+可是	ek	205000000
 专业	el	410000000
 可见	em	69700000
-玩具	en	140000000
+平常	en	35300000
 十足	eo	48100000
 青年	ep	126000000
 理解	eq	150000000
@@ -1028,7 +1041,7 @@ encoder:
 取消	hz	219000000
 功能	ia	450000000
 样子	ib	76200000
-未经	ic	184000000
+权力	ic	37500000
 相对	id	89200000
 相互	ie	110000000
 根据	if	472000000
@@ -1098,7 +1111,7 @@ encoder:
 最后	kr	867000000
 果然	ks	45600000
 时候	kt	454000000
-男性	ku	145000000
+明白	ku	112000000
 暗处	kv
 最初	kw	226000000
 日前	kx	90200000
@@ -1174,7 +1187,7 @@ encoder:
 回复	np	680000000
 国外	nq	135000000
 四季	nr	39700000
-当然	ns	215000000
+常用	ns	146000000
 具体	nt	207000000
 回忆	nu	62600000
 具备	nv	71600000
@@ -1214,7 +1227,7 @@ encoder:
 针对	pd	94200000
 管理	pe	1770000000
 选择	pf	545000000
-系列	pg	374000000
+看到	pg	360000000
 长期	ph	129000000
 怎样	pi	168000000
 失去	pj	97800000
@@ -1289,7 +1302,7 @@ encoder:
 得出	sa	27400000
 删除	sb	330000000
 很好	sc	162000000
-脆弱	sd	40500000
+很难	sd	58700000
 行动	se	102000000
 包括	sf	273000000
 然而	sg	104000000
@@ -1304,9 +1317,9 @@ encoder:
 微笑	sp	93100000
 很多	sq	325000000
 然后	sr	381000000
-脂肪	ss	34900000
-股份	st	115000000
-用途	su	74000000
+忽然	ss	75400000
+脑袋	st	22800000
+很快	su	84800000
 服务	sv	2400000000
 彻底	sw	66500000
 服装	sx	128000000
@@ -1322,7 +1335,7 @@ encoder:
 公共	th	222000000
 分析	ti	316000000
 作者	tj	984000000
-自由	tk	448000000
+但是	tk	630000000
 停止	tl	174000000
 位置	tm	910000000
 集团	tn	182000000
@@ -1410,7 +1423,7 @@ encoder:
 神秘	wr	102000000
 应用	ws	251000000
 它们	wt	76000000
-社会	wu	500000000
+完全	wu	401000000
 疯狂	wv	111000000
 定义	ww	63100000
 完美	wx	112000000
@@ -1442,11 +1455,11 @@ encoder:
 资料	xx	862000000
 北京	xy	747000000
 关注	xz	254000000
-效能	ya	25300000
+放出	ya	17500000
 立即	yb	262000000
 高级	yc	306000000
 交通	yd	309000000
-毫无	ye	40500000
+就要	ye	109000000
 方式	yf	818000000
 方面	yg	336000000
 放在	yh	116000000
@@ -1462,12 +1475,12 @@ encoder:
 这种	yr	267000000
 竟然	ys	143000000
 部分	yt	411000000
-新的	yu	215000000
+方向	yu	275000000
 音乐	yv	632000000
 意义	yw	108000000
 这次	yx	109000000
-放弃	yy	137000000
-新闻	yz	853000000
+立刻	yy	84300000
+方法	yz	606000000
 涉及	za	93100000
 为了	zb	333000000
 学习	zc	594000000
@@ -1481,13 +1494,13 @@ encoder:
 问题	zk	727000000
 浏览	zl	624000000
 设置	zm	341000000
-激光	zn	34800000
+试图	zn	27800000
 满足	zo	118000000
 学生	zp	228000000
 许多	zq	308000000
 之后	zr	225000000
 觉得	zs	397000000
-消息	zt	484000000
+为什么	zt	207000000
 记忆	zu	132000000
 设备	zv	265000000
 温度	zw	53400000
@@ -1570,7 +1583,7 @@ encoder:
 维持	ct	43000000
 给予	cu	79200000
 女子	cv	113000000
-综合	cw	337000000
+缩短	cw	14500000
 小时	cx	304000000
 统计	cy	749000000
 编号	cz	225000000
@@ -1651,7 +1664,7 @@ encoder:
 态度	fw	80200000
 拼音	fx	26300000
 接受	fy	274000000
-连接	fz	205000000
+连续	fz	85700000
 至于	ga	70200000
 不足	gb	115000000
 不好意思	gc	41300000
@@ -1701,7 +1714,7 @@ encoder:
 聆听	hu	13200000
 获得	hv	209000000
 蘑菇	hw	7660000
-亚洲	hx	86900000
+严肃	hx	28500000
 薪酬	hy	10300000
 范围	hz	213000000
 极为	ia	30600000
@@ -1963,7 +1976,7 @@ encoder:
 稳定性	rw	17100000
 税收	rx	27900000
 航空	ry	134000000
-科学	rz	248000000
+科目	rz	52300000
 服装	sa	128000000
 律师	sb	105000000
 胆小如鼠	sc	171000
@@ -2100,7 +2113,7 @@ encoder:
 弟子	xd	18800000
 尊敬	xe	32500000
 关系	xf	227000000
-烦恼	xg	63800000
+差不多	xg	55700000
 并不	xh	169000000
 差异	xi	36000000
 美国	xj	263000000
@@ -2159,7 +2172,7 @@ encoder:
 温柔	zk	49100000
 涉及	zl	93100000
 测试	zm	321000000
-消化	zn	36700000
+消息	zn	484000000
 永远	zo	131000000
 计算机	zp	203000000
 学习	zq	594000000
@@ -2431,7 +2444,8 @@ encoder:
 鳵	beu	38000
 迅	bez	39200000
 陆	bfa	55100000
-那	bfb	500000000
+建	bfb	425000000		# qmod:add
+# 那	bfb	500000000		# qmod:del
 陭	bfe	19400
 隇	bfg	18800
 阱	bfk	942000
@@ -2786,7 +2800,8 @@ encoder:
 韔	dez	56300
 鄈	dfb	20300
 戏	dfg	46800000
-尉	dfi	6890000
+慰	dfi	9980000		# qmod:add
+# 尉	dfi	6890000		# qmod:del
 蟁	dfl	45700
 愍	dfr	658000
 屋	dga	208000000
@@ -2823,6 +2838,7 @@ encoder:
 劭	doc	1140000
 璧	doe	7470000
 强	dol	358000000
+屌	dom	4260000		# qmod:add
 躄	doo	131000
 犟	dop	1060000
 召	dov	26200000
@@ -2994,7 +3010,7 @@ encoder:
 酮	emo	11900000
 鬟	emr	957000
 璀	emt	10100000
-现	emv	275000000
+# 现	emv	275000000		# qmod:del
 南	emx	475000000
 鬛	enc	34100
 矗	ene	3860000
@@ -3183,6 +3199,7 @@ encoder:
 摒	fdx	1140000
 邼	feb	25100
 套	fec	411000000		# qmod:add
+# 抚	fec	17600000		# qmod:del
 轩	feg	48400000
 奔	feh	50500000
 搏	fei	15200000
@@ -3226,6 +3243,7 @@ encoder:
 揶	fhb	652000
 辄	fhc	1530000
 拔	fhd	71600000		# qmod:add
+# 摄	fhd	46000000		# qmod:del
 耷	fhe	776000
 搭	fhg	135000000
 揲	fhi	114000
@@ -4310,7 +4328,7 @@ encoder:
 坛	jea	81100000
 霒	jeb	42700
 霋	jec	27200
-赶	jeg	82800000		# qmod:add
+軒	jeg	20700000
 堙	jej	312000
 垣	jek	4800000
 墙	jen	78200000
@@ -4377,7 +4395,7 @@ encoder:
 恚	jjr	1280000
 飙	jjt	6810000
 轋	jjz	28300
-都	jkb	1370000000
+# 都	jkb	1370000000		# qmod:del
 塌	jkc	7500000
 電	jkd	140000000
 埋	jke	81500000
@@ -4388,7 +4406,7 @@ encoder:
 覩	jkn	123000
 軸	jko	15400000
 雷	jkt	127000000
-輥	jkv	214000
+# 輥	jkv	214000		# qmod:del
 垆	jld	256000
 霏	jlf	4620000
 轛	jli	24900
@@ -4654,7 +4672,7 @@ encoder:
 蟳	lbo	168000
 蜬	lbx	36500
 蛠	lcc	23600
-叔	lcd	16900000
+# 叔	lcd	16900000		# qmod:del
 蝝	lcg	86200
 虏	lcl	3810000
 督	lcn	14000000
@@ -4773,7 +4791,7 @@ encoder:
 蛾	lpf	9020000
 蟱	lpg	22100
 虖	lpi	53500
-临	lpk	61500000
+# 临	lpk	61500000		# qmod:del
 蜒	lpl	8920000
 监	lpm	70100000
 蜘	lpo	1250000
@@ -5104,6 +5122,7 @@ encoder:
 瞋	nen	699000
 賳	neo	60800
 睛	nes	5560000		# qmod:add
+# 圊	nes	247000		# qmod:del
 閏	nev	598000
 閛	nex	48600
 盹	nfa	1190000
@@ -5152,7 +5171,8 @@ encoder:
 瞌	nja	273000
 眄	njc	313000
 圉	nje	1230000
-固	njg	73700000
+骷	njg	12500000		# qmod:add
+# 固	njg	73700000		# qmod:del
 眭	njj	979000
 睹	njk	11600000
 闚	njn	156000
@@ -5178,7 +5198,8 @@ encoder:
 睓	nmh	24000
 髑	nml	396000
 賵	nmn	17900
-尚	nmo	224000000
+敞	nmo	5370000		# qmod:add
+# 尚	nmo	224000000		# qmod:del
 氅	nmp	589000
 圜	nmr	2400000
 賟	nmt	27900
@@ -5348,6 +5369,7 @@ encoder:
 踊	ods	2970000
 趹	odu	30600
 呢	odv	457000000		# qmod:add
+# 跜	odv	24000		# qmod:del
 蹬	odx	9800000
 躃	ody	27000
 嗉	oea	570000
@@ -5482,6 +5504,7 @@ encoder:
 碞	oog	215000
 躁	ooi	6040000
 串	ook	71000000		# qmod:add
+# 患	ook	96700000		# qmod:del
 踀	ool	43500
 贵	oom	89900000
 遺	oon	6310000
@@ -5682,7 +5705,7 @@ encoder:
 簝	pfk	29800
 篚	pfl	104000
 簼	pfm	523000
-看	pfn	2210000000
+# 看	pfn	2210000000		# qmod:del
 搿	pfo	324000
 篺	pfp	29400
 铽	pfr	133000
@@ -5814,7 +5837,7 @@ encoder:
 铢	ppt	1680000
 氕	ppu	81400
 铣	ppv	4010000
-铁	ppw	137000000
+# 铁	ppw	137000000		# qmod:del
 铮	pqb	3210000
 铯	pqd	937000
 镥	pqk	136000
@@ -6604,6 +6627,7 @@ encoder:
 鸵	swv	400000
 袅	swy	996000
 胖	sxf	69200000		# qmod:add
+# 朕	sxf	3970000		# qmod:del
 胼	sxh	263000
 腾	sxj	70200000
 膁	sxl	39400
@@ -6939,7 +6963,7 @@ encoder:
 悃	uni	95500
 鼳	unj	23200
 惝	unm	122000
-悄	uns	6600000
+# 悄	uns	6600000		# qmod:del
 惧	unt	12600000
 悒	uod	986000
 愕	uog	3210000
@@ -7245,7 +7269,7 @@ encoder:
 狗	vso	181000000
 鋾	vsp	35500
 銂	vst	44700
-鏦	vsu	73600
+# 鏦	vsu	73600		# qmod:del
 豹	vsw	23400000
 鍧	vsy	858000
 餰	vsz	21300
@@ -7453,6 +7477,7 @@ encoder:
 祺	whq	7890000
 庶	whs	2940000
 寒	wht	82200000		# qmod:add
+# 塞	wht	74400000		# qmod:del
 襔	whv	37300
 庹	whw	2160000
 痖	whx	77900
@@ -7710,6 +7735,7 @@ encoder:
 遒	xez	843000
 炖	xfa	6370000
 炼	xfb	30900000		# qmod:add
+# 郑	xfb	72000000		# qmod:del
 冻	xfc	36900000
 类	xfd	534000000
 頖	xfg	263000
@@ -7806,6 +7832,7 @@ encoder:
 奖	xqf	151000000
 瓷	xqh	19300000
 将	xqi	1740000000		# qmod:add
+# 桨	xqi	2670000		# qmod:del
 籶	xqj	21600
 资	xqm	97500000
 資	xqn	25900000
@@ -8084,6 +8111,7 @@ encoder:
 說	yto	189000000
 竧	yts	59800
 交	ytt	348000000
+# 齐	ytu	123000000		# qmod:del
 夜	ytv	395000000
 諗	yub	6000000
 詤	yuc	238000
@@ -8161,6 +8189,7 @@ encoder:
 淄	zck	1770000
 洳	zco	698000
 沙	zcp	108000000		# qmod:add
+# 娑	zcp	3830000		# qmod:del
 谬	zcs	2260000
 濯	zct	2800000
 扇	zcy	28400000
@@ -8187,6 +8216,7 @@ encoder:
 河	zeo	202000000
 溱	zer	698000
 清	zes	281000000		# qmod:add
+# 请	zes	2510000000		# qmod:del
 阗	zet	1110000
 渎	zez	1940000
 沌	zfa	1540000
@@ -22843,7 +22873,7 @@ encoder:
 跊	oiwz	20300
 顝	ngyg	42300
 麄	tdwl	32000
-	fmti	0
+	imti	0
 阤	bbe	34400
 穈	wrvm	43900
 袠	wpwy	299000
@@ -27277,7 +27307,7 @@ encoder:
 丆	gu	82800
 丌	hj	728000
 丏	jcbu	82400
-丒	dwgd	116000
+丒	btgu	116000
 丗	hgu	1200000
 丟	eai	8570000
 丠	xvgu	127000
@@ -34691,7 +34721,7 @@ encoder:
 蔾	hrpi	33900
 蕄	hnrx	23500
 蕎	hrmo	3140000
-蕐	huue	88300
+蕐	hguf	88300
 蕑	hnsv	34300
 蕓	hjea	560000
 蕔	hjad	39100
@@ -38019,7 +38049,7 @@ encoder:
 㬂	kky	5780
 㬃	kaox	6780
 㬄	kgtt	5010
-㬅	kmgb	4380
+㬅	kmyu	4380
 㬆	kdfk	4420
 㬇	kqmf	4340
 㬈	kkmm	4830
@@ -52469,7 +52499,6 @@ encoder:
 𪮸	febb	0
 𨜅	febd	0
 𢷟	febl	0
-# 抚	fec	17600000		# qmod:del
 𡗨	fecd	0
 𡿴	fecf	0
 𭡡	fecm
@@ -52885,7 +52914,6 @@ encoder:
 𫾃	fhct	0
 𢬴	fhcu	0
 𫾕	fhcw	0
-# 摄	fhd	46000000		# qmod:del
 𢯓	fhdb	0
 𨐉	fhdc	0
 𡘣	fhdd	0
@@ -58381,6 +58409,7 @@ encoder:
 𤓨	hgjb	0
 𦫒	hgjb	0
 𬚘	hgje	0
+𣂷	hgjg	0
 𩉞	hgjg	0
 𩊞	hgjg	0
 𭔹	hgji
@@ -58472,7 +58501,6 @@ encoder:
 𣢓	hgqq	0
 𪇽	hgqu	0
 𦗂	hgre	0
-𣂷	hgrj	0
 𦳵	hgrj	0
 𧀥	hgrv	0
 𦰸	hgrx	0
@@ -64243,7 +64271,6 @@ encoder:
 𡎰	jdyx	0
 𧾑	jdyz	0
 𨙉	jdzy	0
-# 爾	je	39000000		# qmod:del
 𫤧	jeav	0
 𮦖	jeay
 𩅣	jeay	0
@@ -64288,7 +64315,6 @@ encoder:
 𧽤	jefz	0
 𬦟	jefz	0
 𧻷	jefz	0
-# 軒	jeg	20700000		# qmod:del
 𨏓	jegc	0
 𩐑	jegc	0
 𩆧	jegy	0
@@ -70886,7 +70912,6 @@ encoder:
 𪑮	meeh	0
 𪩘	meej	0
 𠕲	meel	0
-𠛹	meel	0
 𭖢	mef
 𠕠	mefb	0
 𡼟	mefd	0
@@ -71672,6 +71697,7 @@ encoder:
 𧹒	mmbw	0
 𢁶	mmdj	0
 	mmee
+𠛹	mmel	0
 𪥠	mmfb	0
 𡻍	mmff	0
 𡷪	mmft	0
@@ -73105,7 +73131,6 @@ encoder:
 𥉜	nerv	0
 𡈵	nerw	0
 𡈂	nerw	0
-# 圊	nes	247000		# qmod:del
 䝼	nesb	17300
 𧷒	netb	0
 𬑈	netu	0
@@ -75322,7 +75347,6 @@ encoder:
 𨂳	odtz	0
 𭈋	odub
 𨀇	oduz	0
-# 跜	odv	24000		# qmod:del
 𠸽	odvz	0
 𭇰	odwg
 𫩗	odwu	0
@@ -76795,7 +76819,6 @@ encoder:
 𡀓	oojx	0
 𡓿	oojx	0
 𬧒	oojz	0
-# 患	ook	96700000		# qmod:del
 𠳴	ookc	0
 𮡝	ooke
 𭊍	ookr
@@ -78458,10 +78481,10 @@ encoder:
 𤯙	peds	0
 𦥽	pedu	0
 郱	peeb
-𭘾	peee
 𦈨	peef
 頩	peeg
 𥰯	peeo	0
+𭘾	peeu
 鵧	peeu
 𥮉	pef	0
 𥱺	pefb	0
@@ -79438,7 +79461,6 @@ encoder:
 𥴸	pmfw	0
 𧗈	pmgi	0
 𮀅	pmgi
-𥮚	pmgl	0
 𮕠	pmgl
 𧖹	pmgs	0
 𥬺	pmgt	0
@@ -79970,6 +79992,7 @@ encoder:
 𥶽	psdw	0
 𥲾	psdw	0
 缾	psef
+𥮚	psel	0
 𪈅	pseu	0
 𪈣	pseu	0
 𮭝	pseu
@@ -81688,7 +81711,6 @@ encoder:
 𩟿	qmui	0
 𩻲	qmul	0
 	qmuu
-𧢲	qmuu	0
 𦘫	qmuu	0
 𩶩	qmuu	0
 ⻇	qmuu
@@ -82297,6 +82319,7 @@ encoder:
 𧣳	qsuo	0
 𧥁	qsuo	0
 𧣋	qsut	0
+𧢲	qsuu	0
 𧥗	qsuw	0
 𩵺	qsv	0
 𧤷	qsvg	0
@@ -84183,13 +84206,10 @@ encoder:
 ⼿	rs
 𨟀	rsab	0
 𠠍	rsal	0
-𪒺	rsam	0
 𦨛	rsao	0
-𤛿	rsap	0
 𭷵	rsap
 𢤂	rsar	0
 𩁟	rsat	0
-𪇺	rsau	0
 𭄔	rscl
 𣯲	rscm	0
 𥠖	rscw	0
@@ -84405,8 +84425,11 @@ encoder:
 𭠫	ruos
 𪏾	rupc	0
 𪐄	rupe	0
+𪒺	rupm	0
+𤛿	rupp	0
 𪐁	rupr	0
 𪏿	rupt	0
+𪇺	rupu	0
 𨘯	rupz	0
 𪐀	ruqq	0
 𣣨	ruqq	0
@@ -86299,7 +86322,6 @@ encoder:
 𦡻	sxeq	0
 𤍙	sxex	0
 𦝱	sxey	0
-# 朕	sxf	3970000		# qmod:del
 𦡫	sxff	0
 𫆠	sxfl	0
 𢕸	sxfr	0
@@ -95594,7 +95616,6 @@ encoder:
 𥧳	whsx	0
 𭓰	whsy
 𬡑	whsy	0
-# 塞	wht	74400000		# qmod:del
 𬈡	whta	0
 𪧦	whta	0
 𤵽	whtb	0
@@ -98474,7 +98495,6 @@ encoder:
 𬨿	xezm	0
 𥸵	xfam	0
 𦍣	xfay	0
-# 郑	xfb	72000000		# qmod:del
 𠦯	xfbg	0
 𭵵	xfbm
 𪞞	xfbs	0
@@ -99620,7 +99640,6 @@ encoder:
 𮨔	xqgm
 𩕔	xqgm	0
 𮧗	xqhs
-# 桨	xqi	2670000		# qmod:del
 𫦋	xqid	0
 𬌒	xqin	0
 𪲁	xqis	0
@@ -102381,7 +102400,6 @@ encoder:
 𤕚	yttt	0
 衣	yttu
 𪜤	yttw	0
-# 齐	ytu	123000000		# qmod:del
 六	ytu
 𮘓	ytub
 𪇻	ytun	0
@@ -103027,7 +103045,6 @@ encoder:
 𬤆	zcmy	0
 𣹤	zcor	0
 𣻖	zcov	0
-# 娑	zcp	3830000		# qmod:del
 𦀟	zcpa	0
 𪟜	zcpc	0
 𣺟	zcpc	0
@@ -103264,7 +103281,6 @@ encoder:
 𬵋	zeqv	0
 𣁰	zerj	0
 𣷴	zeru	0
-# 请	zes	2510000000		# qmod:del
 𬈚	zesb	0
 𣁻	zesi	0
 𬉦	zesl	0
@@ -185400,6 +185416,7 @@ encoder:
 ㎉	dlkc
 ䷻	dlkd
 ㎘	dlke
+␣	dlkg			# qmod:add
 ☵	dlkg
 ䷦	dlkg
 坎	dlkg	13600000
@@ -185785,6 +185802,7 @@ $	dlmy
 ☖	dlta
 ☗	dlta
 ☙	dlta
+℗	dltc			# qmod:add
 ʨ	dltc
 !	dlth
 ‼	dlth

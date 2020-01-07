@@ -15,8 +15,10 @@ schema:
     chinput.com/xuma
 
 fixed:
+  enable_completion: false
   preedit_format: []
 translator:
+  enable_completion: false
   preedit_format: []
 
 menu:
