@@ -164,6 +164,11 @@
 
 ## 常见问题
 
+如何记忆字根？
+> 答：这个问题本来与本项目无关，但是我碰巧解决过，可以看[这里
+> ](https://github.com/Ace-Who/rime-xuma/tree/master/misc/anki)。为方便初学者，
+> 解决方案也打包在本项目中了。
+
 安装之后打不出汉字怎么办？
 > 答：确保已仔细阅读安装说明。尝试一次「重新部署」。尝试[旧版
 > Release](https://github.com/Ace-Who/rime-xuma/releases)。
