@@ -94,3 +94,16 @@ xaxed k zysxgio;xvi yuu[g rok jgjvi u dfzkhb'gh'.nz;vl'u j jfo tjo fr,mhjpu ziec
 冰灯是流行于中国北方的一种古老的民间艺术形式。因为独特的地域优势，黑龙江可以说是制作冰灯最早的地方。
 xaxed k[zysxgio[nexvi yuu[g[rok jgjvi u[dfzkhbiwu ghs figi.nfzcvlv pji u[j[jfo tjo fr,mhjpu zieoc[zxk[pmtpl xaxed khkzu[j[yu.
 xaxed k[zysxgio;xvi yuu[g[rok jgjvi u[dfzkhb'gh'.nz;vl'u[j[jfo tjo fr,mhjpu ziec;zxk[pt;xaxed khkzu[j;.
+```
+
+## 与普通版功能的区别——造词和连打
+
+切分符由 `'` 改为 `` ` ``，并且插入切分符后才能进入「连打·造词」模式，造词是在
+此模式中，自造词也只能在该模式中看到，这是由于 Rime 实现方式的限制。如造「五二
+顶」，需输入 ``gdu`ee`egm`` 并上屏，该词组即编码为 `geeg`，要调出时，需输入
+`` geeg` ``。
+
+## 鸣谢
+
+用 Rime 改造徐码为五二顶的方法来自蓝落萧的形音四二顶方案
+[C42](https://github.com/lanluoxiao/c42)。
