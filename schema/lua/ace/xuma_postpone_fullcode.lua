@@ -4,7 +4,8 @@
 
 local function init(env)
   env.code_rvdb = ReverseDb("build/xuma.reverse.bin")
-  local cofig = env.engine.context.schema.config
+  local config = env.engine.schema.config
+  env.delimiter = config:get_string('speller/delimiter')
 end
 
 local function get_short(codestr)
@@ -21,12 +22,13 @@ local function is_short_or_only_code(cand, env)
   -- 可能被 simplifier 覆盖为 simplified 类型。先行判断 cand.type 并非必要，只是
   -- 为了轻微的性能优势。
   if cand.type == 'completion' or cand.type == 'sentence' then
-    return
+    return false, true
   end
   local input = env.engine.context.input
   local cand_input = input:sub(cand.start + 1, cand._end)
   -- 去掉可能含有的 delimiter。
-  cand_input = cand_input:gsub('[ `\']', '')
+  -- cand_input = cand_input:gsub('[ `\']', '')
+  cand_input = cand_input:gsub('[' .. env.delimiter .. ']', '')
   local codestr = env.code_rvdb:lookup(cand:get_genuine().text)
   local is_comp = not
       string.find(' ' .. codestr .. ' ', ' ' .. cand_input .. ' ', 1, true)
@@ -53,6 +55,7 @@ local function filter(input, env)
       else
         -- 顶功方案使用 script_translator，没有 completion ，但会匹配部分输入，
         -- 如输入 otu 且光标在 u 后时会出现编码为 ot 的候选，需单独排除。
+        -- 不过通过码表填满三码和四码的位置，就没有这个问题了。
         local is_bad_script_cand = cand._end < context.caret_pos
         local not_drop, is_comp = is_short_or_only_code(cand, env)
         if pos >= max_pos or is_bad_script_cand or is_comp then

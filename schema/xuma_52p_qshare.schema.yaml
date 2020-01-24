@@ -148,6 +148,7 @@ speller:
 
 translator:
   dictionary: xuma_52p
+  prism: xuma_52p_qshare
   enable_charset_filter: true
   enable_completion: false
   enable_sentence: false
