@@ -2,8 +2,6 @@
 name: "xuma.extended"
 version: "2020.01.24"
 sort: by_weight
-import_tables:
-  - xuma.extended
 columns:
   - text
   - code
