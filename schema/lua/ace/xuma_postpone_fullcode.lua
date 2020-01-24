@@ -1,8 +1,10 @@
 -- xuma_postpone_fullcode.lua
 -- 出现重码时，将全码匹配且有简码的「单字」「适当」后置。
+-- 目前的实现方式，原理适用于所有使用规则简码的形码方案。
 
 local function init(env)
   env.code_rvdb = ReverseDb("build/xuma.reverse.bin")
+  local cofig = env.engine.context.schema.config
 end
 
 local function get_short(codestr)
@@ -23,19 +25,24 @@ local function is_short_or_only_code(cand, env)
   end
   local input = env.engine.context.input
   local cand_input = input:sub(cand.start + 1, cand._end)
+  -- 去掉可能含有的 delimiter。
+  cand_input = cand_input:gsub('[ `\']', '')
   local codestr = env.code_rvdb:lookup(cand:get_genuine().text)
-  local is_completed =
+  local is_comp = not
       string.find(' ' .. codestr .. ' ', ' ' .. cand_input .. ' ', 1, true)
-  if is_completed then
+  if not is_comp then
     local short = get_short(codestr)
-    return (not short or cand_input == short), is_completed
+    local not_drop = (not short or cand_input == short)
+    return not_drop, is_comp
   end
 end
 
 local function filter(input, env)
-  if not env.engine.context:get_option("xuma_postpone_fullcode") then
+  local context = env.engine.context
+  if not context:get_option("xuma_postpone_fullcode") then
     for cand in input:iter() do yield(cand) end
   else
+    -- 具体实现不是后置目标候选，而是前置非目标候选
     local dropped_cands = {}
     local done_drop
     local pos, max_pos = 1, 4  -- 适当后置，太靠后没有意义。
@@ -44,13 +51,16 @@ local function filter(input, env)
       if done_drop then
         yield(cand)
       else
-        local lift, is_completed = is_short_or_only_code(cand, env)
-        if pos >= max_pos or not is_completed then
+        -- 顶功方案使用 script_translator，没有 completion ，但会匹配部分输入，
+        -- 如输入 otu 且光标在 u 后时会出现编码为 ot 的候选，需单独排除。
+        local is_bad_script_cand = cand._end < context.caret_pos
+        local not_drop, is_comp = is_short_or_only_code(cand, env)
+        if pos >= max_pos or is_bad_script_cand or is_comp then
           for i, cand in ipairs(dropped_cands) do yield(cand) end
           done_drop = true
           yield(cand)
         -- 精确匹配的词组不予后置
-        elseif lift or utf8.len(cand.text) > 1 then
+        elseif not_drop or utf8.len(cand.text) > 1 then
           yield(cand)
           pos = pos + 1
         else table.insert(dropped_cands, cand)
