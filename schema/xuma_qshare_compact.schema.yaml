@@ -5,7 +5,7 @@ __include: xuma_qshare.schema:/
 
 schema:
   schema_id: xuma_qshare_compact
-  name: 徐码QS紧凑型
+  name: 徐码·QS·一型
   version: "2019-10-10"
   author:
     - 發明人 徐国银先生

@@ -2,25 +2,24 @@
 # encoding: utf-8
 
 schema:
-  schema_id: xuma_qshare
-  name: 徐码·QS
-  version: "2019-12-15"
+  schema_id: xuma_52p_qshare
+  name: 徐码五二
+  version: "2020-01-16"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
   description: |
-    徐码简繁通打
-    chinput.com/xuma
-
+    徐码简繁通打五二顶版
     三重注解、双重反查、屏蔽词组、全码后置、简入繁出...
-    https://ace-who.github.io/rime-xuma-spelling/
+    https://ace-who.github.io/rime-xuma-52push/
   dependencies:
+    - xuma_52p_long
     - xuma_spelling_pseudo
     - luna_pinyin
     - stroke
 
 __patch:
-  - xuma_qshare.custom:/patch?
+  - xuma_52p_qshare.custom:/patch?
   - symbols:/patch?
 
 switches:
@@ -66,7 +65,7 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    - affix_segmentor@luna_pinyin
+    - affix_segmentor@long
     - affix_segmentor@luna_pinyin_lookup
     - affix_segmentor@stroke_lookup
     - affix_segmentor@reverse_lookup
@@ -74,11 +73,11 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@fixed
     - table_translator
-    - script_translator@luna_pinyin
+    - script_translator@long
     - script_translator@luna_pinyin_lookup
     - table_translator@stroke_lookup
+    - table_translator@make_phrase
     - lua_translator@os_env
     - lua_translator@helper
   filters:
@@ -96,18 +95,17 @@ engine:
     - lua_filter@xuma_postpone_fullcode
     - lua_filter@lazy_clock
     - uniquifier
-    # - lua_filter@debug
 
 single_char_only:
   __include: gb2312
 
 # 防止对 punct 进行过滤
 gb2312:
-  tags: [ abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
-gbk:
-  __include: gb2312
-big5:
-  __include: gb2312
+  tags:
+    __include: reverse_lookup/extra_tags
+    __append: [ abc, long, make_phrase, reverse_lookup ]
+gbk:  { __include: gb2312 }
+big5: { __include: gb2312 }
 
 simplify:
   __include: gb2312
@@ -128,50 +126,56 @@ lua_reverse_db:
   code: xuma
 
 xmsp:
-  tags: [ abc, punct ]
+  tags: [ abc, long, make_phrase, punct ]
 
 xmsp_for_rvlk:
   tags:
     __include: reverse_lookup/extra_tags
 
 xuma_postpone_fullcode:
-  tags: [ abc ]
+  tags: [ abc, long, make_phrase ]
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " '"
-  max_code_length: 4
-  # auto_select: true
-
-fixed:
-  __include: translator
-  enable_user_dict: false
-  enable_sentence: false
-  initial_quality: 1000
+  alphabet: zyxwvutsrqponmlkjihgfedcba[;'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " `"
+  algebra:
+    # - derive/_1/+/		# 手机用
+    - xform/_1/\[/
+    - xform/_2/;/
+    - xform/_3/'/
+  auto_select: true
 
 translator:
-  dictionary: xuma
-  prism: xuma_qshare
-  enable_sentence: true
-  enable_user_dict: true
-  enable_encoder: true
-  encode_commit_history: false  # 对连续上屏的词自动成词
-  max_phrase_length: 5  # 自动成词的最大词长
+  dictionary: xuma_52p
+  enable_charset_filter: true
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: false
+  enable_encoder: false
+  encode_commit_history: false
   preedit_format:
-    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
-    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|糸阝女尸王扌石艹木土日虫山目口⺮魚禾月亻忄金宀火言氵|"
+    - xform/$/\t〔主〕/
 
-# 用于混输
-luna_pinyin:
-  tag: luna_pinyin
-  dictionary: luna_pinyin
-  initial_quality: 0.2
+# 结合 recognizer，仅翻译长度为三到四的输入段。
+long:
+  tag: long
+  dictionary: xuma_52p_long
+  enable_user_dict: false
+  enable_sentence: false
+  preedit_format:
+    - xform/$/\t〔长〕/
 
-# 拼音混输。不使用 luna_pinyin_lookup，是因为那样做会导致所有常规编码段和常规候
-# 选被同时打上 abc 和 luna_pinyin_lookup 标签，从而同时被 xmsp 和 xmsp_for_rvlk
-# 接收，被添加两次注释。
-# abc_segmentor:
-  # extra_tags: [ luna_pinyin ]
+make_phrase:
+  dictionary: xuma
+  user_dict: xuma
+  enable_charset_filter: true
+  enable_encoder: true
+  enable_user_dict: true
+  enable_sentence: true
+  preedit_format:
+    - xform/$/\t〔造词〕/
+  tag: make_phrase
 
 reverse_lookup:
   tag: reverse_lookup
@@ -207,7 +211,6 @@ stroke_lookup:
 luna_pinyin_reverse_lookup:
   tags: [ luna_pinyin, luna_pinyin_lookup ]
   dictionary: xuma
-  # overwrite_comment: true  # 覆蓋其他提示
 
 stroke_reverse_lookup:
   __include: luna_pinyin_reverse_lookup
@@ -216,22 +219,40 @@ stroke_reverse_lookup:
 punctuator:
   import_preset: default
 
-key_binder:
-  import_preset: default
-  bindings:
+key_bindings:
+  __append:
     - { when: always, accept: "Control+Shift+F", toggle: traditionalization }
     - { when: composing, accept: "Control+c", toggle: xuma_spelling }
     - { when: composing, accept: "Control+y", toggle: xmsp_hide_pinyin }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
     - { when: composing, accept: "Control+t", toggle: lazy_clock }
-    - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
+    - { when: composing, accept: Tab, send: bracketleft }
+
+key_binder:
+  bindings:
+    __patch:
+      - key_bindings:/emacs_editing
+      - key_bindings:/move_by_word_with_tab
+      - key_bindings:/paging_with_minus_equal
+      - key_bindings:/numbered_mode_switch
+      - key_bindings
+      - xuma_52p_qshare.custom:/keybindings?
 
 recognizer:
   # import_preset: default
   patterns:
+    long: "(?<![a-zA-Z`])[a-z]{3,4}$"  # 前面可能有未上屏的符号等
     uppercase: "(?<![`;])[A-Z][-_+.'0-9A-Za-z]*$"
-    reverse_lookup:     "`([a-z]+'?)*$"
+    reverse_lookup:             "^`([a-z]+'?)*$"
     luna_pinyin_lookup: "`P([a-z]+'?)*$"
     stroke_lookup:      "`B([a-z]+'?)*$"
+    make_phrase:                "^([a-z]{1,4}`)([a-z]+[`;']?)*$"
     os_env: '^env/\w+'
     helper: '^help/$'
+
+menu:
+  page_size: 3
+
+style:
+  horizontal: true
+  inline_preedit: true
