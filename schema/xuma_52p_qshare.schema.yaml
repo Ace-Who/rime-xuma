@@ -4,15 +4,17 @@
 schema:
   schema_id: xuma_52p_qshare
   name: 徐码五二
-  version: "2020-01-16"
+  version: "2020-01-29"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
   description: |
     徐码简繁通打五二顶版
     三重注解、双重反查、屏蔽词组、全码后置、简入繁出...
-    https://ace-who.github.io/rime-xuma-52push/
+    将普通徐码略作改造，五码顶二码上屏
+    https://ace-who.github.io/rime-xuma/
   dependencies:
+    - xuma_qshare
     - xuma_52p_long
     - xuma_spelling_pseudo
     - luna_pinyin
@@ -220,6 +222,7 @@ stroke_reverse_lookup:
 punctuator:
   import_preset: default
 
+# 本节点仅用于被 __patch 指令引用
 key_bindings:
   __append:
     - { when: always, accept: "Control+Shift+F", toggle: traditionalization }
@@ -237,6 +240,7 @@ key_binder:
       - key_bindings:/paging_with_minus_equal
       - key_bindings:/numbered_mode_switch
       - key_bindings
+      # 可仿照 key_bindings 节点在 *.custom.yaml 文件中添加按键绑定。
       - xuma_52p_qshare.custom:/keybindings?
 
 recognizer:

@@ -859,7 +859,7 @@ encoder:
 发现	ae	345000000
 发挥	af	87200000
 参与	ag	358000000
-及其	ah	114000000
+发布	ah	909000000
 出来	ai	373000000
 出去	aj	83900000
 及时	ak	138000000
@@ -1023,7 +1023,7 @@ encoder:
 不同	gm	300000000
 而且	gn	523000000
 历史	go	258000000
-政策	gp	398000000
+不管	gp	102000000
 更多	gq	692000000
 一般	gr	721000000
 不用	gs	152000000
@@ -1172,7 +1172,7 @@ encoder:
 逻辑	mf	26000000
 典型	mg	65300000
 同期	mh	31400000
-同样	mi	112000000
+刚才	mi	43600000
 同志	mj	62300000
 同时	mk	375000000
 同步	ml	45900000
@@ -1848,7 +1848,7 @@ encoder:
 崛起	md	22400000
 冒险	me	45400000
 崭新	mf	11100000
-同事	mg	97700000
+同样	mg	112000000
 典型	mh	65300000
 财产	mi	59600000
 默认	mj	119000000
@@ -1925,7 +1925,7 @@ encoder:
 长期	pc	129000000
 第一	pd	514000000
 针对	pe	94200000
-看出	pf	41400000
+看看	pf	230000000
 短期	pg	57500000
 错误	ph	161000000
 筹备	pi	14600000
@@ -2173,7 +2173,7 @@ encoder:
 高风亮节	yq
 意思	yr	104000000
 韵味	ys	6300000
-效益	yt	51200000
+效果	yt	223000000
 方式	yu	818000000
 竟然	yv	143000000
 文化	yw	494000000
@@ -8518,6769 +8518,6769 @@ encoder:
 # 这部分已包含在后面的 GB18030 部分中，经测试可以不定义编码。如果加上编码，部
 # 分无编码词组在部署时会无法编码，经研究是词组中的一级简码的单字无法编码，给
 # 它们加上构词码即可解决问题。这应该是 bug。
-的	uswb
-一	gu
-了	bl
-是	kglu
-不	gb
-我	pffg
-这	yzdw
-在	hkjv
-人	uu
-有	hsv
-他	tbe
-来	ixuw
-个	uku
-道	xtzd
-你	tqcx
-大	fd
-到	gajl
-就	yocj
-上	ls
-着	xnvy
-们	tzm
-那	bfbv
-也	be
-说	zxvy
-么	pai
-下	jwu
-出	aau
-地	jbe
-然	sjsh
-中	oku
-看	pfnv
-时	kic
-要	ecvx
-没	zqs
-天	ft
-过	izdc
-可	eovd
-自	tz
-子	bz
-能	asvi
-还	gzdb
-之	zz
-以	cwuu
-去	jai
-好	cbz
-后	rgov
-为	zcl
-都	jkbv
-会	ueai
-心	rx
-得	skir
-里	keej
-对	dico
-身	ts
-手	rs
-起	jdjz
-小	cx
-想	inrx
-只	otu
-而	ge
-和	rov
-头	zfd
-她	cbe
-无	ecug
-力	cl
-面	gnle
-己	dj
-如	cov
-什	teu
-现	emve
-多	qqxx
-样	ixy
-已	di
-知	povi
-些	lvez
-声	jdu
-经	cdij
-前	xsld
-神	wkss
-笑	pry
-事	iobu
-开	ghv
-点	losh
-方	yu
-眼	nbg
-发	af
-所	rrjh
-但	tkgu
-气	pq
-法	zjai
-意	yrxn
-情	uesv
-生	ps
-两	gmuu
-家	wgs
-间	zkvm
-将	xqic
-很	sbgr
-真	entu
-话	zroy
-成	fbuw
-让	zlsy
-老	jvi
-被	wdpi
-动	eace
-当	nbu
-用	sy
-于	giu
-见	mve
-回	novw
-又	do
-军	qfc
-把	fdb
-此	lviz
-才	ipu
-几	qj
-正	glz
-战	lofg
-明	ksv
-却	jaae
-龙	jpuo
-从	uuu
-十	eu
-三	is
-长	pc
-女	cv
-光	ngw
-再	emu
-向	uov
-实	wzfd
-最	khdo
-行	sx
-高	yomo
-本	igu
-打	fed
-风	qtij
-进	fkzd
-定	wglu
-魔	wugm
-给	cuoj
-问	zovm
-色	qdb
-国	neww
-同	mgov
-走	jz
-其	hq
-种	roku
-年	pfu
-口	ov
-边	czdl
-王	ev
-怎	plrx
-次	xqqs
-白	ub
-全	uev
-吧	odb
-儿	ve
-感	fgrw
-果	kiv
-听	orju
-啊	obeo
-死	gvid
-外	qlbx
-体	tigu
-飞	btui
-分	tdd
-主	wev
-觉	zqmv
-住	twev
-少	cpux
-比	vb
-空	wigx
-门	zm
-因	nfdw
-等	pjic
-轻	fdic
-直	enq
-第	pdkp
-脸	suez
-候	tkdp
-相	inv
-何	teov
-强	dolg
-张	dpcg
-做	tjpp
-与	gcgu
-重	rkeq
-快	uduu
-太	fwud
-应	wzgg
-刚	mtld
-位	tyl
-接	fycv
-便	tgkt
-量	kgke
-更	gkti
-难	dtwo
-二	ee
-名	qovx
-连	fzdc
-水	as
-内	muu
-西	ex
-马	am
-黑	mh
-兵	titu
-师	kpgm
-入	vr
-部	yobl
-作	tplu
-吗	oam
-虽	olv
-击	fau
-别	ocld
-放	ypp
-四	nvew
-公	tai
-完	wggw
-灵	bxv
-并	xhv
-先	pve
-士	ju
-处	vlb
-剑	uezl
-算	pnhv
-东	fcxq
-机	iqj
-火	xv
-微	smpr
-城	jfbu
-变	ydoi
-杀	tiui
-叫	oau
-李	ibz
-带	hqmj
-清	zesv
-队	buu
-斯	hrjq
-望	ycse
-竟	yven
-云	eaie
-原	gucc
-者	jkv
-星	kps
-山	mv
-像	tqor
-惊	uyoc
-呢	odvi
-海	zpcm
-安	wcv
-族	yppi
-金	vv
-月	sv
-目	nv
-加	covl
-特	pjin
-跟	obgz
-场	jbsu
-万	gbu
-林	iiv
-由	ko
-日	kv
-任	trr
-立	yl
-百	gkv
-使	tgot
-美	xjfd
-关	xfd
-命	ugoa
-理	ekee
-转	fewc
-思	krxt
-血	pmm
-乎	pxiu
-受	vqdo
-常	nqom
-离	ytma
-该	zyhy
-远	ggzd
-数	xcpm
-物	pssn
-阵	bfc
-界	kutt
-平	exug
-冷	xuds
-刻	yldh
-信	tyv
-至	gajv
-突	wjqx
-随	bhsz
-怪	udjv
-失	pwun
-许	zpey
-五	gdu
-反	rdo
-似	tcwu
-找	ffg
-般	rqso
-雷	jkty
-武	gflz
-非	lf
-通	dszd
-奇	feod
-绝	cqdj
-怕	uub
-解	qsdp
-精	xesm
-暗	kyn
-满	zhuu
-双	ddoo
-修	tkvs
-度	whdg
-红	cigj
-且	nq
-世	hs
-半	xfu
-始	caov
-倒	tgjl
-今	uwbu
-拉	fyl
-学	zqbz
-落	hzvo
-攻	ippg
-它	wvi
-传	tecw
-尔	qcx
-音	yn
-指	fvkv
-路	ovoz
-越	jfcz
-容	wuox
-石	gv
-表	eru
-紧	ldav
-冲	xoks
-利	rld
-哥	eood
-步	lnuz
-合	ugov
-罗	mqxw
-够	soqq
-影	kycs
-若	hhov
-伤	tpcl
-姐	cnq
-亲	yiul
-功	iclg
-丝	ccj
-弟	xdkp
-整	iogl
-息	trxz
-吃	opbi
-势	frwc
-花	htvi
-众	uuuu
-帝	yxqm
-早	kz
-哈	ougo
-极	iawu
-青	esv
-流	zyav
-团	nipw
-根	ibg
-静	esbb
-周	sjov
-即	baae
-深	zqti
-形	ghss
-近	rjzd
-千	rq
-消	znsv
-结	cjoj
-干	eg
-制	pmln
-皇	uevb
-速	iozd
-帮	ibmf
-性	ups
-楚	iibl
-言	yv
-备	vkt
-系	pav
-提	fkgl
-教	jbpp
-令	uwdu
-雪	jbuy
-文	yw
-必	rpux
-谁	ztwy
-终	cvzj
-站	ylol
-哪	obfb
-化	tvi
-破	gdp
-认	zuuy
-级	cawj
-忙	uycu
-往	swer
-玉	ewu
-底	wvwg
-车	fc
-总	xorx
-仙	tmv
-巨	fduf
-坐	uujv
-男	kclt
-显	klxu
-新	yijl
-斗	zeu
-各	vov
-克	jveg
-急	qbrx
-领	uwgm
-切	fddq
-衣	wy
-杨	ibsu
-阳	bkv
-敢	bhpp
-收	app
-围	nfbw
-异	dhvs
-达	fzdd
-慢	ukmd
-件	tpn
-错	phkj
-象	qoru
-服	sado
-叶	oeu
-办	ctul
-保	toiv
-片	tp
-喜	joxo
-活	zrov
-朝	eksv
-刀	dd
-摇	fvpf
-准	xtws
-兴	zgtu
-条	viu
-电	kd
-拿	ugor
-交	ytti
-夜	ytvw
-兽	xkgo
-管	pwdd
-华	tveu
-断	xcjm
-尽	dwzu
-决	xdus
-苦	hjg
-则	mldb
-八	tu
-易	kssu
-依	twy
-语	zgoy
-闪	zuum
-露	jooy
-冰	xass
-足	olu
-响	ouov
-德	serr
-记	zdjy
-害	wiov
-及	awun
-兰	xee
-计	zeuy
-元	ggw
-官	wddu
-顿	famq
-器	ojox
-圣	djvo
-南	emxe
-阿	beov
-嘴	olqs
-七	fq
-告	pov
-球	eixw
-爱	vqhd
-敌	ropq
-夫	jf
-留	vwdk
-沉	zqqj
-请	zesy
-威	fgcw
-每	pcm
-乱	rocq
-况	xovs
-确	gqsy
-答	pugo
-陈	bfcx
-格	ivov
-视	wmvs
-护	fzh
-淡	zxxv
-凌	xjvs
-脑	syta
-兄	ove
-狂	vevq
-宝	wewu
-识	zoty
-题	kggm
-低	tvfw
-卫	ague
-停	tyqe
-呼	opxi
-司	bgov
-久	qwu
-未	iw
-雨	jy
-脚	sjaa
-除	bugi
-孩	byhz
-古	jg
-鬼	ug
-字	wbz
-骑	afom
-房	zyuh
-亚	hxuj
-代	tfi
-员	omb
-伙	txv
-缓	cvdj
-居	djg
-六	ytu
-装	xjwy
-复	pkvu
-黄	hktu
-呵	oeov
-恐	iqrg
-爷	ttae
-单	xkeu
-旁	yxqy
-米	xm
-布	hmj
-或	fogg
-跑	osdz
-玩	eggw
-报	fado
-钱	pgfj
-疑	vpli
-睛	nesv
-宇	wgiu
-术	iwu
-隐	bqbr
-欢	dqqo
-章	ykzl
-父	tti
-差	xigy
-续	cefj
-挥	fqfc
-句	sov
-派	zrru
-待	sjir
-九	rj
-持	fjic
-忽	ssrx
-怒	cdrx
-蓝	hlpm
-佛	tdtu
-刘	yldw
-丽	gmmw
-类	xfdm
-怀	ugb
-您	tqcr
-招	fdov
-掉	flkz
-送	xfzd
-背	xvsv
-甚	hcuq
-掌	nqor
-烈	glsd
-希	thmi
-工	ig
-密	wrpm
-细	cktj
-论	zuvy
-卡	llbs
-退	bzdg
-猛	vbmq
-酒	zey
-运	eaze
-求	ixwu
-射	tics
-另	ocl
-集	tivw
-首	xtz
-北	xvi
-照	kdos
-守	wic
-晚	kqov
-赶	jegz
-木	iv
-穿	wfyx
-散	hspp
-联	hxfe
-铁	ppwj
-喝	okuc
-段	tiqs
-需	jgey
-支	edo
-练	cftj
-巴	db
-书	bbkw
-陆	bfau
-角	qsy
-左	hig
-群	bpox
-莫	hkfd
-防	byu
-毫	yoqr
-民	dfqs
-忍	dprd
-客	wvov
-线	cgfj
-虎	lqjh
-肯	lsvz
-痛	wdsb
-紫	lvaz
-亮	yoqq
-宫	woov
-造	pozd
-展	dhfu
-谢	ztiy
-股	sqs
-妖	cry
-激	zuyp
-渐	zfrj
-禁	iifs
-赵	jtiz
-震	jgny
-秦	erv
-注	zwev
-江	zig
-取	hdoe
-吸	oawu
-枪	iubu
-叹	odo
-程	roev
-简	pzkv
-梦	iiqx
-友	hdo
-继	cxcj
-羽	cy
-右	hov
-念	uwbr
-厉	ggbc
-热	frws
-份	ttdd
-压	gjwc
-乐	vcx
-靠	polf
-萧	hbct
-既	bafv
-香	rkv
-引	dkug
-恶	hxrj
-止	lz
-包	sds
-追	uzdd
-寒	whtz
-狠	vbgq
-仅	tdo
-争	qbbu
-愿	gurc
-雅	ftwy
-超	jdoz
-刺	imld
-式	figi
-号	ojk
-跳	ovxz
-波	zdp
-游	zypb
-狼	vwbq
-存	hkbz
-态	fwrd
-炼	xfbt
-台	aovi
-属	dplm
-嘿	omh
-举	zgtf
-妹	ciw
-英	hmfd
-境	jyve
-灭	gxv
-醒	ekpy
-胜	sps
-抱	fsds
-毕	veub
-务	vcl
-诉	zrwy
-齐	ytuw
-拍	fub
-柔	bivm
-甲	kj
-峰	mvif
-险	buez
-娘	cwbg
-楼	ixcv
-院	bwgg
-君	bpov
-观	dmvo
-建	bfbd
-殿	dhtq
-曾	xkxk
-逃	vxze
-唐	wbog
-置	menw
-担	fkgu
-阴	bsv
-凡	qa
-呆	oiv
-眉	dnv
-统	cyvj
-层	deai
-银	pbgj
-试	zfiy
-弹	dxeg
-否	govb
-约	cswj
-府	wtig
-抓	frz
-救	ixwp
-调	zsoy
-索	eqav
-苏	hctu
-顶	egmd
-基	hjvq
-松	itai
-魂	eaue
-图	nvzw
-料	xzem
-议	zwty
-严	hxpj
-顾	gbmc
-礼	wcus
-业	lxu
-汉	zdo
-恩	nfrw
-耳	he
-败	mppb
-顺	tgmc
-余	ugiu
-选	pvzd
-皮	dp
-区	ftif
-沙	zcpu
-瞬	nvqf
-秘	rrpu
-树	idic
-商	yxto
-纷	ctdj
-块	jduu
-混	zkvb
-贵	oomb
-迷	xzdm
-充	yave
-组	cnqj
-呀	ofy
-示	fs
-船	rqoo
-伸	tks
-舰	rmvo
-封	jjic
-助	nclq
-肉	muuu
-排	flf
-娜	cbfb
-期	hsvq
-座	wujg
-义	wti
-升	phv
-闻	zhem
-室	wgaj
-推	ftw
-负	qmb
-扬	fbsu
-亡	ycu
-模	ihkf
-付	tic
-芒	hycu
-控	fwig
-警	hspy
-默	mjqh
-土	jv
-承	bidl
-虚	llxh
-妈	cam
-温	zkmm
-凤	qdoj
-技	fedo
-费	dtmg
-著	hjkv
-初	wddi
-麻	wm
-舞	phqf
-市	ymj
-翻	pxkc
-握	fdaj
-独	vlvq
-普	xlxk
-考	jjk
-拥	fsy
-究	wrjx
-玄	yay
-资	xqms
-幸	jxeu
-暴	khta
-野	kebj
-称	rqcx
-察	wsfs
-按	fwcv
-孙	bcxz
-查	ikgu
-改	dppj
-换	fqmf
-箭	pxsl
-睡	nrhu
-母	cm
-素	eav
-较	fytc
-堂	nqoj
-品	oox
-具	ntuq
-宗	wfs
-忘	ycrx
-副	gokl
-状	xjq
-锋	pvij
-权	ido
-洞	zmgo
-遇	kzdy
-丹	syu
-局	dbov
-味	oiw
-划	fldg
-藏	hfaf
-故	jppg
-仍	tan
-洛	zvov
-历	gclc
-坏	jgb
-弄	ehv
-弱	dxxg
-钟	pokj
-哼	oyob
-脱	sxov
-赛	whtm
-药	hcsw
-胸	ssta
-菲	hlf
-谈	zxxy
-仿	tyu
-爆	xkta
-徐	suir
-坚	ldjv
-拳	xjrs
-营	hqoo
-须	sgms
-偷	tusl
-骨	ng
-奥	uxfd
-据	fdjg
-蒙	hqgg
-尊	xeic
-施	ypbe
-河	zeov
-透	razd
-杰	ish
-晶	kkkv
-抬	faov
-短	pgxi
-政	glpp
-产	ypul
-草	hkz
-烦	xgmb
-卷	xjbu
-幽	maay
-证	zgly
-牙	fy
-维	ctwj
-森	iiiv
-毒	ecm
-摆	fmja
-投	fqs
-吴	oft
-危	qgbu
-飘	eftx
-熟	yows
-导	dics
-质	remb
-胡	jsvg
-朋	ssv
-喊	ofgo
-释	pxdf
-参	afsi
-休	tiv
-劲	dicl
-挡	fnbu
-景	kyoc
-州	stc
-印	vgae
-惜	uhkv
-欲	tuoq
-摸	fhkf
-烟	xnfd
-幻	abuy
-致	gajp
-妙	ccpu
-抗	fyqj
-尼	dvi
-枫	iqti
-凝	xvls
-翼	ckty
-永	zo
-盘	rmmo
-寻	bic
-冥	qkyt
-秋	rxv
-智	poki
-板	irdo
-责	emb
-浪	zwbg
-御	spar
-尸	dv
-辈	lfcf
-临	lpku
-哦	opff
-傲	teqp
-娇	crtu
-柳	ivpa
-恨	ubg
-横	ihkt
-吓	ojwu
-硬	ggkt
-价	tutu
-探	fqti
-宁	wed
-际	bfs
-标	ifs
-墙	jeno
-纳	cmuj
-田	kt
-欧	ftqf
-奈	ffsd
-肩	zsvh
-习	ci
-朱	ptun
-效	yttp
-袋	tfwy
-福	wgks
-设	zqsy
-戏	dfgo
-贝	mb
-移	rqqx
-轰	fddc
-疯	wqtb
-科	rzeu
-型	ghlj
-毛	rm
-碎	gyue
-叔	lcds
-冒	menv
-惨	uafs
-扑	flb
-奋	fktd
-治	zaov
-湖	zjsv
-珠	eptu
-饭	qrdi
-环	egb
-咱	otz
-免	qove
-迎	vazd
-略	kvot
-雄	hatw
-凭	trqj
-史	oti
-规	jmvf
-伯	tub
-尘	cjvx
-躲	tqis
-犹	vjoq
-距	ofdz
-盟	ksmm
-借	thkv
-骂	oamx
-皱	qbdp
-床	wivg
-域	jfog
-降	bvfu
-敬	hsop
-避	doyz
-秀	ran
-挑	fvxu
-聚	hdte
-徒	sjzr
-鲜	qxyy
-源	zguc
-架	coil
-韩	ekfb
-莉	hrld
-撞	fyjv
-束	iov
-岁	mqx
-罪	mlfw
-罢	mjaw
-哭	ojqx
-嘛	owm
-臣	fe
-唯	otw
-啦	ofyl
-节	hae
-惑	forg
-袭	jpwo
-食	vs
-买	bzfd
-腿	sbzd
-训	ztcy
-稍	rnsv
-校	iytt
-姑	cjg
-某	heiv
-阻	bnq
-邪	fbvy
-鲁	qkvy
-艾	hti
-裂	glwd
-闭	zipm
-诺	zhoy
-尖	cfdx
-残	ggfd
-尚	nmov
-迅	bezi
-良	wbg
-鱼	qy
-丁	ed
-塔	jhgo
-泪	znv
-托	fpfq
-洋	zxy
-颗	kigm
-炸	xplu
-逸	qowz
-晓	kfpg
-番	pxkt
-屋	dgaj
-伊	tbpu
-仇	trj
-焰	xquj
-讲	zfky
-荡	hzbs
-吼	obcu
-绿	cbaj
-旧	kkv
-配	edjy
-圆	nomw
-迹	yzdi
-腾	sxja
-假	tddd
-腰	secv
-搞	fymo
-验	auzm
-彩	viss
-勇	dscl
-奔	fehd
-颤	yngm
-牛	pn
-恢	uhxv
-占	lov
-厅	gedc
-趣	jhdz
-臂	doys
-套	fecd
-愣	umyu
-端	ymgl
-尤	jo
-志	jrx
-剩	rxvl
-虑	lrxh
-妮	cdvi
-蛋	bllv
-颜	ypml
-炮	xsds
-卖	ebzf
-医	fpif
-舒	ueob
-梅	ipcm
-厚	gkbc
-闹	zymm
-归	kpbu
-圈	nxbw
-软	fqqc
-弃	yahv
-适	rozq
-浮	zvbz
-限	bbg
-抵	fvfw
-职	hote
-帅	kpmj
-诸	zjky
-桌	lkiv
-镇	petj
-讶	zfyy
-共	htu
-广	wg
-范	hzbu
-欣	rjqq
-病	wgub
-偏	tzmu
-值	tenq
-专	ecwe
-杂	riuj
-咬	oytt
-增	jxxk
-豪	yoqg
-触	qslv
-陷	bquj
-雾	jvcy
-稳	rqbr
-挺	frbd
-择	fdfu
-谷	tuov
-附	btic
-炎	xxv
-巧	ijkg
-旋	ypbl
-盯	ned
-夏	gnvu
-纪	cdjj
-碰	gxlx
-扫	fbu
-抢	fubu
-阶	butu
-曼	kmdo
-嗯	onfr
-涌	zdsy
-抽	fko
-胖	sxfu
-祖	wnqs
-毁	uiqj
-岛	smvn
-拜	pfgi
-潜	zjjk
-优	tjo
-网	mtti
-案	wciv
-慕	hkcw
-京	yocx
-项	igmg
-测	zmld
-迪	kzdo
-谓	zksy
-列	gldd
-汗	zeg
-操	fooi
-善	xxoy
-春	ekv
-烧	xfpg
-浑	zqfc
-赤	jttu
-逼	gokz
-伟	tfbu
-店	wlog
-瞪	ndox
-输	fulc
-富	wgok
-懂	uhke
-侧	tmld
-率	yaxe
-杯	igb
-滚	zwta
-苍	hubu
-瑞	emge
-孤	brgz
-抖	fzeu
-损	fomb
-悄	unsv
-获	hvjq
-轮	fuvc
-孔	bcuz
-养	xtu
-讨	zicy
-吉	jov
-鸣	osn
-累	kavt
-凶	taui
-挂	fjjv
-胆	skgu
-浩	zpov
-傻	tutv
-塞	whtj
-陪	byov
-吐	ojv
-盖	xjmm
-姓	cps
-猜	vesq
-拼	fxhv
-琳	eiiv
-蛇	lwvi
-幕	hkfm
-镜	pyvj
-材	iipu
-庞	wjpg
-盗	xqms
-杜	ijv
-晃	kngw
-扎	fcu
-吟	ouwb
-预	bgmy
-闷	zrxm
-仔	tbz
-纵	cuuj
-伦	tuvi
-遍	zmzh
-爸	ttdb
-狗	vsoq
-愤	uehm
-纯	cfaj
-彻	sfdr
-估	tjg
-夺	ficd
-写	qgcg
-啸	obct
-莱	hixu
-折	frju
-贼	mfhb
-灰	hxv
-壁	doyj
-困	nivw
-宋	wiv
-画	gkau
-缘	ccgj
-伏	tjq
-脉	szo
-劫	jacl
-庄	wjvg
-补	wlbi
-泰	eas
-介	utu
-演	zwkt
-悠	tkpr
-燕	hgvs
-摩	wrsm
-痕	wbgb
-沈	zqve
-创	ubld
-登	dgox
-含	uwbo
-研	gghv
-睁	nqbb
-婆	zdcv
-午	peu
-池	zbe
-暂	frkc
-廷	rbdr
-逐	gzds
-萨	hbyp
-凯	mdqj
-闲	zivm
-旦	kgu
-岳	timv
-戒	fhvg
-概	ibfv
-班	eppe
-误	zofy
-陛	bvjv
-街	sjjx
-跃	oryz
-斩	frjc
-牌	tuep
-迟	dwzd
-谋	zhiy
-罩	mlkw
-膀	syqy
-村	iic
-怜	uuwd
-替	jjkf
-踪	owfz
-霸	jhsy
-爵	vmai
-曲	mhu
-乌	sw
-瞧	ntsh
-伴	txfu
-傅	teic
-惧	untu
-蒂	hyqm
-嘻	ojxo
-倍	tyov
-俊	tatv
-歌	eoqd
-咒	oqjx
-互	ecue
-漂	zefs
-舍	ueov
-采	viv
-昨	kplu
-碧	eugv
-鹰	wtsg
-犯	vbuq
-慌	uhcv
-糊	xjsm
-扭	fdee
-丢	rair
-羞	xdey
-判	xfld
-竹	pkpb
-昏	vfkv
-丈	hwu
-拔	fhdw
-锐	pxvj
-唤	oqmf
-莲	hfzd
-郎	wbab
-忧	ujo
-侍	tjic
-征	sglr
-疼	wvzb
-伍	tgdu
-鸟	sn
-宽	whmv
-剧	djld
-躯	tfts
-琴	eewb
-监	lpmm
-漫	zkmd
-席	whmg
-帐	mpcj
-赞	pvvm
-缩	cwkj
-壮	xju
-悉	pxrx
-遭	hmkz
-弓	dg
-貌	vuvz
-鼻	tb
-喃	oexe
-悟	ugdo
-忠	okrx
-私	rai
-绕	cfgj
-坦	jkgu
-财	mipb
-辰	gn
-聊	hvae
-掩	ffkd
-怨	qbrx
-耀	ngct
-吞	fovt
-融	gokl
-洗	zpve
-鼓	joed
-插	fruj
-凉	xycs
-悲	lrxf
-梁	zdti
-织	cotj
-佩	tqgm
-笔	prm
-迫	uzdb
-豫	bqry
-朵	qivj
-召	dovd
-吹	oqq
-亦	yi
-狱	vzjq
-佣	tsy
-敏	pcpp
-博	eeic
-赫	jttt
-丫	xku
-茶	huiu
-狐	vrgq
-仰	tvae
-盛	fbmw
-劳	hqcl
-缠	cwej
-忆	ubi
-荣	hqiv
-净	xqbs
-阁	zvom
-恭	htcw
-废	wafg
-浓	zqru
-磨	wgvm
-遥	vpzd
-缺	pduf
-菜	hviv
-粗	xnqm
-宣	wekv
-躺	tnos
-惯	ucem
-喷	oehm
-晕	kqfc
-遗	oomz
-执	frwu
-策	pimu
-脆	sqgb
-桑	ddio
-绍	cdoj
-奴	cdo
-努	cdcl
-耗	irml
-曹	hmkv
-援	fved
-窗	wuvx
-灯	xed
-佳	tjjv
-积	rotu
-唇	govn
-堆	jtw
-踏	oakz
-扶	fjf
-轩	fegc
-辛	yx
-熊	assi
-辉	ngqf
-尾	drm
-屁	dvb
-勒	hclg
-刹	tili
-粉	xtdm
-批	fvb
-乃	an
-库	wfcg
-翔	xcyy
-姬	cfok
-乖	rxvq
-趁	jusz
-隆	bvgp
-爬	rdbz
-码	gam
-赏	nqom
-怖	uhmj
-丰	if
-艳	iqdf
-拖	fpbe
-耐	gice
-岂	mdj
-诚	zfby
-刃	dpud
-媚	cdnv
-慧	iirf
-晨	kgn
-律	sbfr
-固	njgw
-盾	renv
-洁	zjov
-骗	azmm
-社	wjvs
-荒	hycv
-滑	zng
-隔	bgxk
-郭	yobb
-戴	efht
-额	wvgm
-旗	yphq
-季	rbz
-惹	hhor
-纸	cvfj
-延	plbd
-侯	tdpi
-撒	fhsp
-颇	dgmp
-撤	fysp
-霄	jnsy
-锁	pnmj
-仪	twti
-郁	hsbv
-痴	wpob
-典	mhtu
-园	nggw
-抚	fecu
-滴	zymj
-跪	oqbz
-振	fgn
-猎	vhkq
-油	zko
-殊	gptd
-启	zovh
-省	cpnx
-供	thtu
-绪	cjkj
-洪	zhtu
-玛	eam
-委	rcv
-妻	ebcv
-忌	drxj
-拦	fxee
-仁	tee
-祭	sfs
-泉	uasb
-纹	cywj
-蛮	ylvi
-婚	cvfk
-擦	fwsf
-贴	mlob
-妇	cbu
-牢	wpn
-币	pmj
-唉	oapi
-庆	wfdg
-甘	hee
-宜	wnq
-符	ptic
-倾	tvgm
-赌	mjkb
-径	sdir
-钻	ploj
-劈	doyd
-堪	jhcu
-焦	tshw
-姿	xqcs
-堡	toij
-馆	qwdi
-爽	fttd
-矮	prci
-艘	rudo
-薄	hzei
-零	judy
-吕	oov
-扰	fjo
-益	xtmm
-奶	can
-匆	sswu
-墨	mjvh
-朗	wbas
-袍	wsdi
-牧	pppn
-耶	hbve
-挣	fqbb
-递	xdpz
-燃	xsjs
-叛	xfrd
-亏	gjk
-皆	vubb
-扯	flz
-户	zh
-砸	gfmj
-肚	sjv
-拒	ffdu
-胁	sctu
-柱	iwev
-途	ugiz
-婷	cyqe
-辆	fguc
-芳	hyu
-肖	nsv
-液	zyvw
-巫	iuug
-猫	vhkq
-岩	mgv
-董	hrke
-慰	dfir
-烂	xxee
-砍	gqq
-驾	coal
-欺	hqqq
-邦	ibvf
-扔	fan
-漠	zhkf
-针	peuj
-醉	eyey
-享	yobz
-莎	hzcp
-筑	piqa
-洲	zstc
-恼	uyta
-协	ectu
-盈	admn
-撑	fnor
-椅	ifeo
-郑	xfbv
-眨	npzz
-货	tvmb
-莹	hqew
-减	xfos
-赢	ycmq
-虫	lv
-愧	uug
-尝	nqea
-骇	ayhm
-康	wbag
-旅	ypru
-俩	tguu
-珍	euss
-埋	jkee
-餐	lqdv
-弯	ydgi
-敲	yool
-吻	ossu
-抛	frcl
-茫	hzyc
-侵	tbqd
-截	eftw
-悔	upcm
-勾	sai
-喘	omge
-氏	vfq
-肃	bctu
-瑟	eerp
-庭	wrbg
-牵	fqpd
-穴	wx
-例	tgld
-舌	rovq
-仗	thwu
-哎	ohti
-彼	sdpr
-柄	igmu
-夹	jxuf
-玲	euwd
-诡	zqby
-笼	pjpu
-甜	roeq
-济	zytu
-霍	jtwy
-渊	ztxm
-嘉	joco
-霜	jiny
-爹	ttqq
-宙	wko
-魏	rcug
-脖	seqb
-爪	rz
-哀	wovy
-卓	lkz
-奉	efu
-腹	spkv
-抹	fim
-艺	hbi
-泽	zdfu
-姆	ccm
-昂	kvae
-踢	oksz
-秒	rcpu
-钢	pmtj
-瓶	xhhw
-疾	wpib
-末	im
-挤	fytu
-劝	dclo
-粮	xwbm
-核	iyh
-僵	tikk
-倩	tesv
-猪	vjkq
-宏	whai
-寂	wlcd
-乘	rxvi
-诱	zray
-聪	hxre
-懒	uiqm
-侠	tjxu
-潮	zeks
-鸡	dsno
-搭	fhgo
-鸿	zisn
-咐	otic
-瓦	hw
-弥	dqcg
-薇	hsqp
-肤	sjf
-勉	qovc
-川	tc
-匹	fvef
-屈	daau
-央	mfd
-尺	dwu
-鹏	sssn
-悍	ukeg
-耸	uuhe
-悬	narq
-讯	zbey
-溜	zvdk
-喂	okfu
-丧	exfu
-怔	uglz
-拾	fugo
-纤	crqj
-魄	uugb
-括	frov
-乔	rtuy
-晴	kesv
-搜	fukd
-掠	fyoc
-帕	mubj
-亿	tbi
-孟	bmmz
-诗	zjiy
-偶	tky
-琪	ehq
-童	yjvn
-载	effc
-袁	joru
-覆	esvx
-悦	uxov
-垂	rhur
-均	jsxs
-蕾	hjkt
-厌	gjqc
-霞	jddy
-诀	zduy
-泄	zhs
-宠	wjpu
-臭	tjqz
-肌	sqj
-词	zboy
-票	efsx
-构	isai
-饰	qpmi
-袖	wkoi
-噬	opuu
-衡	squx
-穷	wclx
-港	zhtd
-航	ryqo
-驻	awem
-泥	zdvi
-脏	swjv
-辞	royq
-键	pbbj
-慎	uent
-眸	napn
-乡	cpu
-逆	xazd
-撕	fhrj
-凰	quej
-奸	ceg
-催	tmtw
-缝	cvzj
-宿	wtgk
-魅	uiwg
-凑	xefs
-陵	bjtv
-读	zefy
-岸	mgeg
-歉	xbtq
-授	fvqd
-映	kmfd
-甩	scu
-唱	okku
-崇	mwfs
-瑶	evpf
-暖	kved
-枚	ipp
-渡	zwgd
-稀	rthm
-沿	zqov
-贤	ldmb
-扩	fwg
-狮	vkmq
-斥	rjwu
-恋	yrxi
-饶	qfgi
-返	rdzd
-吩	otdd
-捏	fkjv
-搂	fxcv
-咳	oyh
-斜	ugze
-煞	qbps
-询	zsky
-眯	nxm
-赖	ioqm
-笨	pigu
-娅	chxu
-督	lcns
-洒	zex
-铺	pefj
-齿	luaz
-卑	upeb
-浅	zgfg
-尬	hcut
-尴	hcpm
-撼	ffor
-促	tolu
-奖	xqfd
-染	zriv
-酷	epoy
-课	zkiy
-泛	zpzz
-屠	djkv
-祸	wous
-罚	mzlw
-契	idff
-弗	dtug
-刑	ghld
-络	cvoj
-汇	zff
-赐	mksb
-夸	fgjd
-埃	japi
-巡	czdc
-摔	fyxe
-郡	bpob
-检	iuez
-疗	wblb
-俗	ttuo
-雕	sjot
-祥	wxys
-葛	hkuc
-屏	dxhv
-予	by
-矿	gwg
-俱	tntu
-闯	zamm
-疲	wdpb
-呜	osw
-详	zxyy
-录	bas
-婴	mmcb
-滋	zxaa
-寸	ic
-麽	wpam
-麦	evu
-迈	gbzd
-亭	yoqe
-枝	iedo
-婉	cwqb
-恒	uekv
-涛	ziic
-嫣	cgcs
-冠	qggi
-昆	kvb
-妃	cdj
-翅	edcy
-窜	wokx
-矛	bm
-贪	uwbm
-绵	cumj
-朕	sxfd
-俏	tnsv
-编	czmj
-瘦	wudb
-姜	xjcv
-斧	ttrj
-繁	pcpa
-允	avei
-裹	wkiy
-辱	gicn
-拨	faf
-樱	immc
-蝶	lhiv
-瞒	nhuu
-慈	xaar
-氛	ptdq
-咕	ojg
-乾	ekpb
-棋	ihq
-雀	ctwx
-屑	dnsv
-宾	wtit
-後	savr
-晰	kirj
-掏	fspf
-啪	ofub
-愈	uglr
-措	fhkv
-农	qru
-祝	wovs
-驶	aotm
-誓	frjy
-铃	pudj
-糟	xhkm
-捉	folu
-扮	ftdd
-畏	kfut
-韵	ysxn
-冯	xams
-羊	xy
-咯	ovov
-恰	uugo
-驱	aftm
-淫	zvrr
-璃	eyma
-鼠	us
-芙	hjf
-烁	xvcx
-咽	onfd
-涯	zgjj
-梯	ixkp
-夕	qx
-碍	gkgi
-县	naiq
-扇	zcyh
-崩	mssv
-裁	efwy
-幅	mgkj
-愕	uogj
-润	zzev
-岚	mqti
-骷	njgg
-卢	ldv
-猴	vtpq
-汤	zbsu
-健	tbfb
-杖	ihwu
-辕	fjrc
-哇	ojjv
-鼎	natp
-捕	fef
-恍	ungw
-箱	pinv
-扣	fov
-遮	whzg
-髅	nxcg
-泡	zsds
-育	yasv
-翠	cyey
-豹	vswz
-溃	zoom
-麟	wxfl
-芸	heai
-铜	pmoj
-逍	nszd
-涂	zugi
-献	emej
-娃	cjjv
-评	zexy
-党	nqov
-述	iwzd
-饮	qqqi
-丛	uugu
-汹	ztau
-棍	ikvb
-序	wbyg
-湿	zklx
-棒	iefu
-嫁	cwgs
-灾	wxv
-挖	fwbi
-奏	eft
-贯	cemb
-冬	vzu
-贫	tdmb
-串	ooku
-肥	sdb
-漆	ziua
-喉	otdp
-披	fdp
-跌	opwz
-阔	zzom
-丑	deed
-弘	daig
-昌	kku
-凄	xecs
-卧	flbe
-穆	rucs
-焕	xqmf
-酸	eavy
-坛	jeai
-赚	mxtb
-割	wiol
-贺	coml
-砰	gexu
-违	fbzd
-捷	fgbl
-井	fku
-役	sqsr
-裸	wkii
-筋	pscl
-鞭	httg
-涨	zdpc
-锦	pumj
-匪	flff
-宴	wkcv
-仓	ubu
-骚	adlm
-耻	hlze
-饿	qpfi
-瓜	rg
-肆	ebfc
-沐	ziv
-妄	yccv
-巍	mrcu
-宛	wqbu
-裤	wwfi
-驰	abem
-妥	vcv
-嫩	ciop
-蠢	ekll
-馨	jdrk
-桥	irtu
-霆	jrby
-勃	eqbc
-廖	wcsg
-龟	qkd
-吵	ocpu
-审	wks
-晌	kuov
-款	jfqq
-戈	fg
-仆	tlb
-诧	zwfy
-搬	frqs
-漏	zdjy
-黎	rsua
-蒋	hxqi
-雯	jywy
-灌	zhot
-嘶	ohrj
-盔	hxmm
-辣	yiox
-疆	djkg
-桃	ivxu
-欠	qq
-饱	qsdi
-械	ifhv
-抑	fvae
-彭	joxs
-纠	cauj
-勤	hecg
-衫	wssi
-僧	txxk
-购	msab
-弩	cddg
-签	puez
-腥	skps
-蓦	hkfa
-揉	fbiv
-誉	zgty
-呈	oev
-鄙	oeob
-窝	woux
-镖	pefj
-愚	krxy
-腕	swqb
-障	bykz
-培	jyov
-厂	gc
-坠	bujv
-拢	fjpu
-牲	ppsn
-脾	supe
-涩	zdpl
-析	irju
-铠	pmdj
-珊	essg
-尉	dfic
-蓉	hwuo
-幼	acly
-寺	jic
-黛	tfmh
-麒	whql
-嘲	oeks
-怡	uaov
-瞳	nyjv
-趴	otuz
-邀	uyzb
-卿	vpaa
-蜜	wrpl
-链	pfzj
-骤	ahtm
-毅	yrql
-寨	whti
-挨	fapi
-刷	dmld
-崖	mgjj
-歪	gglb
-嚣	ogox
-频	lnmz
-企	ulz
-植	ienq
-伐	tfg
-晋	hxkj
-艰	dbgo
-龄	ludz
-崔	mtw
-耍	gcve
-竞	yovl
-拟	fcwu
-琼	eyoc
-谨	zhey
-碗	gwqb
-慨	ubfv
-丘	tig
-涉	zlnu
-艇	rrbo
-逊	bczz
-磊	gggv
-跨	ofjz
-浴	ztuo
-柯	ieov
-仑	uvi
-坑	jyqj
-骄	artm
-汪	zev
-舱	rubo
-颠	engm
-柜	ifdu
-趟	jnoz
-盒	ugom
-撇	fxtp
-谅	zycy
-荷	hteo
-愁	rxrx
-摧	fmtw
-踩	oviz
-哑	ohxu
-绑	cibj
-坤	jks
-锤	prhj
-乳	vbcu
-宰	wyx
-荆	hghl
-拓	fgv
-陌	bgkv
-虹	lig
-叮	oed
-竖	ldyl
-销	pnsj
-凛	xyfs
-访	zyuy
-绽	cwlj
-惠	gkor
-鹿	wl
-沃	zry
-沾	zlov
-靖	yesl
-堵	jjkv
-挽	fqov
-添	zfcw
-枯	ijg
-哗	otve
-绩	cemj
-夷	fdgd
-兔	qovw
-姨	cfdg
-绳	cokj
-纱	ccpj
-腐	wtug
-舟	ro
-辅	fefc
-巾	mj
-颈	digm
-迦	cozl
-搏	feic
-捂	fgdo
-筹	piic
-呃	ogbu
-敖	eqpp
-藤	hsja
-梵	iiqa
-盼	ntdd
-逝	frjz
-矩	pfdi
-厨	ggic
-膝	siua
-沌	zfau
-斌	yglw
-逗	goxz
-咧	ogld
-雁	gttc
-擅	fykg
-咦	ofdg
-黯	mynh
-憾	ufor
-旨	vkvi
-畅	kbss
-芬	htdd
-狸	vkeq
-胳	svov
-楞	imyu
-摊	fdtw
-於	yuzu
-冻	xfcs
-泣	zyl
-灿	xmv
-躬	tdgs
-哲	frjo
-尹	bpu
-淋	ziiv
-薛	huyx
-墓	hkfj
-籍	pihk
-嫌	cxlt
-霉	jpcy
-牺	pexn
-拱	fhtu
-叉	dwuo
-捧	fefu
-哄	ohtu
-铭	pqoj
-嚷	owoh
-痒	wxyb
-膊	seic
-塌	jkcy
-篇	pzmu
-歇	kscq
-削	nsld
-涵	zbxa
-陡	bjz
-斤	rju
-匕	vi
-惶	uuev
-摄	fhdd
-儒	tjge
-膛	snoj
-隶	bas
-嘟	ojkb
-寿	iicf
-肢	sedo
-伪	tzcl
-励	ggcc
-眠	ndfq
-瞄	nhkt
-辽	bzdl
-寇	wggl
-沟	zsai
-哨	onsv
-掀	frjq
-仲	toku
-逛	vezq
-茵	hnfd
-档	inbu
-珑	ejpu
-羡	xjxq
-哮	ojbz
-俘	tvbz
-嚎	oyqg
-卒	yuue
-汽	zpq
-墅	kejj
-鉴	lpvv
-杆	ieg
-裙	wboi
-描	fhkt
-攀	itfr
-蜂	lvif
-赔	myob
-呐	omuu
-储	tzjk
-污	zgjk
-赋	mglb
-嘀	oymj
-隙	bckc
-吾	gdov
-虏	lclh
-呻	oks
-炉	xzh
-辩	yzyx
-殷	rbbq
-嗓	oddi
-狞	vweq
-彷	syur
-冤	qqvw
-旺	kev
-耿	hxve
-吊	omj
-颊	jxmf
-播	fpxk
-偿	tnea
-俯	twti
-篮	plpm
-溅	zmgf
-烤	xjjk
-贾	embx
-缕	cxcj
-俄	tpff
-狄	vxvq
-擒	fuma
-躁	ooiz
-狡	vytq
-嗔	oent
-乏	pzz
-罕	qteg
-嘎	ognf
-蹲	oxiz
-惩	sgrr
-谦	zxty
-患	ookr
-渴	zkuc
-篷	pviz
-咆	osds
-歹	gd
-迁	rzdq
-押	fkj
-粒	xylm
-遣	oodz
-沸	zdtu
-辨	ypyx
-囊	eohr
-鳞	qxfy
-版	trdp
-蛛	lptu
-蕴	hckm
-棠	nqoi
-狈	vmbq
-陶	bspf
-劣	cpcx
-蜀	mslw
-逢	vizd
-祺	whqs
-竭	ykcl
-潇	zhct
-苗	hkt
-娶	hdce
-炽	xotu
-戮	cufy
-侦	tlmb
-讽	zqty
-芝	hzz
-吱	oedo
-宅	wpfq
-甫	ef
-挠	ffpg
-邓	dbvo
-订	zedy
-玫	epp
-丸	rwuj
-雍	ycpt
-厢	ginc
-佐	thig
-拐	focl
-叠	ddno
-驳	attm
-倭	trcv
-兼	xblt
-弦	dyag
-蔡	hsfs
-腻	sfem
-苟	hsov
-昭	kdov
-辜	jyxg
-坡	jdp
-兮	tjk
-础	gaau
-刮	rolq
-蓬	hviz
-淑	zlcd
-梭	iatv
-廊	wwbg
-俞	ugsl
-琉	eyav
-胎	saov
-朴	ilb
-遵	xeiz
-厮	ghjc
-韦	fbu
-禀	ynof
-妍	cghv
-疏	blav
-浸	zbqd
-茹	hcov
-滞	zhqm
-嗦	oeqa
-咪	oxm
-昊	kft
-敛	uezp
-湾	zydg
-澜	zznx
-瞎	nwio
-玻	edp
-溢	zxtm
-豆	goxu
-灼	xswu
-斑	eyev
-犬	jq
-瞥	xmpn
-廉	wxtg
-锅	pouj
-祈	wrjs
-潘	zpxk
-壶	jqlx
-聂	hdde
-糕	xxsm
-匠	frjf
-顽	gggm
-拂	fdtu
-魁	uzeg
-榜	iyqy
-缚	ceij
-彪	lqsh
-碌	gbas
-庙	wkog
-鹤	qtsn
-妞	cdee
-堕	bhsj
-昧	kiw
-蹄	oymz
-兹	xaay
-蔽	hxtp
-谎	zhvy
-遁	renz
-肠	sbsu
-焚	iixv
-绯	clfj
-腔	swig
-嗡	otac
-耽	hqve
-栋	ifcx
-岭	muwd
-葬	hgvh
-盆	tdmm
-蹦	omsz
-茜	hex
-壳	jqqj
-啧	oemb
-妨	cyu
-鞋	hjjg
-挪	fbfb
-硕	ggmb
-携	ftan
-柴	lviz
-矢	pi
-钰	pewj
-钉	pedj
-阎	zqum
-帘	wmjx
-嗤	oagl
-窃	wfdx
-蔓	hkmd
-冉	mjv
-俺	tfkd
-陀	bwvi
-沧	zubu
-翘	fpcq
-兀	gw
-申	ks
-循	srnr
-搅	fzmv
-狭	vjxq
-侄	tgaj
-谭	zeky
-渺	zncp
-姊	cpkp
-贱	mgfb
-戟	ekfg
-津	zbfu
-拆	frjw
-彦	ypsl
-噗	olxx
-萝	hmqx
-赴	jlbz
-蚁	lwti
-诈	zply
-暇	kddd
-棵	ikiv
-愉	uusl
-嘱	odlm
-啥	oueo
-妾	ycvl
-轨	frjc
-蚩	aglv
-唔	ogdo
-浆	xqas
-涡	zomu
-汝	zcv
-锻	ptqj
-禅	wxes
-捡	fuez
-衷	woky
-媒	chei
-渗	zafs
-吁	ogiu
-巢	ckic
-阅	zxvm
-孝	jbz
-峡	mjxu
-烛	xlv
-氓	ycdf
-哟	ocsw
-掐	fquj
-租	rnq
-帽	mmnj
-泊	zub
-衍	szvx
-蓄	hyak
-揭	fkuc
-妒	czh
-贸	vwdm
-寞	whkf
-毙	vgvb
-憋	xmpr
-乙	bi
-喔	odaj
-翰	ekuc
-坎	jqq
-革	hg
-彤	syss
-舅	ukcj
-阱	bfku
-税	rxov
-垃	jyl
-圾	jawu
-滔	zvuj
-倚	tfeo
-胞	ssds
-寄	wfeo
-絮	coav
-虐	lfgh
-颖	vrmi
-潭	zekz
-庸	wbkg
-喀	owvo
-逻	mqzw
-璇	eybl
-笛	pko
-歆	yqqn
-怯	ujai
-瑰	eug
-旭	rkvj
-昔	hkv
-尧	fpgq
-填	jent
-遂	xrzd
-祀	wdss
-摘	fymj
-寡	wgtd
-嫂	cukd
-惫	vkrx
-咚	ovzu
-弧	drgg
-沫	zim
-暮	hkfk
-卜	lb
-枉	iev
-兆	vxue
-煌	xuev
-蛟	lytt
-澡	zooi
-雇	ztwh
-粹	xyem
-栽	efiv
-诛	zpty
-滩	zdtw
-裳	nqow
-蚀	qlvi
-贞	lmb
-寝	wxqd
-胧	sjpu
-蝎	lkuc
-诅	znqy
-狰	vqbq
-桶	idsy
-栈	igfg
-睹	njkv
-售	tovw
-哧	ojtt
-韧	fbdp
-狙	vnqq
-熙	fksf
-臀	dhqs
-瀚	zeuc
-署	mjkw
-蝠	lgok
-舜	vqqf
-朦	shgg
-泼	zaf
-绮	cfoj
-溪	zvaf
-卦	jjlb
-栏	ixee
-舔	rowq
-筒	pmgo
-册	ssgu
-窥	wjvx
-歼	grqd
-裴	lwyf
-剥	bald
-旷	kwg
-窟	wdax
-姚	cvxu
-犀	dapn
-惕	ukss
-觑	llvh
-囚	nuuw
-磁	gxaa
-兜	uvvb
-擂	fjkt
-枕	iqve
-巷	htds
-绣	craj
-胀	spc
-湘	zinv
-捣	fsmv
-佑	thov
-拽	fkpu
-乞	pbi
-惟	utw
-谱	zxky
-抄	fcpu
-衙	sgox
-戚	flcw
-钦	pqqj
-哩	okee
-楠	iexe
-蕊	hrrr
-垒	aaji
-胃	ksvt
-颅	ldgm
-琢	egwu
-贡	imbg
-衰	wogy
-喧	owek
-虞	lofh
-丞	bdgl
-岗	mmti
-慑	uhdd
-扁	zmuh
-骆	avom
-纽	cdej
-噢	ouxf
-剂	ytlw
-侃	tovu
-菩	hyov
-剿	cklc
-秃	rqj
-罡	mglw
-咙	ojpu
-桓	iekv
-莽	hjhv
-菁	hesv
-揽	flmv
-烫	zbsx
-嘘	ollx
-祷	wiis
-诞	zpby
-瑜	eusl
-鞘	hnsg
-轴	fkoc
-孽	huyb
-恕	corx
-轿	frtc
-萍	hzex
-衬	wici
-倦	txjb
-芷	hlz
-疚	wqwb
-翁	tacy
-淘	zspf
-猾	vngq
-嗜	ojvk
-翎	uwdc
-陨	bomb
-熬	eqps
-藉	hihk
-窍	wijx
-掷	fxfb
-勋	omcl
-咖	ocov
-磕	gjam
-鸦	fsny
-铸	piij
-棺	iwdd
-翩	zmch
-叨	odd
-倏	tkvj
-奢	fjkd
-扳	frdo
-乍	plu
-叙	ugid
-嗽	oioq
-辟	doyx
-畜	yakt
-擎	hspr
-霎	jycy
-倘	tnmo
-嫉	cwpi
-陋	bguc
-郝	jttb
-搁	fzvo
-瘫	wdtb
-钥	psvj
-哆	oqqx
-茅	hbm
-峻	matv
-蜘	lpov
-匙	kglv
-趋	jqbz
-窄	wplx
-啡	olf
-绞	cytj
-伺	tbgo
-莺	hqsn
-邱	tibv
-酥	ervy
-姥	cjvi
-菊	hsxm
-蛊	lmm
-粘	xlom
-恳	brxg
-醋	ehky
-绷	cssj
-淌	znmo
-炫	xyay
-淮	ztw
-渠	zfdi
-娱	coft
-丐	jgcu
-履	dskv
-症	wglb
-捞	fhqc
-塑	xasj
-蔑	hmfw
-眩	nyay
-衔	spjx
-禽	uyma
-蒸	hbgs
-炀	xbsu
-涟	zfzd
-傀	tug
-嗖	oukd
-淳	zyob
-挟	fjxu
-佘	ufs
-柏	iub
-帆	mqaj
-绰	clkj
-歧	ledz
-渔	zqy
-敞	nmop
-徽	smpr
-缄	cfoj
-彬	iiss
-厥	gxqc
-讪	zmvy
-瞟	nefs
-茂	hfw
-疤	wdbb
-霹	jdyy
-惭	ufrj
-瑾	ehee
-猿	vjrq
-迸	xhzd
-眶	nfev
-豁	wiuo
-宵	wnsv
-沼	zdov
-肿	soku
-卸	pgla
-钩	psaj
-捅	fdsy
-婢	cupe
-沮	znq
-荐	hhkb
-肺	sgmj
-亨	yobl
-页	gmb
-踹	omgz
-戬	hxfj
-忖	uic
-斐	lywf
-碑	gupe
-芦	hzh
-瓷	xqhs
-拘	fsov
-钧	psxj
-雳	jgcy
-迭	pwzn
-贩	mrdb
-屡	dxcv
-漩	zybl
-夭	ry
-鲍	qsdy
-儡	tkkk
-吏	goti
-捆	fniv
-扛	fig
-曰	ku
-鹫	yojs
-届	dko
-蝉	lxke
-怠	aori
-搓	fxig
-漪	zveo
-侮	tpcm
-脊	xusv
-栗	eivx
-萱	hwek
-叱	ovi
-淹	zfkd
-驼	awvm
-拎	fuwd
-娟	cosv
-揍	feft
-嗅	otjq
-菱	hjtv
-槐	iug
-汁	zeu
-惮	uxke
-襄	wohy
-蟒	lhjh
-邻	uwdb
-姗	cssg
-账	mpcb
-樊	itif
-衅	pmxf
-砖	gecw
-喽	oxcv
-瘾	wbrb
-抿	fdfq
-弛	dbeg
-霓	juvy
-览	lpmv
-妆	xcv
-澈	zysp
-僻	tdoy
-挫	fuuj
-矣	apii
-妩	cecu
-厦	ggvc
-喻	ousl
-杏	iov
-桐	imgo
-倪	tuve
-噩	eoox
-拧	fwed
-燥	xooi
-沦	zuvi
-芊	hrq
-揪	frxv
-铲	pypj
-郊	yttb
-蚂	lam
-帖	mloj
-孕	abzn
-跺	oqiz
-蹈	ovuz
-冀	xvht
-盐	jlmm
-蹭	oxkz
-阮	bggw
-婪	iicv
-巅	megm
-株	iptu
-喇	oiol
-襟	wifi
-婿	cbls
-鞠	hsxg
-盏	gfmm
-嬉	cjxo
-凹	mgu
-敦	yobp
-膜	shkf
-焉	glcs
-跋	ohwz
-剪	xsld
-呕	ofti
-颓	rqgm
-妓	cedo
-棘	imim
-桩	iwjv
-稚	rtw
-逞	oezd
-僚	tfkc
-谍	zhiy
-桂	ijjv
-嵌	mheq
-勿	ssu
-撩	ffkc
-琦	efeo
-穹	wdgx
-梧	igdo
-拭	ffig
-焱	xxxv
-债	temb
-脯	sef
-掘	fdaa
-熠	xcub
-朽	ijk
-疫	wqsb
-拇	fcm
-窒	wgjx
-吭	oyqj
-墟	jllx
-顷	vgmi
-涣	zqmf
-镶	pwhj
-邵	dobd
-忿	tdrx
-睿	lqun
-峨	mpff
-漾	zxjz
-梨	rliv
-邸	vfwb
-酬	esty
-咋	oplu
-奕	yfdi
-寥	wcus
-呸	oggu
-饥	qqji
-蝙	lzmu
-涅	zkjv
-肋	scl
-峙	mjic
-译	zdfy
-漓	zyma
-凸	kgbg
-砚	gmve
-剔	kssl
-垫	frwj
-瞻	nqty
-镰	pwtj
-噜	oqkv
-瞅	nrxv
-梳	iyav
-熄	xtrx
-眷	xjnv
-胤	vase
-蹬	odxz
-婕	cgbl
-绘	cuaj
-岔	tdmv
-址	jlz
-坊	jyu
-幢	myjj
-蝴	ljsv
-猩	vkpq
-萌	hksv
-禹	plmu
-唾	orhu
-湛	zhcu
-飙	jjtq
-揣	fmge
-侥	tfpg
-螺	lkav
-驭	adom
-侣	toov
-肘	sic
-熏	rmhq
-聘	hkje
-唬	olqj
-垮	jfgj
-谊	zwny
-麾	wrmm
-讥	zqjy
-龚	jpto
-沛	zgmj
-嗷	oeqp
-箫	pbct
-宪	wpve
-镯	pmlj
-琐	enmb
-髓	nhzg
-薪	hyrj
-毯	rxxm
-匿	fhof
-裕	wtoi
-骸	nyhg
-匈	stau
-跄	oubz
-瓣	yryx
-懈	uqdp
-搀	fqvz
-脂	svkv
-葫	hjsv
-澎	zjxs
-翡	lcyf
-膨	sjxs
-沁	zrx
-悸	urbz
-踉	owbz
-妲	ckgu
-憨	bhpr
-苹	hexu
-癸	dft
-泻	zqcg
-黝	mach
-渣	zikg
-枢	ifti
-酿	ewby
-皓	upob
-眈	nqve
-玑	eqj
-兢	jvvg
-畔	kxft
-筷	pudu
-懊	uuxf
-糖	xwom
-伞	uxeu
-杭	iyqj
-詹	qgty
-综	cwfj
-缉	cohj
-尿	das
-嚓	owsf
-刁	bgu
-惚	ussr
-瑕	eddd
-奎	fjjd
-棉	iumj
-鲸	qycy
-瀑	zkta
-践	ogfz
-熔	xwuo
-鹅	pffs
-秉	rbu
-傍	tyqy
-霖	jiiy
-鹃	ossn
-坟	jyw
-澄	zdox
-逮	bazd
-绸	csoj
-隋	bhis
-骏	aavm
-暧	kvhd
-媛	cved
-驯	atcm
-崆	mwig
-锥	ptwj
-湃	zpgi
-狩	vwiq
-媳	ctrx
-稻	rvuj
-叽	oqj
-姻	cnfd
-拙	faau
-绚	cskj
-扒	ftu
-靡	wlfm
-簇	pypp
-饼	qxhi
-蚕	flvt
-叩	oae
-亢	yqj
-赠	mxkb
-辖	fwoc
-斋	ygew
-咸	fgow
-碟	ghiv
-蝇	lokd
-秩	rpwu
-诏	zdoy
-嚼	ovai
-卵	vxaw
-朔	xasv
-胶	sytt
-倔	tdaa
-罐	phtf
-炯	xmov
-冶	xaos
-弊	xmph
-讳	zfby
-缭	cfcj
-戳	ctfy
-搐	fyak
-驴	azhm
-聋	jpho
-禄	wbas
-盲	ycnv
-蚊	lyw
-浊	zlv
-鲨	zcpq
-唧	obaa
-恙	xjrx
-懿	jqqr
-铮	pqbj
-佬	tjvi
-唰	odml
-镔	pwtj
-炙	sxv
-阀	ztfm
-凳	dgxq
-啃	olsv
-绅	cksj
-锡	pksj
-啼	oyqm
-厄	gbuc
-鸭	ksnj
-锢	pnjj
-捶	frhu
-滥	zlpm
-匣	fkjf
-呛	oubu
-搔	fdwl
-偎	tkfu
-谜	zxzy
-屿	mgcg
-伽	tcov
-悯	uzyw
-钓	pswj
-鸾	ysni
-煮	jksh
-娴	cziv
-桀	qfix
-拯	fbdg
-蜥	lirj
-拣	ffbt
-杉	iss
-谣	zvpy
-泳	zzo
-咔	ollb
-煜	xkyl
-祟	aafs
-缴	cupj
-笙	pps
-忑	jwrx
-囔	oehr
-冈	mti
-璐	eovo
-喳	oikg
-炭	mhxv
-靴	htvg
-崎	mfeo
-忐	lrxs
-睬	nviv
-甄	ejhx
-泓	zdai
-晖	kqfc
-璧	doew
-烬	xdwz
-哽	ogkt
-肝	seg
-痞	wgob
-涕	zxkp
-栖	iex
-堤	jkgl
-炒	xcpu
-稽	rjvk
-棱	ijtv
-纲	cmtj
-戾	zjqh
-驸	atim
-闺	zjjm
-壤	jwoh
-赦	jttp
-榕	iwuo
-浇	zfpg
-厕	gmlc
-棚	issv
-殖	gend
-舵	rwvo
-袅	swyn
-蔚	hdfi
-蹙	fllw
-厘	gkec
-稷	rktv
-晒	kex
-缪	ccsj
-虾	ljwu
-匀	sxs
-捐	fosv
-颂	tagm
-赎	mefb
-亵	wfwy
-棣	ibas
-窘	wbox
-钝	pfaj
-懦	ujge
-娲	comu
-腮	skrx
-橙	idox
-璋	eykz
-烙	xvov
-瘟	wkmb
-芯	hrx
-榻	ikcy
-庶	whsg
-茨	hxqq
-哉	efov
-劭	docd
-葱	hswr
-貂	vdoz
-屎	dxm
-悚	uiov
-偌	thho
-溶	zwuo
-绢	cosj
-苑	hqbu
-虔	lywh
-飓	qttj
-屯	fauq
-吨	ofau
-娥	cpff
-殆	gaod
-嵩	mymo
-冕	meov
-骼	nvog
-磋	gxig
-蠕	ljge
-诩	zcyy
-旱	keg
-惺	ukps
-殴	ftqf
-梢	insv
-拚	fahv
-裔	wmoy
-婶	cwks
-惋	uwqb
-萎	hrcv
-觅	vmve
-峭	mnsv
-枭	sivn
-砂	gcpu
-驿	adfm
-昱	kyl
-缨	cmcj
-叭	otu
-蹿	owkz
-绫	cjvj
-谐	zvuy
-茧	hlv
-聆	hude
-帜	motj
-甸	skt
-踱	owdz
-葡	hsef
-榴	ivdk
-皙	irju
-汰	zfwu
-奄	fkdd
-腊	shkv
-昼	dwkg
-澳	zuxf
-兑	xove
-诊	zusy
-缜	cetj
-腑	swti
-敷	eypf
-晦	kpcm
-诵	zdsy
-邃	wxzx
-獠	vfcq
-鞑	hfzg
-辑	fohc
-蜡	lhkv
-庇	wvbg
-滕	sxja
-憎	uxxk
-悻	ujxe
-嗨	ozpc
-慷	uwba
-荀	hskv
-咄	oaau
-寓	wky
-筝	pqbb
-逾	uglz
-昕	krju
-藩	hzxk
-啤	oupe
-缸	pigf
-忡	uoku
-璀	emtw
-噪	oooi
-璨	eldx
-祢	wqcs
-幡	mpkj
-茉	him
-粥	dxdg
-悴	uyue
-曙	kmjk
-聿	bfu
-烨	xtve
-靶	hdbg
-颔	uwgm
-吒	opfq
-绊	cxfj
-憔	utsh
-募	hkfc
-洽	zugo
-咏	ozo
-框	ifev
-酋	xey
-谬	zcsy
-萄	hspf
-眺	nvxu
-钞	pcpj
-溟	zqyt
-痹	wkhb
-坪	jexu
-挚	frwr
-茄	hcov
-凿	lxea
-恬	urov
-邹	qbbv
-檀	iykg
-褐	wkci
-揖	fohe
-冽	xgls
-崽	mkrx
-蟹	qspl
-涎	zplb
-胯	sfgj
-瘩	whob
-抡	fuvi
-铛	pnbj
-猥	vkfq
-菇	hcjg
-疙	wpbb
-斟	hceq
-塘	jwko
-徊	snor
-函	bxal
-勺	swu
-褪	wbzi
-遏	kscz
-曦	kxjf
-睫	ngbl
-庚	wbug
-蒲	hzef
-芽	hfy
-荫	hbsv
-徘	slfr
-裘	ixww
-槽	ihmk
-鬟	emrb
-嘭	ojxs
-睽	ndft
-煎	xsls
-廓	wybg
-稿	rymo
-暄	kwek
-滨	zwit
-嗒	ohgo
-缰	cikj
-谕	zuly
-彰	yksl
-蛙	ljjv
-窿	wbpx
-锵	pxij
-旬	skv
-珂	eeov
-猝	vyeq
-掺	fafs
-嘈	ohmk
-缈	cnpj
-蟾	lqty
-扈	zodh
-耕	ifkl
-攸	tkpp
-嵋	mdnv
-萤	hqlv
-蜴	lkss
-栅	issg
-曳	kpud
-瑚	ejsv
-翱	ufcb
-攒	fpvm
-蜷	lxjb
-崛	mdaa
-惬	ufjx
-秽	rmqx
-芭	hdb
-袱	wtji
-缥	cefj
-魇	gjuc
-磅	gyqy
-庐	wzhg
-鸽	ugos
-礁	gtsh
-饵	qhei
-撅	fgaq
-缔	cymj
-晏	kwcv
-钮	pdej
-琅	ewbg
-蔼	hzuc
-苛	heov
-饷	quoi
-葵	hdft
-阙	zxqm
-掳	flcl
-晟	kfbu
-佗	twvi
-稠	rsjo
-懵	uhqn
-嗣	omgo
-韬	fbvu
-肴	thsi
-渎	zezf
-珀	eub
-琥	elqj
-娉	ckjk
-咫	dwot
-咻	otiv
-恃	ujic
-檐	iqty
-怦	uexu
-浦	zef
-颁	tdgm
-伶	tuwd
-祯	wlms
-贷	tfmb
-茬	hhkj
-吝	yovw
-扼	fgbu
-羌	xcuy
-瑭	ewko
-隧	bxrz
-蘑	hwgv
-趾	olzz
-缀	cddj
-簌	pioq
-捺	fffs
-芜	hecu
-殃	gmfd
-滢	zhew
-唠	ohqc
-噼	odoy
-矫	prti
-邮	kbvo
-掂	fwlo
-烽	xvif
-恺	umdj
-竿	peg
-绒	cfhj
-嫡	cymj
-辙	fypc
-啐	oyue
-煽	xzcy
-糙	xpzm
-戎	fhug
-禾	rv
-畴	kiit
-枷	icov
-怅	upc
-籁	piqm
-瘪	wtvb
-吆	oay
-甬	dsy
-邢	ghbv
-栩	icy
-猖	vkkq
-叼	obgu
-攘	fwoh
-芥	hutu
-壕	jyqg
-昵	kdvi
-漱	zioq
-紊	yavw
-汀	zed
-酣	ehey
-寐	waiw
-锣	pmqj
-跷	ofgz
-亩	ykt
-黏	rulo
-舷	ryao
-侈	tqqx
-鳄	qojy
-靓	esmv
-痊	wueb
-溺	zddx
-篝	phmj
-惘	umyc
-佼	tytt
-娆	cfpg
-佯	txy
-瑛	ehmf
-勘	hccq
-仕	tju
-舆	ufgt
-羲	xjjf
-虬	lcu
-捻	fubr
-螂	lwab
-攥	fpfa
-蛤	lugo
-侏	tptu
-媲	cutv
-荧	hqxv
-霏	jlfy
-氧	pxyq
-漉	zwl
-贬	mpzb
-巳	ds
-珏	eewu
-骁	afgm
-萦	hqav
-桦	itve
-羿	chvy
-迂	gizd
-券	xjdd
-殇	gpsd
-蜒	lplb
-骋	akjm
-浙	zfrj
-蹂	obiz
-煦	ksos
-臧	fafg
-缎	ctqj
-蔷	heno
-煤	xhei
-雏	qbtw
-孰	yorw
-膏	yoos
-坞	jsw
-剌	iold
-忒	frxi
-糜	wxmm
-蓓	htyo
-屹	mpbi
-瞠	nnoj
-牡	pjvn
-衮	wtay
-哒	ofzd
-淤	zyuz
-祁	wbvs
-札	icu
-躏	ohtz
-蹊	ovfz
-胄	ksvo
-棕	iwfs
-矜	bubm
-毗	kvbt
-俨	thxp
-肮	syqj
-酱	xqey
-磐	rqgo
-呱	org
-臻	gaer
-鬓	ewtb
-筱	ptkp
-铿	pljj
-胴	smgo
-雌	lvtz
-硝	gnsv
-瀛	zycq
-鞍	hwcg
-喋	ohiv
-锯	pdjj
-暑	kjkv
-沪	zzh
-迢	dozd
-玺	qcew
-拈	flov
-羁	mhaw
-蜿	lwqb
-衲	wmui
-箍	pffm
-赃	mwjb
-伫	twgu
-幺	ay
-剖	yoll
-呗	omb
-恤	upmm
-茸	hhe
-钵	pigj
-婧	cesv
-贿	mhsb
-闵	zywm
-饕	ojqv
-驹	asom
-辎	fckc
-邑	odb
-巩	iqag
-蝗	luev
-崭	mfrj
-吮	oave
-谴	zozy
-躇	ohkz
-钳	phej
-踌	oiiz
-蹑	ohdz
-噎	ojox
-俐	trld
-刊	eldg
-矗	enen
-湮	zejv
-鸠	rsnj
-亥	yh
-踞	odjz
-癫	wemb
-薰	hrmh
-弑	tiii
-惦	uwlo
-渍	zemb
-诫	zfhy
-伎	tedo
-岌	mawu
-褚	wjki
-莞	hwgg
-谑	zlgy
-铐	pjjj
-奠	xefd
-赘	eqpm
-蜈	loft
-诣	zvky
-砌	gfdd
-锈	praj
-桅	iqgb
-邯	hebv
-汴	zylb
-旎	ypdv
-窖	wpox
-椒	ilcd
-鲲	qkvy
-燎	xfkc
-诶	zapy
-惴	umge
-窦	wefx
-逵	jtjz
-噔	odox
-岱	tfmv
-飕	qtdj
-岐	medo
-隘	bxtm
-辫	ycyx
-笃	pam
-疮	wubb
-酌	eswy
-帷	mtwj
-玮	efbu
-筛	pkgm
-茱	hptu
-捋	fvic
-牟	apni
-哝	oqru
-缇	cklj
-鄂	ogbx
-鸳	qbsx
-呦	oacl
-峦	ymvi
-瞩	ndlm
-汩	zku
-蜃	glvn
-掣	pmrn
-嘤	ommc
-楮	ijkv
-餮	guvd
-邬	sbvw
-娄	xcvm
-瓮	tahw
-蟆	lhkf
-敝	xmtp
-啷	owab
-匡	fevf
-顼	egmb
-洼	zjjv
-阉	zfkm
-唏	othm
-孺	bjgz
-孜	bppz
-烘	xhtu
-拷	fjjk
-鑫	vvvv
-骰	nqsg
-掰	pfdr
-慵	uwsk
-闽	zlvm
-睨	nuve
-蚣	ltai
-龌	lujz
-茗	hqov
-冢	qgwu
-咣	ongw
-飒	yqtl
-咎	vlov
-憧	uyjv
-绎	cdfj
-靥	gjec
-铅	pqoj
-喏	ohho
-皎	uytb
-楷	ivub
-龊	lulz
-黠	mjoh
-啄	ogwu
-粪	xhtm
-杠	iig
-鸯	mfsn
-柬	inxu
-饲	qboi
-窑	wpfx
-闸	zkjm
-隼	teuw
-菌	hnrv
-膳	sxxo
-憬	ukoc
-羔	xjsh
-喵	ohkt
-苔	haov
-淼	aaas
-寰	wmor
-啬	exno
-酝	eeay
-旖	ypeo
-阖	zjmm
-捍	fkeg
-颍	vami
-榨	iwpl
-缅	cgej
-乒	tipu
-剁	qilj
-杵	ipeu
-髯	emjb
-垣	jekv
-伢	tfy
-瞑	nqyt
-壑	lqdj
-殉	gskd
-诲	zpcy
-噤	oiif
-瓒	epvm
-淬	zyue
-筠	pjsx
-兖	ytav
-坍	jsyu
-笈	pawu
-庵	wfkg
-扉	zlfh
-奚	vafd
-纶	cuvj
-椎	itw
-宦	wfe
-苞	hsds
-贲	ehmb
-梓	iyx
-褒	wtiy
-唆	oatv
-琶	eedb
-苇	hfbu
-咂	ofmj
-毋	chu
-蜕	lxov
-辐	fgkc
-盎	mfmm
-袜	wimi
-蕃	hpxk
-醇	eyby
-峥	mqbb
-螳	lnoj
-簸	phdp
-粟	exmx
-谛	zymy
-蹋	okcz
-拗	facl
-橡	iqor
-馒	qkdi
-陕	bjxu
-穗	rgor
-邺	lxbv
-晁	kvxu
-藻	hzoi
-橘	ibto
-恻	umld
-膺	wtsg
-弈	yhvi
-馋	qqzi
-佟	tvzu
-枣	imzu
-遐	dedz
-潺	zdbb
-啜	oddd
-抉	fduu
-痪	wqfb
-撮	fkhd
-筏	ptfg
-拌	fxfu
-霭	jzcy
-耷	fhed
-帛	umjb
-郢	oebv
-匍	sef
-炬	xfdu
-娑	zcpc
-乓	tiwu
-纬	cfbj
-嬴	yccq
-鹭	ovsz
-驮	afdm
-碾	gdhf
-砾	gvcx
-谏	zixy
-竺	pee
-迳	dizd
-娓	cdrm
-陇	bjpu
-沥	zgcl
-玎	eed
-胥	blsv
-旌	ypps
-墩	jybp
-眦	nlvi
-篡	pnfa
-睦	njtj
-咛	owed
-噘	ogaq
-阑	zixm
-琵	eevb
-咀	onq
-羹	xjjf
-嫦	cnom
-涧	zzkv
-呲	olvi
-曜	kctw
-馅	qqui
-胭	snfd
-诬	ziuy
-亘	ekve
-讷	zmuy
-侬	tqru
-瘴	wykb
-昙	keai
-禧	wjos
-丕	ggub
-孵	vxvb
-腆	smht
-濒	zlgm
-剐	omul
-删	ssgl
-铳	pyvj
-擞	fxcp
-簧	phkt
-磷	gxqf
-辗	fdfc
-匐	sgok
-曝	kkta
-徨	suer
-粼	xqcm
-桨	xqiv
-偃	tfkc
-楣	idnv
-缤	cwtj
-铎	pdfj
-锭	pwlj
-珈	ecov
-阐	zxem
-婀	cbeo
-宓	wrpu
-瓯	fthf
-魃	uhwg
-卉	ehv
-踝	okiz
-荼	hugi
-槛	ilpm
-姒	ccwu
-吠	ojq
-槌	iuzd
-鹊	hksn
-剃	xdpl
-瑙	ecut
-皂	ufqb
-蟠	lpxk
-谄	zquy
-颌	uggm
-蛰	frwl
-刨	sdld
-锄	pncj
-浏	zyld
-瘸	wcub
-飚	qtxj
-卤	lnti
-呤	ouwd
-戍	fwuw
-馁	qvci
-叟	ukdj
-琰	exxv
-垠	jbg
-匾	fzmf
-玟	eyw
-炳	xgmu
-窈	wacx
-婊	ceru
-杞	idj
-瓢	efrx
-嬷	cwpa
-栓	iuev
-嫖	cefs
-榭	itic
-殒	gomd
-烹	yobs
-寅	wgkt
-礴	ghei
-隅	bky
-譬	doyy
-绛	cvfj
-蒜	hffs
-筐	pfev
-挲	zcpr
-蛾	lpff
-炊	xqq
-迥	mozd
-骜	eqpa
-猬	vksq
-壹	jqox
-靳	hrjg
-蕉	htsh
-腋	syvw
-簪	pfvk
-窕	wvxx
-鸥	ftsf
-俑	tdsy
-垢	jrgo
-珞	evov
-芮	hmuu
-轼	ffic
-潞	zovo
-稣	qrvy
-沣	zif
-屉	dhs
-纨	crwj
-稼	rwgs
-簿	pzei
-笋	pbpu
-鳌	eqpq
-弼	dgdg
-垄	jpjo
-魑	uyag
-馀	quii
-黔	mubh
-涔	zmwb
-贽	frwm
-麴	iusx
-绾	cwdj
-藐	hvuv
-钗	pdwj
-劾	yclh
-斓	yzxw
-泌	zrpu
-拄	fwev
-锏	pzkj
-坝	jmb
-纣	cicj
-谧	zrmy
-鲤	qkey
-汲	zawu
-丙	gmuu
-篆	pcgs
-嚏	oebl
-潼	zyjv
-龇	luvz
-皑	umdb
-熹	joos
-渲	zwek
-呓	ohbi
-惆	usjo
-祠	wbos
-梗	igkt
-嚅	ojge
-灶	xjv
-圭	jjv
-睚	ngjj
-茎	hdig
-跚	osgz
-袒	wkgi
-撂	fkvo
-螃	lyqy
-髻	ejob
-犷	vwgq
-渤	zebc
-滤	zlrx
-螓	lerv
-赂	mvob
-踵	orez
-糗	xtjm
-蛆	lnq
-篱	pyma
-泯	zdfq
-袂	wdui
-岑	muwb
-撬	frrr
-拴	fuev
-嗲	otqq
-晤	kgdo
-矶	gqj
-靼	hkgg
-凋	xsos
-碳	gmhx
-骠	aefm
-渝	zusl
-萃	hyue
-晔	ktve
-醺	ermy
-馈	qomi
-幌	mkgj
-赧	jtad
-嗬	oheo
-嘹	ofkc
-荤	hqfc
-卯	vpae
-麓	iiwl
-峒	mmgo
-羚	xudy
-鸨	vesi
-俸	tefu
-抠	ffti
-梆	iibv
-噌	oxxk
-氤	pnfq
-裆	wnbi
-菡	hbxa
-涸	znjg
-釜	ttex
-僖	tjxo
-褥	wgii
-囤	nfaw
-舫	ryuo
-毓	pcav
-贮	mwgb
-盅	okmm
-睐	nixu
-苜	hnv
-婵	cxke
-痉	wdib
-涤	zviu
-硫	gyav
-饺	qyti
-椭	ibhs
-氲	pkmq
-挛	yrsi
-腼	sgle
-镭	pjkj
-蹒	ohuz
-渭	zksv
-甭	gsyb
-瞰	nbhp
-笺	pgfg
-谪	zyjy
-渥	zdaj
-翌	cyly
-隗	bug
-嗫	ohdd
-怏	umfd
-绔	cfjj
-鳅	qrxy
-堑	frjc
-沓	akvs
-溯	zxas
-颐	fkmf
-疵	wlvb
-霈	jzmy
-跤	oytz
-苋	hmve
-琬	ewqb
-甥	pkcs
-蚌	lif
-蜻	lesv
-翟	ctwy
-癖	wdyb
-蝼	lxcv
-啾	orxv
-卞	ylb
-咿	otbp
-韶	ydon
-唷	oyas
-蔬	hbav
-毡	rlom
-弋	fi
-怂	uurx
-霁	jyty
-泞	zwed
-藕	hiky
-鳖	xmpq
-掬	fsxm
-蟑	lykz
-嗝	ogxk
-晾	kyoc
-桉	iwcv
-咤	owpf
-霾	jvey
-撰	fdht
-桔	ijov
-炕	xyqj
-臾	uuuj
-哐	ofev
-瞌	njam
-圃	nefw
-恸	ueac
-岖	mfti
-阂	zyhm
-璞	elxx
-猊	vuvq
-汐	zqx
-臌	sjed
-獒	eqpj
-倡	tkku
-臊	sooi
-嗥	oufe
-剽	eflx
-俭	tuez
-咨	xqos
-笠	pyl
-忏	urq
-秤	rexu
-忤	upeu
-啵	ozdp
-灸	qwxv
-蛹	ldsy
-畿	aaky
-颉	jogm
-殛	gbgd
-妤	cby
-搪	fwko
-缆	clvj
-琛	eqti
-粲	lqdx
-橱	igxi
-淀	zwgl
-垛	jqiv
-瘤	wvkb
-鹦	mmsb
-肾	ldsv
-觊	mdmv
-圳	jtc
-雹	jsdy
-褂	wjli
-邕	codc
-钛	pfwj
-挎	ffgj
-觎	ugmv
-辘	fwlc
-纺	cyuj
-鹉	gfls
-恿	dsrx
-糯	xjgm
-鬃	ewfb
-榆	iusl
-祗	wvws
-胚	sggu
-揶	fhbv
-辄	fhcc
-鹞	vpsn
-杳	ikv
-咝	occj
-潋	zuzp
-玷	elov
-豺	vipz
-嗵	odsz
-坳	jacl
-揄	fusl
-螭	lyma
-犸	vamq
-魍	umcg
-撵	fjjf
-炜	xfbu
-摁	fnfr
-捎	fnsv
-颦	lnez
-箩	pmqx
-汜	zds
-潦	zfkc
-蚯	ltig
-觐	hevg
-肇	zpfh
-啕	ospf
-芋	hgiu
-镀	pwdj
-坷	jeov
-荃	huev
-翊	ycyl
-赈	mgnb
-淇	zhq
-琮	ewfs
-濑	ziqm
-湄	zdnv
-骊	agwm
-脓	sqru
-郸	xkeb
-篑	poom
-粱	zdtx
-睥	nupe
-犄	pfon
-魉	ugug
-齑	ytgw
-徙	sllr
-柿	iymj
-苯	higu
-骥	axtm
-幔	mkdj
-阗	zetm
-哂	oex
-罔	mxyc
-惰	uhis
-辇	jjff
-悼	ulkz
-宸	wgn
-纰	cvbj
-裟	zcpw
-颚	ogmx
-旃	ypsy
-荦	hqpn
-蚓	ldku
-趄	jnqz
-趔	jglz
-啻	yxmo
-嵘	mhqi
-讹	ztvy
-垦	bjvg
-暹	ktzd
-蠡	cgll
-囵	nuvw
-斡	ekze
-摒	fdxh
-遢	kczd
-轲	feoc
-堰	jfkc
-湍	zmge
-蘅	hsqu
-诽	zlfy
-魈	unsg
-锚	phkj
-袤	wbmy
-鼾	tegb
-恪	uvov
-褶	wcui
-恣	xqrs
-倨	tdjg
-癌	womb
-漳	zykz
-薯	hmjk
-腴	suuu
-洵	zskv
-瑁	emen
-沽	zjg
-掸	fxke
-耙	idbl
-邋	cnzc
-谙	zyny
-犁	rlpn
-硅	gjjv
-迄	pbzd
-嫔	cwit
-玳	etfi
-淅	zirj
-骡	akam
-嘣	omss
-袄	wryi
-谲	zboy
-瘠	wxsb
-壬	rr
-孪	ybzi
-忻	urju
-侨	trtu
-脐	sytu
-孱	dbbb
-噫	oyrx
-痰	wxxb
-皿	mm
-羯	xkcy
-沅	zggw
-噶	ohuc
-叵	fovf
-蔫	hgcs
-愠	ukmm
-淄	zckt
-鲛	qyty
-彗	iibf
-癞	wimb
-袈	cowl
-遑	uezb
-骧	awhm
-蜗	lomu
-褛	wxci
-镑	pyyj
-涓	zosv
-褴	wlmi
-揩	fvub
-镣	pfcj
-琊	efbv
-炖	xfau
-禺	ky
-瘁	wyeb
-罂	mmpb
-馥	rkkv
-郦	gmwb
-嶙	mxqf
-潢	zhkt
-讧	zigy
-夔	xttv
-镂	pxcj
-酆	mixb
-涮	zdml
-怵	uiwu
-澹	zqty
-孬	gcbb
-豚	sgs
-桧	iuea
-臃	sypt
-迩	qczd
-篓	pxcv
-偻	txcv
-銮	yvvi
-偕	tvub
-泠	zuwd
-掖	fyvw
-樵	itsh
-徵	smpr
-蔻	hwgl
-遽	lgzh
-挞	ffzd
-臼	uj
-燧	xxrz
-碉	gsjo
-摞	fkav
-臆	syrx
-夙	qgdj
-麝	wtil
-抒	fby
-轧	fcuc
-蒯	hssl
-瞿	nntw
-仞	tdpu
-鄢	glsb
-鏖	wvvl
-帚	bqmj
-粤	uxjk
-椰	ihbv
-煊	xwek
-盂	gimm
-峋	mskv
-憩	rorq
-蓁	herv
-侗	tmgo
-阜	ueud
-戛	gnfg
-庖	wsdg
-佻	tvxu
-匮	fomf
-芹	hrju
-蜓	lrbd
-榄	ilmv
-诋	zvwy
-遨	eqpz
-夥	kiqq
-痣	wjrb
-盹	nfau
-泱	zmfd
-镳	pwsj
-忪	utai
-姣	cytt
-镐	pyoj
-卟	olb
-噙	ouma
-捱	fgjj
-犒	pyon
-犊	pefn
-腺	suas
-蓟	hqld
-荑	hfdg
-傥	tnov
-馊	qudi
-碴	gikg
-洱	zhe
-鸢	fsni
-帼	mnwj
-踮	owoz
-蹩	xmol
-跆	oaoz
-喟	oksv
-倜	tsjo
-泗	znve
-闾	zoom
-幄	mdjj
-濡	zjge
-岷	mdfq
-鸶	ccsn
-粽	xwfm
-蝈	lnew
-闳	zham
-怩	udvi
-佝	tsov
-芍	hswu
-谀	zuuy
-奂	qmfd
-冗	qqj
-猷	xejq
-箕	phq
-隽	tanw
-堇	heeg
-萼	hogj
-忸	udee
-戌	fguw
-筵	pplb
-濠	zyqg
-珩	esx
-愫	ueav
-倌	twdd
-沂	zrju
-狒	vdtq
-淆	zths
-燮	yxxd
-喙	ocgs
-诌	zqby
-颛	mggm
-摹	hkfr
-锹	prxj
-檄	iuyp
-鳍	qjky
-骛	bpam
-椁	iyob
-翦	xslc
-鹧	whsg
-娼	ckku
-弭	dheg
-睑	nuez
-漕	zhmk
-贰	femi
-槿	ihee
-宕	wgv
-砺	gggb
-雉	ptwi
-鸪	jsng
-汶	zyw
-赣	ykml
-轶	fpwc
-钊	pldj
-橇	irrr
-刽	ueal
-浣	zwgg
-钺	pfcj
-谗	zqzy
-悖	ueqb
-獗	vgqq
-祚	wpls
-荥	hqas
-丶	wu
-槟	iwit
-箬	phho
-繇	vppa
-莆	hef
-诠	zuey
-浃	zjxu
-牒	thip
-艮	bg
-麋	wxml
-搡	fddi
-岈	mfy
-唳	ozjq
-忾	upq
-妪	cfti
-霰	jhpy
-纾	cbyj
-蚱	lplu
-谤	zyyy
-呷	okj
-撸	fqkv
-狻	vavq
-蕙	hgor
-昴	kvpa
-杈	idwu
-怆	uubu
-贻	maob
-缮	cxoj
-绉	cqbj
-鸩	qvsn
-砥	gvfw
-俪	tgmw
-彝	cgah
-橄	ibhp
-攫	fntd
-汾	ztdd
-膘	sefs
-赳	jauz
-鹄	posn
-邈	vuzz
-滟	ziqd
-恁	trrx
-坯	jggu
-邝	wbvg
-磬	jdqg
-陲	brhu
-沏	zfdd
-缙	chkj
-畸	kfot
-蹇	whol
-铝	pooj
-舀	vuj
-匝	fmjf
-佞	tecv
-箐	pesv
-阚	zbpm
-钠	pmuj
-泾	zdig
-坂	jrdo
-腓	slf
-掇	fddd
-驽	cdam
-迤	pbzd
-氢	pdiq
-鞅	hmfg
-蹶	ogqz
-讼	ztay
-哔	oveu
-嫒	cvhd
-蘸	hets
-佥	uezu
-炷	xwev
-哺	oef
-垩	hxjj
-磺	ghkt
-钏	ptcj
-氅	nmpr
-僮	tyjv
-皋	ufeb
-逅	rgoz
-胛	skj
-遛	vwkz
-涿	zgwu
-糠	xwam
-翕	ugoc
-呔	ofwu
-衩	wdwi
-诘	zjoy
-鳗	qkdy
-翳	fpcf
-髦	ermb
-锺	prej
-苓	huwd
-姹	cwpf
-浒	zzpe
-跖	ogvz
-铄	pvcj
-敕	iopp
-荔	hccc
-巽	ddts
-舶	rubo
-佶	tjov
-娣	cxkp
-濮	ztxx
-嗑	ojam
-膻	sykg
-懑	zhur
-颀	rjgm
-豸	vz
-儆	thop
-貉	vvoz
-莓	hpcm
-仨	tis
-藜	hrua
-厩	gbvc
-肪	syu
-圜	nmrw
-刎	ssld
-秣	rim
-钜	pfdj
-蜍	lugi
-汨	zkv
-孚	vbz
-邂	qspz
-舄	ussj
-聒	hroe
-呶	ocdo
-谒	zkcy
-戗	ubfg
-莜	htkp
-泸	zldv
-阪	brdo
-椋	iyoc
-扪	fzm
-聃	hmje
-舐	rofq
-逖	vxzq
-猡	vmqq
-邙	ycbv
-姝	cptu
-汕	zmv
-剜	wqbl
-佰	tgkv
-绶	cvdj
-罄	jdqp
-龅	ludz
-蛀	lwev
-焊	xkeg
-昶	zkvo
-沱	zwvi
-蜚	llvf
-谩	zkdy
-砝	gjai
-埔	jef
-螟	lqyt
-衾	uwbw
-耘	ieal
-竣	yavl
-蛭	lgaj
-恹	ugjq
-谆	zyby
-裨	wuei
-赝	gtmc
-俾	tupe
-氐	vfwu
-湫	zrxv
-俟	tapi
-昀	ksxs
-滇	zent
-嗳	ovhd
-鸵	swvn
-蒺	hwpi
-樽	ixei
-诃	zeoy
-涪	zyov
-踊	odsz
-琏	efzd
-淙	zwfs
-蹴	oyjz
-葩	hudb
-矍	nntd
-溥	zeic
-荏	htrr
-藓	hqxy
-潸	ziis
-黜	maah
-浚	zatv
-煅	xtiq
-笆	pdb
-诮	znsy
-谡	zkvy
-坨	jwvi
-淞	zita
-铤	prbj
-绥	cvcj
-犟	dopg
-楔	iidf
-俦	tiic
-桢	ilmb
-猕	vdcq
-菠	hzdp
-跛	odpz
-鱿	qjoy
-恫	umgo
-瘌	wilb
-诰	zpoy
-滂	zyqy
-葭	hddd
-獐	vykq
-饪	qrri
-殄	gusd
-佃	tkt
-噱	olgs
-醐	ejsy
-锉	pujj
-崧	mita
-戊	fw
-砧	glov
-抨	fexu
-牦	prmn
-榷	iqtw
-跻	oytz
-槊	xasi
-醍	ekly
-囱	uvu
-祛	wjas
-葳	hfgc
-谚	zysy
-逡	atzi
-鎏	zyvv
-绺	cvoj
-灞	zjhs
-绡	cnsj
-玖	eqwu
-茁	haau
-诳	zvey
-骓	atwm
-谟	zhfy
-咩	oxy
-哓	ofpg
-蚤	dwlo
-秧	rmfd
-馍	qhfi
-滓	zwyx
-釉	pxko
-棂	ibxv
-塾	yowj
-忱	uqve
-町	kedt
-籽	xbzm
-柩	ifqw
-嗄	ognv
-锟	pkvj
-峪	mtuo
-夯	fcld
-囫	nssw
-碱	gfgo
-酡	ewvy
-痍	wfdb
-痿	wrcb
-绌	caaj
-莘	hyx
-殁	gqsd
-兕	mgw
-刍	qbu
-叁	afii
-奘	ajfp
-獬	vqpq
-锷	pojj
-崴	mfgc
-纭	ceaj
-锃	poej
-酉	ey
-徇	sskr
-蝮	lpkv
-圉	njew
-馗	rxtj
-嶂	mykz
-莒	hoov
-膑	swit
-莅	htyl
-豢	xjgs
-镌	ptaj
-胫	sdig
-脶	somu
-腌	sfkd
-蔺	hztw
-鹘	nsng
-痘	wgxb
-鄱	pxkb
-嚯	ojtw
-碇	gwgl
-晷	kvlo
-绦	cvij
-渚	zjkv
-殡	gwtd
-龛	ugjp
-荻	hvxv
-俎	uunq
-碜	gafs
-蛎	lggb
-饯	qgfi
-砣	gwvi
-亟	bogl
-谔	zojy
-懋	ibir
-闩	zgum
-锲	pifj
-仝	uig
-瘀	wyzb
-稔	rubr
-泫	zyay
-濯	zctw
-哞	oapn
-乜	bcu
-嗟	oxig
-诓	zfey
-驷	anvm
-蓿	hwgk
-桠	ihxu
-耒	il
-糅	xbim
-镫	pdxj
-貅	vtiz
-犴	vegq
-褓	wtii
-偈	tkuc
-溧	zeiv
-訇	syv
-媾	chmj
-栾	yivi
-槁	iymo
-郏	jxbf
-葺	hohe
-铩	ptij
-蚨	ljf
-掾	fcgs
-靛	esgl
-螯	eqpl
-萋	hebc
-侩	tuea
-徉	sxyr
-枰	iexu
-鹜	bpsm
-褫	wrqi
-琚	edjg
-蜮	lfog
-抻	fks
-襁	wdli
-遴	xqzm
-蓑	hwog
-皈	urdb
-虱	bpli
-皖	uwgb
-菟	hqvw
-觞	qsbs
-呖	ogcl
-邳	ggbb
-颧	hogm
-溉	zbfv
-幂	qkfm
-阡	brq
-忝	fcwt
-椿	iekv
-窳	wrrx
-貔	vuvz
-炅	kxv
-舢	rmvo
-糨	xdlm
-鸷	frws
-抟	fecw
-沆	zyqj
-铣	ppvj
-懔	uyof
-腩	sexe
-骅	atem
-烩	xuea
-盥	uamm
-锴	pvuj
-殚	gxed
-砀	gbsu
-咭	ojov
-氮	pxxq
-孑	bgul
-愎	upkv
-睢	ntw
-逦	gmwz
-纂	pnfa
-薜	hdoy
-嘞	ohcl
-狴	vvjq
-悌	uxkp
-猢	vjsq
-爻	ttii
-牍	tefp
-羸	ycxq
-撺	fwok
-鹑	yobs
-缃	cinj
-饽	qebi
-嶷	mvbl
-蒿	hymo
-蝾	lhqi
-稹	rent
-钹	phwj
-雒	votw
-仃	ted
-俅	tixw
-狍	vsdq
-梏	ipov
-橐	eogi
-韪	kgfb
-囡	ncvw
-嵇	rjmv
-橹	iqkv
-鳕	qjby
-樟	iykz
-轸	fusc
-黢	mavh
-徜	snor
-酵	ejby
-桎	igaj
-鬣	eccb
-擢	fctw
-肓	ycsv
-镏	pvkj
-呙	omuu
-璺	umew
-栉	ihae
-酗	etay
-铀	pkoj
-铡	pmlj
-镁	pxfj
-酪	evoy
-伥	tpc
-珐	ejai
-璎	emmc
-辂	fvoc
-崂	mhqc
-炝	xubu
-祉	wlzs
-狲	vbcq
-榔	iwab
-珲	eqfc
-肛	sig
-芩	huwb
-诿	zrcy
-镞	pypj
-啮	olua
-鼬	ukos
-岫	mko
-阆	zwbm
-檬	ihgg
-箔	pzub
-貊	vgkz
-饨	qfai
-蜇	frjl
-馄	qkvi
-蜢	lbmm
-镛	pwkj
-寮	wfkc
-辍	fddc
-斫	grju
-蛔	lnov
-诨	zqfy
-酊	eedy
-挝	fizd
-璁	euvr
-骢	aurm
-赊	mufb
-铨	puej
-砒	gvb
-纛	ecpa
-楸	irxv
-蟊	bllm
-煲	toix
-爿	ap
-谌	zhcy
-赁	trmb
-殓	guzd
-聩	home
-媸	cagl
-掼	fcem
-罹	mutw
-廿	hgu
-蛐	lmhu
-莠	hran
-钨	pswj
-摺	fcub
-镝	pyjj
-怼	diro
-旮	rkuj
-酩	eqoy
-暨	bakg
-诟	zroy
-硭	ghyc
-蚋	lmuu
-赭	jtjk
-柠	iwed
-絷	frwa
-歃	ruqq
-黩	mefh
-耆	jvkv
-蔗	hwgs
-闱	zfbm
-嘬	okhd
-茯	htjq
-邴	gmub
-缛	cgij
-驺	aqbm
-訾	lvyz
-轱	fjgc
-祆	wfts
-鲧	qpay
-蹉	oxiz
-遒	xezd
-僭	tfvk
-谯	ztsy
-倥	twig
-孢	bsdz
-嵬	mug
-誊	xjyv
-旯	krj
-妁	cswu
-岬	mkj
-孛	eqbz
-泖	zvpa
-裾	wdji
-榈	izoo
-荚	hjxu
-跎	owvz
-囿	nhsw
-悒	uodb
-檑	ijkt
-谥	zxmy
-辔	fcoc
-谶	zugy
-蚺	lmjv
-嫱	ceno
-痂	wcob
-虺	glvw
-牯	pjgn
-镗	pnjj
-煨	xkfu
-饴	qaoi
-獾	vhtq
-瑗	eved
-闫	zism
-伉	tyqj
-祧	wvxs
-诙	zhxy
-胪	sldv
-啖	oxxv
-钴	pjgj
-揆	fdft
-苻	htic
-錾	frvc
-鼹	ukcs
-埠	jueu
-阒	znjm
-笞	paov
-豕	gs
-耄	jvrm
-撷	fjgm
-箸	pjkv
-椤	imqx
-痔	wjib
-篙	pymo
-菀	hwqb
-嫫	chkf
-蟋	lpxr
-唁	oyv
-拮	fjov
-暝	kqyt
-岿	mkpb
-阕	zdfm
-滁	zbgi
-衢	sntx
-弁	ahvi
-荇	hsx
-逶	rczd
-葆	htoi
-蚪	lzeu
-喑	oyn
-蟀	lyxe
-隍	buev
-嘁	oflc
-糸	av
-茕	hqbe
-埙	jomb
-獭	vimq
-觥	qsng
-晗	kubo
-蝌	lrze
-俚	tkee
-掴	fnew
-磔	gqfi
-墒	jyto
-搽	fhui
-滦	zyiv
-姘	cxhv
-泅	znuu
-湎	zgle
-螫	jtpl
-娩	cqov
-涝	zhqc
-笮	pplu
-饬	qpci
-菅	hwdd
-肱	shai
-闰	zevm
-骞	whta
-徕	sixr
-讫	zpby
-傈	teiv
-汞	iasg
-蓐	hgic
-徭	svpr
-鳝	qxoy
-荟	huea
-巯	diav
-狎	vkjq
-鲽	qhiy
-璜	ehkt
-铆	pvaj
-剡	xxld
-猁	vrlq
-柚	iko
-耦	ikyl
-逑	ixwz
-捭	fupe
-脔	ymui
-汛	zbeu
-哙	ouea
-铂	pubj
-挈	idrf
-绻	cxbj
-跹	orzz
-琨	ekvb
-铖	pfbj
-炻	xgv
-珉	edfq
-癣	wqxb
-颢	kygm
-裱	weri
-蕤	hgps
-悱	ulf
-猞	vuoq
-赅	myhb
-楹	iadm
-恚	jjrx
-衽	wrri
-貘	vhfz
-铢	pptj
-钎	prqj
-凼	aaus
-蜉	lvbz
-粕	xubm
-钿	pktj
-涞	zixu
-雩	jgjy
-鲫	qbay
-傩	tdtw
-莳	hkic
-仄	guuc
-斛	qsze
-珙	ehtu
-纥	cpbj
-筅	ppve
-胰	sfdg
-荜	hveu
-焘	iisf
-怄	ufti
-栎	ivcx
-洌	zgld
-觜	lvsz
-瘙	wdlb
-蕲	hxrj
-唿	ossr
-缳	cmrj
-戕	afgp
-锝	pkij
-埂	jgkt
-拊	ftic
-秆	reg
-讦	zegy
-柑	ihee
-螈	lguc
-锌	pyxj
-郗	thbi
-仵	tpeu
-恽	uqfc
-烊	xxy
-篁	puev
-搴	whtr
-獍	vyvq
-杷	idb
-脍	suea
-醴	emxy
-鹂	gmws
-孀	cjin
-邰	aobi
-郜	pobv
-纩	cwgj
-骈	axhm
-堞	jhiv
-鹬	bmsm
-牝	pvin
-湟	zuev
-酃	joby
-冼	xpvs
-氦	pyhq
-锒	pwbj
-篾	pmfw
-缦	ckdj
-熨	dfix
-杌	igw
-硌	gvov
-骝	avkm
-碣	gkuc
-轾	fgjc
-鏊	eqpv
-覃	ekzx
-虻	lycu
-膂	yprs
-咴	ohxv
-缟	cyoj
-偬	tswr
-暾	kybp
-窨	wynx
-鼐	antn
-帏	mfbj
-洮	zvxu
-胱	sngw
-铉	pyaj
-鲟	qbiy
-泵	gas
-竦	yiol
-虢	vilq
-椽	icgs
-韭	lguf
-佤	thw
-帧	mlmj
-蕨	hgaq
-狯	vuaq
-屐	dsed
-癯	wntb
-鳃	qkry
-苌	hpc
-侔	tapn
-腚	swgl
-腱	sbfb
-圻	jrju
-灏	zkgm
-痨	whcb
-眙	naov
-竽	pgiu
-缢	cxmj
-辚	fxfc
-髭	elvb
-尜	cfcx
-趺	ojfz
-茔	hqjv
-蝰	lfjj
-囹	nudw
-洇	znfd
-猱	vbiq
-鼋	ggok
-芫	hggw
-赍	euqm
-宥	whsv
-樘	inoj
-睇	nxkp
-酶	epcy
-墉	jwsk
-嘌	oefs
-罅	plif
-赡	mqyb
-镊	phdj
-椴	itiq
-彀	jqdq
-洹	zekv
-盱	ngiu
-噻	owtj
-旄	yprm
-犍	pbbn
-庹	whwg
-欹	feqd
-珥	ehe
-钙	pjcj
-吡	ovb
-撄	fmmc
-狃	vdeq
-裢	wfzi
-镙	pkaj
-圩	jgiu
-铬	pvoj
-馐	qxei
-峄	mdfu
-馏	qvki
-搠	fxas
-炔	xduu
-踟	opoz
-鼍	okkx
-仟	trq
-鹌	fksd
-戡	hcfq
-氯	pbaq
-苫	hlov
-襦	wjgi
-擀	feue
-箴	pfgo
-娈	ycvi
-昃	kguu
-荛	hfpg
-龈	lubz
-焖	xzrx
-诤	zqby
-榛	ierv
-峤	mrtu
-犰	vrjq
-蟥	lhkt
-蹼	olxz
-殳	qs
-臬	tivz
-妣	cvb
-楫	iohe
-燹	ggxs
-缱	cozj
-厣	gjkc
-傣	teas
-狁	vavq
-帔	mdpj
-锰	pbmj
-圄	ngow
-痢	wrlb
-秸	rjov
-嵯	mxig
-樨	idap
-纡	cgij
-澧	zmox
-畲	ufkt
-瘐	wuub
-腭	sogj
-瓴	uwdh
-蠹	eoll
-裣	wuzi
-郓	qfbv
-柞	iplu
-砦	lvgz
-杼	iby
-闼	zfzm
-鞒	hrtg
-纫	cdpj
-芨	hawu
-蛉	luwd
-骐	ahqm
-吖	oxku
-瘿	wmcb
-笳	pcov
-郧	ombv
-黟	mqqh
-舛	qfux
-钾	pkjj
-憷	uibl
-稞	rkiv
-颏	ygmh
-佚	tpwu
-苡	hcwu
-勐	bmcz
-淖	zlkz
-澍	zjxi
-铰	pytj
-茴	hnov
-褡	whoi
-诜	zpvy
-薨	hmgv
-濉	zntw
-檫	iwsf
-郇	skbv
-骘	blna
-凫	sqjn
-鹗	ogsx
-垭	jhxu
-罨	mfkw
-邗	ebvg
-钯	pdbj
-搦	fddx
-荠	hytu
-喁	oky
-枋	iyu
-浔	zbic
-煸	xzmu
-矽	gqx
-苕	hdov
-謇	whty
-垓	jyh
-沔	zjcb
-粑	xdbm
-蝓	lusl
-躅	omlz
-锨	prqj
-瀣	zllg
-迓	fzdy
-杓	iswu
-喈	ovub
-烷	xwgg
-矾	gqa
-缁	cckj
-蜊	lrld
-陉	bdig
-堠	jtdp
-鄯	xxby
-幛	mykj
-愀	urxv
-瓤	wory
-蕈	hekz
-踯	oxbz
-鲵	quvy
-丨	ku
-刭	dild
-濂	zwlt
-怫	udtu
-罴	mjsw
-坩	jhee
-焙	xyov
-摈	fwit
-氰	pesq
-渑	zokd
-疥	wutb
-肜	sss
-厶	ai
-氟	pdtq
-鲰	qhdy
-疟	wfgb
-笫	ppkp
-褰	whtw
-痼	wnjb
-鲑	qjjy
-黍	ruas
-沭	ziwu
-缗	cdkj
-菸	hyuz
-悭	uldj
-疱	wsdb
-衿	wubi
-氨	pwcq
-艏	rxto
-裎	woei
-孳	xaab
-庠	wxyg
-旒	ypav
-栳	ijvi
-茏	hjpu
-阄	zqkm
-亳	yopf
-卅	hv
-媪	ckmm
-艨	rhgo
-邛	ibvg
-麂	wqjl
-尻	drj
-樯	ieno
-豌	goqb
-踽	opmz
-鲈	qldy
-艄	rnso
-鲶	qury
-眭	njjv
-陂	bdp
-榉	iztf
-氖	panq
-笏	pssu
-廪	wyfg
-怛	ukgu
-蚍	lvb
-铙	pfgj
-殍	gvbd
-泶	zqas
-淝	zsdb
-菘	hita
-蒹	hxlt
-忉	udd
-桁	isx
-疹	wusb
-蝣	lypb
-喱	ogke
-妊	crr
-萑	htw
-擘	doyr
-逋	ezdf
-埚	jomu
-苒	hmjv
-锗	pjkj
-唢	onmb
-谰	zzxy
-歙	ugcq
-烯	xthm
-焯	xlkz
-矬	puji
-疽	wnqb
-艟	ryjo
-趸	gbol
-蹰	ogiz
-眇	ncpu
-荩	hdwz
-縻	wavm
-亍	ged
-佧	tllb
-叻	ocl
-箝	pfhe
-趿	oawz
-勰	ccrl
-嘏	jddg
-桫	izcp
-飨	cpvs
-侪	tytu
-疴	weob
-翥	jkcy
-蚝	lrm
-鲠	qgty
-雎	ntwq
-毂	jqfq
-茑	hsn
-觚	qsrg
-阋	zuvm
-洄	znov
-焓	xubo
-跗	otiz
-猗	vfoq
-胺	swcv
-鹕	jssg
-笤	pdov
-跸	ovez
-狷	vosq
-钬	pxvj
-镪	pdlj
-馕	qeri
-疡	wbsb
-篦	putv
-鹈	xdps
-踅	frol
-棼	iitd
-睾	pmxe
-鹳	hots
-漭	zhjh
-烃	xdig
-瞽	jodn
-逄	vfzd
-锍	pyvj
-哚	oqiv
-砬	gyl
-蝥	bplm
-钲	pglj
-陟	blnu
-泷	zjpu
-耋	jvaj
-酮	emoy
-塄	jmyu
-痫	wzib
-蚧	lutu
-埘	jkic
-枸	isov
-柢	ivfw
-潆	zhqa
-笄	pghv
-醮	etsy
-彖	cgs
-稗	rupe
-窠	wkix
-萘	hffs
-郯	xxbv
-掮	fzsv
-尢	hcu
-鲇	qloy
-鼙	jope
-畦	kjjt
-舸	reoo
-帑	cdmj
-睃	natv
-蚜	lfy
-溘	zjam
-蠃	yclq
-岢	meov
-矸	geg
-鸱	vfws
-狳	vuiq
-祜	wjgs
-囟	uti
-扦	frq
-枥	igcl
-庾	wuug
-菔	hsad
-蟛	ljxs
-嗉	oeav
-擤	ftb
-莪	hpff
-觋	iuvg
-醪	ecsy
-倬	tlkz
-爰	vedo
-蚰	lko
-轳	fldc
-锱	pckj
-鬻	dxkg
-鳏	qmty
-栲	ijjk
-渌	zbas
-蛄	ljg
-嬗	cykg
-谘	zxoy
-鋈	zrvv
-阍	zvkm
-杲	kiv
-柘	igv
-毖	vrpb
-禳	wwhs
-馔	qdti
-鳐	qvpy
-鳟	qxiy
-耔	ibzl
-辊	fkvc
-镍	ptij
-侑	thsv
-娠	cgn
-槎	ixig
-芾	hgmj
-豳	mggs
-钤	pubj
-锕	pboj
-孥	cdbz
-綦	havq
-锑	pxpj
-洙	zptu
-榫	iteu
-疣	wjob
-砭	gpzz
-筮	piuu
-酽	ehpy
-愆	szrx
-栀	irgb
-耪	iyyl
-薅	hcgi
-蜞	lhq
-崤	mths
-椟	iezf
-糁	xasm
-茇	hhdw
-啁	osjo
-氪	pjvq
-萁	hhq
-龃	lunz
-墀	jdap
-碘	gmht
-芪	hvfq
-莰	hjqq
-菏	hzeo
-嵊	mrxv
-蛩	iqlg
-鞯	hhbg
-楂	iikg
-缒	cuzj
-饣	qi
-乩	locu
-捌	focl
-毽	rbbm
-愍	dfrs
-瘢	wrqb
-铋	prpj
-铧	ptej
-髋	nwvg
-鹚	xaas
-儋	tqty
-奁	fftd
-樾	ijfc
-滹	zlxi
-穑	reno
-茌	htju
-骶	nvwg
-刖	sld
-嫜	cykz
-溏	zwko
-螽	vzll
-囝	nbzw
-戽	zzeh
-橛	igaq
-舂	euj
-遄	mgzd
-坭	jdvi
-澶	zykg
-熵	xyto
-镬	phdj
-飧	qvsx
-枞	iuuu
-柙	ikj
-硎	gghl
-缯	cxkj
-蔌	hioq
-鲂	qyuy
-冱	xecs
-岙	rmvy
-殂	gnqd
-艉	rdro
-蠼	lntd
-匏	fgdd
-痈	wsyb
-鹾	lnxi
-尕	acxn
-攮	fehr
-樗	ijgj
-皲	qfdp
-髡	egwb
-坻	jvfw
-伧	tubu
-剀	mdld
-椐	idjg
-瓠	fgrd
-讣	zlby
-髁	nkig
-龉	luoz
-彘	cgpv
-棹	ilkz
-疠	wgbb
-薮	hxcp
-隈	bkfu
-龋	lumz
-朐	ssov
-橼	iccg
-芰	hedo
-圹	jwg
-敉	xppm
-暌	kdft
-饧	qbsi
-泔	zhee
-赜	fkmf
-黧	rspm
-筚	pveu
-蓖	hutv
-鸬	ldsn
-蚬	lmve
-醯	eymy
-钪	pyqj
-餍	gjvc
-鸹	rosq
-哏	obg
-甑	xkkh
-疋	blu
-膣	swaj
-螅	ltrx
-锞	pkij
-髫	edob
-宄	wrj
-摭	fwgs
-檠	hspi
-盍	jamm
-绂	chwj
-骟	azcm
-棰	irhu
-缡	cyaj
-苷	hhee
-蹁	ozmz
-铗	pjxj
-鞣	hbig
-圯	jds
-涑	ziov
-箜	pwig
-芎	hdg
-蔟	hypp
-觯	qske
-鍪	bpvm
-镟	pylj
-夤	qwtx
-妫	czcl
-熘	xvdk
-硼	gssv
-秫	riwu
-阏	zyzm
-飑	qtdj
-啭	ofcw
-枳	iotu
-礅	gybp
-耨	igil
-茭	hytt
-钡	pmbj
-捩	fzjq
-柁	iwvi
-甯	wrsy
-苴	hnq
-铊	pwvj
-寤	wado
-潍	zctw
-牖	tzep
-赀	lvmz
-醚	exzy
-阈	zfgm
-柽	idjv
-栌	ildv
-肄	vpfi
-脘	swgg
-酎	eicy
-鲳	qkky
-柒	zfiv
-浠	zthm
-蛳	lkgm
-壅	yctj
-枇	ivb
-楱	ieft
-焐	xgdo
-秭	rpkp
-笥	pbgo
-茈	hlvi
-蒌	hxcv
-讴	zfty
-谵	zqyy
-跏	ocoz
-镆	phfj
-鬈	exbb
-怙	ujg
-枵	iojk
-痱	wlfb
-膈	sgxk
-卮	rgbu
-圊	nesw
-圮	jdj
-堀	jdaa
-忄	uv
-氚	ptcq
-皴	atdi
-绐	caoj
-蟮	lxxo
-邡	ybv
-亻	tv
-庑	wecg
-廨	wqpg
-钭	pzej
-挹	fodb
-觳	jqsq
-闶	zyqm
-檗	doyi
-漯	zkav
-瓿	yohl
-眚	pnvs
-芴	hssu
-诂	zjgy
-郴	iibv
-鳓	qhcy
-俣	toft
-徼	supr
-桡	ifpg
-楗	ibfb
-莨	hwbg
-酰	epvy
-雠	tztw
-喾	zqpo
-揿	fpqq
-笊	prz
-苎	hwgu
-黥	mych
-僳	texm
-芏	hjv
-菖	hkku
-蓊	htac
-袢	wxfi
-馑	qhei
-卺	bdbl
-垆	jldv
-旆	ypgm
-曛	krmh
-汊	zdwu
-硒	gex
-穰	rwoh
-粳	xgtm
-酾	egwy
-鲷	qsoy
-鹣	xbts
-塬	jguc
-曩	kwoh
-荪	hbcx
-莴	homu
-蕞	hkhd
-蘖	huyi
-怃	uecu
-欤	gcgq
-玢	etdd
-蕖	hzdi
-镒	pxmj
-厝	ghkc
-坶	jcm
-屣	dsll
-揎	fwek
-榧	iflf
-芑	hdj
-蓥	hqvv
-钣	prdj
-鬲	goxk
-鳔	qefy
-鼗	vxde
-仂	tcl
-婺	bpcm
-嫠	ipcw
-愦	uoom
-癍	weeb
-癔	wyrb
-碓	gtw
-箧	pfjx
-缶	pf
-蘧	hlgz
-妗	cuwb
-幞	mlxj
-沤	zfti
-痦	wgob
-蛑	lapn
-詈	myvw
-钚	pgbj
-铴	pzsj
-锆	ppoj
-丌	hj
-岘	mmve
-枧	imve
-柰	ifs
-浜	ztit
-蓼	hcus
-蛞	lrov
-鄣	ykbl
-偾	tehm
-藿	hjtw
-酢	eply
-铟	pnfj
-锛	pfhj
-阊	zkkm
-骖	aasm
-鲆	qexy
-檩	iyof
-燔	xpxk
-猓	vkiq
-蘼	hwlf
-趵	oswz
-酲	eoey
-鹩	fxsd
-乇	pfq
-囗	nw
-屙	dbeo
-揸	fikg
-碛	gemb
-笸	pfov
-赓	wbmg
-鄄	ejbx
-铱	pwyj
-黻	lxdw
-伲	tdvi
-缂	chgj
-蜣	lxcu
-蜩	lsjo
-谝	zzmy
-铍	pdpj
-韫	fbkm
-伛	tfti
-傧	twit
-揠	ffkc
-昝	vlkv
-溽	zgic
-胙	splu
-萏	hquj
-隹	tw
-麈	wwel
-妯	cko
-孓	bwul
-溱	zerv
-碚	gyov
-蕺	hohf
-锊	pvij
-镧	pzxj
-髀	nueg
-坫	jlov
-崃	mixu
-戢	ohfg
-瑷	evhd
-糌	xvkm
-缬	cjmj
-邶	xvbv
-坼	jrjw
-梃	irbd
-瞢	hmqn
-缧	ckaj
-菽	hlcd
-豉	goed
-仳	tvb
-堙	jejv
-忭	uylb
-恂	uskv
-砷	gks
-筌	puev
-箪	pxke
-艿	han
-郅	gajb
-鲢	qfzy
-鳎	qkcy
-厍	gfcc
-哕	omqx
-廑	wheg
-敫	uypb
-栊	ijpu
-癜	wdqb
-碹	gwek
-磙	gwta
-笾	pczd
-篪	prlq
-缌	ckrj
-苣	hfdu
-荨	hbic
-诹	zhdy
-诼	zgwy
-钒	pqaj
-嗍	oxas
-槠	izjk
-欷	thqi
-淦	zvv
-甏	josh
-胝	svfw
-荞	hrtu
-蓍	hjvk
-蛱	ljxu
-裉	wbgi
-辏	fefc
-颞	hdme
-麸	evjf
-娌	ckee
-椹	ihcu
-缫	ccij
-翮	gokc
-诒	zaoy
-郾	fkbf
-铯	pqdj
-锂	pkej
-鞫	hsyg
-卣	lndu
-圬	jgjk
-尥	hcsw
-槲	iqze
-氘	ptuq
-瘘	wxcb
-耩	ihjl
-轫	fdpc
-迨	aozi
-馓	qhpi
-啉	oiiv
-圪	jpbi
-廴	bd
-泺	zvcx
-熳	xkmd
-璩	elgs
-胗	suss
-苁	huuu
-薹	hjaj
-锘	phoj
-阌	zvdm
-鳊	qzmy
-唑	ouuj
-溻	zkcy
-瘰	wkab
-砗	gfc
-砩	gdtu
-羝	xvwy
-茺	hyav
-蓠	hyma
-俳	tlf
-刳	fgld
-唣	oufq
-悝	ukee
-慊	uxlt
-瘳	wcsb
-茼	hmgo
-麇	wrvl
-黾	okd
-嗾	oypp
-嵛	musl
-杩	iam
-狨	vfhq
-狺	vyvq
-痧	wzpb
-砜	gqti
-缍	crhj
-芡	hqq
-蓣	hbgm
-顸	egmg
-槭	iflc
-溲	zukd
-畹	kwbt
-痤	wujb
-眄	njcb
-糍	xxam
-葚	hhcu
-郐	ueab
-酹	eviy
-镢	pgqj
-隳	bhcw
-鹋	hksn
-唛	oevu
-嬖	doyc
-怍	uplu
-朊	sggw
-涫	zwdd
-绲	ckvj
-胼	sxhv
-腧	susl
-葑	hjji
-蠓	lhgg
-踬	ormz
-鞲	hhjg
-饫	qryi
-刈	tldi
-垲	jmdj
-嵴	mxus
-帻	memj
-旰	keg
-畚	afki
-荭	hcig
-萸	huuu
-蘩	hppa
-颃	yqgm
-颟	hggm
-鸲	sosn
-龠	ugom
-呒	oecu
-嗌	oxtm
-疸	wkgb
-硖	gjxu
-绁	chsj
-耧	ixcl
-蚴	lacl
-蛸	lnsv
-裰	wddi
-謦	jdqy
-跣	opvz
-踺	obbz
-逯	bazd
-陔	byh
-凇	xias
-堋	jssv
-屦	dsxc
-峁	mvpa
-廛	wkjg
-栝	irov
-磴	gdox
-篌	ptdp
-芘	hvb
-葸	hkrx
-薏	hyrx
-踔	olkz
-鄞	hebg
-醢	ehmy
-铒	phej
-镲	pwfj
-鲮	qjvy
-仉	tqj
-侉	tfgj
-桄	ingw
-泮	zxfu
-燠	xuxf
-犭	vq
-皤	upkb
-粝	xgbm
-蹀	ohiz
-颡	ddmo
-鲞	xjqy
-唪	oefu
-嗪	oerv
-掭	ffcw
-畈	krdt
-簦	pdox
-绨	cxpj
-胍	srg
-胲	syh
-舻	rldo
-铘	pfbj
-锩	pxbj
-鲋	qtiy
-崮	mnjg
-庋	wedg
-毳	rrrm
-箅	pkhj
-缣	cxtj
-菹	hznq
-虿	gblv
-谇	zyey
-贶	movb
-陧	bkjv
-隰	bkas
-僬	ttsh
-匦	ffrf
-垧	juov
-疔	wedb
-肭	smuu
-蝤	lxey
-谖	zvdy
-趑	jxqz
-轭	fgbc
-酐	eegy
-醅	eyoy
-醑	ebsy
-醛	ehey
-锬	pxxj
-劂	gxlc
-垅	jjpu
-悛	uatv
-戥	kpfg
-拶	fcqx
-硷	guez
-笕	pmve
-簟	pekz
-莼	hcfa
-蒴	hxas
-藁	hyoi
-诖	zjjy
-谠	znvy
-谳	zejy
-邾	ptbn
-陴	bupe
-鬏	erxb
-龀	luvz
-剞	feld
-劬	socl
-勖	menc
-埸	jkss
-嬲	kcct
-嵝	mxcv
-搿	pfor
-柝	irjw
-桴	ivbz
-洧	zhsv
-浯	zgdo
-疝	wmvb
-笱	psov
-肽	sfwu
-舯	roko
-艋	rbmo
-芤	hbcu
-葙	hinv
-鲔	qhsy
-鸸	gsne
-佾	ttsv
-墁	jkmd
-嫘	ckav
-榇	iyiu
-煳	xjsv
-硪	gpff
-礞	ghgg
-菰	hbrg
-蚵	leov
-趱	jpmz
-躜	opmz
-钼	pnvj
-鲱	qlfy
-匚	ff
-呋	ojf
-媵	sxjc
-崦	mfkd
-楝	iinx
-潲	zrns
-獯	vrmq
-瘵	wsfb
-绀	chej
-绋	cdtj
-莩	hvbz
-觫	qsio
-辋	fmcc
-镡	pekj
-髂	nwog
-鬯	tzvi
-鹨	cusy
-亓	ghj
-劓	tldb
-埕	joev
-曷	ksuc
-洚	zvfu
-碲	gyqm
-磲	gzdi
-粜	aaxm
-绱	cnoj
-芄	hrwu
-酚	etdy
-铪	puoj
-髌	nwtg
-鲥	qkiy
-俜	tkjk
-刿	mqld
-吣	orx
-垤	jgaj
-枘	imuu
-氽	uas
-溷	zngs
-甍	hmqh
-笪	pkgu
-胬	cduu
-舨	rrdo
-芟	hqs
-蒽	hnfr
-銎	iqvg
-铵	pwcj
-锶	pkrj
-骱	nutg
-鹆	tuos
-岣	msov
-岵	mjg
-怿	udfu
-慝	fhrf
-挢	frtu
-掎	ffeo
-毹	uglr
-汆	vasr
-沲	zpbe
-湔	zxsl
-甙	fhei
-罟	mjgw
-羼	dxxx
-菝	hfdw
-讵	zfdy
-诎	zaay
-谮	zfky
-赉	ixmw
-郄	thbi
-鐾	doyv
-鲎	zqqy
-啶	owgl
-塍	sxjj
-屺	mdj
-庥	wtig
-掊	fyov
-撙	fxei
-柃	iuwd
-檎	iuma
-毵	afri
-渖	zwks
-砘	gfau
-窭	wxcx
-肟	sgjk
-蔸	hudv
-蚶	lhee
-蛏	ldjv
-躞	oydz
-酯	evky
-锾	pvdj
-饩	qpqi
-劢	gbcl
-嘧	owpm
-嵫	mxaa
-擐	fmor
-湓	ztdm
-蝻	lexe
-蠖	lhtd
-觖	qsdu
-跬	ojjz
-阝	bv
-鳜	qgqy
-仡	tpbi
-垌	jmgo
-氆	rxkm
-氇	rqkm
-汔	zpbi
-篼	pudv
-缑	ctpj
-舾	rexo
-莸	hvjo
-蛲	lfpg
-蠛	lhfw
-蠲	xtsl
-褊	wzmi
-醣	ewoy
-骀	aaom
-倮	tkiv
-僦	tycj
-凵	au
-崾	mecv
-渫	zhiv
-瘗	wjjb
-箦	pemb
-肼	sfku
-腽	skmm
-臁	swlt
-舳	rkoo
-芈	hfu
-荽	hvcv
-蒉	hoom
-蛴	lytu
-袼	wvoi
-跫	iqlg
-遘	hmjz
-儇	tmor
-埽	jbqm
-庀	wvig
-戆	ykrl
-扃	zmoh
-搛	fxlt
-杪	icpu
-浼	zqov
-滏	ztex
-瓞	rpwg
-疃	kyjt
-砟	gplu
-硗	gfpg
-禊	wifs
-篥	peiv
-簋	pbmm
-綮	zpah
-苤	hggu
-踣	oyoz
-躐	occz
-酴	euiy
-钽	pkgj
-锸	pruj
-锼	pudj
-阃	znim
-鞔	hqvg
-鲭	qesy
-鹪	tssw
-黪	mash
-黼	lxte
-榀	ioox
-榘	pfii
-氵	zv
-浍	zuea
-炱	aoxi
-煺	xbzd
-犋	pntn
-砻	jpgo
-秕	rvb
-籼	xmvm
-耜	iddl
-肀	bku
-肫	sfau
-肷	sqq
-胂	sks
-莛	hrbd
-裥	wzki
-逭	wddz
-钋	plbj
-钌	pblj
-钸	phmj
-髑	nmlg
-鳆	qpvy
-鼯	ugos
-佴	the
-吲	odku
-帱	miij
-搌	fdhf
-擗	fdoy
-桷	iqsy
-氡	pvzq
-氩	phxq
-溴	ztjq
-畋	kppt
-硐	gmgo
-糇	xtpm
-腠	seft
-葶	hyqe
-袷	wuoi
-陬	bhdo
-黉	zqkt
-龆	luoz
-刂	ld
-哜	oytu
-埴	jenq
-岜	mdb
-徂	snqr
-惝	unmo
-扌	fv
-烀	xpxi
-眢	qbnx
-瞵	nxqf
-筇	pibv
-簏	pwl
-芗	hcpu
-蝽	lekv
-蟪	lgor
-郫	upbb
-钕	pcvj
-钫	pyuj
-镉	pgkj
-镘	pkdj
-颥	jgmy
-黹	lxmt
-坜	jgcl
-埤	jupe
-廾	hv
-彳	sr
-楦	iwek
-氙	pmvq
-澌	zhrj
-畛	kust
-疳	wheb
-瘅	wxeb
-砉	igvf
-砹	ghti
-碡	gecm
-穸	wqxx
-缵	cpmj
-羟	xdiy
-膦	sxqf
-菪	hwgv
-虼	lpbi
-蛘	lxy
-螨	lhuu
-裼	wksi
-讠	zy
-迕	pezd
-钅	pj
-铈	pymj
-锇	ppfj
-锔	pdoj
-锪	psrj
-镓	pwgj
-镦	pypj
-镱	pyrj
-霪	jzry
-骒	akim
-鹁	eqbs
-冁	xkhf
-冖	qu
-哿	cool
-噍	otsh
-埝	jubr
-弪	ddig
-攉	fjtw
-浞	zolu
-潴	zvjk
-畀	khjt
-籴	vxmr
-罱	meew
-羰	xmxy
-胨	sfcx
-胩	sllb
-舴	rplo
-苊	hgbu
-茆	hvpa
-茛	hbg
-蒇	hfmb
-虮	lqj
-蠊	lwlt
-裒	wujy
-襞	doyw
-觇	lomv
-轺	fdoc
-锿	pwoj
-髹	etib
-鸫	fcsq
-哌	orru
-垸	jwgg
-埏	jplb
-墼	jajc
-帙	mpwj
-悃	univ
-揲	fhiv
-晡	kef
-榍	idns
-榱	iwog
-殪	gjxd
-淠	zkhj
-漤	ziic
-疬	wgcb
-砑	gfy
-缲	coij
-罘	mgbw
-苈	hgcl
-萆	hupe
-谂	zury
-辶	zd
-鄹	hdbe
-酞	efwy
-钔	pzmj
-铥	praj
-镅	pdnj
-髟	eb
-鲡	qgwy
-鲦	qviy
-鳇	quey
-鹇	zism
-鹱	shdn
-埒	jvic
-岽	mfcx
-悫	jqqr
-攵	pp
-桊	xjiv
-桕	iuj
-槔	iufe
-溆	zuid
-漶	zokr
-牾	pgon
-畎	kjqt
-疖	waeb
-矧	pdki
-稂	rwbg
-窀	wfax
-籀	pfdk
-腈	sesv
-苄	hylb
-薷	hjge
-褙	wxsi
-赙	meib
-跽	odrz
-钐	pssj
-锖	pesj
-镎	purj
-饔	yctv
-骣	adbm
-鳙	qwky
-丿	pu
-坌	tdjv
-宀	wv
-氍	nntr
-沩	zzcl
-洫	zpmm
-澉	zbhp
-瀹	zuom
-爨	umfx
-珧	evxu
-瘊	wtpb
-瞍	nukd
-硇	guti
-筘	pfov
-粢	xqxs
-聍	hwee
-舁	uhvj
-艚	rhko
-荸	heqb
-蜱	lupe
-钍	pjvj
-铞	pomj
-铫	pvxj
-骺	nrog
-鲼	qemy
-冂	mu
-劐	htdl
-哳	ofrj
-唼	oycv
-忮	uedo
-恝	idrf
-戋	gfg
-椠	fric
-瘕	wddb
-瘛	wirb
-瘼	whfb
-祓	whws
-窆	wpzx
-窬	wulx
-篚	pflf
-粞	xexm
-羧	xavy
-脬	svbz
-艽	hrj
-葜	hidf
-蓰	hsll
-觌	ebmv
-豇	goxi
-轵	fotc
-醵	elgy
-铌	pdvj
-镄	pdmj
-阼	bplu
-鞴	hhsg
-鲅	qhwy
-鲒	qjoy
-埯	jfkd
-夂	vu
-恧	grxe
-憝	yopr
-搋	frlq
-氕	ppuq
-洳	zcov
-浈	zlmb
-濞	ztb
-礤	ghsf
-聱	eqph
-艹	hv
-蟓	lqor
-襻	wiri
-趼	oghz
-迮	plzd
-钆	pcuj
-铷	pcoj
-镨	pxkj
-驵	anqm
-鲣	qljy
-鳘	pcpq
-鸺	tisn
-嚆	ohmo
-堍	jqvw
-嶝	mdox
-巛	cc
-廒	wepg
-桤	imdj
-橥	vjiq
-爝	xvai
-甾	cktc
-痄	wplb
-癀	whtb
-筲	pnsv
-箨	pfdf
-罾	mxkw
-耵	hede
-舣	rwto
-荬	hbzf
-蕹	hypt
-诔	zily
-赆	mdzb
-蹯	opkz
-钇	pbij
-钶	peoj
-铕	phsj
-镤	plxj
-鲚	qyty
-鲻	qcky
-鳢	qmxy
-鹛	dnsn
-塥	jgxk
-庳	wueg
-怊	udov
-捃	fbpo
-揞	fyn
-洎	ztz
-涠	znfb
-滠	zhdd
-猸	vdnq
-甓	doyh
-瘃	wgwb
-瞀	bpnm
-砼	guig
-礓	gikk
-绠	cgtj
-耱	iwgl
-脎	stiu
-脒	sxm
-脞	suuj
-萜	hmlo
-蕻	heht
-薤	hglg
-衤	wi
-跞	ovcz
-轹	fvcc
-锎	pzhj
-锓	pbdj
-馇	qigi
-鲐	qaoy
-鲩	qwgy
-丬	xu
-亠	yu
-仫	tpai
-卩	ae
-垡	tfjv
-垴	jyta
-岍	mghv
-崞	myob
-枨	ipc
-毪	rapm
-牮	tfpn
-癃	wbpb
-眍	nfti
-眵	nqqx
-稃	rvbz
-筢	pfdb
-腙	swfs
-舭	rvbo
-菥	hirj
-蜾	lkiv
-螬	lhmk
-螵	lefs
-衄	pmde
-谫	zxdy
-躔	owjz
-郛	vbbv
-酤	ejgy
-钷	pfoj
-锫	pyoj
-镩	pwkj
-阢	bgw
-鼷	uvfs
-劁	tslw
-埭	jbas
-墚	jzti
-摅	flrx
-撖	fbhp
-泐	zbcl
-滗	zprm
-牿	ppon
-犏	pzmn
-猹	vigq
-疰	wweb
-痃	wyab
-痖	whxb
-瘥	wxib
-磉	gddi
-礻	ws
-箢	pwqb
-簖	pxrj
-缋	comj
-缏	cttj
-耥	inol
-脲	sdas
-膪	symo
-苠	hdfq
-茳	hzig
-莶	huez
-蒎	hzrr
-蒡	hyqy
-虍	lh
-螗	lwko
-贳	hmbs
-軎	jovc
-醌	ekvy
-醭	elxy
-铹	phcj
-铼	pixj
-镥	pqkj
-阽	blov
-馘	xtog
-鲺	qbly
-鹎	upsb
-鼽	trjb
-傺	tsfs
-勹	su
-喹	ofjj
-彡	ss
-戤	adfn
-攴	lp
-瀵	zxht
-灬	sh
-瘭	wefb
-碥	gzmu
-稆	roov
-筻	pgkt
-糈	xbsm
-纟	cj
-耠	iuol
-耢	ihcl
-艴	dtdg
-苘	hmov
-茚	hvga
-蒗	hzwb
-蔹	huzp
-觏	hmmv
-赇	miwb
-赕	mxxb
-轷	fpic
-辁	fuec
-酏	ebey
-铑	pjvj
-铽	pfrj
-鲴	qnjy
-鼢	utds
-齄	tigb
-冫	xs
-耖	icpl
-屮	au
-舡	rigo
-鲕	qgey
-绗	csxj
-彐	bu
-蒈	hvub
-夼	ftcd
-疒	wb
-鳋	qdly
-螋	lukd
-猃	vuzq
-荮	hcic
-禚	wxss
+的	uswb	4220000000
+一	gu	2830000000
+了	bl	1690000000
+是	kglu	2210000000
+不	gb	2140000000
+我	pffg	2310000000
+这	yzdw	1090000000
+在	hkjv	2700000000
+人	uu	2390000000
+有	hsv	2310000000
+他	tbe	828000000
+来	ixuw	2460000000
+个	uku	1460000000
+道	xtzd	619000000
+你	tqcx	1490000000
+大	fd	1790000000
+到	gajl	2060000000
+就	yocj	1720000000
+上	ls	4250000000
+着	xnvy	726000000
+们	tzm	304000000
+那	bfbv	500000000
+也	be	982000000
+说	zxvy	759000000
+么	pai	93400000
+下	jwu	3260000000
+出	aau	1860000000
+地	jbe	853000000
+然	sjsh	97100000
+中	oku	2720000000
+看	pfnv	2210000000
+时	kic	850000000
+要	ecvx	1520000000
+没	zqs	441000000
+天	ft	1610000000
+过	izdc	744000000
+可	eovd	1360000000
+自	tz	831000000
+子	bz	501000000
+能	asvi	1820000000
+还	gzdb	1050000000
+之	zz	1580000000
+以	cwuu	884000000
+去	jai	695000000
+好	cbz	1780000000
+后	rgov	909000000
+为	zcl	2930000000
+都	jkbv	1370000000
+会	ueai	1300000000
+心	rx	610000000
+得	skir	856000000
+里	keej	616000000
+对	dico	1200000000
+身	ts	275000000
+手	rs	450000000
+起	jdjz	634000000
+小	cx	1470000000
+想	inrx	866000000
+只	otu	776000000
+而	ge	763000000
+和	rov	1790000000
+头	zfd	340000000
+她	cbe	340000000
+无	ecug	339000000
+力	cl	726000000
+面	gnle	905000000
+己	dj	66900000
+如	cov	638000000
+什	teu	37300000
+现	emve	275000000
+多	qqxx	1730000000
+样	ixy	137000000
+已	di	889000000
+知	povi	218000000
+些	lvez	212000000
+声	jdu	391000000
+经	cdij	423000000
+前	xsld	1440000000
+神	wkss	295000000
+笑	pry	568000000
+事	iobu	590000000
+开	ghv	486000000
+点	losh	1190000000
+方	yu	759000000
+眼	nbg	200000000
+发	af	1140000000
+所	rrjh	1250000000
+但	tkgu	658000000
+气	pq	155000000
+法	zjai	524000000
+意	yrxn	159000000
+情	uesv	310000000
+生	ps	798000000
+两	gmuu	684000000
+家	wgs	1100000000
+间	zkvm	378000000
+将	xqic	1740000000
+很	sbgr	803000000
+真	entu	612000000
+话	zroy	403000000
+成	fbuw	723000000
+让	zlsy	694000000
+老	jvi	435000000
+被	wdpi	983000000
+动	eace	565000000
+当	nbu	810000000
+用	sy	1490000000
+于	giu	957000000
+见	mve	752000000
+回	novw	1380000000
+又	do	729000000
+军	qfc	142000000
+把	fdb	771000000
+此	lviz	1400000000
+才	ipu	585000000
+几	qj	959000000
+正	glz	388000000
+战	lofg	279000000
+明	ksv	351000000
+却	jaae	343000000
+龙	jpuo	403000000
+从	uuu	683000000
+十	eu	789000000
+三	is	2230000000
+长	pc	867000000
+女	cv	1120000000
+光	ngw	640000000
+再	emu	978000000
+向	uov	684000000
+实	wzfd	151000000
+最	khdo	1270000000
+行	sx	531000000
+高	yomo	906000000
+本	igu	2490000000
+打	fed	440000000
+风	qtij	312000000
+进	fkzd	719000000
+定	wglu	309000000
+魔	wugm	169000000
+给	cuoj	1230000000
+问	zovm	545000000
+色	qdb	819000000
+国	neww	526000000
+同	mgov	804000000
+走	jz	255000000
+其	hq	1150000000
+种	roku	865000000
+年	pfu	3780000000
+口	ov	279000000
+边	czdl	201000000
+王	ev	827000000
+怎	plrx	49800000
+次	xqqs	1750000000
+白	ub	355000000
+全	uev	1320000000
+吧	odb	645000000
+儿	ve	242000000
+感	fgrw	512000000
+果	kiv	104000000
+听	orju	664000000
+啊	obeo	464000000
+死	gvid	498000000
+外	qlbx	707000000
+体	tigu	312000000
+飞	btui	278000000
+分	tdd	1310000000
+主	wev	955000000
+觉	zqmv	57500000
+住	twev	703000000
+少	cpux	389000000
+比	vb	938000000
+空	wigx	488000000
+门	zm	340000000
+因	nfdw	301000000
+等	pjic	2390000000
+轻	fdic	170000000
+直	enq	170000000
+第	pdkp	1710000000
+脸	suez	233000000
+候	tkdp	37000000
+相	inv	740000000
+何	teov	430000000
+强	dolg	358000000
+张	dpcg	608000000
+做	tjpp	910000000
+与	gcgu	1300000000
+重	rkeq	376000000
+快	uduu	432000000
+太	fwud	909000000
+应	wzgg	521000000
+刚	mtld	165000000
+位	tyl	1270000000
+接	fycv	262000000
+便	tgkt	437000000
+量	kgke	723000000
+更	gkti	2310000000
+难	dtwo	256000000
+二	ee	1180000000
+名	qovx	1690000000
+连	fzdc	423000000
+水	as	752000000
+内	muu	961000000
+西	ex	350000000
+马	am	236000000
+黑	mh	298000000
+兵	titu	88600000
+师	kpgm	416000000
+入	vr	753000000
+部	yobl	966000000
+作	tplu	379000000
+吗	oam	959000000
+虽	olv	60200000
+击	fau	104000000
+别	ocld	301000000
+放	ypp	653000000
+四	nvew	917000000
+公	tai	248000000
+完	wggw	246000000
+灵	bxv	90400000
+并	xhv	744000000
+先	pve	753000000
+士	ju	216000000
+处	vlb	438000000
+剑	uezl	121000000
+算	pnhv	188000000
+东	fcxq	291000000
+机	iqj	509000000
+火	xv	387000000
+微	smpr	197000000
+城	jfbu	464000000
+变	ydoi	360000000
+杀	tiui	130000000
+叫	oau	445000000
+李	ibz	315000000
+带	hqmj	507000000
+清	zesv	281000000
+队	buu	161000000
+斯	hrjq	261000000
+望	ycse	147000000
+竟	yven	93100000
+云	eaie	169000000
+原	gucc	660000000
+者	jkv	1680000000
+星	kps	393000000
+山	mv	320000000
+像	tqor	690000000
+惊	uyoc	131000000
+呢	odvi	457000000
+海	zpcm	375000000
+安	wcv	541000000
+族	yppi	108000000
+金	vv	837000000
+月	sv	2250000000
+目	nv	324000000
+加	covl	911000000
+特	pjin	322000000
+跟	obgz	312000000
+场	jbsu	584000000
+万	gbu	731000000
+林	iiv	589000000
+由	ko	889000000
+日	kv	2380000000
+任	trr	148000000
+立	yl	229000000
+百	gkv	660000000
+使	tgot	739000000
+美	xjfd	712000000
+关	xfd	93600000
+命	ugoa	116000000
+理	ekee	137000000
+转	fewc	985000000
+思	krxt	179000000
+血	pmm	140000000
+乎	pxiu	47500000
+受	vqdo	346000000
+常	nqom	300000000
+离	ytma	693000000
+该	zyhy	716000000
+远	ggzd	268000000
+数	xcpm	982000000
+物	pssn	489000000
+阵	bfc	53900000
+界	kutt	246000000
+平	exug	170000000
+冷	xuds	150000000
+刻	yldh	70400000
+信	tyv	372000000
+至	gajv	546000000
+突	wjqx	76000000
+随	bhsz	420000000
+怪	udjv	112000000
+失	pwun	69600000
+许	zpey	81800000
+五	gdu	796000000
+反	rdo	194000000
+似	tcwu	183000000
+找	ffg	838000000
+般	rqso	170000000
+雷	jkty	127000000
+武	gflz	97400000
+非	lf	485000000
+通	dszd	521000000
+奇	feod	212000000
+绝	cqdj	141000000
+怕	uub	257000000
+解	qsdp	213000000
+精	xesm	220000000
+暗	kyn	96500000
+满	zhuu	197000000
+双	ddoo	288000000
+修	tkvs	122000000
+度	whdg	521000000
+红	cigj	348000000
+且	nq	150000000
+世	hs	171000000
+半	xfu	203000000
+始	caov	77700000
+倒	tgjl	263000000
+今	uwbu	447000000
+拉	fyl	318000000
+学	zqbz	406000000
+落	hzvo	162000000
+攻	ippg	49300000
+它	wvi	686000000
+传	tecw	744000000
+尔	qcx	175000000
+音	yn	434000000
+指	fvkv	226000000
+路	ovoz	755000000
+越	jfcz	458000000
+容	wuox	93200000
+石	gv	189000000
+表	eru	1050000000
+紧	ldav	125000000
+冲	xoks	96900000
+利	rld	429000000
+哥	eood	403000000
+步	lnuz	245000000
+合	ugov	354000000
+罗	mqxw	175000000
+够	soqq	71900000
+影	kycs	359000000
+若	hhov	243000000
+伤	tpcl	112000000
+姐	cnq	89300000
+亲	yiul	74700000
+功	iclg	85800000
+丝	ccj	202000000
+弟	xdkp	48700000
+整	iogl	184000000
+息	trxz	79900000
+吃	opbi	516000000
+势	frwc	49300000
+花	htvi	598000000
+众	uuuu	78000000
+帝	yxqm	43100000
+早	kz	279000000
+哈	ougo	190000000
+极	iawu	215000000
+青	esv	242000000
+流	zyav	225000000
+团	nipw	220000000
+根	ibg	104000000
+静	esbb	98400000
+周	sjov	475000000
+即	baae	786000000
+深	zqti	301000000
+形	ghss	411000000
+近	rjzd	508000000
+千	rq	334000000
+消	znsv	92800000
+结	cjoj	96100000
+干	eg	158000000
+制	pmln	281000000
+皇	uevb	55400000
+速	iozd	272000000
+帮	ibmf	227000000
+性	ups	977000000
+楚	iibl	49800000
+言	yv	287000000
+备	vkt	709000000
+系	pav	589000000
+提	fkgl	222000000
+教	jbpp	250000000
+令	uwdu	256000000
+雪	jbuy	238000000
+文	yw	665000000
+必	rpux	276000000
+谁	ztwy	361000000
+终	cvzj	51700000
+站	ylol	2410000000
+哪	obfb	215000000
+化	tvi	678000000
+破	gdp	127000000
+认	zuuy	63500000
+级	cawj	774000000
+忙	uycu	107000000
+往	swer	183000000
+玉	ewu	123000000
+底	wvwg	123000000
+车	fc	844000000
+总	xorx	873000000
+仙	tmv	115000000
+巨	fduf	71900000
+坐	uujv	164000000
+男	kclt	516000000
+显	klxu	123000000
+新	yijl	2030000000
+斗	zeu	79200000
+各	vov	1430000000
+克	jveg	225000000
+急	qbrx	149000000
+领	uwgm	70100000
+切	fddq	96100000
+衣	wy	149000000
+杨	ibsu	286000000
+阳	bkv	102000000
+敢	bhpp	245000000
+收	app	459000000
+围	nfbw	48000000
+异	dhvs	96800000
+达	fzdd	393000000
+慢	ukmd	90600000
+件	tpn	944000000
+错	phkj	179000000
+象	qoru	191000000
+服	sado	733000000
+叶	oeu	158000000
+办	ctul	418000000
+保	toiv	166000000
+片	tp	309000000
+喜	joxo	98600000
+活	zrov	234000000
+朝	eksv	183000000
+刀	dd	132000000
+摇	fvpf	78000000
+准	xtws	141000000
+兴	zgtu	90200000
+条	viu	607000000
+电	kd	606000000
+拿	ugor	318000000
+交	ytti	348000000
+夜	ytvw	395000000
+兽	xkgo	86800000
+管	pwdd	238000000
+华	tveu	681000000
+断	xcjm	96400000
+尽	dwzu	180000000
+决	xdus	61300000
+苦	hjg	119000000
+则	mldb	493000000
+八	tu	440000000
+易	kssu	268000000
+依	twy	164000000
+语	zgoy	234000000
+闪	zuum	99200000
+露	jooy	94600000
+冰	xass	132000000
+足	olu	216000000
+响	ouov	79500000
+德	serr	303000000
+记	zdjy	222000000
+害	wiov	58500000
+及	awun	998000000
+兰	xee	153000000
+计	zeuy	92200000
+元	ggw	994000000
+官	wddu	108000000
+顿	famq	80500000
+器	ojox	615000000
+圣	djvo	104000000
+南	emxe	475000000
+阿	beov	319000000
+嘴	olqs	113000000
+七	fq	406000000
+告	pov	95200000
+球	eixw	159000000
+爱	vqhd	555000000
+敌	ropq	35100000
+夫	jf	92500000
+留	vwdk	303000000
+沉	zqqj	77700000
+请	zesy	2510000000
+威	fgcw	114000000
+每	pcm	909000000
+乱	rocq	115000000
+况	xovs	12500000
+确	gqsy	56000000
+答	pugo	99200000
+陈	bfcx	403000000
+格	ivov	367000000
+视	wmvs	322000000
+护	fzh	83800000
+淡	zxxv	73000000
+凌	xjvs	49200000
+脑	syta	62100000
+兄	ove	43100000
+狂	vevq	156000000
+宝	wewu	469000000
+识	zoty	36200000
+题	kggm	93700000
+低	tvfw	699000000
+卫	ague	99100000
+停	tyqe	164000000
+呼	opxi	73000000
+司	bgov	74500000
+久	qwu	108000000
+未	iw	880000000
+雨	jy	239000000
+脚	sjaa	119000000
+除	bugi	184000000
+孩	byhz	67200000
+古	jg	266000000
+鬼	ug	123000000
+字	wbz	693000000
+骑	afom	87600000
+房	zyuh	573000000
+亚	hxuj	164000000
+代	tfi	303000000
+员	omb	386000000
+伙	txv	13900000
+缓	cvdj	69400000
+居	djg	155000000
+六	ytu	610000000
+装	xjwy	459000000
+复	pkvu	83200000
+黄	hktu	248000000
+呵	oeov	32500000
+恐	iqrg	57900000
+爷	ttae	12700000
+单	xkeu	394000000
+旁	yxqy	71700000
+米	xm	315000000
+布	hmj	202000000
+或	fogg	1250000000
+跑	osdz	159000000
+玩	eggw	372000000
+报	fado	378000000
+钱	pgfj	333000000
+疑	vpli	74500000
+睛	nesv	5560000
+宇	wgiu	86100000
+术	iwu	49300000
+隐	bqbr	48300000
+欢	dqqo	41300000
+章	ykzl	158000000
+父	tti	67500000
+差	xigy	331000000
+续	cefj	51700000
+挥	fqfc	29700000
+句	sov	179000000
+派	zrru	409000000
+待	sjir	140000000
+九	rj	324000000
+持	fjic	112000000
+忽	ssrx	29100000
+怒	cdrx	62200000
+蓝	hlpm	281000000
+佛	tdtu	70800000
+刘	yldw	390000000
+丽	gmmw	115000000
+类	xfdm	534000000
+怀	ugb	63100000
+您	tqcr	3090000000
+招	fdov	163000000
+掉	flkz	234000000
+送	xfzd	456000000
+背	xvsv	107000000
+甚	hcuq	51500000
+掌	nqor	68200000
+烈	glsd	31900000
+希	thmi	70200000
+工	ig	551000000
+密	wrpm	151000000
+细	cktj	215000000
+论	zuvy	132000000
+卡	llbs	452000000
+退	bzdg	198000000
+猛	vbmq	72000000
+酒	zey	258000000
+运	eaze	361000000
+求	ixwu	341000000
+射	tics	61100000
+另	ocl	312000000
+集	tivw	605000000
+首	xtz	2560000000
+北	xvi	308000000
+照	kdos	169000000
+守	wic	67500000
+晚	kqov	194000000
+赶	jegz	82800000
+木	iv	422000000
+穿	wfyx	154000000
+散	hspp	96000000
+联	hxfe	265000000
+铁	ppwj	137000000
+喝	okuc	226000000
+段	tiqs	199000000
+需	jgey	329000000
+支	edo	230000000
+练	cftj	66200000
+巴	db	123000000
+书	bbkw	380000000
+陆	bfau	55100000
+角	qsy	212000000
+左	hig	186000000
+群	bpox	606000000
+莫	hkfd	96500000
+防	byu	195000000
+毫	yoqr	187000000
+民	dfqs	154000000
+忍	dprd	117000000
+客	wvov	921000000
+线	cgfj	533000000
+虎	lqjh	106000000
+肯	lsvz	95100000
+痛	wdsb	113000000
+紫	lvaz	138000000
+亮	yoqq	139000000
+宫	woov	99700000
+造	pozd	76400000
+展	dhfu	307000000
+谢	ztiy	93300000
+股	sqs	150000000
+妖	cry	39100000
+激	zuyp	97800000
+渐	zfrj	26800000
+禁	iifs	86400000
+赵	jtiz	99800000
+震	jgny	47300000
+秦	erv	89600000
+注	zwev	236000000
+江	zig	105000000
+取	hdoe	423000000
+吸	oawu	57600000
+枪	iubu	58900000
+叹	odo	31500000
+程	roev	343000000
+简	pzkv	75600000
+梦	iiqx	222000000
+友	hdo	850000000
+继	cxcj	94700000
+羽	cy	90700000
+右	hov	174000000
+念	uwbr	93700000
+厉	ggbc	15700000
+热	frws	335000000
+份	ttdd	240000000
+压	gjwc	272000000
+乐	vcx	200000000
+靠	polf	140000000
+萧	hbct	53300000
+既	bafv	142000000
+香	rkv	210000000
+引	dkug	217000000
+恶	hxrj	66200000
+止	lz	71700000
+包	sds	279000000
+追	uzdd	96900000
+寒	whtz	82200000
+狠	vbgq	68100000
+仅	tdo	343000000
+争	qbbu	86000000
+愿	gurc	193000000
+雅	ftwy	142000000
+超	jdoz	503000000
+刺	imld	50300000
+式	figi	429000000
+号	ojk	1480000000
+跳	ovxz	321000000
+波	zdp	182000000
+游	zypb	257000000
+狼	vwbq	90400000
+存	hkbz	175000000
+态	fwrd	58400000
+炼	xfbt	30900000
+台	aovi	486000000
+属	dplm	200000000
+嘿	omh	23800000
+举	zgtf	75100000
+妹	ciw	181000000
+英	hmfd	213000000
+境	jyve	96300000
+灭	gxv	42500000
+醒	ekpy	76800000
+胜	sps	135000000
+抱	fsds	80100000
+毕	veub	22300000
+务	vcl	263000000
+诉	zrwy	18500000
+齐	ytuw	123000000
+拍	fub	479000000
+柔	bivm	36000000
+甲	kj	135000000
+峰	mvif	98100000
+险	buez	40600000
+娘	cwbg	86000000
+楼	ixcv	444000000
+院	bwgg	446000000
+君	bpov	220000000
+观	dmvo	94800000
+建	bfbd	425000000
+殿	dhtq	49500000
+曾	xkxk	230000000
+逃	vxze	56200000
+唐	wbog	113000000
+置	menw	306000000
+担	fkgu	16700000
+阴	bsv	50400000
+凡	qa	98400000
+呆	oiv	71700000
+眉	dnv	118000000
+统	cyvj	24900000
+层	deai	332000000
+银	pbgj	153000000
+试	zfiy	407000000
+弹	dxeg	79900000
+否	govb	157000000
+约	cswj	180000000
+府	wtig	133000000
+抓	frz	163000000
+救	ixwp	76200000
+调	zsoy	99100000
+索	eqav	148000000
+苏	hctu	131000000
+顶	egmd	644000000
+基	hjvq	142000000
+松	itai	90400000
+魂	eaue	74500000
+图	nvzw	941000000
+料	xzem	286000000
+议	zwty	55500000
+严	hxpj	44900000
+顾	gbmc	41900000
+礼	wcus	68000000
+业	lxu	284000000
+汉	zdo	131000000
+恩	nfrw	121000000
+耳	he	109000000
+败	mppb	40600000
+顺	tgmc	90200000
+余	ugiu	143000000
+选	pvzd	902000000
+皮	dp	132000000
+区	ftif	1730000000
+沙	zcpu	108000000
+瞬	nvqf	9380000
+秘	rrpu	52400000
+树	idic	334000000
+商	yxto	677000000
+纷	ctdj	33200000
+块	jduu	186000000
+混	zkvb	57000000
+贵	oomb	89900000
+迷	xzdm	119000000
+充	yave	82000000
+组	cnqj	1130000000
+呀	ofy	395000000
+示	fs	89700000
+船	rqoo	132000000
+伸	tks	52300000
+舰	rmvo	5140000
+封	jjic	232000000
+助	nclq	217000000
+肉	muuu	142000000
+排	flf	270000000
+娜	cbfb	63800000
+期	hsvq	354000000
+座	wujg	319000000
+义	wti	88300000
+升	phv	171000000
+闻	zhem	82000000
+室	wgaj	549000000
+推	ftw	127000000
+负	qmb	83300000
+扬	fbsu	63800000
+亡	ycu	32600000
+模	ihkf	91300000
+付	tic	390000000
+芒	hycu	11600000
+控	fwig	104000000
+警	hspy	87200000
+默	mjqh	47100000
+土	jv	320000000
+承	bidl	58300000
+虚	llxh	62600000
+妈	cam	111000000
+温	zkmm	91100000
+凤	qdoj	41700000
+技	fedo	93600000
+费	dtmg	351000000
+著	hjkv	177000000
+初	wddi	234000000
+麻	wm	65500000
+舞	phqf	131000000
+市	ymj	1260000000
+翻	pxkc	244000000
+握	fdaj	46000000
+独	vlvq	92800000
+普	xlxk	177000000
+考	jjk	223000000
+拥	fsy	24700000
+究	wrjx	53700000
+玄	yay	76800000
+资	xqms	97500000
+幸	jxeu	38800000
+暴	khta	83300000
+野	kebj	90800000
+称	rqcx	260000000
+察	wsfs	24600000
+按	fwcv	536000000
+孙	bcxz	82600000
+查	ikgu	281000000
+改	dppj	223000000
+换	fqmf	192000000
+箭	pxsl	24900000
+睡	nrhu	128000000
+母	cm	143000000
+素	eav	134000000
+较	fytc	241000000
+堂	nqoj	260000000
+品	oox	332000000
+具	ntuq	179000000
+宗	wfs	47800000
+忘	ycrx	71900000
+副	gokl	393000000
+状	xjq	89700000
+锋	pvij	42600000
+权	ido	549000000
+洞	zmgo	27300000
+遇	kzdy	210000000
+丹	syu	74200000
+局	dbov	648000000
+味	oiw	156000000
+划	fldg	178000000
+藏	hfaf	146000000
+故	jppg	91300000
+仍	tan	204000000
+洛	zvov	67900000
+历	gclc	40400000
+坏	jgb	105000000
+弄	ehv	190000000
+弱	dxxg	63200000
+钟	pokj	244000000
+哼	oyob	31600000
+脱	sxov	82300000
+赛	whtm	141000000
+药	hcsw	267000000
+胸	ssta	103000000
+菲	hlf	59500000
+谈	zxxy	276000000
+仿	tyu	22500000
+爆	xkta	108000000
+徐	suir	113000000
+坚	ldjv	21800000
+拳	xjrs	51000000
+营	hqoo	95000000
+须	sgms	76400000
+偷	tusl	110000000
+骨	ng	73400000
+奥	uxfd	161000000
+据	fdjg	218000000
+蒙	hqgg	77600000
+尊	xeic	30600000
+施	ypbe	126000000
+河	zeov	202000000
+透	razd	112000000
+杰	ish	79300000
+晶	kkkv	56200000
+抬	faov	41400000
+短	pgxi	471000000
+政	glpp	73700000
+产	ypul	128000000
+草	hkz	127000000
+烦	xgmb	30300000
+卷	xjbu	124000000
+幽	maay	35600000
+证	zgly	478000000
+牙	fy	69700000
+维	ctwj	138000000
+森	iiiv	102000000
+毒	ecm	93600000
+摆	fmja	71500000
+投	fqs	103000000
+吴	oft	215000000
+危	qgbu	14800000
+飘	eftx	83500000
+熟	yows	80000000
+导	dics	93100000
+质	remb	113000000
+胡	jsvg	103000000
+朋	ssv	30300000
+喊	ofgo	77500000
+释	pxdf	16700000
+参	afsi	60400000
+休	tiv	47500000
+劲	dicl	62800000
+挡	fnbu	44700000
+景	kyoc	99400000
+州	stc	99300000
+印	vgae	166000000
+惜	uhkv	14800000
+欲	tuoq	141000000
+摸	fhkf	56600000
+烟	xnfd	96800000
+幻	abuy	173000000
+致	gajp	125000000
+妙	ccpu	59400000
+抗	fyqj	76200000
+尼	dvi	166000000
+枫	iqti	75500000
+凝	xvls	29700000
+翼	ckty	55000000
+永	zo	122000000
+盘	rmmo	193000000
+寻	bic	97500000
+冥	qkyt	20300000
+秋	rxv	119000000
+智	poki	95600000
+板	irdo	566000000
+责	emb	183000000
+浪	zwbg	53400000
+御	spar	74200000
+尸	dv	23300000
+辈	lfcf	22900000
+临	lpku	61500000
+哦	opff	383000000
+傲	teqp	61300000
+娇	crtu	36300000
+柳	ivpa	49200000
+恨	ubg	43400000
+横	ihkt	91800000
+吓	ojwu	52600000
+硬	ggkt	123000000
+价	tutu	366000000
+探	fqti	68400000
+宁	wed	90900000
+际	bfs	78800000
+标	ifs	241000000
+墙	jeno	78200000
+纳	cmuj	118000000
+田	kt	87400000
+欧	ftqf	176000000
+奈	ffsd	24100000
+肩	zsvh	66000000
+习	ci	12900000
+朱	ptun	90000000
+效	yttp	64300000
+袋	tfwy	91400000
+福	wgks	263000000
+设	zqsy	613000000
+戏	dfgo	46800000
+贝	mb	81800000
+移	rqqx	81900000
+轰	fddc	17700000
+疯	wqtb	47800000
+科	rzeu	513000000
+型	ghlj	518000000
+毛	rm	124000000
+碎	gyue	71000000
+叔	lcds	16900000
+冒	menv	86800000
+惨	uafs	32000000
+扑	flb	34000000
+奋	fktd	5800000
+治	zaov	103000000
+湖	zjsv	181000000
+珠	eptu	83800000
+饭	qrdi	72700000
+环	egb	210000000
+咱	otz	25000000
+免	qove	364000000
+迎	vazd	83200000
+略	kvot	77600000
+雄	hatw	84700000
+凭	trqj	65000000
+史	oti	145000000
+规	jmvf	46000000
+伯	tub	51400000
+尘	cjvx	34400000
+躲	tqis	70600000
+犹	vjoq	20600000
+距	ofdz	47100000
+盟	ksmm	73200000
+借	thkv	108000000
+骂	oamx	63600000
+皱	qbdp	44500000
+床	wivg	105000000
+域	jfog	64000000
+降	bvfu	232000000
+敬	hsop	98600000
+避	doyz	72000000
+秀	ran	208000000
+挑	fvxu	60700000
+聚	hdte	113000000
+徒	sjzr	37000000
+鲜	qxyy	41800000
+源	zguc	268000000
+架	coil	171000000
+韩	ekfb	165000000
+莉	hrld	42700000
+撞	fyjv	56100000
+束	iov	22900000
+岁	mqx	437000000
+罪	mlfw	42600000
+罢	mjaw	16600000
+哭	ojqx	158000000
+嘛	owm	122000000
+臣	fe	22000000
+唯	otw	162000000
+啦	ofyl	516000000
+节	hae	461000000
+惑	forg	32500000
+袭	jpwo	51300000
+食	vs	173000000
+买	bzfd	627000000
+腿	sbzd	84300000
+训	ztcy	20600000
+稍	rnsv	204000000
+校	iytt	206000000
+姑	cjg	15200000
+某	heiv	313000000
+阻	bnq	44600000
+邪	fbvy	30800000
+鲁	qkvy	131000000
+艾	hti	91200000
+裂	glwd	32900000
+闭	zipm	57500000
+诺	zhoy	87900000
+尖	cfdx	55900000
+残	ggfd	76800000
+尚	nmov	224000000
+迅	bezi	39200000
+良	wbg	72100000
+鱼	qy	305000000
+丁	ed	90500000
+塔	jhgo	174000000
+泪	znv	88900000
+托	fpfq	74600000
+洋	zxy	76300000
+颗	kigm	60500000
+炸	xplu	32100000
+逸	qowz	33600000
+晓	kfpg	63500000
+番	pxkt	275000000
+屋	dgaj	208000000
+伊	tbpu	187000000
+仇	trj	21200000
+焰	xquj	7730000
+讲	zfky	291000000
+荡	hzbs	29700000
+吼	obcu	29400000
+绿	cbaj	140000000
+旧	kkv	167000000
+配	edjy	316000000
+圆	nomw	90600000
+迹	yzdi	14400000
+腾	sxja	70200000
+假	tddd	214000000
+腰	secv	78200000
+搞	fymo	168000000
+验	auzm	53400000
+彩	viss	306000000
+勇	dscl	83400000
+奔	fehd	50500000
+颤	yngm	12700000
+牛	pn	182000000
+恢	uhxv	4820000
+占	lov	174000000
+厅	gedc	162000000
+趣	jhdz	75400000
+臂	doys	36000000
+套	fecd	411000000
+愣	umyu	22800000
+端	ymgl	128000000
+尤	jo	65900000
+志	jrx	122000000
+剩	rxvl	61900000
+虑	lrxh	9960000
+妮	cdvi	79500000
+蛋	bllv	114000000
+颜	ypml	34200000
+炮	xsds	28200000
+卖	ebzf	381000000
+医	fpif	63300000
+舒	ueob	45100000
+梅	ipcm	161000000
+厚	gkbc	98900000
+闹	zymm	43300000
+归	kpbu	244000000
+圈	nxbw	165000000
+软	fqqc	97500000
+弃	yahv	41700000
+适	rozq	38600000
+浮	zvbz	32300000
+限	bbg	317000000
+抵	fvfw	33800000
+职	hote	93200000
+帅	kpmj	248000000
+诸	zjky	60500000
+桌	lkiv	75400000
+镇	petj	252000000
+讶	zfyy	4070000
+共	htu	382000000
+广	wg	183000000
+范	hzbu	54000000
+欣	rjqq	48300000
+病	wgub	158000000
+偏	tzmu	84600000
+值	tenq	335000000
+专	ecwe	301000000
+杂	riuj	89300000
+咬	oytt	40100000
+增	jxxk	288000000
+豪	yoqg	53700000
+触	qslv	32300000
+陷	bquj	21600000
+雾	jvcy	51900000
+稳	rqbr	47300000
+挺	frbd	96600000
+择	fdfu	19700000
+谷	tuov	75700000
+附	btic	99900000
+炎	xxv	78100000
+巧	ijkg	102000000
+旋	ypbl	23800000
+盯	ned	61100000
+夏	gnvu	339000000
+纪	cdjj	57900000
+碰	gxlx	74500000
+扫	fbu	30300000
+抢	fubu	92300000
+阶	butu	20300000
+曼	kmdo	64600000
+嗯	onfr	44700000
+涌	zdsy	39700000
+抽	fko	66100000
+胖	sxfu	69200000
+祖	wnqs	41100000
+毁	uiqj	27700000
+岛	smvn	88200000
+拜	pfgi	58100000
+潜	zjjk	38500000
+优	tjo	89200000
+网	mtti	3030000000
+案	wciv	103000000
+慕	hkcw	14400000
+京	yocx	361000000
+项	igmg	494000000
+测	zmld	154000000
+迪	kzdo	138000000
+谓	zksy	9790000
+列	gldd	952000000
+汗	zeg	91900000
+操	fooi	45300000
+善	xxoy	60400000
+春	ekv	150000000
+烧	xfpg	64500000
+浑	zqfc	6020000
+赤	jttu	79800000
+逼	gokz	56700000
+伟	tfbu	67200000
+店	wlog	604000000
+瞪	ndox	19800000
+输	fulc	46500000
+富	wgok	126000000
+懂	uhke	134000000
+侧	tmld	75600000
+率	yaxe	325000000
+杯	igb	264000000
+滚	zwta	88600000
+苍	hubu	15100000
+瑞	emge	102000000
+孤	brgz	56200000
+抖	fzeu	18700000
+损	fomb	55100000
+悄	unsv	6600000
+获	hvjq	150000000
+轮	fuvc	98800000
+孔	bcuz	63300000
+养	xtu	94100000
+讨	zicy	25200000
+吉	jov	91000000
+鸣	osn	33700000
+累	kavt	84500000
+凶	taui	24700000
+挂	fjjv	103000000
+胆	skgu	27500000
+浩	zpov	62700000
+傻	tutv	57600000
+塞	whtj	74400000
+陪	byov	138000000
+吐	ojv	52500000
+盖	xjmm	83600000
+姓	cps	55800000
+猜	vesq	47100000
+拼	fxhv	61600000
+琳	eiiv	44100000
+蛇	lwvi	39500000
+幕	hkfm	46500000
+镜	pyvj	122000000
+材	iipu	57900000
+庞	wjpg	20200000
+盗	xqms	45300000
+杜	ijv	76500000
+晃	kngw	24300000
+扎	fcu	68100000
+吟	ouwb	26300000
+预	bgmy	117000000
+闷	zrxm	21100000
+仔	tbz	121000000
+纵	cuuj	25900000
+伦	tuvi	49700000
+遍	zmzh	68800000
+爸	ttdb	78000000
+狗	vsoq	181000000
+愤	uehm	6560000
+纯	cfaj	189000000
+彻	sfdr	9980000
+估	tjg	24800000
+夺	ficd	81100000
+写	qgcg	338000000
+啸	obct	13300000
+莱	hixu	118000000
+折	frju	129000000
+贼	mfhb	40300000
+灰	hxv	91600000
+壁	doyj	63500000
+困	nivw	36100000
+宋	wiv	124000000
+画	gkau	135000000
+缘	ccgj	99600000
+伏	tjq	26900000
+脉	szo	52400000
+劫	jacl	23800000
+庄	wjvg	107000000
+补	wlbi	73400000
+泰	eas	211000000
+介	utu	50400000
+演	zwkt	49400000
+悠	tkpr	17100000
+燕	hgvs	64400000
+摩	wrsm	88300000
+痕	wbgb	59400000
+沈	zqve	57600000
+创	ubld	120000000
+登	dgox	424000000
+含	uwbo	171000000
+研	gghv	103000000
+睁	nqbb	42700000
+婆	zdcv	31400000
+午	peu	18800000
+池	zbe	55400000
+暂	frkc	298000000
+廷	rbdr	20800000
+逐	gzds	28100000
+萨	hbyp	69100000
+凯	mdqj	78000000
+闲	zivm	47000000
+旦	kgu	25500000
+岳	timv	26600000
+戒	fhvg	34500000
+概	ibfv	21700000
+班	eppe	221000000
+误	zofy	92200000
+陛	bvjv	2510000
+街	sjjx	301000000
+跃	oryz	26700000
+斩	frjc	18700000
+牌	tuep	156000000
+迟	dwzd	54800000
+谋	zhiy	29000000
+罩	mlkw	31800000
+膀	syqy	2180000
+村	iic	208000000
+怜	uuwd	10900000
+替	jjkf	60900000
+踪	owfz	19500000
+霸	jhsy	92000000
+爵	vmai	9520000
+曲	mhu	196000000
+乌	sw	35100000
+瞧	ntsh	27500000
+伴	txfu	94900000
+傅	teic	19100000
+惧	untu	12600000
+蒂	hyqm	44700000
+嘻	ojxo	41900000
+倍	tyov	170000000
+俊	tatv	43200000
+歌	eoqd	503000000
+咒	oqjx	33500000
+互	ecue	96000000
+漂	zefs	18000000
+舍	ueov	58600000
+采	viv	128000000
+昨	kplu	72600000
+碧	eugv	43500000
+鹰	wtsg	55000000
+犯	vbuq	58600000
+慌	uhcv	21400000
+糊	xjsm	29700000
+扭	fdee	28600000
+丢	rair	46500000
+羞	xdey	12400000
+判	xfld	41200000
+竹	pkpb	95200000
+昏	vfkv	21400000
+丈	hwu	21300000
+拔	fhdw	71600000
+锐	pxvj	29700000
+唤	oqmf	12700000
+莲	hfzd	39500000
+郎	wbab	44800000
+忧	ujo	54600000
+侍	tjic	17500000
+征	sglr	198000000
+疼	wvzb	30300000
+伍	tgdu	24000000
+鸟	sn	111000000
+宽	whmv	192000000
+剧	djld	72700000
+躯	tfts	7850000
+琴	eewb	51300000
+监	lpmm	70100000
+漫	zkmd	255000000
+席	whmg	55700000
+帐	mpcj	343000000
+赞	pvvm	25600000
+缩	cwkj	38600000
+壮	xju	22800000
+悉	pxrx	8270000
+遭	hmkz	113000000
+弓	dg	26400000
+貌	vuvz	16800000
+鼻	tb	70200000
+喃	oexe	3250000
+悟	ugdo	18500000
+忠	okrx	32200000
+私	rai	375000000
+绕	cfgj	33000000
+坦	jkgu	18800000
+财	mipb	67000000
+辰	gn	26100000
+聊	hvae	84900000
+掩	ffkd	16400000
+怨	qbrx	28500000
+耀	ngct	33000000
+吞	fovt	20100000
+融	gokl	55800000
+洗	zpve	114000000
+鼓	joed	46300000
+插	fruj	148000000
+凉	xycs	69200000
+悲	lrxf	23600000
+梁	zdti	81700000
+织	cotj	21000000
+佩	tqgm	50300000
+笔	prm	97400000
+迫	uzdb	37600000
+豫	bqry	34000000
+朵	qivj	46700000
+召	dovd	26200000
+吹	oqq	86300000
+亦	yi	122000000
+狱	vzjq	12400000
+佣	tsy	9520000
+敏	pcpp	84500000
+博	eeic	562000000
+赫	jttt	44800000
+丫	xku	29700000
+茶	huiu	154000000
+狐	vrgq	44000000
+仰	tvae	19300000
+盛	fbmw	90500000
+劳	hqcl	60000000
+缠	cwej	18100000
+忆	ubi	21000000
+荣	hqiv	53800000
+净	xqbs	60100000
+阁	zvom	58400000
+恭	htcw	8220000
+废	wafg	31900000
+浓	zqru	87300000
+磨	wgvm	61700000
+遥	vpzd	21100000
+缺	pduf	93400000
+菜	hviv	122000000
+粗	xnqm	99400000
+宣	wekv	41200000
+躺	tnos	48300000
+惯	ucem	16600000
+喷	oehm	55800000
+晕	kqfc	94900000
+遗	oomz	16600000
+执	frwu	18600000
+策	pimu	34700000
+脆	sqgb	11700000
+桑	ddio	91900000
+绍	cdoj	8910000
+奴	cdo	53700000
+努	cdcl	23800000
+耗	irml	68900000
+曹	hmkv	48000000
+援	fved	12600000
+窗	wuvx	194000000
+灯	xed	145000000
+佳	tjjv	314000000
+积	rotu	38700000
+唇	govn	35800000
+堆	jtw	62700000
+踏	oakz	54300000
+扶	fjf	31800000
+轩	fegc	48400000
+辛	yx	54400000
+熊	assi	61600000
+辉	ngqf	43700000
+尾	drm	223000000
+屁	dvb	26600000
+勒	hclg	56600000
+刹	tili	9540000
+粉	xtdm	142000000
+批	fvb	146000000
+乃	an	60700000
+库	wfcg	622000000
+翔	xcyy	38700000
+姬	cfok	21600000
+乖	rxvq	26200000
+趁	jusz	32700000
+隆	bvgp	59400000
+爬	rdbz	53500000
+码	gam	274000000
+赏	nqom	81900000
+怖	uhmj	9250000
+丰	if	92400000
+艳	iqdf	64200000
+拖	fpbe	61800000
+耐	gice	60900000
+岂	mdj	25100000
+诚	zfby	221000000
+刃	dpud	19800000
+媚	cdnv	39200000
+慧	iirf	69800000
+晨	kgn	65100000
+律	sbfr	19200000
+固	njgw	73700000
+盾	renv	41000000
+洁	zjov	44200000
+骗	azmm	58900000
+社	wjvs	496000000
+荒	hycv	20200000
+滑	zng	76100000
+隔	bgxk	63900000
+郭	yobb	67900000
+戴	efht	91800000
+额	wvgm	90500000
+旗	yphq	66600000
+季	rbz	54000000
+惹	hhor	63300000
+纸	cvfj	137000000
+延	plbd	38100000
+侯	tdpi	43800000
+撒	fhsp	39400000
+颇	dgmp	46500000
+撤	fysp	22500000
+霄	jnsy	5510000
+锁	pnmj	83600000
+仪	twti	71000000
+郁	hsbv	19800000
+痴	wpob	24300000
+典	mhtu	69400000
+园	nggw	176000000
+抚	fecu	17600000
+滴	zymj	81600000
+跪	oqbz	23600000
+振	fgn	47500000
+猎	vhkq	17500000
+油	zko	167000000
+殊	gptd	6890000
+启	zovh	77900000
+省	cpnx	516000000
+供	thtu	300000000
+绪	cjkj	4440000
+洪	zhtu	57100000
+玛	eam	51300000
+委	rcv	199000000
+妻	ebcv	57200000
+忌	drxj	22100000
+拦	fxee	16300000
+仁	tee	63800000
+祭	sfs	81500000
+泉	uasb	69800000
+纹	cywj	34100000
+蛮	ylvi	34100000
+婚	cvfk	65000000
+擦	fwsf	94000000
+贴	mlob	819000000
+妇	cbu	69700000
+牢	wpn	39600000
+币	pmj	121000000
+唉	oapi	54300000
+庆	wfdg	61900000
+甘	hee	44200000
+宜	wnq	64100000
+符	ptic	31300000
+倾	tvgm	24400000
+赌	mjkb	23900000
+径	sdir	23800000
+钻	ploj	46000000
+劈	doyd	13600000
+堪	jhcu	28600000
+焦	tshw	42300000
+姿	xqcs	96100000
+堡	toij	36300000
+馆	qwdi	193000000
+爽	fttd	57700000
+矮	prci	17600000
+艘	rudo	14100000
+薄	hzei	88300000
+零	judy	129000000
+吕	oov	26000000
+扰	fjo	22000000
+益	xtmm	159000000
+奶	can	64100000
+匆	sswu	1650000
+墨	mjvh	90600000
+朗	wbas	39700000
+袍	wsdi	22200000
+牧	pppn	25900000
+耶	hbve	62200000
+挣	fqbb	51700000
+递	xdpz	27600000
+燃	xsjs	52600000
+叛	xfrd	7860000
+亏	gjk	21100000
+皆	vubb	125000000
+扯	flz	28700000
+户	zh	196000000
+砸	gfmj	64100000
+肚	sjv	40900000
+拒	ffdu	35100000
+胁	sctu	2770000
+柱	iwev	73100000
+途	ugiz	28900000
+婷	cyqe	30600000
+辆	fguc	57700000
+芳	hyu	55400000
+肖	nsv	34400000
+液	zyvw	101000000
+巫	iuug	12900000
+猫	vhkq	154000000
+岩	mgv	44300000
+董	hrke	74100000
+慰	dfir	9980000
+烂	xxee	30100000
+砍	gqq	35300000
+驾	coal	50900000
+欺	hqqq	12500000
+邦	ibvf	49500000
+扔	fan	35800000
+漠	zhkf	5640000
+针	peuj	49200000
+醉	eyey	63900000
+享	yobz	351000000
+莎	hzcp	40800000
+筑	piqa	29900000
+洲	zstc	79900000
+恼	uyta	5620000
+协	ectu	71800000
+盈	admn	71200000
+撑	fnor	24900000
+椅	ifeo	61000000
+郑	xfbv	72000000
+眨	npzz	10200000
+货	tvmb	240000000
+莹	hqew	10500000
+减	xfos	88500000
+赢	ycmq	67300000
+虫	lv	85300000
+愧	uug	5080000
+尝	nqea	40000000
+骇	ayhm	7790000
+康	wbag	155000000
+旅	ypru	163000000
+俩	tguu	67900000
+珍	euss	37100000
+埋	jkee	81500000
+餐	lqdv	84500000
+弯	ydgi	36800000
+敲	yool	38100000
+吻	ossu	101000000
+抛	frcl	44600000
+茫	hzyc	3140000
+侵	tbqd	13000000
+截	eftw	57900000
+悔	upcm	34000000
+勾	sai	65800000
+喘	omge	19400000
+氏	vfq	186000000
+肃	bctu	5110000
+瑟	eerp	16600000
+庭	wrbg	53800000
+牵	fqpd	41700000
+穴	wx	38300000
+例	tgld	142000000
+舌	rovq	44700000
+仗	thwu	14300000
+哎	ohti	40000000
+彼	sdpr	63800000
+柄	igmu	42200000
+夹	jxuf	84700000
+玲	euwd	35400000
+诡	zqby	3270000
+笼	pjpu	21300000
+甜	roeq	46400000
+济	zytu	56100000
+霍	jtwy	17800000
+渊	ztxm	17400000
+嘉	joco	143000000
+霜	jiny	34500000
+爹	ttqq	28300000
+宙	wko	8240000
+魏	rcug	72100000
+脖	seqb	3460000
+爪	rz	26400000
+哀	wovy	25100000
+卓	lkz	32300000
+奉	efu	23400000
+腹	spkv	38000000
+抹	fim	25300000
+艺	hbi	70800000
+泽	zdfu	80000000
+姆	ccm	60800000
+昂	kvae	18600000
+踢	oksz	42200000
+秒	rcpu	669000000
+钢	pmtj	71000000
+瓶	xhhw	61400000
+疾	wpib	20400000
+末	im	121000000
+挤	fytu	49500000
+劝	dclo	23600000
+粮	xwbm	38200000
+核	iyh	83100000
+僵	tikk	7870000
+倩	tesv	18600000
+猪	vjkq	219000000
+宏	whai	71800000
+寂	wlcd	8470000
+乘	rxvi	68100000
+诱	zray	53600000
+聪	hxre	6900000
+懒	uiqm	63800000
+侠	tjxu	84900000
+潮	zeks	47500000
+鸡	dsno	84000000
+搭	fhgo	135000000
+鸿	zisn	39000000
+咐	otic	16500000
+瓦	hw	58500000
+弥	dqcg	12300000
+薇	hsqp	49200000
+肤	sjf	96000000
+勉	qovc	8080000
+川	tc	88200000
+匹	fvef	34100000
+屈	daau	24400000
+央	mfd	42100000
+尺	dwu	41200000
+鹏	sssn	39000000
+悍	ukeg	17600000
+耸	uuhe	6690000
+悬	narq	52500000
+讯	zbey	215000000
+溜	zvdk	32500000
+喂	okfu	33200000
+丧	exfu	8280000
+怔	uglz	8350000
+拾	fugo	30600000
+纤	crqj	53400000
+魄	uugb	5260000
+括	frov	4830000
+乔	rtuy	31400000
+晴	kesv	46600000
+搜	fukd	477000000
+掠	fyoc	15300000
+帕	mubj	39800000
+亿	tbi	367000000
+孟	bmmz	30400000
+诗	zjiy	103000000
+偶	tky	129000000
+琪	ehq	60300000
+童	yjvn	55200000
+载	effc	90200000
+袁	joru	29600000
+覆	esvx	32200000
+悦	uxov	56100000
+垂	rhur	32200000
+均	jsxs	514000000
+蕾	hjkt	51300000
+厌	gjqc	8670000
+霞	jddy	31600000
+诀	zduy	5240000
+泄	zhs	18700000
+宠	wjpu	22200000
+臭	tjqz	50800000
+肌	sqj	54700000
+词	zboy	455000000
+票	efsx	180000000
+构	isai	11900000
+饰	qpmi	56700000
+袖	wkoi	32100000
+噬	opuu	4700000
+衡	squx	10900000
+穷	wclx	36600000
+港	zhtd	243000000
+航	ryqo	56000000
+驻	awem	93800000
+泥	zdvi	63300000
+脏	swjv	23400000
+辞	royq	26700000
+键	pbbj	98100000
+慎	uent	26800000
+眸	napn	7830000
+乡	cpu	85900000
+逆	xazd	81200000
+撕	fhrj	27900000
+凰	quej	7190000
+奸	ceg	22200000
+催	tmtw	23600000
+缝	cvzj	28200000
+宿	wtgk	74600000
+魅	uiwg	31200000
+凑	xefs	17000000
+陵	bjtv	32800000
+读	zefy	266000000
+岸	mgeg	39000000
+歉	xbtq	6150000
+授	fvqd	24900000
+映	kmfd	44800000
+甩	scu	31200000
+唱	okku	132000000
+崇	mwfs	33100000
+瑶	evpf	14400000
+暖	kved	57300000
+枚	ipp	220000000
+渡	zwgd	74800000
+稀	rthm	23800000
+沿	zqov	62700000
+贤	ldmb	37900000
+扩	fwg	16000000
+狮	vkmq	47700000
+斥	rjwu	8190000
+恋	yrxi	120000000
+饶	qfgi	16500000
+返	rdzd	70000000
+吩	otdd	9970000
+捏	fkjv	23900000
+搂	fxcv	14400000
+咳	oyh	18500000
+斜	ugze	80700000
+煞	qbps	16300000
+询	zsky	84400000
+眯	nxm	9380000
+赖	ioqm	31400000
+笨	pigu	54500000
+娅	chxu	6050000
+督	lcns	14000000
+洒	zex	22200000
+铺	pefj	97400000
+齿	luaz	15400000
+卑	upeb	6940000
+浅	zgfg	71000000
+尬	hcut	53400000
+尴	hcpm	39400000
+撼	ffor	4990000
+促	tolu	25500000
+奖	xqfd	151000000
+染	zriv	44900000
+酷	epoy	195000000
+课	zkiy	186000000
+泛	zpzz	68900000
+屠	djkv	13200000
+祸	wous	35300000
+罚	mzlw	43000000
+契	idff	23600000
+弗	dtug	30200000
+刑	ghld	15100000
+络	cvoj	15500000
+汇	zff	81900000
+赐	mksb	21800000
+夸	fgjd	11800000
+埃	japi	29400000
+巡	czdc	19500000
+摔	fyxe	34400000
+郡	bpob	50100000
+检	iuez	46400000
+疗	wblb	39600000
+俗	ttuo	26400000
+雕	sjot	34900000
+祥	wxys	47900000
+葛	hkuc	23900000
+屏	dxhv	177000000
+予	by	44900000
+矿	gwg	48300000
+俱	tntu	42200000
+闯	zamm	27600000
+疲	wdpb	10200000
+呜	osw	12700000
+详	zxyy	34400000
+录	bas	47000000
+婴	mmcb	46000000
+滋	zxaa	18600000
+寸	ic	48400000
+麽	wpam	17600000
+麦	evu	74300000
+迈	gbzd	44400000
+亭	yoqe	44700000
+枝	iedo	35600000
+婉	cwqb	16800000
+恒	uekv	65300000
+涛	ziic	29100000
+嫣	cgcs	3700000
+冠	qggi	63500000
+昆	kvb	17300000
+妃	cdj	16000000
+翅	edcy	12000000
+窜	wokx	12100000
+矛	bm	8570000
+贪	uwbm	21300000
+绵	cumj	5370000
+朕	sxfd	3970000
+俏	tnsv	21000000
+编	czmj	335000000
+瘦	wudb	88800000
+姜	xjcv	39300000
+斧	ttrj	9470000
+繁	pcpa	31200000
+允	avei	16900000
+裹	wkiy	13600000
+辱	gicn	8940000
+拨	faf	38800000
+樱	immc	14200000
+蝶	lhiv	54600000
+瞒	nhuu	9660000
+慈	xaar	34300000
+氛	ptdq	7760000
+咕	ojg	18000000
+乾	ekpb	25700000
+棋	ihq	71300000
+雀	ctwx	18200000
+屑	dnsv	11900000
+宾	wtit	54200000
+後	savr	423000000
+晰	kirj	2600000
+掏	fspf	44300000
+啪	ofub	17900000
+愈	uglr	61300000
+措	fhkv	16000000
+农	qru	191000000
+祝	wovs	137000000
+驶	aotm	13700000
+誓	frjy	13000000
+铃	pudj	165000000
+糟	xhkm	14200000
+捉	folu	18000000
+扮	ftdd	50600000
+畏	kfut	9940000
+韵	ysxn	65200000
+冯	xams	30300000
+羊	xy	81500000
+咯	ovov	28100000
+恰	uugo	17000000
+驱	aftm	78500000
+淫	zvrr	30100000
+璃	eyma	5100000
+鼠	us	145000000
+芙	hjf	13500000
+烁	xvcx	3440000
+咽	onfd	18300000
+涯	zgjj	9770000
+梯	ixkp	9290000
+夕	qx	20800000
+碍	gkgi	11700000
+县	naiq	219000000
+扇	zcyh	28400000
+崩	mssv	8900000
+裁	efwy	8110000
+幅	mgkj	92600000
+愕	uogj	3210000
+润	zzev	45400000
+岚	mqti	22200000
+骷	njgg	12500000
+卢	ldv	32200000
+猴	vtpq	38100000
+汤	zbsu	51500000
+健	tbfb	86300000
+杖	ihwu	16900000
+辕	fjrc	12300000
+哇	ojjv	64200000
+鼎	natp	64400000
+捕	fef	28800000
+恍	ungw	6670000
+箱	pinv	233000000
+扣	fov	72300000
+遮	whzg	22900000
+髅	nxcg	6240000
+泡	zsds	98200000
+育	yasv	70300000
+翠	cyey	35900000
+豹	vswz	23400000
+溃	zoom	2700000
+麟	wxfl	14200000
+芸	heai	15100000
+铜	pmoj	46200000
+逍	nszd	1950000
+涂	zugi	43600000
+献	emej	39100000
+娃	cjjv	64600000
+评	zexy	85800000
+党	nqov	116000000
+述	iwzd	38500000
+饮	qqqi	78000000
+丛	uugu	19400000
+汹	ztau	321000
+棍	ikvb	15100000
+序	wbyg	247000000
+湿	zklx	76300000
+棒	iefu	92200000
+嫁	cwgs	66200000
+灾	wxv	39500000
+挖	fwbi	48300000
+奏	eft	18400000
+贯	cemb	11100000
+冬	vzu	99000000
+贫	tdmb	15400000
+串	ooku	71000000
+肥	sdb	82500000
+漆	ziua	27500000
+喉	otdp	26700000
+披	fdp	39200000
+跌	opwz	68700000
+阔	zzom	12000000
+丑	deed	58200000
+弘	daig	16300000
+昌	kku	44600000
+凄	xecs	22000000
+卧	flbe	42100000
+穆	rucs	20300000
+焕	xqmf	5320000
+酸	eavy	89500000
+坛	jeai	81100000
+赚	mxtb	125000000
+割	wiol	87600000
+贺	coml	29900000
+砰	gexu	7610000
+违	fbzd	36800000
+捷	fgbl	57100000
+井	fku	45100000
+役	sqsr	39100000
+裸	wkii	35200000
+筋	pscl	28600000
+鞭	httg	18700000
+涨	zdpc	71100000
+锦	pumj	49100000
+匪	flff	16500000
+宴	wkcv	28700000
+仓	ubu	28000000
+骚	adlm	9800000
+耻	hlze	19200000
+饿	qpfi	31800000
+瓜	rg	47900000
+肆	ebfc	7490000
+沐	ziv	8870000
+妄	yccv	8510000
+巍	mrcu	7400000
+宛	wqbu	14000000
+裤	wwfi	67400000
+驰	abem	25200000
+妥	vcv	19300000
+嫩	ciop	28600000
+蠢	ekll	10400000
+馨	jdrk	38600000
+桥	irtu	132000000
+霆	jrby	4560000
+勃	eqbc	19100000
+廖	wcsg	19000000
+龟	qkd	17800000
+吵	ocpu	23200000
+审	wks	51700000
+晌	kuov	1780000
+款	jfqq	412000000
+戈	fg	29700000
+仆	tlb	7460000
+诧	zwfy	1920000
+搬	frqs	42400000
+漏	zdjy	55500000
+黎	rsua	42400000
+蒋	hxqi	30200000
+雯	jywy	19400000
+灌	zhot	53000000
+嘶	ohrj	9790000
+盔	hxmm	3140000
+辣	yiox	69900000
+疆	djkg	9500000
+桃	ivxu	46100000
+欠	qq	86400000
+饱	qsdi	51800000
+械	ifhv	5000000
+抑	fvae	15900000
+彭	joxs	37800000
+纠	cauj	15300000
+勤	hecg	37900000
+衫	wssi	26800000
+僧	txxk	21900000
+购	msab	503000000
+弩	cddg	4610000
+签	puez	82700000
+腥	skps	9570000
+蓦	hkfa	1060000
+揉	fbiv	14700000
+誉	zgty	25400000
+呈	oev	47800000
+鄙	oeob	2500000
+窝	woux	30800000
+镖	pefj	2450000
+愚	krxy	18100000
+腕	swqb	33100000
+障	bykz	15000000
+培	jyov	26800000
+厂	gc	178000000
+坠	bujv	21800000
+拢	fjpu	5480000
+牲	ppsn	2810000
+脾	supe	6950000
+涩	zdpl	16300000
+析	irju	14800000
+铠	pmdj	1840000
+珊	essg	18000000
+尉	dfic	6890000
+蓉	hwuo	17300000
+幼	acly	59900000
+寺	jic	49200000
+黛	tfmh	36100000
+麒	whql	3810000
+嘲	oeks	4290000
+怡	uaov	59100000
+瞳	nyjv	26500000
+趴	otuz	25600000
+邀	uyzb	63600000
+卿	vpaa	14400000
+蜜	wrpl	42600000
+链	pfzj	78200000
+骤	ahtm	8130000
+毅	yrql	29300000
+寨	whti	16800000
+挨	fapi	24600000
+刷	dmld	44400000
+崖	mgjj	13300000
+歪	gglb	46700000
+嚣	ogox	2270000
+频	lnmz	29500000
+企	ulz	78700000
+植	ienq	26400000
+伐	tfg	11700000
+晋	hxkj	36300000
+艰	dbgo	7620000
+龄	ludz	29100000
+崔	mtw	27400000
+耍	gcve	41300000
+竞	yovl	22700000
+拟	fcwu	40800000
+琼	eyoc	23100000
+谨	zhey	11600000
+碗	gwqb	74200000
+慨	ubfv	4210000
+丘	tig	35600000
+涉	zlnu	46200000
+艇	rrbo	7930000
+逊	bczz	38000000
+磊	gggv	21600000
+跨	ofjz	63800000
+浴	ztuo	46000000
+柯	ieov	43600000
+仑	uvi	12800000
+坑	jyqj	29500000
+骄	artm	9950000
+汪	zev	31300000
+舱	rubo	8980000
+颠	engm	13500000
+柜	ifdu	44300000
+趟	jnoz	29000000
+盒	ugom	124000000
+撇	fxtp	12500000
+谅	zycy	2750000
+荷	hteo	32900000
+愁	rxrx	31500000
+摧	fmtw	3980000
+踩	oviz	40900000
+哑	ohxu	12100000
+绑	cibj	18000000
+坤	jks	33100000
+锤	prhj	12500000
+乳	vbcu	68500000
+宰	wyx	11200000
+荆	hghl	12600000
+拓	fgv	58700000
+陌	bgkv	3650000
+虹	lig	79400000
+叮	oed	9510000
+竖	ldyl	14800000
+销	pnsj	99000000
+凛	xyfs	10500000
+访	zyuy	268000000
+绽	cwlj	15400000
+惠	gkor	95500000
+鹿	wl	42800000
+沃	zry	59500000
+沾	zlov	22800000
+靖	yesl	25300000
+堵	jjkv	25400000
+挽	fqov	11000000
+添	zfcw	42700000
+枯	ijg	9940000
+哗	otve	7060000
+绩	cemj	6910000
+夷	fdgd	9030000
+兔	qovw	47800000
+姨	cfdg	7660000
+绳	cokj	19000000
+纱	ccpj	22700000
+腐	wtug	38200000
+舟	ro	60900000
+辅	fefc	27900000
+巾	mj	22500000
+颈	digm	20300000
+迦	cozl	8880000
+搏	feic	15200000
+捂	fgdo	22800000
+筹	piic	14100000
+呃	ogbu	9760000
+敖	eqpp	15400000
+藤	hsja	46800000
+梵	iiqa	9760000
+盼	ntdd	37400000
+逝	frjz	22900000
+矩	pfdi	34000000
+厨	ggic	32000000
+膝	siua	25300000
+沌	zfau	1540000
+斌	yglw	43200000
+逗	goxz	20700000
+咧	ogld	13400000
+雁	gttc	33300000
+擅	fykg	12000000
+咦	ofdg	11400000
+黯	mynh	3380000
+憾	ufor	6190000
+旨	vkvi	36000000
+畅	kbss	19500000
+芬	htdd	33300000
+狸	vkeq	4760000
+胳	svov	1170000
+楞	imyu	9670000
+摊	fdtw	23500000
+於	yuzu	274000000
+冻	xfcs	36900000
+泣	zyl	24000000
+灿	xmv	6520000
+躬	tdgs	7270000
+哲	frjo	22700000
+尹	bpu	18700000
+淋	ziiv	16700000
+薛	huyx	17300000
+墓	hkfj	27200000
+籍	pihk	23600000
+嫌	cxlt	59300000
+霉	jpcy	25800000
+牺	pexn	578000
+拱	fhtu	10700000
+叉	dwuo	17700000
+捧	fefu	32800000
+哄	ohtu	15800000
+铭	pqoj	19600000
+嚷	owoh	7350000
+痒	wxyb	8110000
+膊	seic	2220000
+塌	jkcy	7500000
+篇	pzmu	658000000
+歇	kscq	22100000
+削	nsld	14200000
+涵	zbxa	14600000
+陡	bjz	9460000
+斤	rju	27700000
+匕	vi	5060000
+惶	uuev	3030000
+摄	fhdd	46000000
+儒	tjge	21400000
+膛	snoj	2000000
+隶	bas	5140000
+嘟	ojkb	13900000
+寿	iicf	26600000
+肢	sedo	5600000
+伪	tzcl	38100000
+励	ggcc	5130000
+眠	ndfq	21900000
+瞄	nhkt	9960000
+辽	bzdl	58100000
+寇	wggl	9190000
+沟	zsai	26500000
+哨	onsv	9810000
+掀	frjq	19800000
+仲	toku	61400000
+逛	vezq	99600000
+茵	hnfd	11800000
+档	inbu	117000000
+珑	ejpu	2370000
+羡	xjxq	8930000
+哮	ojbz	1420000
+俘	tvbz	5230000
+嚎	oyqg	6580000
+卒	yuue	22700000
+汽	zpq	72500000
+墅	kejj	15100000
+鉴	lpvv	36400000
+杆	ieg	37700000
+裙	wboi	69900000
+描	fhkt	7280000
+攀	itfr	14300000
+蜂	lvif	39200000
+赔	myob	36500000
+呐	omuu	22900000
+储	tzjk	27900000
+污	zgjk	37300000
+赋	mglb	15800000
+嘀	oymj	9040000
+隙	bckc	7880000
+吾	gdov	34000000
+虏	lclh	3810000
+呻	oks	1580000
+炉	xzh	26800000
+辩	yzyx	14600000
+殷	rbbq	12500000
+嗓	oddi	2870000
+狞	vweq	5360000
+彷	syur	2590000
+冤	qqvw	9370000
+旺	kev	65500000
+耿	hxve	6740000
+吊	omj	21600000
+颊	jxmf	9150000
+播	fpxk	55700000
+偿	tnea	8430000
+俯	twti	8950000
+篮	plpm	35000000
+溅	zmgf	15500000
+烤	xjjk	30800000
+贾	embx	52600000
+缕	cxcj	13700000
+俄	tpff	47200000
+狄	vxvq	9250000
+擒	fuma	8680000
+躁	ooiz	6040000
+狡	vytq	3220000
+嗔	oent	4820000
+乏	pzz	8690000
+罕	qteg	7510000
+嘎	ognf	12000000
+蹲	oxiz	30000000
+惩	sgrr	5140000
+谦	zxty	8550000
+患	ookr	96700000
+渴	zkuc	15400000
+篷	pviz	4100000
+咆	osds	1090000
+歹	gd	7220000
+迁	rzdq	30600000
+押	fkj	19200000
+粒	xylm	51000000
+遣	oodz	8450000
+沸	zdtu	5110000
+辨	ypyx	15300000
+囊	eohr	22400000
+鳞	qxfy	6870000
+版	trdp	1980000000
+蛛	lptu	2290000
+蕴	hckm	9310000
+棠	nqoi	7760000
+狈	vmbq	365000
+陶	bspf	74600000
+劣	cpcx	17500000
+蜀	mslw	65200000
+逢	vizd	63000000
+祺	whqs	7890000
+竭	ykcl	5610000
+潇	zhct	9060000
+苗	hkt	35200000
+娶	hdce	29800000
+炽	xotu	4450000
+戮	cufy	3280000
+侦	tlmb	9710000
+讽	zqty	3580000
+芝	hzz	45100000
+吱	oedo	6910000
+宅	wpfq	30100000
+甫	ef	11000000
+挠	ffpg	6360000
+邓	dbvo	34600000
+订	zedy	62300000
+玫	epp	15600000
+丸	rwuj	47600000
+雍	ycpt	5650000
+厢	ginc	11700000
+佐	thig	23600000
+拐	focl	12100000
+叠	ddno	18300000
+驳	attm	5280000
+倭	trcv	3230000
+兼	xblt	67300000
+弦	dyag	87900000
+蔡	hsfs	67000000
+腻	sfem	12900000
+苟	hsov	3820000
+昭	kdov	18800000
+辜	jyxg	4010000
+坡	jdp	29500000
+兮	tjk	14200000
+础	gaau	1930000
+刮	rolq	26400000
+蓬	hviz	20700000
+淑	zlcd	16400000
+梭	iatv	19800000
+廊	wwbg	31900000
+俞	ugsl	24300000
+琉	eyav	4450000
+胎	saov	22800000
+朴	ilb	17800000
+遵	xeiz	32200000
+厮	ghjc	4480000
+韦	fbu	22700000
+禀	ynof	2430000
+妍	cghv	12600000
+疏	blav	16400000
+浸	zbqd	17900000
+茹	hcov	8660000
+滞	zhqm	8460000
+嗦	oeqa	15300000
+咪	oxm	61900000
+昊	kft	11200000
+敛	uezp	3950000
+湾	zydg	95300000
+澜	zznx	9050000
+瞎	nwio	29100000
+玻	edp	16200000
+溢	zxtm	28700000
+豆	goxu	72200000
+灼	xswu	7190000
+斑	eyev	31200000
+犬	jq	80900000
+瞥	xmpn	7240000
+廉	wxtg	57900000
+锅	pouj	29400000
+祈	wrjs	19700000
+潘	zpxk	61100000
+壶	jqlx	22100000
+聂	hdde	8410000
+糕	xxsm	7170000
+匠	frjf	10800000
+顽	gggm	7520000
+拂	fdtu	13800000
+魁	uzeg	9030000
+榜	iyqy	119000000
+缚	ceij	5190000
+彪	lqsh	12600000
+碌	gbas	2560000
+庙	wkog	20500000
+鹤	qtsn	46100000
+妞	cdee	18300000
+堕	bhsj	8750000
+昧	kiw	1940000
+蹄	oymz	8540000
+兹	xaay	36900000
+蔽	hxtp	4610000
+谎	zhvy	4370000
+遁	renz	6120000
+肠	sbsu	23100000
+焚	iixv	9830000
+绯	clfj	6410000
+腔	swig	25300000
+嗡	otac	5430000
+耽	hqve	3330000
+栋	ifcx	35900000
+岭	muwd	27200000
+葬	hgvh	11800000
+盆	tdmm	27300000
+蹦	omsz	4570000
+茜	hex	18100000
+壳	jqqj	43600000
+啧	oemb	1630000
+妨	cyu	1700000
+鞋	hjjg	125000000
+挪	fbfb	9440000
+硕	ggmb	71400000
+携	ftan	37500000
+柴	lviz	25700000
+矢	pi	31600000
+钰	pewj	4350000
+钉	pedj	13800000
+阎	zqum	7660000
+帘	wmjx	13200000
+嗤	oagl	3780000
+窃	wfdx	9120000
+蔓	hkmd	6170000
+冉	mjv	5280000
+俺	tfkd	132000000
+陀	bwvi	9890000
+沧	zubu	19300000
+翘	fpcq	17100000
+兀	gw	1570000
+申	ks	63600000
+循	srnr	13500000
+搅	fzmv	9080000
+狭	vjxq	5600000
+侄	tgaj	4180000
+谭	zeky	29400000
+渺	zncp	2630000
+姊	cpkp	20500000
+贱	mgfb	16200000
+戟	ekfg	8600000
+津	zbfu	39100000
+拆	frjw	44600000
+彦	ypsl	11800000
+噗	olxx	8260000
+萝	hmqx	5940000
+赴	jlbz	59400000
+蚁	lwti	4470000
+诈	zply	4370000
+暇	kddd	36500000
+棵	ikiv	25400000
+愉	uusl	5710000
+嘱	odlm	2070000
+啥	oueo	94100000
+妾	ycvl	6730000
+轨	frjc	10700000
+蚩	aglv	381000
+唔	ogdo	46300000
+浆	xqas	16600000
+涡	zomu	5580000
+汝	zcv	11000000
+锻	ptqj	3900000
+禅	wxes	16200000
+捡	fuez	19900000
+衷	woky	21100000
+媒	chei	14500000
+渗	zafs	11700000
+吁	ogiu	5260000
+巢	ckic	19800000
+阅	zxvm	21400000
+孝	jbz	17900000
+峡	mjxu	9010000
+烛	xlv	11100000
+氓	ycdf	1640000
+哟	ocsw	124000000
+掐	fquj	9610000
+租	rnq	47600000
+帽	mmnj	98400000
+泊	zub	34600000
+衍	szvx	3920000
+蓄	hyak	20900000
+揭	fkuc	64200000
+妒	czh	7110000
+贸	vwdm	50100000
+寞	whkf	1920000
+毙	vgvb	5910000
+憋	xmpr	11500000
+乙	bi	82300000
+喔	odaj	105000000
+翰	ekuc	11600000
+坎	jqq	13600000
+革	hg	27300000
+彤	syss	7950000
+舅	ukcj	3290000
+阱	bfku	942000
+税	rxov	174000000
+垃	jyl	150000000
+圾	jawu	62800000
+滔	zvuj	2490000
+倚	tfeo	12600000
+胞	ssds	7840000
+寄	wfeo	223000000
+絮	coav	9070000
+虐	lfgh	16000000
+颖	vrmi	18900000
+潭	zekz	28800000
+庸	wbkg	18700000
+喀	owvo	9260000
+逻	mqzw	1150000
+璇	eybl	13600000
+笛	pko	18300000
+歆	yqqn	3530000
+怯	ujai	5420000
+瑰	eug	3730000
+旭	rkvj	29900000
+昔	hkv	106000000
+尧	fpgq	6100000
+填	jent	139000000
+遂	xrzd	20600000
+祀	wdss	2470000
+摘	fymj	81900000
+寡	wgtd	6590000
+嫂	cukd	8550000
+惫	vkrx	2010000
+咚	ovzu	9100000
+弧	drgg	26200000
+沫	zim	7560000
+暮	hkfk	9920000
+卜	lb	18400000
+枉	iev	6310000
+兆	vxue	34100000
+煌	xuev	7650000
+蛟	lytt	3090000
+澡	zooi	11800000
+雇	ztwh	9020000
+粹	xyem	8720000
+栽	efiv	15600000
+诛	zpty	13700000
+滩	zdtw	16000000
+裳	nqow	5280000
+蚀	qlvi	5250000
+贞	lmb	15400000
+寝	wxqd	52300000
+胧	sjpu	13000000
+蝎	lkuc	6660000
+诅	znqy	925000
+狰	vqbq	6740000
+桶	idsy	45700000
+栈	igfg	3410000
+睹	njkv	11600000
+售	tovw	179000000
+哧	ojtt	3590000
+韧	fbdp	6750000
+狙	vnqq	15800000
+熙	fksf	14300000
+臀	dhqs	7850000
+瀚	zeuc	6420000
+署	mjkw	39400000
+蝠	lgok	1840000
+舜	vqqf	8500000
+朦	shgg	11400000
+泼	zaf	8980000
+绮	cfoj	5620000
+溪	zvaf	90000000
+卦	jjlb	8090000
+栏	ixee	211000000
+舔	rowq	9260000
+筒	pmgo	27000000
+册	ssgu	60300000
+窥	wjvx	18500000
+歼	grqd	4400000
+裴	lwyf	7670000
+剥	bald	8620000
+旷	kwg	3100000
+窟	wdax	6100000
+姚	cvxu	28200000
+犀	dapn	4770000
+惕	ukss	1430000
+觑	llvh	2600000
+囚	nuuw	7630000
+磁	gxaa	43900000
+兜	uvvb	33300000
+擂	fjkt	7980000
+枕	iqve	28200000
+巷	htds	44900000
+绣	craj	22100000
+胀	spc	9610000
+湘	zinv	56100000
+捣	fsmv	6870000
+佑	thov	14000000
+拽	fkpu	14700000
+乞	pbi	5090000
+惟	utw	21200000
+谱	zxky	21200000
+抄	fcpu	25100000
+衙	sgox	3990000
+戚	flcw	8860000
+钦	pqqj	6810000
+哩	okee	26300000
+楠	iexe	24600000
+蕊	hrrr	7750000
+垒	aaji	9710000
+胃	ksvt	30000000
+颅	ldgm	4670000
+琢	egwu	3790000
+贡	imbg	8460000
+衰	wogy	21700000
+喧	owek	4330000
+虞	lofh	10800000
+丞	bdgl	9510000
+岗	mmti	35200000
+慑	uhdd	3530000
+扁	zmuh	34900000
+骆	avom	4150000
+纽	cdej	15300000
+噢	ouxf	20900000
+剂	ytlw	57400000
+侃	tovu	20300000
+菩	hyov	1590000
+剿	cklc	3190000
+秃	rqj	5440000
+罡	mglw	2500000
+咙	ojpu	431000
+桓	iekv	4470000
+莽	hjhv	2840000
+菁	hesv	18000000
+揽	flmv	14500000
+烫	zbsx	17800000
+嘘	ollx	38900000
+祷	wiis	3060000
+诞	zpby	4750000
+瑜	eusl	16400000
+鞘	hnsg	7620000
+轴	fkoc	24000000
+孽	huyb	6360000
+恕	corx	20000000
+轿	frtc	9510000
+萍	hzex	24200000
+衬	wici	10900000
+倦	txjb	3870000
+芷	hlz	6200000
+疚	wqwb	1170000
+翁	tacy	22700000
+淘	zspf	22900000
+猾	vngq	878000
+嗜	ojvk	9320000
+翎	uwdc	5150000
+陨	bomb	1420000
+熬	eqps	28200000
+藉	hihk	23500000
+窍	wijx	7130000
+掷	fxfb	6170000
+勋	omcl	5130000
+咖	ocov	12400000
+磕	gjam	6180000
+鸦	fsny	3840000
+铸	piij	16400000
+棺	iwdd	4110000
+翩	zmch	1860000
+叨	odd	7580000
+倏	tkvj	1660000
+奢	fjkd	3300000
+扳	frdo	7270000
+乍	plu	14600000
+叙	ugid	7470000
+嗽	oioq	2340000
+辟	doyx	8570000
+畜	yakt	17200000
+擎	hspr	8830000
+霎	jycy	1460000
+倘	tnmo	6140000
+嫉	cwpi	3830000
+陋	bguc	3280000
+郝	jttb	13800000
+搁	fzvo	9110000
+瘫	wdtb	7920000
+钥	psvj	6990000
+哆	oqqx	10100000
+茅	hbm	21200000
+峻	matv	7660000
+蜘	lpov	1250000
+匙	kglv	9160000
+趋	jqbz	30100000
+窄	wplx	21300000
+啡	olf	4260000
+绞	cytj	16700000
+伺	tbgo	3430000
+莺	hqsn	4490000
+邱	tibv	34800000
+酥	ervy	23800000
+姥	cjvi	2610000
+菊	hsxm	30900000
+蛊	lmm	6670000
+粘	xlom	60400000
+恳	brxg	4280000
+醋	ehky	37200000
+绷	cssj	8760000
+淌	znmo	5450000
+炫	xyay	45200000
+淮	ztw	15300000
+渠	zfdi	9080000
+娱	coft	22400000
+丐	jgcu	8170000
+履	dskv	12200000
+症	wglb	95100000
+捞	fhqc	27600000
+塑	xasj	98200000
+蔑	hmfw	1110000
+眩	nyay	10200000
+衔	spjx	9490000
+禽	uyma	28500000
+蒸	hbgs	25400000
+炀	xbsu	1170000
+涟	zfzd	3510000
+傀	tug	963000
+嗖	oukd	2640000
+淳	zyob	12700000
+挟	fjxu	5500000
+佘	ufs	3530000
+柏	iub	35900000
+帆	mqaj	25100000
+绰	clkj	1770000
+歧	ledz	3200000
+渔	zqy	18700000
+敞	nmop	5370000
+徽	smpr	14200000
+缄	cfoj	727000
+彬	iiss	15100000
+厥	gxqc	2840000
+讪	zmvy	400000
+瞟	nefs	6100000
+茂	hfw	46800000
+疤	wdbb	5660000
+霹	jdyy	2200000
+惭	ufrj	1420000
+瑾	ehee	5880000
+猿	vjrq	11700000
+迸	xhzd	3260000
+眶	nfev	4890000
+豁	wiuo	4060000
+宵	wnsv	9310000
+沼	zdov	5640000
+肿	soku	17500000
+卸	pgla	37300000
+钩	psaj	14100000
+捅	fdsy	7320000
+婢	cupe	3710000
+沮	znq	1550000
+荐	hhkb	30600000
+肺	sgmj	25000000
+亨	yobl	16600000
+页	gmb	2680000000
+踹	omgz	5630000
+戬	hxfj	425000
+忖	uic	3270000
+斐	lywf	8080000
+碑	gupe	14300000
+芦	hzh	12200000
+瓷	xqhs	19300000
+拘	fsov	11100000
+钧	psxj	6790000
+雳	jgcy	503000
+迭	pwzn	5150000
+贩	mrdb	5850000
+屡	dxcv	13700000
+漩	zybl	1140000
+夭	ry	4630000
+鲍	qsdy	22100000
+儡	tkkk	603000
+吏	goti	6860000
+捆	fniv	9700000
+扛	fig	13000000
+曰	ku	43000000
+鹫	yojs	1610000
+届	dko	249000000
+蝉	lxke	7600000
+怠	aori	4720000
+搓	fxig	9620000
+漪	zveo	2960000
+侮	tpcm	2360000
+脊	xusv	7700000
+栗	eivx	14400000
+萱	hwek	12100000
+叱	ovi	4920000
+淹	zfkd	11500000
+驼	awvm	3220000
+拎	fuwd	16400000
+娟	cosv	13400000
+揍	feft	9350000
+嗅	otjq	8340000
+菱	hjtv	17600000
+槐	iug	10600000
+汁	zeu	44000000
+惮	uxke	757000
+襄	wohy	6480000
+蟒	lhjh	5450000
+邻	uwdb	28700000
+姗	cssg	4330000
+账	mpcb	16400000
+樊	itif	7370000
+衅	pmxf	671000
+砖	gecw	36000000
+喽	oxcv	25300000
+瘾	wbrb	12400000
+抿	fdfq	4840000
+弛	dbeg	3460000
+霓	juvy	6130000
+览	lpmv	65800000
+妆	xcv	37200000
+澈	zysp	3900000
+僻	tdoy	2270000
+挫	fuuj	7420000
+矣	apii	26900000
+妩	cecu	11300000
+厦	ggvc	13500000
+喻	ousl	13100000
+杏	iov	27600000
+桐	imgo	19300000
+倪	tuve	12700000
+噩	eoox	1320000
+拧	fwed	9360000
+燥	xooi	7770000
+沦	zuvi	7210000
+芊	hrq	3450000
+揪	frxv	20800000
+铲	pypj	7200000
+郊	yttb	10600000
+蚂	lam	3110000
+帖	mloj	771000000
+孕	abzn	56500000
+跺	oqiz	5200000
+蹈	ovuz	4410000
+冀	xvht	29400000
+盐	jlmm	37400000
+蹭	oxkz	5660000
+阮	bggw	8530000
+婪	iicv	478000
+巅	megm	11200000
+株	iptu	94100000
+喇	oiol	14400000
+襟	wifi	6470000
+婿	cbls	4320000
+鞠	hsxg	5610000
+盏	gfmm	11100000
+嬉	cjxo	11800000
+凹	mgu	13500000
+敦	yobp	13700000
+膜	shkf	67600000
+焉	glcs	10200000
+跋	ohwz	4770000
+剪	xsld	33800000
+呕	ofti	4050000
+颓	rqgm	2010000
+妓	cedo	8490000
+棘	imim	7550000
+桩	iwjv	11500000
+稚	rtw	4530000
+逞	oezd	4420000
+僚	tfkc	1670000
+谍	zhiy	7290000
+桂	ijjv	51500000
+嵌	mheq	12300000
+勿	ssu	215000000
+撩	ffkc	24200000
+琦	efeo	13900000
+穹	wdgx	1880000
+梧	igdo	4840000
+拭	ffig	6260000
+焱	xxxv	3840000
+债	temb	19900000
+脯	sef	2060000
+掘	fdaa	27200000
+熠	xcub	945000
+朽	ijk	1840000
+疫	wqsb	6210000
+拇	fcm	2830000
+窒	wgjx	3540000
+吭	oyqj	4400000
+墟	jllx	4400000
+顷	vgmi	7280000
+涣	zqmf	820000
+镶	pwhj	8830000
+邵	dobd	26800000
+忿	tdrx	3270000
+睿	lqun	13000000
+峨	mpff	2140000
+漾	zxjz	9160000
+梨	rliv	24000000
+邸	vfwb	10500000
+酬	esty	19000000
+咋	oplu	29400000
+奕	yfdi	9840000
+寥	wcus	1370000
+呸	oggu	13000000
+饥	qqji	7330000
+蝙	lzmu	291000
+涅	zkjv	8200000
+肋	scl	8820000
+峙	mjic	2820000
+译	zdfy	35800000
+漓	zyma	1740000
+凸	kgbg	27000000
+砚	gmve	6860000
+剔	kssl	3290000
+垫	frwj	38000000
+瞻	nqty	5310000
+镰	pwtj	1940000
+噜	oqkv	2060000
+瞅	nrxv	11400000
+梳	iyav	10400000
+熄	xtrx	7790000
+眷	xjnv	3270000
+胤	vase	3550000
+蹬	odxz	9800000
+婕	cgbl	8440000
+绘	cuaj	50500000
+岔	tdmv	7840000
+址	jlz	54000000
+坊	jyu	123000000
+幢	myjj	18100000
+蝴	ljsv	2450000
+猩	vkpq	1720000
+萌	hksv	18200000
+禹	plmu	13600000
+唾	orhu	3080000
+湛	zhcu	5600000
+飙	jjtq	6810000
+揣	fmge	6690000
+侥	tfpg	7320000
+螺	lkav	14900000
+驭	adom	3460000
+侣	toov	13400000
+肘	sic	15400000
+熏	rmhq	14000000
+聘	hkje	272000000
+唬	olqj	4650000
+垮	jfgj	11500000
+谊	zwny	5730000
+麾	wrmm	971000
+讥	zqjy	1730000
+龚	jpto	9370000
+沛	zgmj	8160000
+嗷	oeqp	1510000
+箫	pbct	6470000
+宪	wpve	8810000
+镯	pmlj	2130000
+琐	enmb	2640000
+髓	nhzg	5930000
+薪	hyrj	63500000
+毯	rxxm	5520000
+匿	fhof	5940000
+裕	wtoi	23800000
+骸	nyhg	4910000
+匈	stau	2720000
+跄	oubz	983000
+瓣	yryx	16000000
+懈	uqdp	2140000
+搀	fqvz	1610000
+脂	svkv	27000000
+葫	hjsv	1190000
+澎	zjxs	3580000
+翡	lcyf	1880000
+膨	sjxs	6110000
+沁	zrx	14900000
+悸	urbz	4370000
+踉	owbz	1920000
+妲	ckgu	1600000
+憨	bhpr	7010000
+苹	hexu	3020000
+癸	dft	5720000
+泻	zqcg	15600000
+黝	mach	637000
+渣	zikg	17800000
+枢	ifti	4340000
+酿	ewby	13500000
+皓	upob	10200000
+眈	nqve	1140000
+玑	eqj	1070000
+兢	jvvg	3950000
+畔	kxft	14500000
+筷	pudu	4450000
+懊	uuxf	1500000
+糖	xwom	71200000
+伞	uxeu	18900000
+杭	iyqj	19100000
+詹	qgty	12400000
+综	cwfj	41200000
+缉	cohj	7400000
+尿	das	29300000
+嚓	owsf	1300000
+刁	bgu	7300000
+惚	ussr	2990000
+瑕	eddd	4330000
+奎	fjjd	18200000
+棉	iumj	52200000
+鲸	qycy	5920000
+瀑	zkta	5340000
+践	ogfz	4790000
+熔	xwuo	7380000
+鹅	pffs	8700000
+秉	rbu	6990000
+傍	tyqy	18200000
+霖	jiiy	13900000
+鹃	ossn	3050000
+坟	jyw	7250000
+澄	zdox	12900000
+逮	bazd	9490000
+绸	csoj	3510000
+隋	bhis	9530000
+骏	aavm	16400000
+暧	kvhd	1840000
+媛	cved	8870000
+驯	atcm	3430000
+崆	mwig	2530000
+锥	ptwj	5370000
+湃	zpgi	1120000
+狩	vwiq	4940000
+媳	ctrx	9650000
+稻	rvuj	12300000
+叽	oqj	3170000
+姻	cnfd	1350000
+拙	faau	6600000
+绚	cskj	3290000
+扒	ftu	13000000
+靡	wlfm	4160000
+簇	pypp	5450000
+饼	qxhi	18700000
+蚕	flvt	5910000
+叩	oae	6250000
+亢	yqj	11200000
+赠	mxkb	62800000
+辖	fwoc	8560000
+斋	ygew	21400000
+咸	fgow	33800000
+碟	ghiv	73100000
+蝇	lokd	2970000
+秩	rpwu	1790000
+诏	zdoy	3420000
+嚼	ovai	9400000
+卵	vxaw	42100000
+朔	xasv	9760000
+胶	sytt	56800000
+倔	tdaa	2470000
+罐	phtf	24500000
+炯	xmov	2520000
+冶	xaos	16800000
+弊	xmph	17900000
+讳	zfby	1630000
+缭	cfcj	814000
+戳	ctfy	8500000
+搐	fyak	727000
+驴	azhm	39000000
+聋	jpho	7740000
+禄	wbas	10600000
+盲	ycnv	10900000
+蚊	lyw	14300000
+浊	zlv	6280000
+鲨	zcpq	8560000
+唧	obaa	1710000
+恙	xjrx	1410000
+懿	jqqr	5220000
+铮	pqbj	3210000
+佬	tjvi	25100000
+唰	odml	4490000
+镔	pwtj	448000
+炙	sxv	4470000
+阀	ztfm	23100000
+凳	dgxq	5670000
+啃	olsv	10300000
+绅	cksj	4800000
+锡	pksj	33600000
+啼	oyqm	8170000
+厄	gbuc	9070000
+鸭	ksnj	25400000
+锢	pnjj	1030000
+捶	frhu	4880000
+滥	zlpm	14700000
+匣	fkjf	22200000
+呛	oubu	5920000
+搔	fdwl	4940000
+偎	tkfu	2790000
+谜	zxzy	24000000
+屿	mgcg	3540000
+伽	tcov	7120000
+悯	uzyw	594000
+钓	pswj	40600000
+鸾	ysni	1850000
+煮	jksh	49600000
+娴	cziv	6590000
+桀	qfix	1840000
+拯	fbdg	1710000
+蜥	lirj	1450000
+拣	ffbt	10100000
+杉	iss	18500000
+谣	zvpy	3450000
+泳	zzo	17200000
+咔	ollb	4990000
+煜	xkyl	5230000
+祟	aafs	4310000
+缴	cupj	21800000
+笙	pps	4590000
+忑	jwrx	5300000
+囔	oehr	870000
+冈	mti	10800000
+璐	eovo	9020000
+喳	oikg	2150000
+炭	mhxv	19400000
+靴	htvg	63800000
+崎	mfeo	21800000
+忐	lrxs	4520000
+睬	nviv	3010000
+甄	ejhx	9470000
+泓	zdai	7610000
+晖	kqfc	9930000
+璧	doew	7470000
+烬	xdwz	810000
+哽	ogkt	1750000
+肝	seg	46300000
+痞	wgob	4170000
+涕	zxkp	3690000
+栖	iex	14900000
+堤	jkgl	23000000
+炒	xcpu	41000000
+稽	rjvk	5530000
+棱	ijtv	6360000
+纲	cmtj	7140000
+戾	zjqh	1670000
+驸	atim	214000
+闺	zjjm	4410000
+壤	jwoh	2130000
+赦	jttp	4170000
+榕	iwuo	12800000
+浇	zfpg	23700000
+厕	gmlc	7790000
+棚	issv	30500000
+殖	gend	3420000
+舵	rwvo	8050000
+袅	swyn	996000
+蔚	hdfi	21300000
+蹙	fllw	3540000
+厘	gkec	40100000
+稷	rktv	1630000
+晒	kex	43400000
+缪	ccsj	4560000
+虾	ljwu	58900000
+匀	sxs	9170000
+捐	fosv	17900000
+颂	tagm	9440000
+赎	mefb	7740000
+亵	wfwy	973000
+棣	ibas	5040000
+窘	wbox	3410000
+钝	pfaj	3980000
+懦	ujge	1260000
+娲	comu	3710000
+腮	skrx	5790000
+橙	idox	40000000
+璋	eykz	3490000
+烙	xvov	5020000
+瘟	wkmb	4320000
+芯	hrx	37600000
+榻	ikcy	3150000
+庶	whsg	2940000
+茨	hxqq	24100000
+哉	efov	9380000
+劭	docd	1140000
+葱	hswr	10000000
+貂	vdoz	2660000
+屎	dxm	24600000
+悚	uiov	11100000
+偌	thho	1300000
+溶	zwuo	23800000
+绢	cosj	3680000
+苑	hqbu	86200000
+虔	lywh	1940000
+飓	qttj	7530000
+屯	fauq	30300000
+吨	ofau	54000000
+娥	cpff	8840000
+殆	gaod	9010000
+嵩	mymo	4270000
+冕	meov	2990000
+骼	nvog	355000
+磋	gxig	1360000
+蠕	ljge	1580000
+诩	zcyy	4090000
+旱	keg	9450000
+惺	ukps	1430000
+殴	ftqf	9840000
+梢	insv	8010000
+拚	fahv	6390000
+裔	wmoy	7290000
+婶	cwks	1220000
+惋	uwqb	715000
+萎	hrcv	4350000
+觅	vmve	5470000
+峭	mnsv	1790000
+枭	sivn	3050000
+砂	gcpu	38300000
+驿	adfm	7250000
+昱	kyl	5650000
+缨	cmcj	1820000
+叭	otu	4530000
+蹿	owkz	2540000
+绫	cjvj	3080000
+谐	zvuy	4380000
+茧	hlv	5390000
+聆	hude	7690000
+帜	motj	1180000
+甸	skt	15300000
+踱	owdz	4670000
+葡	hsef	6030000
+榴	ivdk	5120000
+皙	irju	2630000
+汰	zfwu	5290000
+奄	fkdd	4640000
+腊	shkv	8420000
+昼	dwkg	29200000
+澳	zuxf	63800000
+兑	xove	10500000
+诊	zusy	8140000
+缜	cetj	360000
+腑	swti	3290000
+敷	eypf	21500000
+晦	kpcm	2670000
+诵	zdsy	5190000
+邃	wxzx	880000
+獠	vfcq	1680000
+鞑	hfzg	997000
+辑	fohc	136000000
+蜡	lhkv	12900000
+庇	wvbg	2630000
+滕	sxja	7250000
+憎	uxxk	4130000
+悻	ujxe	735000
+嗨	ozpc	15100000
+慷	uwba	451000
+荀	hskv	2400000
+咄	oaau	1210000
+寓	wky	7310000
+筝	pqbb	2330000
+逾	uglz	37000000
+昕	krju	8980000
+藩	hzxk	6820000
+啤	oupe	5910000
+缸	pigf	25400000
+忡	uoku	125000
+璀	emtw	10100000
+噪	oooi	8240000
+璨	eldx	19000000
+祢	wqcs	2160000
+幡	mpkj	3050000
+茉	him	2870000
+粥	dxdg	38600000
+悴	uyue	802000
+曙	kmjk	7410000
+聿	bfu	5610000
+烨	xtve	4390000
+靶	hdbg	4530000
+颔	uwgm	632000
+吒	opfq	2090000
+绊	cxfj	5780000
+憔	utsh	348000
+募	hkfc	9280000
+洽	zugo	21400000
+咏	ozo	13800000
+框	ifev	115000000
+酋	xey	1640000
+谬	zcsy	2260000
+萄	hspf	1320000
+眺	nvxu	5420000
+钞	pcpj	7700000
+溟	zqyt	1540000
+痹	wkhb	1750000
+坪	jexu	28800000
+挚	frwr	3500000
+茄	hcov	10400000
+凿	lxea	7060000
+恬	urov	4840000
+邹	qbbv	14000000
+檀	iykg	15500000
+褐	wkci	13300000
+揖	fohe	2040000
+冽	xgls	1960000
+崽	mkrx	3940000
+蟹	qspl	24900000
+涎	zplb	3540000
+胯	sfgj	3720000
+瘩	whob	778000
+抡	fuvi	3020000
+铛	pnbj	1960000
+猥	vkfq	1070000
+菇	hcjg	7720000
+疙	wpbb	981000
+斟	hceq	4610000
+塘	jwko	31000000
+徊	snor	3010000
+函	bxal	30200000
+勺	swu	7000000
+褪	wbzi	6010000
+遏	kscz	3410000
+曦	kxjf	5840000
+睫	ngbl	2960000
+庚	wbug	7270000
+蒲	hzef	13600000
+芽	hfy	29600000
+荫	hbsv	12000000
+徘	slfr	1180000
+裘	ixww	6130000
+槽	ihmk	26300000
+鬟	emrb	957000
+嘭	ojxs	1410000
+睽	ndft	1520000
+煎	xsls	16400000
+廓	wybg	2600000
+稿	rymo	88000000
+暄	kwek	1880000
+滨	zwit	24000000
+嗒	ohgo	2420000
+缰	cikj	1730000
+谕	zuly	2680000
+彰	yksl	16500000
+蛙	ljjv	15900000
+窿	wbpx	1400000
+锵	pxij	2050000
+旬	skv	29200000
+珂	eeov	8840000
+猝	vyeq	1230000
+掺	fafs	7820000
+嘈	ohmk	2150000
+缈	cnpj	3960000
+蟾	lqty	2890000
+扈	zodh	2110000
+耕	ifkl	11400000
+攸	tkpp	4410000
+嵋	mdnv	157000
+萤	hqlv	8520000
+蜴	lkss	315000
+栅	issg	9520000
+曳	kpud	2710000
+瑚	ejsv	1570000
+翱	ufcb	1760000
+攒	fpvm	23300000
+蜷	lxjb	1720000
+崛	mdaa	1730000
+惬	ufjx	613000
+秽	rmqx	1890000
+芭	hdb	27700000
+袱	wtji	671000
+缥	cefj	3150000
+魇	gjuc	877000
+磅	gyqy	34600000
+庐	wzhg	7400000
+鸽	ugos	9650000
+礁	gtsh	6990000
+饵	qhei	4010000
+撅	fgaq	4000000
+缔	cymj	1300000
+晏	kwcv	6340000
+钮	pdej	6660000
+琅	ewbg	3930000
+蔼	hzuc	1500000
+苛	heov	4020000
+饷	quoi	1750000
+葵	hdft	19200000
+阙	zxqm	3230000
+掳	flcl	2820000
+晟	kfbu	6990000
+佗	twvi	2410000
+稠	rsjo	7620000
+懵	uhqn	3640000
+嗣	omgo	4060000
+韬	fbvu	3170000
+肴	thsi	6010000
+渎	zezf	1940000
+珀	eub	5270000
+琥	elqj	2780000
+娉	ckjk	2500000
+咫	dwot	992000
+咻	otiv	2820000
+恃	ujic	3150000
+檐	iqty	5840000
+怦	uexu	5120000
+浦	zef	50700000
+颁	tdgm	6170000
+伶	tuwd	9330000
+祯	wlms	1930000
+贷	tfmb	19700000
+茬	hhkj	4570000
+吝	yovw	1670000
+扼	fgbu	2790000
+羌	xcuy	3140000
+瑭	ewko	556000
+隧	bxrz	3670000
+蘑	hwgv	1340000
+趾	olzz	3810000
+缀	cddj	4290000
+簌	pioq	3240000
+捺	fffs	1570000
+芜	hecu	2350000
+殃	gmfd	3220000
+滢	zhew	2130000
+唠	ohqc	10900000
+噼	odoy	825000
+矫	prti	3830000
+邮	kbvo	95100000
+掂	fwlo	6310000
+烽	xvif	5800000
+恺	umdj	3140000
+竿	peg	9870000
+绒	cfhj	16000000
+嫡	cymj	1460000
+辙	fypc	3040000
+啐	oyue	1810000
+煽	xzcy	4150000
+糙	xpzm	2860000
+戎	fhug	7990000
+禾	rv	19900000
+畴	kiit	1240000
+枷	icov	2360000
+怅	upc	1050000
+籁	piqm	1270000
+瘪	wtvb	2660000
+吆	oay	1730000
+甬	dsy	6570000
+邢	ghbv	7230000
+栩	icy	1340000
+猖	vkkq	838000
+叼	obgu	6620000
+攘	fwoh	1880000
+芥	hutu	4690000
+壕	jyqg	2840000
+昵	kdvi	4230000
+漱	zioq	3940000
+紊	yavw	1530000
+汀	zed	13800000
+酣	ehey	5090000
+寐	waiw	4290000
+锣	pmqj	2310000
+跷	ofgz	3240000
+亩	ykt	32400000
+黏	rulo	8280000
+舷	ryao	1240000
+侈	tqqx	951000
+鳄	qojy	3780000
+靓	esmv	50000000
+痊	wueb	1040000
+溺	zddx	6930000
+篝	phmj	787000
+惘	umyc	1160000
+佼	tytt	974000
+娆	cfpg	2250000
+佯	txy	2540000
+瑛	ehmf	5980000
+勘	hccq	11100000
+仕	tju	38300000
+舆	ufgt	2320000
+羲	xjjf	3340000
+虬	lcu	1390000
+捻	fubr	3830000
+螂	lwab	7290000
+攥	fpfa	2830000
+蛤	lugo	3610000
+侏	tptu	2620000
+媲	cutv	504000
+荧	hqxv	2650000
+霏	jlfy	4620000
+氧	pxyq	56500000
+漉	zwl	1520000
+贬	mpzb	5130000
+巳	ds	10500000
+珏	eewu	1910000
+骁	afgm	931000
+萦	hqav	1880000
+桦	itve	4750000
+羿	chvy	4700000
+迂	gizd	1390000
+券	xjdd	241000000
+殇	gpsd	4690000
+蜒	lplb	8920000
+骋	akjm	3230000
+浙	zfrj	90800000
+蹂	obiz	1220000
+煦	ksos	2230000
+臧	fafg	2590000
+缎	ctqj	3870000
+蔷	heno	10700000
+煤	xhei	43400000
+雏	qbtw	7680000
+孰	yorw	7000000
+膏	yoos	17100000
+坞	jsw	4200000
+剌	iold	3750000
+忒	frxi	3880000
+糜	wxmm	3380000
+蓓	htyo	5620000
+屹	mpbi	1720000
+瞠	nnoj	1030000
+牡	pjvn	11800000
+衮	wtay	802000
+哒	ofzd	3870000
+淤	zyuz	3300000
+祁	wbvs	5270000
+札	icu	17400000
+躏	ohtz	89300
+蹊	ovfz	3170000
+胄	ksvo	1310000
+棕	iwfs	9960000
+矜	bubm	1840000
+毗	kvbt	2130000
+俨	thxp	1180000
+肮	syqj	6840000
+酱	xqey	12000000
+磐	rqgo	11600000
+呱	org	2930000
+臻	gaer	7930000
+鬓	ewtb	2880000
+筱	ptkp	11200000
+铿	pljj	624000
+胴	smgo	5160000
+雌	lvtz	9520000
+硝	gnsv	4580000
+瀛	zycq	5850000
+鞍	hwcg	8180000
+喋	ohiv	1170000
+锯	pdjj	6210000
+暑	kjkv	14500000
+沪	zzh	143000000
+迢	dozd	923000
+玺	qcew	3130000
+拈	flov	6490000
+羁	mhaw	1000000
+蜿	lwqb	5230000
+衲	wmui	1360000
+箍	pffm	4640000
+赃	mwjb	1470000
+伫	twgu	1350000
+幺	ay	5420000
+剖	yoll	6410000
+呗	omb	6520000
+恤	upmm	34400000
+茸	hhe	5980000
+钵	pigj	5600000
+婧	cesv	6300000
+贿	mhsb	1020000
+闵	zywm	4660000
+饕	ojqv	2720000
+驹	asom	4640000
+辎	fckc	121000
+邑	odb	11600000
+巩	iqag	9440000
+蝗	luev	4230000
+崭	mfrj	1290000
+吮	oave	2100000
+谴	zozy	509000
+躇	ohkz	721000
+钳	phej	6140000
+踌	oiiz	331000
+蹑	ohdz	772000
+噎	ojox	3760000
+俐	trld	9720000
+刊	eldg	70900000
+矗	enen	3860000
+湮	zejv	2470000
+鸠	rsnj	4200000
+亥	yh	5500000
+踞	odjz	4430000
+癫	wemb	4330000
+薰	hrmh	28600000
+弑	tiii	2480000
+惦	uwlo	1320000
+渍	zemb	6110000
+诫	zfhy	3900000
+伎	tedo	4680000
+岌	mawu	244000
+褚	wjki	3210000
+莞	hwgg	2720000
+谑	zlgy	903000
+铐	pjjj	1830000
+奠	xefd	2200000
+赘	eqpm	2390000
+蜈	loft	1010000
+诣	zvky	1190000
+砌	gfdd	16800000
+锈	praj	19800000
+桅	iqgb	1530000
+邯	hebv	2850000
+汴	zylb	2290000
+旎	ypdv	5590000
+窖	wpox	7560000
+椒	ilcd	19800000
+鲲	qkvy	781000
+燎	xfkc	2020000
+诶	zapy	8600000
+惴	umge	1890000
+窦	wefx	6530000
+逵	jtjz	1170000
+噔	odox	883000
+岱	tfmv	7710000
+飕	qtdj	785000
+岐	medo	4330000
+隘	bxtm	1710000
+辫	ycyx	2410000
+笃	pam	3350000
+疮	wubb	13000000
+酌	eswy	5760000
+帷	mtwj	1560000
+玮	efbu	6150000
+筛	pkgm	6890000
+茱	hptu	3950000
+捋	fvic	1810000
+牟	apni	9780000
+哝	oqru	464000
+缇	cklj	5130000
+鄂	ogbx	30000000
+鸳	qbsx	1890000
+呦	oacl	7960000
+峦	ymvi	2230000
+瞩	ndlm	584000
+汩	zku	632000
+蜃	glvn	1180000
+掣	pmrn	2250000
+嘤	ommc	2020000
+楮	ijkv	976000
+餮	guvd	717000
+邬	sbvw	1860000
+娄	xcvm	4900000
+瓮	tahw	1690000
+蟆	lhkf	1220000
+敝	xmtp	5330000
+啷	owab	1450000
+匡	fevf	6460000
+顼	egmb	425000
+洼	zjjv	6780000
+阉	zfkm	1640000
+唏	othm	1500000
+孺	bjgz	1200000
+孜	bppz	4190000
+烘	xhtu	22200000
+拷	fjjk	6580000
+鑫	vvvv	44600000
+骰	nqsg	1430000
+掰	pfdr	6340000
+慵	uwsk	4160000
+闽	zlvm	60600000
+睨	nuve	3640000
+蚣	ltai	225000
+龌	lujz	3020000
+茗	hqov	12200000
+冢	qgwu	4830000
+咣	ongw	1250000
+飒	yqtl	506000
+咎	vlov	4640000
+憧	uyjv	543000
+绎	cdfj	1170000
+靥	gjec	1400000
+铅	pqoj	13000000
+喏	ohho	3440000
+皎	uytb	1760000
+楷	ivub	3100000
+龊	lulz	3080000
+黠	mjoh	867000
+啄	ogwu	3100000
+粪	xhtm	7950000
+杠	iig	5900000
+鸯	mfsn	369000
+柬	inxu	3650000
+饲	qboi	4000000
+窑	wpfx	17000000
+闸	zkjm	14400000
+隼	teuw	4880000
+菌	hnrv	34700000
+膳	sxxo	8900000
+憬	ukoc	1930000
+羔	xjsh	1630000
+喵	ohkt	14100000
+苔	haov	6140000
+淼	aaas	4030000
+寰	wmor	5020000
+啬	exno	742000
+酝	eeay	660000
+旖	ypeo	2970000
+阖	zjmm	2000000
+捍	fkeg	2690000
+颍	vami	2210000
+榨	iwpl	4050000
+缅	cgej	2480000
+乒	tipu	6700000
+剁	qilj	6010000
+杵	ipeu	2650000
+髯	emjb	1890000
+垣	jekv	4800000
+伢	tfy	1060000
+瞑	nqyt	994000
+壑	lqdj	2830000
+殉	gskd	2090000
+诲	zpcy	3360000
+噤	oiif	1470000
+瓒	epvm	1010000
+淬	zyue	2360000
+筠	pjsx	4380000
+兖	ytav	706000
+坍	jsyu	982000
+笈	pawu	29900000
+庵	wfkg	23400000
+扉	zlfh	16000000
+奚	vafd	3290000
+纶	cuvj	9010000
+椎	itw	4360000
+宦	wfe	1740000
+苞	hsds	3050000
+贲	ehmb	1050000
+梓	iyx	12300000
+褒	wtiy	3610000
+唆	oatv	2080000
+琶	eedb	1690000
+苇	hfbu	7530000
+咂	ofmj	2170000
+毋	chu	6140000
+蜕	lxov	1700000
+辐	fgkc	1580000
+盎	mfmm	2820000
+袜	wimi	18900000
+蕃	hpxk	16700000
+醇	eyby	21900000
+峥	mqbb	3590000
+螳	lnoj	828000
+簸	phdp	943000
+粟	exmx	5830000
+谛	zymy	1660000
+蹋	okcz	1740000
+拗	facl	2160000
+橡	iqor	14600000
+馒	qkdi	615000
+陕	bjxu	25400000
+穗	rgor	18600000
+邺	lxbv	676000
+晁	kvxu	2130000
+藻	hzoi	9470000
+橘	ibto	41900000
+恻	umld	923000
+膺	wtsg	1680000
+弈	yhvi	11900000
+馋	qqzi	3540000
+佟	tvzu	3540000
+枣	imzu	11900000
+遐	dedz	2470000
+潺	zdbb	971000
+啜	oddd	2640000
+抉	fduu	1180000
+痪	wqfb	891000
+撮	fkhd	17400000
+筏	ptfg	2970000
+拌	fxfu	21000000
+霭	jzcy	814000
+耷	fhed	776000
+帛	umjb	3710000
+郢	oebv	1030000
+匍	sef	911000
+炬	xfdu	3970000
+娑	zcpc	3830000
+乓	tiwu	1410000
+纬	cfbj	17500000
+嬴	yccq	3760000
+鹭	ovsz	3600000
+驮	afdm	4350000
+碾	gdhf	5230000
+砾	gvcx	978000
+谏	zixy	6170000
+竺	pee	5000000
+迳	dizd	1560000
+娓	cdrm	5250000
+陇	bjpu	11400000
+沥	zgcl	4460000
+玎	eed	991000
+胥	blsv	2550000
+旌	ypps	3750000
+墩	jybp	7300000
+眦	nlvi	939000
+篡	pnfa	1470000
+睦	njtj	5780000
+咛	owed	760000
+噘	ogaq	1460000
+阑	zixm	1910000
+琵	eevb	2080000
+咀	onq	11300000
+羹	xjjf	6300000
+嫦	cnom	1400000
+涧	zzkv	4480000
+呲	olvi	5160000
+曜	kctw	5070000
+馅	qqui	7790000
+胭	snfd	1240000
+诬	ziuy	1380000
+亘	ekve	1820000
+讷	zmuy	1240000
+侬	tqru	5030000
+瘴	wykb	986000
+昙	keai	1780000
+禧	wjos	20800000
+丕	ggub	2050000
+孵	vxvb	2680000
+腆	smht	5530000
+濒	zlgm	1940000
+剐	omul	2760000
+删	ssgl	60900000
+铳	pyvj	454000
+擞	fxcp	388000
+簧	phkt	5340000
+磷	gxqf	17700000
+辗	fdfc	969000
+匐	sgok	357000
+曝	kkta	13200000
+徨	suer	1720000
+粼	xqcm	1860000
+桨	xqiv	2670000
+偃	tfkc	2150000
+楣	idnv	3950000
+缤	cwtj	24400000
+铎	pdfj	2560000
+锭	pwlj	3870000
+珈	ecov	17700000
+阐	zxem	971000
+婀	cbeo	1300000
+宓	wrpu	1930000
+瓯	fthf	5380000
+魃	uhwg	282000
+卉	ehv	4620000
+踝	okiz	6000000
+荼	hugi	3470000
+槛	ilpm	1610000
+姒	ccwu	1340000
+吠	ojq	4410000
+槌	iuzd	5530000
+鹊	hksn	2890000
+剃	xdpl	11500000
+瑙	ecut	3320000
+皂	ufqb	8710000
+蟠	lpxk	3510000
+谄	zquy	892000
+颌	uggm	1640000
+蛰	frwl	1150000
+刨	sdld	6180000
+锄	pncj	3290000
+浏	zyld	2030000
+瘸	wcub	2740000
+飚	qtxj	9450000
+卤	lnti	4200000
+呤	ouwd	1780000
+戍	fwuw	2360000
+馁	qvci	654000
+叟	ukdj	3610000
+琰	exxv	1660000
+垠	jbg	1110000
+匾	fzmf	2930000
+玟	eyw	6400000
+炳	xgmu	8280000
+窈	wacx	3160000
+婊	ceru	3260000
+杞	idj	5210000
+瓢	efrx	7380000
+嬷	cwpa	1870000
+栓	iuev	8230000
+嫖	cefs	8340000
+榭	itic	7460000
+殒	gomd	2080000
+烹	yobs	6040000
+寅	wgkt	8060000
+礴	ghei	2600000
+隅	bky	8060000
+譬	doyy	2280000
+绛	cvfj	3880000
+蒜	hffs	13500000
+筐	pfev	6570000
+挲	zcpr	254000
+蛾	lpff	9020000
+炊	xqq	3950000
+迥	mozd	7980000
+骜	eqpa	151000
+猬	vksq	297000
+壹	jqox	19900000
+靳	hrjg	3150000
+蕉	htsh	4840000
+腋	syvw	6440000
+簪	pfvk	2350000
+窕	wvxx	1240000
+鸥	ftsf	5840000
+俑	tdsy	1890000
+垢	jrgo	10100000
+珞	evov	4060000
+芮	hmuu	4410000
+轼	ffic	3420000
+潞	zovo	2780000
+稣	qrvy	387000
+沣	zif	1020000
+屉	dhs	786000
+纨	crwj	769000
+稼	rwgs	2950000
+簿	pzei	170000000
+笋	pbpu	7520000
+鳌	eqpq	3950000
+弼	dgdg	2280000
+垄	jpjo	2060000
+魑	uyag	1100000
+馀	quii	2460000
+黔	mubh	11100000
+涔	zmwb	2070000
+贽	frwm	379000
+麴	iusx	925000
+绾	cwdj	2470000
+藐	hvuv	3160000
+钗	pdwj	4640000
+劾	yclh	1380000
+斓	yzxw	819000
+泌	zrpu	2130000
+拄	fwev	2830000
+锏	pzkj	560000
+坝	jmb	14700000
+纣	cicj	883000
+谧	zrmy	1030000
+鲤	qkey	6450000
+汲	zawu	2110000
+丙	gmuu	47400000
+篆	pcgs	2050000
+嚏	oebl	1390000
+潼	zyjv	2760000
+龇	luvz	739000
+皑	umdb	560000
+熹	joos	1950000
+渲	zwek	1650000
+呓	ohbi	531000
+惆	usjo	1180000
+祠	wbos	8370000
+梗	igkt	8910000
+嚅	ojge	1630000
+灶	xjv	12500000
+圭	jjv	9360000
+睚	ngjj	192000
+茎	hdig	6590000
+跚	osgz	3580000
+袒	wkgi	2480000
+撂	fkvo	2480000
+螃	lyqy	9190000
+髻	ejob	2810000
+犷	vwgq	215000
+渤	zebc	1800000
+滤	zlrx	17700000
+螓	lerv	922000
+赂	mvob	610000
+踵	orez	1840000
+糗	xtjm	7340000
+蛆	lnq	2400000
+篱	pyma	5590000
+泯	zdfq	3610000
+袂	wdui	2430000
+岑	muwb	6350000
+撬	frrr	5670000
+拴	fuev	6610000
+嗲	otqq	4040000
+晤	kgdo	2840000
+矶	gqj	2110000
+靼	hkgg	784000
+凋	xsos	3080000
+碳	gmhx	24600000
+骠	aefm	1140000
+渝	zusl	32800000
+萃	hyue	9590000
+晔	ktve	1870000
+醺	ermy	884000
+馈	qomi	7410000
+幌	mkgj	2330000
+赧	jtad	370000
+嗬	oheo	2450000
+嘹	ofkc	800000
+荤	hqfc	6200000
+卯	vpae	11400000
+麓	iiwl	6770000
+峒	mmgo	1700000
+羚	xudy	2880000
+鸨	vesi	473000
+俸	tefu	2090000
+抠	ffti	8560000
+梆	iibv	2770000
+噌	oxxk	1300000
+氤	pnfq	1980000
+裆	wnbi	1970000
+菡	hbxa	1450000
+涸	znjg	2200000
+釜	ttex	6910000
+僖	tjxo	1210000
+褥	wgii	2260000
+囤	nfaw	3900000
+舫	ryuo	1980000
+毓	pcav	5060000
+贮	mwgb	4980000
+盅	okmm	4930000
+睐	nixu	1130000
+苜	hnv	343000
+婵	cxke	9540000
+痉	wdib	8550000
+涤	zviu	4650000
+硫	gyav	17800000
+饺	qyti	5660000
+椭	ibhs	995000
+氲	pkmq	1910000
+挛	yrsi	7470000
+腼	sgle	2850000
+镭	pjkj	4680000
+蹒	ohuz	2670000
+渭	zksv	3000000
+甭	gsyb	5120000
+瞰	nbhp	943000
+笺	pgfg	2330000
+谪	zyjy	861000
+渥	zdaj	2880000
+翌	cyly	12100000
+隗	bug	780000
+嗫	ohdd	1490000
+怏	umfd	842000
+绔	cfjj	507000
+鳅	qrxy	605000
+堑	frjc	1510000
+沓	akvs	2290000
+溯	zxas	3950000
+颐	fkmf	18300000
+疵	wlvb	3700000
+霈	jzmy	1180000
+跤	oytz	3980000
+苋	hmve	432000
+琬	ewqb	1750000
+甥	pkcs	3000000
+蚌	lif	3830000
+蜻	lesv	955000
+翟	ctwy	6560000
+癖	wdyb	13500000
+蝼	lxcv	125000
+啾	orxv	2110000
+卞	ylb	4150000
+咿	otbp	2170000
+韶	ydon	3850000
+唷	oyas	31600000
+蔬	hbav	7610000
+毡	rlom	3760000
+弋	fi	5980000
+怂	uurx	577000
+霁	jyty	2280000
+泞	zwed	75300
+藕	hiky	6950000
+鳖	xmpq	4820000
+掬	fsxm	4020000
+蟑	lykz	6760000
+嗝	ogxk	1190000
+晾	kyoc	6530000
+桉	iwcv	1450000
+咤	owpf	591000
+霾	jvey	1750000
+撰	fdht	11500000
+桔	ijov	27100000
+炕	xyqj	3300000
+臾	uuuj	911000
+哐	ofev	288000
+瞌	njam	273000
+圃	nefw	4900000
+恸	ueac	845000
+岖	mfti	225000
+阂	zyhm	860000
+璞	elxx	3210000
+猊	vuvq	620000
+汐	zqx	3280000
+臌	sjed	217000
+獒	eqpj	3690000
+倡	tkku	7240000
+臊	sooi	1150000
+嗥	oufe	890000
+剽	eflx	1040000
+俭	tuez	4710000
+咨	xqos	17900000
+笠	pyl	4360000
+忏	urq	953000
+秤	rexu	6250000
+忤	upeu	1030000
+啵	ozdp	4450000
+灸	qwxv	4170000
+蛹	ldsy	3220000
+畿	aaky	1540000
+颉	jogm	2240000
+殛	gbgd	952000
+妤	cby	4870000
+搪	fwko	1840000
+缆	clvj	16800000
+琛	eqti	5860000
+粲	lqdx	986000
+橱	igxi	5740000
+淀	zwgl	1870000
+垛	jqiv	2820000
+瘤	wvkb	15300000
+鹦	mmsb	457000
+肾	ldsv	25700000
+觊	mdmv	194000
+圳	jtc	2270000
+雹	jsdy	1440000
+褂	wjli	473000
+邕	codc	3000000
+钛	pfwj	9200000
+挎	ffgj	3810000
+觎	ugmv	203000
+辘	fwlc	285000
+纺	cyuj	20300000
+鹉	gfls	183000
+恿	dsrx	298000
+糯	xjgm	3730000
+鬃	ewfb	1920000
+榆	iusl	11500000
+祗	wvws	2530000
+胚	sggu	7780000
+揶	fhbv	652000
+辄	fhcc	1530000
+鹞	vpsn	547000
+杳	ikv	4470000
+咝	occj	729000
+潋	zuzp	880000
+玷	elov	496000
+豺	vipz	943000
+嗵	odsz	513000
+坳	jacl	1480000
+揄	fusl	341000
+螭	lyma	837000
+犸	vamq	120000
+魍	umcg	1270000
+撵	fjjf	1900000
+炜	xfbu	5590000
+摁	fnfr	2980000
+捎	fnsv	3750000
+颦	lnez	1840000
+箩	pmqx	1150000
+汜	zds	1270000
+潦	zfkc	1340000
+蚯	ltig	124000
+觐	hevg	424000
+肇	zpfh	8180000
+啕	ospf	129000
+芋	hgiu	10500000
+镀	pwdj	12100000
+坷	jeov	1560000
+荃	huev	4230000
+翊	ycyl	3200000
+赈	mgnb	647000
+淇	zhq	9100000
+琮	ewfs	1550000
+濑	ziqm	2350000
+湄	zdnv	3050000
+骊	agwm	5420000
+脓	sqru	6260000
+郸	xkeb	667000
+篑	poom	146000
+粱	zdtx	2400000
+睥	nupe	424000
+犄	pfon	89900
+魉	ugug	766000
+齑	ytgw	231000
+徙	sllr	1890000
+柿	iymj	9480000
+苯	higu	18500000
+骥	axtm	5120000
+幔	mkdj	2710000
+阗	zetm	1110000
+哂	oex	4660000
+罔	mxyc	2860000
+惰	uhis	2200000
+辇	jjff	613000
+悼	ulkz	3020000
+宸	wgn	8020000
+纰	cvbj	455000
+裟	zcpw	916000
+颚	ogmx	776000
+旃	ypsy	879000
+荦	hqpn	500000
+蚓	ldku	928000
+趄	jnqz	1070000
+趔	jglz	1670000
+啻	yxmo	348000
+嵘	mhqi	3240000
+讹	ztvy	1750000
+垦	bjvg	6320000
+暹	ktzd	1980000
+蠡	cgll	1860000
+囵	nuvw	209000
+斡	ekze	1740000
+摒	fdxh	1140000
+遢	kczd	3960000
+轲	feoc	1030000
+堰	jfkc	5350000
+湍	zmge	1330000
+蘅	hsqu	1580000
+诽	zlfy	553000
+魈	unsg	475000
+锚	phkj	2690000
+袤	wbmy	241000
+鼾	tegb	1340000
+恪	uvov	2400000
+褶	wcui	3160000
+恣	xqrs	1430000
+倨	tdjg	708000
+癌	womb	37800000
+漳	zykz	4150000
+薯	hmjk	16800000
+腴	suuu	970000
+洵	zskv	1600000
+瑁	emen	952000
+沽	zjg	7360000
+掸	fxke	1240000
+耙	idbl	2310000
+邋	cnzc	2230000
+谙	zyny	3000000
+犁	rlpn	3790000
+硅	gjjv	20300000
+迄	pbzd	13400000
+嫔	cwit	1070000
+玳	etfi	907000
+淅	zirj	1420000
+骡	akam	6320000
+嘣	omss	969000
+袄	wryi	4030000
+谲	zboy	494000
+瘠	wxsb	795000
+壬	rr	4970000
+孪	ybzi	1640000
+忻	urju	2470000
+侨	trtu	14600000
+脐	sytu	6880000
+孱	dbbb	313000
+噫	oyrx	2040000
+痰	wxxb	8480000
+皿	mm	18300000
+羯	xkcy	9860000
+沅	zggw	3600000
+噶	ohuc	6220000
+叵	fovf	868000
+蔫	hgcs	3690000
+愠	ukmm	1400000
+淄	zckt	1770000
+鲛	qyty	1180000
+彗	iibf	1250000
+癞	wimb	592000
+袈	cowl	512000
+遑	uezb	989000
+骧	awhm	891000
+蜗	lomu	1750000
+褛	wxci	1440000
+镑	pyyj	2040000
+涓	zosv	7060000
+褴	wlmi	1280000
+揩	fvub	1870000
+镣	pfcj	703000
+琊	efbv	1240000
+炖	xfau	6370000
+禺	ky	806000
+瘁	wyeb	2120000
+罂	mmpb	1120000
+馥	rkkv	4060000
+郦	gmwb	1650000
+嶙	mxqf	260000
+潢	zhkt	1680000
+讧	zigy	83800
+夔	xttv	1700000
+镂	pxcj	1380000
+酆	mixb	652000
+涮	zdml	4190000
+怵	uiwu	1350000
+澹	zqty	2310000
+孬	gcbb	1550000
+豚	sgs	16100000
+桧	iuea	4810000
+臃	sypt	281000
+迩	qczd	1490000
+篓	pxcv	3430000
+偻	txcv	267000
+銮	yvvi	845000
+偕	tvub	4140000
+泠	zuwd	2660000
+掖	fyvw	2050000
+樵	itsh	5540000
+徵	smpr	36900000
+蔻	hwgl	12100000
+遽	lgzh	2120000
+挞	ffzd	1420000
+臼	uj	2360000
+燧	xxrz	811000
+碉	gsjo	931000
+摞	fkav	3060000
+臆	syrx	1690000
+夙	qgdj	1740000
+麝	wtil	1110000
+抒	fby	4700000
+轧	fcuc	9560000
+蒯	hssl	773000
+瞿	nntw	4090000
+仞	tdpu	3080000
+鄢	glsb	2970000
+鏖	wvvl	930000
+帚	bqmj	1610000
+粤	uxjk	158000000
+椰	ihbv	8380000
+煊	xwek	902000
+盂	gimm	1820000
+峋	mskv	105000
+憩	rorq	3000000
+蓁	herv	2100000
+侗	tmgo	2120000
+阜	ueud	17600000
+戛	gnfg	714000
+庖	wsdg	1860000
+佻	tvxu	725000
+匮	fomf	855000
+芹	hrju	5500000
+蜓	lrbd	1040000
+榄	ilmv	1990000
+诋	zvwy	538000
+遨	eqpz	1060000
+夥	kiqq	2480000
+痣	wjrb	3390000
+盹	nfau	1190000
+泱	zmfd	3290000
+镳	pwsj	449000
+忪	utai	469000
+姣	cytt	3270000
+镐	pyoj	1750000
+卟	olb	1210000
+噙	ouma	2670000
+捱	fgjj	2850000
+犒	pyon	317000
+犊	pefn	2090000
+腺	suas	7470000
+蓟	hqld	3250000
+荑	hfdg	924000
+傥	tnov	318000
+馊	qudi	778000
+碴	gikg	2580000
+洱	zhe	1240000
+鸢	fsni	1950000
+帼	mnwj	231000
+踮	owoz	1620000
+蹩	xmol	705000
+跆	oaoz	1440000
+喟	oksv	828000
+倜	tsjo	330000
+泗	znve	4530000
+闾	zoom	1280000
+幄	mdjj	356000
+濡	zjge	6800000
+岷	mdfq	1740000
+鸶	ccsn	188000
+粽	xwfm	3010000
+蝈	lnew	1250000
+闳	zham	445000
+怩	udvi	239000
+佝	tsov	226000
+芍	hswu	3200000
+谀	zuuy	890000
+奂	qmfd	2100000
+冗	qqj	3360000
+猷	xejq	1860000
+箕	phq	1800000
+隽	tanw	3520000
+堇	heeg	1590000
+萼	hogj	1230000
+忸	udee	378000
+戌	fguw	7930000
+筵	pplb	3630000
+濠	zyqg	8700000
+珩	esx	2540000
+愫	ueav	604000
+倌	twdd	1650000
+沂	zrju	6160000
+狒	vdtq	331000
+淆	zths	425000
+燮	yxxd	2030000
+喙	ocgs	1290000
+诌	zqby	534000
+颛	mggm	508000
+摹	hkfr	2380000
+锹	prxj	1340000
+檄	iuyp	1530000
+鳍	qjky	1160000
+骛	bpam	328000
+椁	iyob	572000
+翦	xslc	1660000
+鹧	whsg	894000
+娼	ckku	8970000
+弭	dheg	1690000
+睑	nuez	1060000
+漕	zhmk	2770000
+贰	femi	3950000
+槿	ihee	1020000
+宕	wgv	3990000
+砺	gggb	1910000
+雉	ptwi	2240000
+鸪	jsng	956000
+汶	zyw	6180000
+赣	ykml	17800000
+轶	fpwc	7210000
+钊	pldj	3510000
+橇	irrr	977000
+刽	ueal	129000
+浣	zwgg	5900000
+钺	pfcj	708000
+谗	zqzy	3060000
+悖	ueqb	10200000
+獗	vgqq	310000
+祚	wpls	1490000
+荥	hqas	385000
+丶	wu	7880000
+槟	iwit	4940000
+箬	phho	817000
+繇	vppa	751000
+莆	hef	2150000
+诠	zuey	2770000
+浃	zjxu	256000
+牒	thip	1750000
+艮	bg	5590000
+麋	wxml	403000
+搡	fddi	1160000
+岈	mfy	761000
+唳	ozjq	1520000
+忾	upq	155000
+妪	cfti	264000
+霰	jhpy	1340000
+纾	cbyj	2660000
+蚱	lplu	2330000
+谤	zyyy	944000
+呷	okj	2710000
+撸	fqkv	994000
+狻	vavq	870000
+蕙	hgor	11400000
+昴	kvpa	2190000
+杈	idwu	1810000
+怆	uubu	395000
+贻	maob	1570000
+缮	cxoj	730000
+绉	cqbj	2330000
+鸩	qvsn	479000
+砥	gvfw	1590000
+俪	tgmw	4260000
+彝	cgah	3090000
+橄	ibhp	1140000
+攫	fntd	2990000
+汾	ztdd	6060000
+膘	sefs	2280000
+赳	jauz	641000
+鹄	posn	674000
+邈	vuzz	4370000
+滟	ziqd	1990000
+恁	trrx	1750000
+坯	jggu	2900000
+邝	wbvg	1240000
+磬	jdqg	2870000
+陲	brhu	1160000
+沏	zfdd	2030000
+缙	chkj	1710000
+畸	kfot	4980000
+蹇	whol	4090000
+铝	pooj	76400000
+舀	vuj	2200000
+匝	fmjf	2530000
+佞	tecv	1110000
+箐	pesv	2020000
+阚	zbpm	1050000
+钠	pmuj	12400000
+泾	zdig	10500000
+坂	jrdo	8810000
+腓	slf	2660000
+掇	fddd	1170000
+驽	cdam	541000
+迤	pbzd	2050000
+氢	pdiq	14200000
+鞅	hmfg	317000
+蹶	ogqz	858000
+讼	ztay	2500000
+哔	oveu	967000
+嫒	cvhd	471000
+蘸	hets	4250000
+佥	uezu	450000
+炷	xwev	1670000
+哺	oef	2570000
+垩	hxjj	837000
+磺	ghkt	5150000
+钏	ptcj	506000
+氅	nmpr	589000
+僮	tyjv	1550000
+皋	ufeb	2920000
+逅	rgoz	948000
+胛	skj	433000
+遛	vwkz	5110000
+涿	zgwu	1150000
+糠	xwam	3540000
+翕	ugoc	922000
+呔	ofwu	1320000
+衩	wdwi	793000
+诘	zjoy	1520000
+鳗	qkdy	4050000
+翳	fpcf	2340000
+髦	ermb	1310000
+锺	prej	2710000
+苓	huwd	5900000
+姹	cwpf	2310000
+浒	zzpe	15300000
+跖	ogvz	850000
+铄	pvcj	732000
+敕	iopp	1860000
+荔	hccc	4870000
+巽	ddts	2130000
+舶	rubo	2080000
+佶	tjov	1210000
+娣	cxkp	3980000
+濮	ztxx	4580000
+嗑	ojam	3080000
+膻	sykg	1050000
+懑	zhur	328000
+颀	rjgm	537000
+豸	vz	3400000
+儆	thop	1530000
+貉	vvoz	1410000
+莓	hpcm	6030000
+仨	tis	2230000
+藜	hrua	2160000
+厩	gbvc	1740000
+肪	syu	1190000
+圜	nmrw	2400000
+刎	ssld	578000
+秣	rim	832000
+钜	pfdj	2230000
+蜍	lugi	113000
+汨	zkv	741000
+孚	vbz	14100000
+邂	qspz	610000
+舄	ussj	204000
+聒	hroe	413000
+呶	ocdo	720000
+谒	zkcy	1520000
+戗	ubfg	291000
+莜	htkp	768000
+泸	zldv	2490000
+阪	brdo	8000000
+椋	iyoc	2440000
+扪	fzm	664000
+聃	hmje	218000
+舐	rofq	1880000
+逖	vxzq	350000
+猡	vmqq	159000
+邙	ycbv	869000
+姝	cptu	3030000
+汕	zmv	2550000
+剜	wqbl	1410000
+佰	tgkv	15800000
+绶	cvdj	1410000
+罄	jdqp	1900000
+龅	ludz	1180000
+蛀	lwev	3290000
+焊	xkeg	24800000
+昶	zkvo	2110000
+沱	zwvi	1250000
+蜚	llvf	931000
+谩	zkdy	1610000
+砝	gjai	2640000
+埔	jef	12200000
+螟	lqyt	1730000
+衾	uwbw	1640000
+耘	ieal	2500000
+竣	yavl	2160000
+蛭	lgaj	2820000
+恹	ugjq	562000
+谆	zyby	199000
+裨	wuei	1260000
+赝	gtmc	670000
+俾	tupe	11800000
+氐	vfwu	2640000
+湫	zrxv	1240000
+俟	tapi	4070000
+昀	ksxs	3460000
+滇	zent	13100000
+嗳	ovhd	2600000
+鸵	swvn	400000
+蒺	hwpi	116000
+樽	ixei	9920000
+诃	zeoy	1660000
+涪	zyov	1560000
+踊	odsz	2970000
+琏	efzd	936000
+淙	zwfs	1930000
+蹴	oyjz	3870000
+葩	hudb	1190000
+矍	nntd	359000
+溥	zeic	3610000
+荏	htrr	398000
+藓	hqxy	505000
+潸	ziis	300000
+黜	maah	1030000
+浚	zatv	6230000
+煅	xtiq	1240000
+笆	pdb	1360000
+诮	znsy	408000
+谡	zkvy	599000
+坨	jwvi	2250000
+淞	zita	4510000
+铤	prbj	239000
+绥	cvcj	6330000
+犟	dopg	1060000
+楔	iidf	2050000
+俦	tiic	546000
+桢	ilmb	1720000
+猕	vdcq	94000
+菠	hzdp	1770000
+跛	odpz	1710000
+鱿	qjoy	2960000
+恫	umgo	1060000
+瘌	wilb	252000
+诰	zpoy	1180000
+滂	zyqy	660000
+葭	hddd	1150000
+獐	vykq	749000
+饪	qrri	246000
+殄	gusd	125000
+佃	tkt	2190000
+噱	olgs	313000
+醐	ejsy	253000
+锉	pujj	908000
+崧	mita	1190000
+戊	fw	5990000
+砧	glov	1520000
+抨	fexu	304000
+牦	prmn	1940000
+榷	iqtw	925000
+跻	oytz	515000
+槊	xasi	794000
+醍	ekly	768000
+囱	uvu	399000
+祛	wjas	12200000
+葳	hfgc	2140000
+谚	zysy	1100000
+逡	atzi	313000
+鎏	zyvv	2250000
+绺	cvoj	1060000
+灞	zjhs	2740000
+绡	cnsj	834000
+玖	eqwu	5360000
+茁	haau	960000
+诳	zvey	1110000
+骓	atwm	336000
+谟	zhfy	2440000
+咩	oxy	23800000
+哓	ofpg	892000
+蚤	dwlo	2300000
+秧	rmfd	2230000
+馍	qhfi	2300000
+滓	zwyx	1460000
+釉	pxko	6670000
+棂	ibxv	315000
+塾	yowj	20300000
+忱	uqve	1400000
+町	kedt	148000000
+籽	xbzm	12100000
+柩	ifqw	1150000
+嗄	ognv	1510000
+锟	pkvj	2820000
+峪	mtuo	3670000
+夯	fcld	5070000
+囫	nssw	174000
+碱	gfgo	36200000
+酡	ewvy	743000
+痍	wfdb	213000
+痿	wrcb	769000
+绌	caaj	667000
+莘	hyx	7660000
+殁	gqsd	695000
+兕	mgw	309000
+刍	qbu	796000
+叁	afii	9080000
+奘	ajfp	3500000
+獬	vqpq	561000
+锷	pojj	929000
+崴	mfgc	4000000
+纭	ceaj	810000
+锃	poej	199000
+酉	ey	12600000
+徇	sskr	752000
+蝮	lpkv	1050000
+圉	njew	1230000
+馗	rxtj	680000
+嶂	mykz	1060000
+莒	hoov	2940000
+膑	swit	553000
+莅	htyl	771000
+豢	xjgs	1460000
+镌	ptaj	757000
+胫	sdig	1470000
+脶	somu	43700
+腌	sfkd	4100000
+蔺	hztw	2400000
+鹘	nsng	466000
+痘	wgxb	15900000
+鄱	pxkb	1090000
+嚯	ojtw	935000
+碇	gwgl	2400000
+晷	kvlo	352000
+绦	cvij	1060000
+渚	zjkv	11100000
+殡	gwtd	997000
+龛	ugjp	670000
+荻	hvxv	3210000
+俎	uunq	1230000
+碜	gafs	333000
+蛎	lggb	714000
+饯	qgfi	434000
+砣	gwvi	1800000
+亟	bogl	10200000
+谔	zojy	545000
+懋	ibir	3920000
+闩	zgum	499000
+锲	pifj	667000
+仝	uig	1900000
+瘀	wyzb	4390000
+稔	rubr	4400000
+泫	zyay	862000
+濯	zctw	2800000
+哞	oapn	1060000
+乜	bcu	10200000
+嗟	oxig	1880000
+诓	zfey	675000
+驷	anvm	978000
+蓿	hwgk	314000
+桠	ihxu	388000
+耒	il	4640000
+糅	xbim	366000
+镫	pdxj	349000
+貅	vtiz	175000
+犴	vegq	269000
+褓	wtii	1070000
+偈	tkuc	2710000
+溧	zeiv	781000
+訇	syv	255000
+媾	chmj	839000
+栾	yivi	4000000
+槁	iymo	231000
+郏	jxbf	668000
+葺	hohe	943000
+铩	ptij	285000
+蚨	ljf	364000
+掾	fcgs	777000
+靛	esgl	7380000
+螯	eqpl	1440000
+萋	hebc	1300000
+侩	tuea	1090000
+徉	sxyr	3930000
+枰	iexu	1720000
+鹜	bpsm	791000
+褫	wrqi	775000
+琚	edjg	1030000
+蜮	lfog	145000
+抻	fks	925000
+襁	wdli	159000
+遴	xqzm	781000
+蓑	hwog	1770000
+皈	urdb	2270000
+虱	bpli	2710000
+皖	uwgb	26000000
+菟	hqvw	1550000
+觞	qsbs	902000
+呖	ogcl	485000
+邳	ggbb	949000
+颧	hogm	1350000
+溉	zbfv	829000
+幂	qkfm	1160000
+阡	brq	4330000
+忝	fcwt	1420000
+椿	iekv	8740000
+窳	wrrx	420000
+貔	vuvz	400000
+炅	kxv	2060000
+舢	rmvo	974000
+糨	xdlm	84100
+鸷	frws	383000
+抟	fecw	467000
+沆	zyqj	201000
+铣	ppvj	4010000
+懔	uyof	605000
+腩	sexe	4370000
+骅	atem	1980000
+烩	xuea	2150000
+盥	uamm	254000
+锴	pvuj	994000
+殚	gxed	358000
+砀	gbsu	273000
+咭	ojov	2660000
+氮	pxxq	9660000
+孑	bgul	1550000
+愎	upkv	441000
+睢	ntw	1930000
+逦	gmwz	73200
+纂	pnfa	1640000
+薜	hdoy	943000
+嘞	ohcl	1960000
+狴	vvjq	167000
+悌	uxkp	1170000
+猢	vjsq	137000
+爻	ttii	4970000
+牍	tefp	914000
+羸	ycxq	1090000
+撺	fwok	235000
+鹑	yobs	1490000
+缃	cinj	2470000
+饽	qebi	1260000
+嶷	mvbl	776000
+蒿	hymo	3300000
+蝾	lhqi	348000
+稹	rent	753000
+钹	phwj	368000
+雒	votw	873000
+仃	ted	1340000
+俅	tixw	1140000
+狍	vsdq	244000
+梏	ipov	140000
+橐	eogi	867000
+韪	kgfb	349000
+囡	ncvw	4590000
+嵇	rjmv	1820000
+橹	iqkv	1670000
+鳕	qjby	2340000
+樟	iykz	11500000
+轸	fusc	406000
+黢	mavh	123000
+徜	snor	3820000
+酵	ejby	2440000
+桎	igaj	284000
+鬣	eccb	1120000
+擢	fctw	994000
+肓	ycsv	819000
+镏	pvkj	716000
+呙	omuu	194000
+璺	umew	1530000
+栉	ihae	439000
+酗	etay	4130000
+铀	pkoj	1460000
+铡	pmlj	2730000
+镁	pxfj	9780000
+酪	evoy	3590000
+伥	tpc	264000
+珐	ejai	813000
+璎	emmc	453000
+辂	fvoc	250000
+崂	mhqc	281000
+炝	xubu	594000
+祉	wlzs	1590000
+狲	vbcq	142000
+榔	iwab	3110000
+珲	eqfc	394000
+肛	sig	7360000
+芩	huwb	1490000
+诿	zrcy	259000
+镞	pypj	607000
+啮	olua	1420000
+鼬	ukos	1900000
+岫	mko	2960000
+阆	zwbm	611000
+檬	ihgg	16200000
+箔	pzub	5460000
+貊	vgkz	860000
+饨	qfai	2010000
+蜇	frjl	905000
+馄	qkvi	1710000
+蜢	lbmm	2440000
+镛	pwkj	674000
+寮	wfkc	13800000
+辍	fddc	1200000
+斫	grju	1060000
+蛔	lnov	1080000
+诨	zqfy	408000
+酊	eedy	909000
+挝	fizd	667000
+璁	euvr	3170000
+骢	aurm	355000
+赊	mufb	905000
+铨	puej	967000
+砒	gvb	532000
+纛	ecpa	869000
+楸	irxv	1420000
+蟊	bllm	160000
+煲	toix	8860000
+爿	ap	3340000
+谌	zhcy	1740000
+赁	trmb	1810000
+殓	guzd	583000
+聩	home	210000
+媸	cagl	74700
+掼	fcem	485000
+罹	mutw	2440000
+廿	hgu	11100000
+蛐	lmhu	270000
+莠	hran	1230000
+钨	pswj	4100000
+摺	fcub	6360000
+镝	pyjj	485000
+怼	diro	717000
+旮	rkuj	782000
+酩	eqoy	787000
+暨	bakg	71400000
+诟	zroy	457000
+硭	ghyc	224000
+蚋	lmuu	727000
+赭	jtjk	1680000
+柠	iwed	14300000
+絷	frwa	155000
+歃	ruqq	150000
+黩	mefh	173000
+耆	jvkv	2280000
+蔗	hwgs	1750000
+闱	zfbm	775000
+嘬	okhd	804000
+茯	htjq	702000
+邴	gmub	543000
+缛	cgij	764000
+驺	aqbm	198000
+訾	lvyz	802000
+轱	fjgc	143000
+祆	wfts	423000
+鲧	qpay	229000
+蹉	oxiz	323000
+遒	xezd	843000
+僭	tfvk	1240000
+谯	ztsy	1010000
+倥	twig	789000
+孢	bsdz	5600000
+嵬	mug	652000
+誊	xjyv	1260000
+旯	krj	664000
+妁	cswu	158000
+岬	mkj	7410000
+孛	eqbz	1040000
+泖	zvpa	243000
+裾	wdji	6640000
+榈	izoo	364000
+荚	hjxu	1390000
+跎	owvz	815000
+囿	nhsw	3490000
+悒	uodb	986000
+檑	ijkt	102000
+谥	zxmy	2140000
+辔	fcoc	541000
+谶	zugy	509000
+蚺	lmjv	254000
+嫱	ceno	359000
+痂	wcob	1630000
+虺	glvw	353000
+牯	pjgn	1110000
+镗	pnjj	1070000
+煨	xkfu	1770000
+饴	qaoi	415000
+獾	vhtq	1730000
+瑗	eved	1180000
+闫	zism	9250000
+伉	tyqj	920000
+祧	wvxs	207000
+诙	zhxy	359000
+胪	sldv	924000
+啖	oxxv	3250000
+钴	pjgj	2380000
+揆	fdft	3090000
+苻	htic	696000
+錾	frvc	408000
+鼹	ukcs	2120000
+埠	jueu	6510000
+阒	znjm	542000
+笞	paov	887000
+豕	gs	3610000
+耄	jvrm	586000
+撷	fjgm	2500000
+箸	pjkv	5590000
+椤	imqx	3730000
+痔	wjib	7170000
+篙	pymo	1970000
+菀	hwqb	1310000
+嫫	chkf	870000
+蟋	lpxr	445000
+唁	oyv	873000
+拮	fjov	2260000
+暝	kqyt	1750000
+岿	mkpb	429000
+阕	zdfm	3020000
+滁	zbgi	920000
+衢	sntx	3700000
+弁	ahvi	10800000
+荇	hsx	1130000
+逶	rczd	1920000
+葆	htoi	4970000
+蚪	lzeu	278000
+喑	oyn	749000
+蟀	lyxe	1480000
+隍	buev	371000
+嘁	oflc	719000
+糸	av	16200000
+茕	hqbe	292000
+埙	jomb	557000
+獭	vimq	987000
+觥	qsng	1180000
+晗	kubo	1960000
+蝌	lrze	238000
+俚	tkee	1320000
+掴	fnew	1590000
+磔	gqfi	916000
+墒	jyto	1450000
+搽	fhui	2740000
+滦	zyiv	2410000
+姘	cxhv	2690000
+泅	znuu	895000
+湎	zgle	231000
+螫	jtpl	673000
+娩	cqov	855000
+涝	zhqc	6470000
+笮	pplu	288000
+饬	qpci	539000
+菅	hwdd	2890000
+肱	shai	1030000
+闰	zevm	1530000
+骞	whta	4300000
+徕	sixr	3350000
+讫	zpby	1080000
+傈	teiv	2740000
+汞	iasg	3800000
+蓐	hgic	211000
+徭	svpr	426000
+鳝	qxoy	1110000
+荟	huea	11800000
+巯	diav	212000
+狎	vkjq	908000
+鲽	qhiy	486000
+璜	ehkt	5940000
+铆	pvaj	2330000
+剡	xxld	735000
+猁	vrlq	893000
+柚	iko	10900000
+耦	ikyl	1280000
+逑	ixwz	1550000
+捭	fupe	250000
+脔	ymui	174000
+汛	zbeu	2730000
+哙	ouea	330000
+铂	pubj	5930000
+挈	idrf	701000
+绻	cxbj	4670000
+跹	orzz	205000
+琨	ekvb	1870000
+铖	pfbj	513000
+炻	xgv	206000
+珉	edfq	1510000
+癣	wqxb	9690000
+颢	kygm	836000
+裱	weri	7540000
+蕤	hgps	937000
+悱	ulf	492000
+猞	vuoq	260000
+赅	myhb	295000
+楹	iadm	1570000
+恚	jjrx	1280000
+衽	wrri	891000
+貘	vhfz	567000
+铢	pptj	1680000
+钎	prqj	2660000
+凼	aaus	695000
+蜉	lvbz	163000
+粕	xubm	3930000
+钿	pktj	737000
+涞	zixu	1130000
+雩	jgjy	926000
+鲫	qbay	5330000
+傩	tdtw	547000
+莳	hkic	689000
+仄	guuc	1510000
+斛	qsze	1230000
+珙	ehtu	1160000
+纥	cpbj	204000
+筅	ppve	220000
+胰	sfdg	2780000
+荜	hveu	411000
+焘	iisf	416000
+怄	ufti	281000
+栎	ivcx	683000
+洌	zgld	1310000
+觜	lvsz	591000
+瘙	wdlb	606000
+蕲	hxrj	816000
+唿	ossr	255000
+缳	cmrj	185000
+戕	afgp	372000
+锝	pkij	1940000
+埂	jgkt	1870000
+拊	ftic	344000
+秆	reg	1460000
+讦	zegy	525000
+柑	ihee	5910000
+螈	lguc	319000
+锌	pyxj	14300000
+郗	thbi	976000
+仵	tpeu	286000
+恽	uqfc	701000
+烊	xxy	325000
+篁	puev	2710000
+搴	whtr	2450000
+獍	vyvq	234000
+杷	idb	345000
+脍	suea	384000
+醴	emxy	1110000
+鹂	gmws	162000
+孀	cjin	744000
+邰	aobi	1730000
+郜	pobv	2060000
+纩	cwgj	167000
+骈	axhm	585000
+堞	jhiv	306000
+鹬	bmsm	568000
+牝	pvin	4340000
+湟	zuev	1300000
+酃	joby	280000
+冼	xpvs	1760000
+氦	pyhq	2260000
+锒	pwbj	561000
+篾	pmfw	704000
+缦	ckdj	482000
+熨	dfix	3480000
+杌	igw	260000
+硌	gvov	1020000
+骝	avkm	559000
+碣	gkuc	1810000
+轾	fgjc	78000
+鏊	eqpv	315000
+覃	ekzx	2850000
+虻	lycu	1070000
+膂	yprs	155000
+咴	ohxv	469000
+缟	cyoj	437000
+偬	tswr	463000
+暾	kybp	429000
+窨	wynx	707000
+鼐	antn	643000
+帏	mfbj	607000
+洮	zvxu	1690000
+胱	sngw	1610000
+铉	pyaj	1720000
+鲟	qbiy	855000
+泵	gas	24200000
+竦	yiol	1270000
+虢	vilq	1350000
+椽	icgs	1860000
+韭	lguf	5130000
+佤	thw	576000
+帧	mlmj	6530000
+蕨	hgaq	4100000
+狯	vuaq	76300
+屐	dsed	1020000
+癯	wntb	115000
+鳃	qkry	961000
+苌	hpc	766000
+侔	tapn	375000
+腚	swgl	596000
+腱	sbfb	1610000
+圻	jrju	1310000
+灏	zkgm	2960000
+痨	whcb	529000
+眙	naov	160000
+竽	pgiu	1100000
+缢	cxmj	381000
+辚	fxfc	212000
+髭	elvb	3550000
+尜	cfcx	248000
+趺	ojfz	1130000
+茔	hqjv	443000
+蝰	lfjj	246000
+囹	nudw	338000
+洇	znfd	690000
+猱	vbiq	352000
+鼋	ggok	590000
+芫	hggw	1270000
+赍	euqm	547000
+宥	whsv	5030000
+樘	inoj	571000
+睇	nxkp	23600000
+酶	epcy	11000000
+墉	jwsk	1720000
+嘌	oefs	304000
+罅	plif	823000
+赡	mqyb	917000
+镊	phdj	398000
+椴	itiq	1120000
+彀	jqdq	720000
+洹	zekv	1390000
+盱	ngiu	232000
+噻	owtj	5070000
+旄	yprm	871000
+犍	pbbn	364000
+庹	whwg	2160000
+欹	feqd	939000
+珥	ehe	1430000
+钙	pjcj	16500000
+吡	ovb	3100000
+撄	fmmc	305000
+狃	vdeq	158000
+裢	wfzi	149000
+镙	pkaj	423000
+圩	jgiu	2610000
+铬	pvoj	6190000
+馐	qxei	459000
+峄	mdfu	1270000
+馏	qvki	727000
+搠	fxas	70800
+炔	xduu	1950000
+踟	opoz	125000
+鼍	okkx	319000
+仟	trq	4840000
+鹌	fksd	1900000
+戡	hcfq	449000
+氯	pbaq	21100000
+苫	hlov	1850000
+襦	wjgi	684000
+擀	feue	672000
+箴	pfgo	847000
+娈	ycvi	1090000
+昃	kguu	281000
+荛	hfpg	143000
+龈	lubz	1290000
+焖	xzrx	2160000
+诤	zqby	1020000
+榛	ierv	3080000
+峤	mrtu	719000
+犰	vrjq	145000
+蟥	lhkt	55100
+蹼	olxz	983000
+殳	qs	3380000
+臬	tivz	650000
+妣	cvb	381000
+楫	iohe	916000
+燹	ggxs	138000
+缱	cozj	1300000
+厣	gjkc	419000
+傣	teas	1380000
+狁	vavq	52000
+帔	mdpj	220000
+锰	pbmj	6150000
+圄	ngow	212000
+痢	wrlb	3150000
+秸	rjov	3480000
+嵯	mxig	307000
+樨	idap	159000
+纡	cgij	538000
+澧	zmox	2200000
+畲	ufkt	643000
+瘐	wuub	161000
+腭	sogj	467000
+瓴	uwdh	644000
+蠹	eoll	1280000
+裣	wuzi	277000
+郓	qfbv	672000
+柞	iplu	1350000
+砦	lvgz	3770000
+杼	iby	203000
+闼	zfzm	870000
+鞒	hrtg	268000
+纫	cdpj	560000
+芨	hawu	890000
+蛉	luwd	367000
+骐	ahqm	2210000
+吖	oxku	9910000
+瘿	wmcb	270000
+笳	pcov	1250000
+郧	ombv	1450000
+黟	mqqh	1690000
+舛	qfux	5010000
+钾	pkjj	8000000
+憷	uibl	287000
+稞	rkiv	304000
+颏	ygmh	694000
+佚	tpwu	1900000
+苡	hcwu	1310000
+勐	bmcz	1120000
+淖	zlkz	1230000
+澍	zjxi	1350000
+铰	pytj	1150000
+茴	hnov	722000
+褡	whoi	347000
+诜	zpvy	300000
+薨	hmgv	866000
+濉	zntw	1380000
+檫	iwsf	1340000
+郇	skbv	582000
+骘	blna	212000
+凫	sqjn	840000
+鹗	ogsx	568000
+垭	jhxu	643000
+罨	mfkw	221000
+邗	ebvg	222000
+钯	pdbj	1010000
+搦	fddx	253000
+荠	hytu	1230000
+喁	oky	177000
+枋	iyu	1840000
+浔	zbic	3700000
+煸	xzmu	1460000
+矽	gqx	6060000
+苕	hdov	774000
+謇	whty	780000
+垓	jyh	602000
+沔	zjcb	814000
+粑	xdbm	1370000
+蝓	lusl	198000
+躅	omlz	842000
+锨	prqj	348000
+瀣	zllg	2010000
+迓	fzdy	237000
+杓	iswu	1250000
+喈	ovub	330000
+烷	xwgg	8150000
+矾	gqa	2110000
+缁	cckj	5170000
+蜊	lrld	787000
+陉	bdig	552000
+堠	jtdp	199000
+鄯	xxby	913000
+幛	mykj	817000
+愀	urxv	806000
+瓤	wory	1630000
+蕈	hekz	1380000
+踯	oxbz	541000
+鲵	quvy	350000
+丨	ku	2100000
+刭	dild	350000
+濂	zwlt	3180000
+怫	udtu	303000
+罴	mjsw	350000
+坩	jhee	220000
+焙	xyov	3680000
+摈	fwit	841000
+氰	pesq	4390000
+渑	zokd	667000
+疥	wutb	801000
+肜	sss	217000
+厶	ai	3690000
+氟	pdtq	15000000
+鲰	qhdy	84000
+疟	wfgb	567000
+笫	ppkp	1240000
+褰	whtw	2160000
+痼	wnjb	232000
+鲑	qjjy	863000
+黍	ruas	5090000
+沭	ziwu	1250000
+缗	cdkj	92700
+菸	hyuz	4600000
+悭	uldj	528000
+疱	wsdb	1250000
+衿	wubi	4190000
+氨	pwcq	18900000
+艏	rxto	245000
+裎	woei	330000
+孳	xaab	824000
+庠	wxyg	910000
+旒	ypav	319000
+栳	ijvi	255000
+茏	hjpu	322000
+阄	zqkm	187000
+亳	yopf	939000
+卅	hv	2870000
+媪	ckmm	336000
+艨	rhgo	129000
+邛	ibvg	1510000
+麂	wqjl	1800000
+尻	drj	24400000
+樯	ieno	667000
+豌	goqb	417000
+踽	opmz	657000
+鲈	qldy	1380000
+艄	rnso	187000
+鲶	qury	871000
+眭	njjv	979000
+陂	bdp	1480000
+榉	iztf	1300000
+氖	panq	1570000
+笏	pssu	1110000
+廪	wyfg	368000
+怛	ukgu	1250000
+蚍	lvb	128000
+铙	pfgj	268000
+殍	gvbd	106000
+泶	zqas	297000
+淝	zsdb	1050000
+菘	hita	1040000
+蒹	hxlt	403000
+忉	udd	240000
+桁	isx	12600000
+疹	wusb	7270000
+蝣	lypb	282000
+喱	ogke	8040000
+妊	crr	1670000
+萑	htw	218000
+擘	doyr	1300000
+逋	ezdf	1110000
+埚	jomu	226000
+苒	hmjv	919000
+锗	pjkj	1130000
+唢	onmb	845000
+谰	zzxy	421000
+歙	ugcq	2020000
+烯	xthm	18900000
+焯	xlkz	2540000
+矬	puji	345000
+疽	wnqb	1160000
+艟	ryjo	116000
+趸	gbol	1110000
+蹰	ogiz	124000
+眇	ncpu	627000
+荩	hdwz	163000
+縻	wavm	240000
+亍	ged	903000
+佧	tllb	264000
+叻	ocl	3480000
+箝	pfhe	707000
+趿	oawz	291000
+勰	ccrl	1080000
+嘏	jddg	250000
+桫	izcp	581000
+飨	cpvs	1530000
+侪	tytu	329000
+疴	weob	217000
+翥	jkcy	625000
+蚝	lrm	1550000
+鲠	qgty	350000
+雎	ntwq	996000
+毂	jqfq	510000
+茑	hsn	283000
+觚	qsrg	323000
+阋	zuvm	483000
+洄	znov	788000
+焓	xubo	741000
+跗	otiz	355000
+猗	vfoq	1410000
+胺	swcv	19100000
+鹕	jssg	294000
+笤	pdov	781000
+跸	ovez	344000
+狷	vosq	759000
+钬	pxvj	494000
+镪	pdlj	269000
+馕	qeri	515000
+疡	wbsb	637000
+篦	putv	795000
+鹈	xdps	315000
+踅	frol	729000
+棼	iitd	154000
+睾	pmxe	1360000
+鹳	hots	1340000
+漭	zhjh	114000
+烃	xdig	2920000
+瞽	jodn	399000
+逄	vfzd	1390000
+锍	pyvj	231000
+哚	oqiv	828000
+砬	gyl	263000
+蝥	bplm	88700
+钲	pglj	244000
+陟	blnu	1220000
+泷	zjpu	1140000
+耋	jvaj	1410000
+酮	emoy	11900000
+塄	jmyu	237000
+痫	wzib	412000
+蚧	lutu	786000
+埘	jkic	834000
+枸	isov	1550000
+柢	ivfw	453000
+潆	zhqa	456000
+笄	pghv	871000
+醮	etsy	1360000
+彖	cgs	497000
+稗	rupe	1170000
+窠	wkix	982000
+萘	hffs	2920000
+郯	xxbv	508000
+掮	fzsv	163000
+尢	hcu	3460000
+鲇	qloy	737000
+鼙	jope	321000
+畦	kjjt	2240000
+舸	reoo	1550000
+帑	cdmj	439000
+睃	natv	138000
+蚜	lfy	778000
+溘	zjam	172000
+蠃	yclq	701000
+岢	meov	1060000
+矸	geg	616000
+鸱	vfws	543000
+狳	vuiq	123000
+祜	wjgs	796000
+囟	uti	307000
+扦	frq	1160000
+枥	igcl	154000
+庾	wuug	2690000
+菔	hsad	379000
+蟛	ljxs	209000
+嗉	oeav	570000
+擤	ftb	730000
+莪	hpff	2080000
+觋	iuvg	148000
+醪	ecsy	1120000
+倬	tlkz	1130000
+爰	vedo	1950000
+蚰	lko	243000
+轳	fldc	94900
+锱	pckj	136000
+鬻	dxkg	858000
+鳏	qmty	254000
+栲	ijjk	404000
+渌	zbas	913000
+蛄	ljg	287000
+嬗	cykg	286000
+谘	zxoy	948000
+鋈	zrvv	595000
+阍	zvkm	487000
+杲	kiv	976000
+柘	igv	2050000
+毖	vrpb	328000
+禳	wwhs	577000
+馔	qdti	1750000
+鳐	qvpy	257000
+鳟	qxiy	744000
+耔	ibzl	927000
+辊	fkvc	3780000
+镍	ptij	8140000
+侑	thsv	2230000
+娠	cgn	291000
+槎	ixig	1780000
+芾	hgmj	1550000
+豳	mggs	341000
+钤	pubj	757000
+锕	pboj	1690000
+孥	cdbz	278000
+綦	havq	748000
+锑	pxpj	1760000
+洙	zptu	2140000
+榫	iteu	1150000
+疣	wjob	20400000
+砭	gpzz	159000
+筮	piuu	966000
+酽	ehpy	384000
+愆	szrx	778000
+栀	irgb	4610000
+耪	iyyl	76900
+薅	hcgi	273000
+蜞	lhq	198000
+崤	mths	822000
+椟	iezf	474000
+糁	xasm	111000
+茇	hhdw	136000
+啁	osjo	747000
+氪	pjvq	880000
+萁	hhq	845000
+龃	lunz	460000
+墀	jdap	699000
+碘	gmht	5470000
+芪	hvfq	633000
+莰	hjqq	84600
+菏	hzeo	1330000
+嵊	mrxv	847000
+蛩	iqlg	968000
+鞯	hhbg	561000
+楂	iikg	1730000
+缒	cuzj	289000
+饣	qi	103000
+乩	locu	887000
+捌	focl	4100000
+毽	rbbm	890000
+愍	dfrs	658000
+瘢	wrqb	976000
+铋	prpj	734000
+铧	ptej	522000
+髋	nwvg	1080000
+鹚	xaas	358000
+儋	tqty	1850000
+奁	fftd	574000
+樾	ijfc	954000
+滹	zlxi	285000
+穑	reno	376000
+茌	htju	359000
+骶	nvwg	617000
+刖	sld	382000
+嫜	cykz	116000
+溏	zwko	3760000
+螽	vzll	240000
+囝	nbzw	1650000
+戽	zzeh	108000
+橛	igaq	288000
+舂	euj	1130000
+遄	mgzd	851000
+坭	jdvi	539000
+澶	zykg	4390000
+熵	xyto	819000
+镬	phdj	787000
+飧	qvsx	894000
+枞	iuuu	1100000
+柙	ikj	216000
+硎	gghl	876000
+缯	cxkj	571000
+蔌	hioq	168000
+鲂	qyuy	244000
+冱	xecs	268000
+岙	rmvy	811000
+殂	gnqd	250000
+艉	rdro	201000
+蠼	lntd	224000
+匏	fgdd	414000
+痈	wsyb	845000
+鹾	lnxi	227000
+尕	acxn	939000
+攮	fehr	133000
+樗	ijgj	268000
+皲	qfdp	640000
+髡	egwb	865000
+坻	jvfw	1650000
+伧	tubu	234000
+剀	mdld	286000
+椐	idjg	941000
+瓠	fgrd	1080000
+讣	zlby	959000
+髁	nkig	860000
+龉	luoz	525000
+彘	cgpv	698000
+棹	ilkz	1720000
+疠	wgbb	219000
+薮	hxcp	1130000
+隈	bkfu	1340000
+龋	lumz	1330000
+朐	ssov	1450000
+橼	iccg	622000
+芰	hedo	914000
+圹	jwg	316000
+敉	xppm	121000
+暌	kdft	156000
+饧	qbsi	293000
+泔	zhee	210000
+赜	fkmf	345000
+黧	rspm	162000
+筚	pveu	333000
+蓖	hutv	1840000
+鸬	ldsn	592000
+蚬	lmve	589000
+醯	eymy	1110000
+钪	pyqj	362000
+餍	gjvc	301000
+鸹	rosq	133000
+哏	obg	702000
+甑	xkkh	1220000
+疋	blu	3640000
+膣	swaj	3760000
+螅	ltrx	897000
+锞	pkij	319000
+髫	edob	150000
+宄	wrj	1090000
+摭	fwgs	818000
+檠	hspi	249000
+盍	jamm	597000
+绂	chwj	746000
+骟	azcm	169000
+棰	irhu	1180000
+缡	cyaj	323000
+苷	hhee	2640000
+蹁	ozmz	84500
+铗	pjxj	315000
+鞣	hbig	1230000
+圯	jds	508000
+涑	ziov	646000
+箜	pwig	893000
+芎	hdg	1930000
+蔟	hypp	321000
+觯	qske	431000
+鍪	bpvm	78800
+镟	pylj	251000
+夤	qwtx	1040000
+妫	czcl	2180000
+熘	xvdk	448000
+硼	gssv	3170000
+秫	riwu	3080000
+阏	zyzm	369000
+飑	qtdj	462000
+啭	ofcw	489000
+枳	iotu	1540000
+礅	gybp	157000
+耨	igil	642000
+茭	hytt	618000
+钡	pmbj	3050000
+捩	fzjq	799000
+柁	iwvi	173000
+甯	wrsy	3960000
+苴	hnq	761000
+铊	pwvj	662000
+寤	wado	1360000
+潍	zctw	3360000
+牖	tzep	771000
+赀	lvmz	393000
+醚	exzy	6170000
+阈	zfgm	1230000
+柽	idjv	227000
+栌	ildv	248000
+肄	vpfi	801000
+脘	swgg	985000
+酎	eicy	1030000
+鲳	qkky	906000
+柒	zfiv	4490000
+浠	zthm	3510000
+蛳	lkgm	211000
+壅	yctj	1750000
+枇	ivb	519000
+楱	ieft	88500
+焐	xgdo	908000
+秭	rpkp	189000
+笥	pbgo	1170000
+茈	hlvi	336000
+蒌	hxcv	407000
+讴	zfty	309000
+谵	zqyy	181000
+跏	ocoz	607000
+镆	phfj	328000
+鬈	exbb	813000
+怙	ujg	795000
+枵	iojk	204000
+痱	wlfb	583000
+膈	sgxk	1100000
+卮	rgbu	753000
+圊	nesw	247000
+圮	jdj	713000
+堀	jdaa	6810000
+忄	uv	743000
+氚	ptcq	692000
+皴	atdi	688000
+绐	caoj	773000
+蟮	lxxo	572000
+邡	ybv	983000
+亻	tv	614000
+庑	wecg	554000
+廨	wqpg	411000
+钭	pzej	247000
+挹	fodb	810000
+觳	jqsq	379000
+闶	zyqm	364000
+檗	doyi	2730000
+漯	zkav	706000
+瓿	yohl	547000
+眚	pnvs	221000
+芴	hssu	174000
+诂	zjgy	359000
+郴	iibv	2240000
+鳓	qhcy	165000
+俣	toft	950000
+徼	supr	781000
+桡	ifpg	453000
+楗	ibfb	699000
+莨	hwbg	1300000
+酰	epvy	6400000
+雠	tztw	527000
+喾	zqpo	579000
+揿	fpqq	431000
+笊	prz	702000
+苎	hwgu	1850000
+黥	mych	408000
+僳	texm	230000
+芏	hjv	262000
+菖	hkku	357000
+蓊	htac	488000
+袢	wxfi	1080000
+馑	qhei	195000
+卺	bdbl	329000
+垆	jldv	256000
+旆	ypgm	797000
+曛	krmh	258000
+汊	zdwu	794000
+硒	gex	19400000
+穰	rwoh	784000
+粳	xgtm	932000
+酾	egwy	111000
+鲷	qsoy	726000
+鹣	xbts	191000
+塬	jguc	484000
+曩	kwoh	1420000
+荪	hbcx	690000
+莴	homu	68500
+蕞	hkhd	1260000
+蘖	huyi	447000
+怃	uecu	200000
+欤	gcgq	646000
+玢	etdd	265000
+蕖	hzdi	221000
+镒	pxmj	537000
+厝	ghkc	3820000
+坶	jcm	102000
+屣	dsll	186000
+揎	fwek	191000
+榧	iflf	781000
+芑	hdj	218000
+蓥	hqvv	639000
+钣	prdj	2020000
+鬲	goxk	3230000
+鳔	qefy	121000
+鼗	vxde	825000
+仂	tcl	285000
+婺	bpcm	3430000
+嫠	ipcw	250000
+愦	uoom	316000
+癍	weeb	372000
+癔	wyrb	460000
+碓	gtw	1190000
+箧	pfjx	666000
+缶	pf	15400000
+蘧	hlgz	92800
+妗	cuwb	1480000
+幞	mlxj	62400
+沤	zfti	943000
+痦	wgob	294000
+蛑	lapn	234000
+詈	myvw	788000
+钚	pgbj	760000
+铴	pzsj	82200
+锆	ppoj	2040000
+丌	hj	728000
+岘	mmve	571000
+枧	imve	289000
+柰	ifs	1020000
+浜	ztit	13900000
+蓼	hcus	2210000
+蛞	lrov	312000
+鄣	ykbl	916000
+偾	tehm	241000
+藿	hjtw	2840000
+酢	eply	12200000
+铟	pnfj	593000
+锛	pfhj	2540000
+阊	zkkm	854000
+骖	aasm	404000
+鲆	qexy	551000
+檩	iyof	218000
+燔	xpxk	749000
+猓	vkiq	795000
+蘼	hwlf	2090000
+趵	oswz	1100000
+酲	eoey	188000
+鹩	fxsd	417000
+乇	pfq	356000
+囗	nw	4070000
+屙	dbeo	936000
+揸	fikg	712000
+碛	gemb	504000
+笸	pfov	135000
+赓	wbmg	606000
+鄄	ejbx	1250000
+铱	pwyj	930000
+黻	lxdw	393000
+伲	tdvi	430000
+缂	chgj	5040000
+蜣	lxcu	137000
+蜩	lsjo	816000
+谝	zzmy	644000
+铍	pdpj	585000
+韫	fbkm	824000
+伛	tfti	93200
+傧	twit	283000
+揠	ffkc	190000
+昝	vlkv	681000
+溽	zgic	168000
+胙	splu	222000
+萏	hquj	738000
+隹	tw	3840000
+麈	wwel	245000
+妯	cko	1840000
+孓	bwul	1060000
+溱	zerv	698000
+碚	gyov	347000
+蕺	hohf	184000
+锊	pvij	101000
+镧	pzxj	655000
+髀	nueg	778000
+坫	jlov	137000
+崃	mixu	941000
+戢	ohfg	955000
+瑷	evhd	635000
+糌	xvkm	340000
+缬	cjmj	588000
+邶	xvbv	281000
+坼	jrjw	333000
+梃	irbd	474000
+瞢	hmqn	163000
+缧	ckaj	357000
+菽	hlcd	937000
+豉	goed	1210000
+仳	tvb	205000
+堙	jejv	312000
+忭	uylb	163000
+恂	uskv	439000
+砷	gks	2350000
+筌	puev	1170000
+箪	pxke	559000
+艿	han	843000
+郅	gajb	4230000
+鲢	qfzy	978000
+鳎	qkcy	781000
+厍	gfcc	1100000
+哕	omqx	222000
+廑	wheg	96000
+敫	uypb	191000
+栊	ijpu	375000
+癜	wdqb	1580000
+碹	gwek	84100
+磙	gwta	202000
+笾	pczd	343000
+篪	prlq	251000
+缌	ckrj	278000
+苣	hfdu	1990000
+荨	hbic	3280000
+诹	zhdy	623000
+诼	zgwy	182000
+钒	pqaj	4930000
+嗍	oxas	72300
+槠	izjk	160000
+欷	thqi	344000
+淦	zvv	2290000
+甏	josh	175000
+胝	svfw	421000
+荞	hrtu	3540000
+蓍	hjvk	773000
+蛱	ljxu	266000
+裉	wbgi	209000
+辏	fefc	229000
+颞	hdme	563000
+麸	evjf	2080000
+娌	ckee	2540000
+椹	ihcu	3000000
+缫	ccij	767000
+翮	gokc	172000
+诒	zaoy	624000
+郾	fkbf	704000
+铯	pqdj	937000
+锂	pkej	23100000
+鞫	hsyg	869000
+卣	lndu	394000
+圬	jgjk	190000
+尥	hcsw	244000
+槲	iqze	751000
+氘	ptuq	361000
+瘘	wxcb	1230000
+耩	ihjl	169000
+轫	fdpc	146000
+迨	aozi	919000
+馓	qhpi	294000
+啉	oiiv	1420000
+圪	jpbi	671000
+廴	bd	174000
+泺	zvcx	592000
+熳	xkmd	198000
+璩	elgs	1250000
+胗	suss	841000
+苁	huuu	735000
+薹	hjaj	998000
+锘	phoj	756000
+阌	zvdm	290000
+鳊	qzmy	620000
+唑	ouuj	5080000
+溻	zkcy	100000
+瘰	wkab	310000
+砗	gfc	340000
+砩	gdtu	1480000
+羝	xvwy	197000
+茺	hyav	280000
+蓠	hyma	331000
+俳	tlf	1060000
+刳	fgld	292000
+唣	oufq	90300
+悝	ukee	714000
+慊	uxlt	327000
+瘳	wcsb	307000
+茼	hmgo	1230000
+麇	wrvl	170000
+黾	okd	349000
+嗾	oypp	207000
+嵛	musl	325000
+杩	iam	1280000
+狨	vfhq	112000
+狺	vyvq	127000
+痧	wzpb	277000
+砜	gqti	989000
+缍	crhj	889000
+芡	hqq	1060000
+蓣	hbgm	54400
+顸	egmg	168000
+槭	iflc	1470000
+溲	zukd	414000
+畹	kwbt	934000
+痤	wujb	5350000
+眄	njcb	313000
+糍	xxam	620000
+葚	hhcu	287000
+郐	ueab	106000
+酹	eviy	788000
+镢	pgqj	178000
+隳	bhcw	403000
+鹋	hksn	89900
+唛	oevu	1010000
+嬖	doyc	794000
+怍	uplu	979000
+朊	sggw	366000
+涫	zwdd	302000
+绲	ckvj	924000
+胼	sxhv	263000
+腧	susl	89600
+葑	hjji	803000
+蠓	lhgg	253000
+踬	ormz	165000
+鞲	hhjg	224000
+饫	qryi	238000
+刈	tldi	6000000
+垲	jmdj	47200
+嵴	mxus	441000
+帻	memj	69400
+旰	keg	267000
+畚	afki	412000
+荭	hcig	410000
+萸	huuu	1050000
+蘩	hppa	335000
+颃	yqgm	68900
+颟	hggm	174000
+鸲	sosn	185000
+龠	ugom	226000
+呒	oecu	437000
+嗌	oxtm	1030000
+疸	wkgb	735000
+硖	gjxu	370000
+绁	chsj	647000
+耧	ixcl	257000
+蚴	lacl	343000
+蛸	lnsv	2370000
+裰	wddi	249000
+謦	jdqy	1130000
+跣	opvz	380000
+踺	obbz	102000
+逯	bazd	827000
+陔	byh	1010000
+凇	xias	759000
+堋	jssv	586000
+屦	dsxc	309000
+峁	mvpa	879000
+廛	wkjg	496000
+栝	irov	791000
+磴	gdox	970000
+篌	ptdp	149000
+芘	hvb	1430000
+葸	hkrx	112000
+薏	hyrx	3750000
+踔	olkz	284000
+鄞	hebg	622000
+醢	ehmy	259000
+铒	phej	390000
+镲	pwfj	240000
+鲮	qjvy	304000
+仉	tqj	567000
+侉	tfgj	174000
+桄	ingw	323000
+泮	zxfu	1320000
+燠	xuxf	180000
+犭	vq	322000
+皤	upkb	235000
+粝	xgbm	223000
+蹀	ohiz	225000
+颡	ddmo	313000
+鲞	xjqy	236000
+唪	oefu	88000
+嗪	oerv	1860000
+掭	ffcw	122000
+畈	krdt	1400000
+簦	pdox	241000
+绨	cxpj	675000
+胍	srg	1760000
+胲	syh	112000
+舻	rldo	360000
+铘	pfbj	139000
+锩	pxbj	179000
+鲋	qtiy	312000
+崮	mnjg	634000
+庋	wedg	389000
+毳	rrrm	273000
+箅	pkhj	325000
+缣	cxtj	216000
+菹	hznq	206000
+虿	gblv	213000
+谇	zyey	207000
+贶	movb	169000
+陧	bkjv	98200
+隰	bkas	712000
+僬	ttsh	114000
+匦	ffrf	578000
+垧	juov	101000
+疔	wedb	331000
+肭	smuu	173000
+蝤	lxey	52200
+谖	zvdy	404000
+趑	jxqz	98100
+轭	fgbc	538000
+酐	eegy	3960000
+醅	eyoy	543000
+醑	ebsy	121000
+醛	ehey	9780000
+锬	pxxj	167000
+劂	gxlc	173000
+垅	jjpu	943000
+悛	uatv	309000
+戥	kpfg	249000
+拶	fcqx	387000
+硷	guez	838000
+笕	pmve	488000
+簟	pekz	995000
+莼	hcfa	1460000
+蒴	hxas	136000
+藁	hyoi	5040000
+诖	zjjy	264000
+谠	znvy	1360000
+谳	zejy	62400
+邾	ptbn	328000
+陴	bupe	187000
+鬏	erxb	91100
+龀	luvz	1120000
+剞	feld	313000
+劬	socl	222000
+勖	menc	366000
+埸	jkss	3410000
+嬲	kcct	2640000
+嵝	mxcv	165000
+搿	pfor	324000
+柝	irjw	278000
+桴	ivbz	1340000
+洧	zhsv	287000
+浯	zgdo	774000
+疝	wmvb	1050000
+笱	psov	903000
+肽	sfwu	6780000
+舯	roko	135000
+艋	rbmo	749000
+芤	hbcu	195000
+葙	hinv	967000
+鲔	qhsy	525000
+鸸	gsne	233000
+佾	ttsv	1180000
+墁	jkmd	143000
+嫘	ckav	981000
+榇	iyiu	188000
+煳	xjsv	113000
+硪	gpff	3670000
+礞	ghgg	118000
+菰	hbrg	1250000
+蚵	leov	1720000
+趱	jpmz	314000
+躜	opmz	82100
+钼	pnvj	2870000
+鲱	qlfy	290000
+匚	ff	3550000
+呋	ojf	538000
+媵	sxjc	184000
+崦	mfkd	209000
+楝	iinx	1480000
+潲	zrns	121000
+獯	vrmq	333000
+瘵	wsfb	131000
+绀	chej	3560000
+绋	cdtj	1440000
+莩	hvbz	182000
+觫	qsio	105000
+辋	fmcc	244000
+镡	pekj	183000
+髂	nwog	773000
+鬯	tzvi	3550000
+鹨	cusy	122000
+亓	ghj	1420000
+劓	tldb	124000
+埕	joev	1630000
+曷	ksuc	1600000
+洚	zvfu	95800
+碲	gyqm	636000
+磲	gzdi	321000
+粜	aaxm	214000
+绱	cnoj	2540000
+芄	hrwu	312000
+酚	etdy	8610000
+铪	puoj	329000
+髌	nwtg	348000
+鲥	qkiy	377000
+俜	tkjk	263000
+刿	mqld	256000
+吣	orx	213000
+垤	jgaj	119000
+枘	imuu	168000
+氽	uas	897000
+溷	zngs	250000
+甍	hmqh	219000
+笪	pkgu	1520000
+胬	cduu	183000
+舨	rrdo	141000
+芟	hqs	488000
+蒽	hnfr	733000
+銎	iqvg	131000
+铵	pwcj	3710000
+锶	pkrj	708000
+骱	nutg	152000
+鹆	tuos	172000
+岣	msov	332000
+岵	mjg	169000
+怿	udfu	371000
+慝	fhrf	216000
+挢	frtu	182000
+掎	ffeo	139000
+毹	uglr	102000
+汆	vasr	585000
+沲	zpbe	102000
+湔	zxsl	384000
+甙	fhei	1260000
+罟	mjgw	354000
+羼	dxxx	344000
+菝	hfdw	177000
+讵	zfdy	366000
+诎	zaay	268000
+谮	zfky	380000
+赉	ixmw	560000
+郄	thbi	278000
+鐾	doyv	138000
+鲎	zqqy	713000
+啶	owgl	4310000
+塍	sxjj	808000
+屺	mdj	185000
+庥	wtig	576000
+掊	fyov	270000
+撙	fxei	193000
+柃	iuwd	143000
+檎	iuma	202000
+毵	afri	185000
+渖	zwks	264000
+砘	gfau	158000
+窭	wxcx	149000
+肟	sgjk	1160000
+蔸	hudv	632000
+蚶	lhee	822000
+蛏	ldjv	346000
+躞	oydz	87300
+酯	evky	28100000
+锾	pvdj	193000
+饩	qpqi	276000
+劢	gbcl	304000
+嘧	owpm	1950000
+嵫	mxaa	162000
+擐	fmor	323000
+湓	ztdm	334000
+蝻	lexe	122000
+蠖	lhtd	267000
+觖	qsdu	99000
+跬	ojjz	163000
+阝	bv	336000
+鳜	qgqy	573000
+仡	tpbi	757000
+垌	jmgo	526000
+氆	rxkm	230000
+氇	rqkm	199000
+汔	zpbi	740000
+篼	pudv	277000
+缑	ctpj	545000
+舾	rexo	267000
+莸	hvjo	289000
+蛲	lfpg	364000
+蠛	lhfw	59200
+蠲	xtsl	870000
+褊	wzmi	373000
+醣	ewoy	2090000
+骀	aaom	171000
+倮	tkiv	217000
+僦	tycj	1230000
+凵	au	3640000
+崾	mecv	370000
+渫	zhiv	264000
+瘗	wjjb	246000
+箦	pemb	125000
+肼	sfku	923000
+腽	skmm	77700
+臁	swlt	289000
+舳	rkoo	271000
+芈	hfu	257000
+荽	hvcv	1090000
+蒉	hoom	109000
+蛴	lytu	493000
+袼	wvoi	150000
+跫	iqlg	290000
+遘	hmjz	442000
+儇	tmor	218000
+埽	jbqm	348000
+庀	wvig	70300
+戆	ykrl	506000
+扃	zmoh	269000
+搛	fxlt	221000
+杪	icpu	343000
+浼	zqov	3060000
+滏	ztex	640000
+瓞	rpwg	145000
+疃	kyjt	768000
+砟	gplu	96500
+硗	gfpg	298000
+禊	wifs	667000
+篥	peiv	118000
+簋	pbmm	731000
+綮	zpah	190000
+苤	hggu	1520000
+踣	oyoz	122000
+躐	occz	110000
+酴	euiy	562000
+钽	pkgj	1300000
+锸	pruj	184000
+锼	pudj	111000
+阃	znim	656000
+鞔	hqvg	123000
+鲭	qesy	327000
+鹪	tssw	250000
+黪	mash	66500
+黼	lxte	378000
+榀	ioox	275000
+榘	pfii	211000
+氵	zv	763000
+浍	zuea	722000
+炱	aoxi	174000
+煺	xbzd	55100
+犋	pntn	112000
+砻	jpgo	620000
+秕	rvb	284000
+籼	xmvm	565000
+耜	iddl	311000
+肀	bku	497000
+肫	sfau	415000
+肷	sqq	156000
+胂	sks	1310000
+莛	hrbd	170000
+裥	wzki	378000
+逭	wddz	158000
+钋	plbj	275000
+钌	pblj	520000
+钸	phmj	290000
+髑	nmlg	396000
+鳆	qpvy	68300
+鼯	ugos	239000
+佴	the	834000
+吲	odku	854000
+帱	miij	86200
+搌	fdhf	145000
+擗	fdoy	166000
+桷	iqsy	405000
+氡	pvzq	1940000
+氩	phxq	1070000
+溴	ztjq	4020000
+畋	kppt	538000
+硐	gmgo	1310000
+糇	xtpm	181000
+腠	seft	451000
+葶	hyqe	912000
+袷	wuoi	898000
+陬	bhdo	861000
+黉	zqkt	183000
+龆	luoz	231000
+刂	ld	1070000
+哜	oytu	69800
+埴	jenq	454000
+岜	mdb	335000
+徂	snqr	457000
+惝	unmo	122000
+扌	fv	654000
+烀	xpxi	105000
+眢	qbnx	618000
+瞵	nxqf	79200
+筇	pibv	280000
+簏	pwl	224000
+芗	hcpu	803000
+蝽	lekv	446000
+蟪	lgor	172000
+郫	upbb	1220000
+钕	pcvj	714000
+钫	pyuj	181000
+镉	pgkj	4090000
+镘	pkdj	139000
+颥	jgmy	54200
+黹	lxmt	231000
+坜	jgcl	200000
+埤	jupe	1220000
+廾	hv	237000
+彳	sr	3700000
+楦	iwek	1070000
+氙	pmvq	1530000
+澌	zhrj	281000
+畛	kust	294000
+疳	wheb	894000
+瘅	wxeb	105000
+砉	igvf	823000
+砹	ghti	167000
+碡	gecm	106000
+穸	wqxx	257000
+缵	cpmj	163000
+羟	xdiy	2020000
+膦	sxqf	891000
+菪	hwgv	1130000
+虼	lpbi	1110000
+蛘	lxy	197000
+螨	lhuu	1790000
+裼	wksi	211000
+讠	zy	255000
+迕	pezd	282000
+钅	pj	351000
+铈	pymj	444000
+锇	ppfj	235000
+锔	pdoj	970000
+锪	psrj	78200
+镓	pwgj	659000
+镦	pypj	600000
+镱	pyrj	410000
+霪	jzry	242000
+骒	akim	67800
+鹁	eqbs	147000
+冁	xkhf	35000
+冖	qu	290000
+哿	cool	535000
+噍	otsh	227000
+埝	jubr	467000
+弪	ddig	97200
+攉	fjtw	129000
+浞	zolu	226000
+潴	zvjk	807000
+畀	khjt	1210000
+籴	vxmr	279000
+罱	meew	144000
+羰	xmxy	171000
+胨	sfcx	156000
+胩	sllb	105000
+舴	rplo	270000
+苊	hgbu	116000
+茆	hvpa	1030000
+茛	hbg	116000
+蒇	hfmb	87100
+虮	lqj	191000
+蠊	lwlt	247000
+裒	wujy	202000
+襞	doyw	678000
+觇	lomv	326000
+轺	fdoc	109000
+锿	pwoj	119000
+髹	etib	336000
+鸫	fcsq	249000
+哌	orru	1330000
+垸	jwgg	323000
+埏	jplb	237000
+墼	jajc	132000
+帙	mpwj	471000
+悃	univ	95500
+揲	fhiv	114000
+晡	kef	303000
+榍	idns	861000
+榱	iwog	155000
+殪	gjxd	193000
+淠	zkhj	327000
+漤	ziic	111000
+疬	wgcb	191000
+砑	gfy	765000
+缲	coij	83400
+罘	mgbw	2840000
+苈	hgcl	288000
+萆	hupe	192000
+谂	zury	482000
+辶	zd	713000
+鄹	hdbe	194000
+酞	efwy	754000
+钔	pzmj	211000
+铥	praj	179000
+镅	pdnj	143000
+髟	eb	228000
+鲡	qgwy	89800
+鲦	qviy	104000
+鳇	quey	118000
+鹇	zism	138000
+鹱	shdn	198000
+埒	jvic	1130000
+岽	mfcx	295000
+悫	jqqr	174000
+攵	pp	2920000
+桊	xjiv	73500
+桕	iuj	127000
+槔	iufe	148000
+溆	zuid	570000
+漶	zokr	85100
+牾	pgon	141000
+畎	kjqt	177000
+疖	waeb	500000
+矧	pdki	506000
+稂	rwbg	105000
+窀	wfax	210000
+籀	pfdk	1590000
+腈	sesv	1810000
+苄	hylb	1510000
+薷	hjge	137000
+褙	wxsi	211000
+赙	meib	161000
+跽	odrz	131000
+钐	pssj	261000
+锖	pesj	109000
+镎	purj	41700
+饔	yctv	865000
+骣	adbm	47400
+鳙	qwky	492000
+丿	pu	5180000
+坌	tdjv	277000
+宀	wv	4670000
+氍	nntr	198000
+沩	zzcl	339000
+洫	zpmm	206000
+澉	zbhp	75600
+瀹	zuom	4020000
+爨	umfx	1530000
+珧	evxu	208000
+瘊	wtpb	163000
+瞍	nukd	114000
+硇	guti	500000
+筘	pfov	536000
+粢	xqxs	262000
+聍	hwee	161000
+舁	uhvj	175000
+艚	rhko	256000
+荸	heqb	923000
+蜱	lupe	371000
+钍	pjvj	327000
+铞	pomj	190000
+铫	pvxj	144000
+骺	nrog	188000
+鲼	qemy	75700
+冂	mu	288000
+劐	htdl	55700
+哳	ofrj	79500
+唼	oycv	117000
+忮	uedo	254000
+恝	idrf	486000
+戋	gfg	180000
+椠	fric	106000
+瘕	wddb	268000
+瘛	wirb	299000
+瘼	whfb	99800
+祓	whws	478000
+窆	wpzx	74600
+窬	wulx	163000
+篚	pflf	104000
+粞	xexm	121000
+羧	xavy	1570000
+脬	svbz	97100
+艽	hrj	264000
+葜	hidf	159000
+蓰	hsll	75400
+觌	ebmv	212000
+豇	goxi	1130000
+轵	fotc	368000
+醵	elgy	182000
+铌	pdvj	866000
+镄	pdmj	628000
+阼	bplu	243000
+鞴	hhsg	317000
+鲅	qhwy	544000
+鲒	qjoy	81600
+埯	jfkd	130000
+夂	vu	2990000
+恧	grxe	99800
+憝	yopr	151000
+搋	frlq	106000
+氕	ppuq	81400
+洳	zcov	698000
+浈	zlmb	381000
+濞	ztb	5660000
+礤	ghsf	147000
+聱	eqph	170000
+艹	hv	395000
+蟓	lqor	114000
+襻	wiri	217000
+趼	oghz	813000
+迮	plzd	160000
+钆	pcuj	191000
+铷	pcoj	383000
+镨	pxkj	436000
+驵	anqm	72200
+鲣	qljy	259000
+鳘	pcpq	75600
+鸺	tisn	99300
+嚆	ohmo	98300
+堍	jqvw	294000
+嶝	mdox	236000
+巛	cc	709000
+廒	wepg	87000
+桤	imdj	335000
+橥	vjiq	275000
+爝	xvai	108000
+甾	cktc	1150000
+痄	wplb	283000
+癀	whtb	420000
+筲	pnsv	126000
+箨	pfdf	139000
+罾	mxkw	171000
+耵	hede	165000
+舣	rwto	111000
+荬	hbzf	230000
+蕹	hypt	215000
+诔	zily	312000
+赆	mdzb	78200
+蹯	opkz	72400
+钇	pbij	228000
+钶	peoj	178000
+铕	phsj	434000
+镤	plxj	82100
+鲚	qyty	89200
+鲻	qcky	137000
+鳢	qmxy	119000
+鹛	dnsn	181000
+塥	jgxk	46100
+庳	wueg	98600
+怊	udov	71400
+捃	fbpo	126000
+揞	fyn	69300
+洎	ztz	661000
+涠	znfb	459000
+滠	zhdd	142000
+猸	vdnq	49400
+甓	doyh	229000
+瘃	wgwb	79000
+瞀	bpnm	132000
+砼	guig	1700000
+礓	gikk	88400
+绠	cgtj	2150000
+耱	iwgl	216000
+脎	stiu	45700
+脒	sxm	606000
+脞	suuj	93000
+萜	hmlo	670000
+蕻	heht	163000
+薤	hglg	187000
+衤	wi	207000
+跞	ovcz	133000
+轹	fvcc	158000
+锎	pzhj	123000
+锓	pbdj	160000
+馇	qigi	170000
+鲐	qaoy	254000
+鲩	qwgy	277000
+丬	xu	283000
+亠	yu	250000
+仫	tpai	557000
+卩	ae	259000
+垡	tfjv	1350000
+垴	jyta	170000
+岍	mghv	807000
+崞	myob	146000
+枨	ipc	223000
+毪	rapm	84300
+牮	tfpn	102000
+癃	wbpb	236000
+眍	nfti	183000
+眵	nqqx	83300
+稃	rvbz	91900
+筢	pfdb	85500
+腙	swfs	147000
+舭	rvbo	64500
+菥	hirj	280000
+蜾	lkiv	99900
+螬	lhmk	194000
+螵	lefs	263000
+衄	pmde	1700000
+谫	zxdy	97700
+躔	owjz	139000
+郛	vbbv	286000
+酤	ejgy	163000
+钷	pfoj	30800
+锫	pyoj	98900
+镩	pwkj	50000
+阢	bgw	52700
+鼷	uvfs	92900
+劁	tslw	63500
+埭	jbas	1550000
+墚	jzti	55700
+摅	flrx	131000
+撖	fbhp	147000
+泐	zbcl	250000
+滗	zprm	331000
+牿	ppon	71600
+犏	pzmn	73400
+猹	vigq	86100
+疰	wweb	154000
+痃	wyab	77900
+痖	whxb	77900
+瘥	wxib	216000
+磉	gddi	86200
+礻	ws	274000
+箢	pwqb	80500
+簖	pxrj	138000
+缋	comj	127000
+缏	cttj	88000
+耥	inol	99500
+脲	sdas	2160000
+膪	symo	43100
+苠	hdfq	102000
+茳	hzig	258000
+莶	huez	158000
+蒎	hzrr	127000
+蒡	hyqy	490000
+虍	lh	91800
+螗	lwko	73800
+贳	hmbs	119000
+軎	jovc	46500
+醌	ekvy	1220000
+醭	elxy	205000
+铹	phcj	109000
+铼	pixj	1170000
+镥	pqkj	136000
+阽	blov	77300
+馘	xtog	262000
+鲺	qbly	80600
+鹎	upsb	206000
+鼽	trjb	68700
+傺	tsfs	99200
+勹	su	2900000
+喹	ofjj	1170000
+彡	ss	18500000
+戤	adfn	53900
+攴	lp	192000
+瀵	zxht	2230000
+灬	sh	2290000
+瘭	wefb	55000
+碥	gzmu	76900
+稆	roov	86500
+筻	pgkt	70500
+糈	xbsm	69500
+纟	cj	240000
+耠	iuol	79400
+耢	ihcl	93600
+艴	dtdg	69700
+苘	hmov	198000
+茚	hvga	295000
+蒗	hzwb	648000
+蔹	huzp	182000
+觏	hmmv	120000
+赇	miwb	93300
+赕	mxxb	99600
+轷	fpic	51400
+辁	fuec	57500
+酏	ebey	85000
+铑	pjvj	610000
+铽	pfrj	133000
+鲴	qnjy	87600
+鼢	utds	62500
+齄	tigb	46900
+冫	xs	3540000
+耖	icpl	219000
+屮	au	3750000
+舡	rigo	99000
+鲕	qgey	89200
+绗	csxj	1540000
+彐	bu	115000
+蒈	hvub	48300
+夼	ftcd	249000
+疒	wb	156000
+鳋	qdly	59200
+螋	lukd	50700
+猃	vuzq	102000
+荮	hcic	53700
+禚	wxss	116000
 
 # 单字全码区 GB18030 部分，按徐码作者的《徐码高频先GB18030》顺序排列。
 的	uswb	4220000000

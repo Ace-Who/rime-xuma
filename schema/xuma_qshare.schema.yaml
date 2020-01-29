@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_qshare
   name: 徐码·QS
-  version: "2019-12-15"
+  version: "2020-01-29"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -13,7 +13,7 @@ schema:
     chinput.com/xuma
 
     三重注解、双重反查、屏蔽词组、全码后置、简入繁出...
-    https://ace-who.github.io/rime-xuma-spelling/
+    https://ace-who.github.io/rime-xuma/
   dependencies:
     - xuma_spelling_pseudo
     - luna_pinyin
@@ -216,15 +216,26 @@ stroke_reverse_lookup:
 punctuator:
   import_preset: default
 
-key_binder:
-  import_preset: default
-  bindings:
+# 本节点仅用于被 __patch 指令引用
+key_bindings:
+  __append:
     - { when: always, accept: "Control+Shift+F", toggle: traditionalization }
     - { when: composing, accept: "Control+c", toggle: xuma_spelling }
     - { when: composing, accept: "Control+y", toggle: xmsp_hide_pinyin }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
     - { when: composing, accept: "Control+t", toggle: lazy_clock }
     - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
+
+key_binder:
+  bindings:
+    __patch:
+      - key_bindings:/emacs_editing
+      - key_bindings:/move_by_word_with_tab
+      - key_bindings:/paging_with_minus_equal
+      - key_bindings:/numbered_mode_switch
+      - key_bindings
+      # 可仿照 key_bindings 节点在 *.custom.yaml 文件中添加按键绑定。
+      - xuma_qshare.custom:/keybindings?
 
 recognizer:
   # import_preset: default
