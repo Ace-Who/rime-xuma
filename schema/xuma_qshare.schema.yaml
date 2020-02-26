@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_qshare
   name: 徐码·QS
-  version: "2020-01-29"
+  version: "2020-02-26"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -74,6 +74,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - history_translator@history
     - table_translator@fixed
     - table_translator
     - script_translator@luna_pinyin
@@ -160,6 +161,11 @@ translator:
   preedit_format:
     - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|糸阝女尸王扌石艹木土日虫山目口⺮魚禾月亻忄金宀火言氵|"
+
+history:
+  input: dl
+  size: 1
+  initial_quality: 2000
 
 # 用于混输
 luna_pinyin:

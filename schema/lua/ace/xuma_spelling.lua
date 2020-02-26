@@ -36,6 +36,7 @@ local basic = require('ace/lib/basic')
 local map = basic.map
 local index = basic.index
 local utf8chars = basic.utf8chars
+local matchstr = basic.matchstr
 
 local function xform(input)
   -- From: "[spelling,code_code...,pinyin_pinyin...]"
@@ -124,11 +125,13 @@ local function get_tricomment(cand, env)
     local spelling = spell_phrase(ctext, env.spll_rvdb)
     if spelling ~= '' then
       spelling = spelling:gsub('{(.-)}', '<%1>')
+      -- 候选是否为自造词，可通过在固态词典中查询其编码来确定。
       local code = env.code_rvdb:lookup(ctext)
-      -- 'completion' 类型的候选来自固态词典还是用户词典，可通过查询词组编码来
-      -- 确定。问题是：反查候选中预计为 table 类型的，全都是 user_table 类型。
-      -- 因此改为仅判断 code。
       if code ~= '' then
+        -- 按长度排列多个编码。
+        code = matchstr(code, '%a+')
+        table.sort(code, function(i, j) return i:len() < j:len() end)
+        code = table.concat(code, ' ')
         return '〔 ' .. spelling .. ' · ' .. code .. ' 〕'
       else
         return '〈 ' .. spelling .. ' 〉'

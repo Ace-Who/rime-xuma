@@ -4,9 +4,9 @@
 __include: xuma_qshare.schema:/
 
 schema:
-  schema_id: xuma_qshare_compact
+  schema_id: xuma_qshare_type1
   name: 徐码·QS·一型
-  version: "2019-10-10"
+  version: "2020-02-26"
   author:
     - 發明人 徐国银先生
     - rime schema by Q

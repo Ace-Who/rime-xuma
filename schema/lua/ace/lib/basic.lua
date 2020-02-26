@@ -17,6 +17,14 @@ function basic.map(table, func)
   return t
 end
 
+function basic.matchstr(str, pat)
+  local t = {}
+  for i in str:gmatch(pat) do
+    t[#t + 1] = i
+  end
+  return t
+end
+
 function basic.utf8chars(str, ...)
   local chars = {}
   for pos, code in utf8.codes(str) do

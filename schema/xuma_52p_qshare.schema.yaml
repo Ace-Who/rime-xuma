@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_52p_qshare
   name: 徐码五二
-  version: "2020-01-29"
+  version: "2020-02-26"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -75,6 +75,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - history_translator@history
     - table_translator
     - script_translator@long
     - script_translator@luna_pinyin_lookup
@@ -142,7 +143,6 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " `"
   algebra:
-    # - derive/_1/+/		# 手机用
     - xform/_1/\[/
     - xform/_2/;/
     - xform/_3/'/
@@ -179,6 +179,11 @@ make_phrase:
   preedit_format:
     - xform/$/\t〔造词〕/
   tag: make_phrase
+
+history:
+  input: dl
+  size: 1
+  initial_quality: 2000
 
 reverse_lookup:
   tag: reverse_lookup
@@ -248,10 +253,10 @@ recognizer:
   patterns:
     long: "(?<![a-zA-Z`])[a-z]{3,4}$"  # 前面可能有未上屏的符号等
     uppercase: "(?<![`;])[A-Z][-_+.'0-9A-Za-z]*$"
-    reverse_lookup:             "^`([a-z]+'?)*$"
+    reverse_lookup:     "^`([a-z]+'?)*$"
     luna_pinyin_lookup: "`P([a-z]+'?)*$"
     stroke_lookup:      "`B([a-z]+'?)*$"
-    make_phrase:                "^([a-z]{1,4}`)([a-z]+[`;']?)*$"
+    make_phrase: "^([a-z]{1,4}`)([a-z]+[`;']?)*$"
     os_env: '^env/\w+'
     helper: '^help/$'
 
