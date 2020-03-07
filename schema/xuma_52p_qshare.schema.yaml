@@ -151,7 +151,6 @@ speller:
 translator:
   dictionary: xuma_52p
   prism: xuma_52p_qshare
-  enable_charset_filter: true
   enable_completion: false
   enable_sentence: false
   enable_user_dict: false
@@ -172,7 +171,6 @@ long:
 make_phrase:
   dictionary: xuma
   user_dict: xuma
-  enable_charset_filter: true
   enable_encoder: true
   enable_user_dict: true
   enable_sentence: true

@@ -2,30 +2,40 @@
 
 ## 什么是五二顶
 
-四码定长方案的用户应该都熟悉「五码顶屏」的打法，即每次打第五码时就把前四码顶出
-，输入码只剩下最后一码，同时上屏前四码第一候选。「五二顶」是类似的，区别只是顶
-出的是前二码，剩下的是后三码。
+四码定长方案的用户应该都熟悉「五码顶屏」的打法，即每次打第五码时就顶出前四码，
+上屏其第一候选，此时输入码只剩下最后一码，从而实现省略四码字后面的空格的目的。
+「五二顶」是类似的，区别只是顶出的是前二码，剩下的是后三码，省略的是二码字后面
+的空格。五二顶与常规方案的码表一致，保持了徐码「完美的规则性」。
 
-## 为什么要做五二顶
+经测试，用徐码打文章和聊天，四码字是最少的，二码字是最多的，是四码字的十倍以上
+，因此徐码适合改造为五二顶。并不是每一款形码都是如此，这是徐码的特性。
 
-先说说为什么要有「五码顶四码」——为了少按空格，降低键长。但是经测试，用徐码打
-文章和日常打字，四码字是最少的，二码字是最多的，是四码字的十倍以上，因此徐码适
-合改造为五二顶。经测试，用五二顶打文章的键长降低了 10%~15%。在引入「置换码」优
-化二级简码字从而提高二码字频率后，杀空格的效果进一步增强，在目前的码表下打单字
-的键长降低 15%~18%，打简词的键长降低 12%~15%。打单的键长低于三码定长的至至郑码
-，高于四二顶 C42，打简词的键长变化范围较大，低时低于小兮码、西风瘦码，高时高于
-C42，总体上在两类之间。
+## 五二顶的优势
+
+省略了多少空格？键长降低了多少？
+
+经测试，用五二顶打文章，键长降低了 10%~15%。在引入「置换码」优化二级简码字从而
+提高二码字频率后，杀空格的效果进一步增强。在目前的码表下，都打单字时键长降低
+15%~18%，都打简词时键长降低 12%~15%。打单的键长低于三码定长的至至郑码，高于四二
+顶 C42，打简词的键长浮动较大，低时低于单字小兮码、西风瘦码，高时高于 C42，总体
+上在两类之间，日常聊天的场景更占优势。
+
+## 学习徐码五二顶的最佳时机是何时
+
+以下是个人看法。应先通过常规方案学习徐码，再适时转向五二顶。早了不行，步子迈太
+大；晚了不好，一二码字加空格上屏的习惯难改。最好是在完全掌握了徐码字根和拆字规
+则之后，打字未到熟练之时，量化标准大约是击键 2.5 或速度 40 字/分钟。
 
 ## 区重补码
 
-徐码五二顶版沿用普通版码表，一简和二简设置了三重候选，第一重为单字，二三重为词
-组。顶功版仅为一简和二简增设区重补码 `[;'`，打出补码后自动上屏。如 `u` 的三重候
-选为 「的」「的是」「的时候」，输入 `u[`、`u;`、`u'` 可依次上屏这三个词条。为方
-便和效率计，补码 `[` 还绑定到了 `TAB` 键，这样安排在双手对称位置，尽可能接近敲
-空格的体验。
+徐码五二顶沿用常规版码表，一级简码和二级简码设置了三重候选，第一重为单字，二三
+重为词组。五二顶仅为一简和二简增设区重补码 `[;'`，打出补码后自动上屏。如 `u` 的
+三重候选为 「的」「的是」「的时候」，输入 `u[`、`u;`、`u'` 可依次上屏这三个词条
+。为方便和效率计，补码 `[` 还绑定到了 `TAB` 键，这样安排在双手对称位置，尽可能
+接近敲空格的体验。
 
-在三码或四码后输入补码时，也会顶出前二码并上屏其第一候选和余下编码对应的唯一简
-码词条。参考下面的示例。
+在三码或四码后输入补码时，也会上屏前二码的第一候选和余下编码对应的简码词条。参
+考下面的示例。
 
 ## 五二顶示例详解
 
@@ -92,13 +102,18 @@ C42，总体上在两类之间。
 原始文本：
 冰灯是流行于中国北方的一种古老的民间艺术形式。因为独特的地域优势，黑龙江可以说是制作冰灯最早的地方。
 xa xed k zy sx gi o ne xvi yu u g rok jg jvi u df zk hb iwu ghs figi.nf zc vlv pji u j jfo tjo fr,mh jpu zi eo c zx k pm tpl xa xed kh kz u j yu.
-xa xed k zy sx gi o; xvi yu u g rok jg jvi u df zk hb3gh3.nz2vl3u j jfo tjo fr,mh jpu zi ec2zx k pt2xa xed kh kz u j2.
+xa xed k zy sx gi o;xvi yu u g rok jg jvi u df zk hb3gh3.n2vl3u j jfo tjo fr,mh jpu zi e2zx k pt2xa xed kh kz u j3.
 xaxed k zysxgio[nexvi yuu[g rok jgjvi u dfzkhbiwu ghs figi.nfzcvlv pji u j jfo tjo fr,mhjpu zieoc[zxk[pmtpl xaxed khkzu[j yu.
-xaxed k zysxgio;xvi yuu[g rok jgjvi u dfzkhb'gh'.nz;vl'u j jfo tjo fr,mhjpu ziec;zxk[pt;xaxed khkzu[j;.
+xaxed k zysxgio;xvi yuu[g rok jgjvi u dfzkhb'gh'.n;vl'u j jfo tjo fr,mhjpu zie;zxk[pt;xaxed khkzu[j'.
 
+按照引入置换码后的码表：
+xa xed k zy sx gi o ne xvi yu u g ro jg jv u df zk hb iwu ghs fi.nf zc vlv pji u j jfo tjo fr,mh jpu zi eo c zx k pm tp xa xed kh kz u j yu.
+xa xed k zy xs gi o;xvi yu u g ro jg jv u df zk hb3gh3.n2vl3u j jfo tjo fr,mh jpu zi e2zx k pt2xa xed kh kz u j3.
+xaxed k zysxgio[nexvi yuu[g rojgjvu[dfzkhbiwu ghs fi.nfzcvlv pji u j jfo tjo fr,mhjpu zieoc[zxk[pmtpxaxed khkzu[j yu.
+xaxed k zysxgio;xvi yuu[g rojgjvu[dfzkhb'gh'.n;vl'u j jfo tjo fr,mhjpu zie;zxk[pt;xaxed khkzu[j'.
 ```
 
-以下是单字打法和简词打法的慢速动态演示：
+以下是单字打法和简词打法的慢速动态演示（使用的是较旧的码表，码长较长）：
 
 ![单字打法](demo/xuma_52p_single_style.gif)
 ![简词打法](demo/xuma_52p_phrase_style.gif)
@@ -111,10 +126,14 @@ xaxed k zysxgio;xvi yuu[g rok jgjvi u dfzkhb'gh'.nz;vl'u j jfo tjo fr,mhjpu ziec
 ```
 冰灯是流行于中国北方的一种古老的民间艺术形式。因为独特的地域优势，黑龙江可以说是制作冰灯最早的地方。
 xaxed k[zysxgio[nexvi yuu[g[rok jgjvi u[dfzkhbiwu ghs figi.nfzcvlv pji u[j[jfo tjo fr,mhjpu zieoc[zxk[pmtpl xaxed khkzu[j[yu.
-xaxed k[zysxgio;xvi yuu[g[rok jgjvi u[dfzkhb'gh'.nz;vl'u[j[jfo tjo fr,mhjpu ziec;zxk[pt;xaxed khkzu[j;.
+xaxed k[zysxgio;xvi yuu[g[rok jgjvi u[dfzkhb'gh'.n;vl'u[j[jfo tjo fr,mhjpu zie;zxk[pt;xaxed khkzu[j'.
+
+按照引入置换码后的码表：
+xaxed k[zysxgio[nexvi yuu[g[rojgjvu[dfzkhbiwu ghs fi.nfzcvlv pji u[j[jfo tjo fr,mhjpu zieoc[zxk[pmtpxaxed khkzu[j[yu.
+xaxed k[zysxgio;xvi yuu[g[rojgjvu[dfzkhb'gh'.n;vl'u[j[jfo tjo fr,mhjpu zie;zxk[pt;xaxed khkzu[j'.
 ```
 
-## 与普通版功能的差异
+## 与常规版功能的差异
 
 ### 造词和连打
 
