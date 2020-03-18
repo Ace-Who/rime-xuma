@@ -25,15 +25,31 @@ local function lazy_clock_filter(input, env)
   end
 end
 
+-- Display clock in preedit instead of as a candidate.
+local function preedit_lazy_clock_filter(input, env)
+  if env.engine.context:get_option('preedit_lazy_clock') then
+    for cand in input:iter() do
+      cand.preedit = cand.preedit .. ' ' .. os.date("%H:%M:%S")
+      yield(cand)
+    end
+  else
+    for cand in input:iter() do yield(cand) end
+  end
+end
+
 -- 将 `env/VAR` 翻译为系统环境变量。
 -- 长度限制为 199 字节。太长时 UI 卡住，且实际上屏的是前 199 字节。
 local function os_env_translator(input, seg)
   local prefix = '^env/'
   if input:find(prefix .. '%w+') then
-    local val = os.getenv(input:gsub(prefix, ''))
-    if val ~= '' then
-      yield(Candidate("os_env", seg.start, seg._end, val:sub(1,199), " 环境变量"))
+    local val, cand = os.getenv(input:gsub(prefix, ''))
+    if val then
+      cand = Candidate("os_env", seg.start, seg._end, val:sub(1,199), "")
+    else
+      cand = Candidate("os_env", seg.start, seg._end, "<空值>", "")
     end
+    cand.preedit = input .. '\t环境变量'
+    yield(cand)
   end
 end
 
@@ -41,10 +57,13 @@ local function os_run_translator(input, seg)
   local prefix = '^run/'
   if input:find(prefix .. '%w+') then
     local command = input:gsub(prefix, '')
-    yield(Candidate("os_run", seg.start, seg._end, command, "运行命令(Ctrl+R)"))
+    local cand = Candidate("os_run", seg.start, seg._end, command, "")
+    cand.preedit = 'run/' .. '\t运行命令(Ctrl+R)'
+    yield(cand)
   end
 end
 
 return { lazy_clock_filter = lazy_clock_filter,
+    preedit_lazy_clock_filter = preedit_lazy_clock_filter,
     os_env_translator = os_env_translator,
     os_run_translator = os_run_translator }

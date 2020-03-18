@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_52p_qshare
   name: 徐码五二
-  version: "2020-02-26"
+  version: "2020-03-18"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -50,8 +50,12 @@ switches:
     states: [ ＝原始排序, ↓全码后置 ]
   - name: single_char_only
     states: [ 词组派, 单字派 ]
-  - name: lazy_clock
-    states: [ 懒钟下班, ㍡开工 ]
+  # - name: lazy_clock
+    # states: [ 懒钟下班, ㍡开工 ]
+  - name: preedit_lazy_clock
+  - name: xuma_52p_precand  # 在 preedit 中分段提示顶功候选
+    states: [ 正常预显, 预显候选 ]
+  - name: detailed_x52_precand  # 更详细的顶功候选提示
 
 engine:
   processors:
@@ -97,6 +101,8 @@ engine:
     - lua_filter@xuma_spelling@xmsp_for_rvlk
     - lua_filter@xuma_postpone_fullcode
     - lua_filter@lazy_clock
+    - lua_filter@xuma_52p_precand
+    - lua_filter@preedit_lazy_clock
     - uniquifier
 
 single_char_only:
@@ -127,6 +133,10 @@ traditionalize:
 lua_reverse_db:
   spelling: xuma_spelling_pseudo
   code: xuma
+  code_to_cand: xuma_52p_reverse
+
+xuma_52p_precand:
+  tags: [ abc, long ]
 
 xmsp:
   tags: [ abc, long, make_phrase, punct ]
@@ -232,7 +242,10 @@ key_bindings:
     - { when: composing, accept: "Control+c", toggle: xuma_spelling }
     - { when: composing, accept: "Control+y", toggle: xmsp_hide_pinyin }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
-    - { when: composing, accept: "Control+t", toggle: lazy_clock }
+    # - { when: composing, accept: "Control+t", toggle: lazy_clock }
+    - { when: composing, accept: "Control+t", toggle: preedit_lazy_clock }
+    - { when: always, accept: "Control+Shift+P", toggle: xuma_52p_precand }
+    - { when: composing, accept: "Control+d", toggle: detailed_x52_precand }
     - { when: composing, accept: Tab, send: bracketleft }
 
 key_binder:
