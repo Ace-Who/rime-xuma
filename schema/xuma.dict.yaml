@@ -33,7 +33,7 @@
 
 ---
 name: "xuma"
-version: "2020.02.24"
+version: "2020.03.18"
 sort: original
 import_tables:
   - xuma.extended
@@ -1763,7 +1763,7 @@ encoder:
 不利于	gr
 不得不	gs	61600000
 不仅仅	gt	23700000
-原因	gu	332000000
+一样	gu	255000000
 死亡	gv	90500000
 矿产	gw	22800000
 碰到	gx	27900000
@@ -2256,7 +2256,7 @@ encoder:
 设计	zq	446000000
 话题	zr
 调整	zs	274000000
-谢谢	zt	252000000
+训练	zt	128000000
 认为	zu	248000000
 阁下	zv	6770000
 注册	zw	1480000000
@@ -49061,7 +49061,6 @@ encoder:
 𩏅	dvdw	0
 𭶵	dved
 𪪼	dveg	0
-𤔼	dvfa	0
 𫢩	dvgb	0
 𭽣	dvgp
 𩏭	dvgw	0
@@ -66122,7 +66121,6 @@ encoder:
 𡓕	jrmc	0
 𢄤	jrmc	0
 𫮠	jrmm	0
-𡎚	jrmu	0
 𬢌	jrmv	0
 𨏑	jrnc	0
 𮝐	jroc
@@ -67169,6 +67167,7 @@ encoder:
 𩄼	jzly	0
 𫕪	jzly	0
 𮧁	jzly
+𡎚	jzmu	0
 𮦅	jzmy
 𩅕	jzmy	0
 𩅪	jzny	0
@@ -93120,6 +93119,7 @@ encoder:
 𦫭	vndi	0
 𭸴	vndq
 𨬔	vnev	0
+𤔼	vnfa	0
 𫞲	vnfi	0
 𤝱	vnfq	0
 𨪜	vnfr	0

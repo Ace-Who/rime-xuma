@@ -112,9 +112,12 @@
 
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd>：繁体简化
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>：简入繁出
-- <kbd>Ctrl</kbd> + <kbd>C</kbd>：三重注解，仅在选字界面有效。
-- <kbd>Ctrl</kbd> + <kbd>S</kbd>：屏蔽词组，仅在选字界面有效。
-- <kbd>Ctrl</kbd> + <kbd>T</kbd>：显示时钟，仅在选字界面有效。
+- <kbd>Ctrl</kbd> + <kbd>C</kbd>：三重注解，仅输入状态可用。
+- <kbd>Ctrl</kbd> + <kbd>S</kbd>：屏蔽词组，仅输入状态可用。
+- <kbd>Ctrl</kbd> + <kbd>T</kbd>：显示时钟，仅输入状态可用。
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>：
+  预显候选，即显示输入码分段所对应的两个候选，顶功专用，仅输入状态可用。
+- <kbd>Ctrl</kbd> + <kbd>D</kbd>：详示候选，更详细地预显候选，仅输入状态可用。
 - <kbd>F4</kbd> / <kbd>Ctrl</kbd> + <kbd>\` </kbd> 选单：可控制以上所有开关和字
 符集选择、全码后置。
 

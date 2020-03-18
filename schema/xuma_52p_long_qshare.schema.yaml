@@ -9,6 +9,7 @@ schema:
     - Q
   description: |
     本辅助方案的作用是生成棱镜 xuma_52p_long_qshare.prism，供主方案调用。
+    本方案不直接用于打字。
 
 switches:
   - name: ascii_mode
