@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_52p_qshare
   name: 徐码五二
-  version: "2020-03-18"
+  version: "2020-04-05"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -153,6 +153,7 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " `"
   algebra:
+    - erase/^\*?[a-z]{3,}$/  # 星号开头的是特码
     - xform/_1/\[/
     - xform/_2/;/
     - xform/_3/'/

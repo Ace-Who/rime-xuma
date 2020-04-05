@@ -17,6 +17,9 @@ local function filter(input, env)
   local context = env.engine.context
   if context:get_option("xuma_52p_precand") then
     local raw_inp = context.input
+    if raw_inp:find('%a$') then
+      raw_inp = raw_inp:match('%a+$')  -- 去掉前置标点部分
+    end
     local detailed = context:get_option("detailed_x52_precand")
     local codes, cand1, cand2, seg1, seg2
     if raw_inp:len() < 3 then

@@ -35,7 +35,7 @@ local function get_short(codestr)
   end
 end
 
-local function not_longer_and_full(cand, env)
+local function is_longer_and_full(cand, env)
   -- completion 和 sentence 类型不属于精确匹配，但不能仅用 cand.type 判断，因为
   -- 可能被 simplifier 覆盖为 simplified 类型。先行判断 cand.type 并非必要，只是
   -- 为了轻微的性能优势。
@@ -47,20 +47,19 @@ local function not_longer_and_full(cand, env)
   -- 去掉可能含有的 delimiter。
   -- cand_input = cand_input:gsub('[ `\']', '')
   cand_input = cand_input:gsub('[' .. env.delimiter .. ']', '')
-  -- 字根可能设置了三码以上的特码，输入特码时不予后置。
+  -- 字根可能设置了特殊扩展码，不视作全码，不予后置。
   if cand_input:len() > 2 and env.radstr:find(cand.text, 1, true) then
-    return true
+    return
   end
   -- history_translator 不后置。
-  if cand_input == env.his_inp then
-    return true
-  end
+  if cand_input == env.his_inp then return end
   local codestr = env.code_rvdb:lookup(cand:get_genuine().text)
   local is_comp = not
       string.find(' ' .. codestr .. ' ', ' ' .. cand_input .. ' ', 1, true)
   if not is_comp then
     local short = get_short(codestr)
-    return (not short or cand_input == short), is_comp
+    -- 注意排除有简码但是输入的是不规则编码的情况
+    return short and cand_input:find('^' .. short .. '%l+'), is_comp
   end
 end
 
@@ -72,7 +71,7 @@ local function filter(input, env)
     -- 具体实现不是后置目标候选，而是前置非目标候选
     local dropped_cands = {}
     local done_drop
-    local pos, max_pos = 1, 4  -- 适当后置，太靠后没有意义。
+    local pos, max_pos = 1, 4  -- 适当后置即可，没有必要无限后置。
     -- Todo: 计算 pos 时考虑可能存在的重复候选被 uniquifier 合并的情况。
     for cand in input:iter() do
       if done_drop then
@@ -83,13 +82,13 @@ local function filter(input, env)
         -- 过码表填满三码和四码的位置，就没有这个问题了。但是造句翻译器还是需要
         -- 。
         local is_bad_script_cand = cand._end < context.caret_pos
-        local not_drop, is_comp = not_longer_and_full(cand, env)
+        local drop, is_comp = is_longer_and_full(cand, env)
         if pos >= max_pos or is_bad_script_cand or is_comp then
           for i, cand in ipairs(dropped_cands) do yield(cand) end
           done_drop = true
           yield(cand)
         -- 精确匹配的词组不予后置
-        elseif not_drop or utf8.len(cand.text) > 1 then
+        elseif not drop or utf8.len(cand.text) > 1 then
           yield(cand)
           pos = pos + 1
         else table.insert(dropped_cands, cand)

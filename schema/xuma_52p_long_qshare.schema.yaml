@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_52p_long_qshare
   name: 徐码五二辅案
-  version: "2020-01-21"
+  version: "2020-04-05"
   author:
     - Q
   description: |
@@ -45,6 +45,7 @@ engine:
 speller:
   algebra:
     - erase/^[a-z]{1,2}$/
+    - xform/^\*//  # 特码以星号开头，以便在全码后置脚本中区分，以防识别为全码
 
 translator:
   dictionary: xuma_52p_long
