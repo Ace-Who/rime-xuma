@@ -29,7 +29,11 @@ end
 local function preedit_lazy_clock_filter(input, env)
   if env.engine.context:get_option('preedit_lazy_clock') then
     for cand in input:iter() do
-      cand.preedit = cand.preedit .. ' ' .. os.date("%H:%M:%S")
+      if cand.preedit:find('\t') then
+        cand.preedit = cand.preedit .. ' ' .. os.date("%H:%M:%S")
+      else
+        cand.preedit = cand.preedit .. '\t' .. os.date("%H:%M:%S")
+      end
       yield(cand)
     end
   else

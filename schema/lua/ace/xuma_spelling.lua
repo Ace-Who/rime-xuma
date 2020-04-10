@@ -129,7 +129,7 @@ local function get_tricomment(cand, env)
       local code = env.code_rvdb:lookup(ctext)
       if code ~= '' then
         -- 按长度排列多个编码。
-        code = matchstr(code, '%a+')
+        code = matchstr(code, '%S+')
         table.sort(code, function(i, j) return i:len() < j:len() end)
         code = table.concat(code, ' ')
         return '〔 ' .. spelling .. ' · ' .. code .. ' 〕'

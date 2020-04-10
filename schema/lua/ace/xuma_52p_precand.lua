@@ -15,21 +15,24 @@ end
 
 local function filter(input, env)
   local context = env.engine.context
-  if context:get_option("xuma_52p_precand") then
-    local raw_inp = context.input
-    if raw_inp:find('%a$') then
-      raw_inp = raw_inp:match('%a+$')  -- 去掉前置标点部分
+  if context:get_option("xuma_52p_precand") and
+      context.caret_pos > 0 and
+      not context.input:find('^;')  -- 本方案中分号引导用于实现其他多个功能
+      then
+    local sel_inp = context.input:sub(1, context.caret_pos)
+    if sel_inp:find('%a$') then  -- 一定要加这个判断，否则会影响符号键的功能
+      sel_inp = sel_inp:match('%a+$')  -- 去掉前置标点部分
     end
     local detailed = context:get_option("detailed_x52_precand")
     local codes, cand1, cand2, seg1, seg2
-    if raw_inp:len() < 3 then
+    if sel_inp:len() < 3 then
       if detailed then
-        codes = { raw_inp .. '_1', raw_inp .. '_2', raw_inp .. '_3' }
+        codes = { sel_inp .. '_1', sel_inp .. '_2', sel_inp .. '_3' }
         cand2 = map(codes, lookup(env.code2cand_rvdb))
       end
     else
-      seg1 = raw_inp:sub(1, 2)
-      seg2 = raw_inp:sub(3)
+      seg1 = sel_inp:sub(1, 2)
+      seg2 = sel_inp:sub(3)
       cand1 = env.code2cand_rvdb:lookup(seg1 .. '_1')
       codes = { seg2 .. '_1', seg2 .. '_2', seg2 .. '_3' }
       cand2 = map(codes, lookup(env.code2cand_rvdb))
@@ -38,7 +41,7 @@ local function filter(input, env)
     for cand in input:iter() do
       if false then
         cand.preedit = cand.text
-      elseif raw_inp:len() < 3 then
+      elseif sel_inp:len() < 3 then
         if detailed then
           if cand2[1] == cand.text then
             cand.preedit = table.concat(cand2, '|')
@@ -53,11 +56,12 @@ local function filter(input, env)
           -- cand.preedit = ('%s%s|%s'):format(cand1, cand2[1], cand.text)
           cand.preedit = ('%s+%s=%s'):format(cand1, table.concat(cand2, '|'), cand.text)
           -- cand.preedit = ('%s%s%s%s'):format(
-          -- cand1, raw_inp:sub(1,2), cand2[1], raw_inp:sub(3))
+          -- cand1, sel_inp:sub(1,2), cand2[1], sel_inp:sub(3))
         else
           cand.preedit = ('%s%s'):format(cand1, cand2[1])
         end
       end
+      cand.preedit = cand.preedit .. '\t'
       yield(cand)
     end
   else
