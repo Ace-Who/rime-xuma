@@ -1,26 +1,12 @@
 ---
 name: "xuma.extended"
-version: "2020.01.24"
+version: "2020.04.12"
 sort: by_weight
 columns:
   - text
   - code
   - weight
   - stem
-encoder:
-  exclude_patterns:
-    - '^[a-z]$'  # 一简不参与造词
-    - '^bg(zs|zx|ys|yx|jc|hx|sx)$'  # 表格
-    - '^sz[lyeswlqbj]'  # 数字
-    # - '^dl..$'  # 特殊字符和八卦名 "乾兑坎坤巽离艮震" 的符号编码（dl?g）.
-      # 误伤太多，取消这条。
-  rules:
-    - length_equal: 2
-      formula: "AaAbBaBb"
-    - length_equal: 3
-      formula: "AaBaCaCb"
-    - length_in_range: [4, 10]
-      formula: "AaBaCaZa"
 ...
 
 # 「#」号开头的行为注释，不生效。

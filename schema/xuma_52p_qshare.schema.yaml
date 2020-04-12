@@ -16,6 +16,7 @@ schema:
   dependencies:
     - xuma_qshare
     - xuma_52p_long
+    - xuma_52p_reverse
     - xuma_spelling_pseudo
     - luna_pinyin
     - stroke

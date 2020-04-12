@@ -16,16 +16,18 @@ end
 local function filter(input, env)
   local context = env.engine.context
   if context:get_option("xuma_52p_precand") and
-      context.caret_pos > 0 and
-      not context.input:find('^;')  -- 本方案中分号引导用于实现其他多个功能
-      then
-    local sel_inp = context.input:sub(1, context.caret_pos)
-    if sel_inp:find('%a$') then  -- 一定要加这个判断，否则会影响符号键的功能
-      sel_inp = sel_inp:match('%a+$')  -- 去掉前置标点部分
+      (context.input:find('%l$') or
+       context.input:find('^;')) then
+    local sel_inp = context.caret_pos == 0 and context.input or
+        context.input:sub(1, context.caret_pos)
+    if sel_inp:find('%l$') then  -- 一定要加这个判断，否则会影响符号键的功能
+      sel_inp = sel_inp:match('%l+$')  -- 去掉前置标点部分
     end
     local detailed = context:get_option("detailed_x52_precand")
     local codes, cand1, cand2, seg1, seg2
-    if sel_inp:len() < 3 then
+    if context.input:find('^;') then -- 本方案中分号引导用于实现其他多个功能
+      -- Do nothing
+    elseif sel_inp:len() < 3 then
       if detailed then
         codes = { sel_inp .. '_1', sel_inp .. '_2', sel_inp .. '_3' }
         cand2 = map(codes, lookup(env.code2cand_rvdb))
@@ -39,29 +41,35 @@ local function filter(input, env)
     end
     -- 这是以候选迭代为基础的，因此要求无空码。
     for cand in input:iter() do
-      if false then
-        cand.preedit = cand.text
+      local rep = ''
+      if context.input:find('^;') then
+        rep = cand.text
       elseif sel_inp:len() < 3 then
         if detailed then
           if cand2[1] == cand.text then
-            cand.preedit = table.concat(cand2, '|')
+            rep = table.concat(cand2, '|')
           else
-            cand.preedit = ('%s>%s'):format(table.concat(cand2, '|'), cand.text)
+            rep = ('%s>%s'):format(table.concat(cand2, '|'), cand.text)
           end
         else
-          cand.preedit = cand.text
+          rep = cand.text
         end
       else
         if detailed then
-          -- cand.preedit = ('%s%s|%s'):format(cand1, cand2[1], cand.text)
-          cand.preedit = ('%s+%s=%s'):format(cand1, table.concat(cand2, '|'), cand.text)
-          -- cand.preedit = ('%s%s%s%s'):format(
+          -- rep = ('%s%s|%s'):format(cand1, cand2[1], cand.text)
+          rep = ('%s+%s=%s'):format(cand1, table.concat(cand2, '|'), cand.text)
+          -- rep = ('%s%s%s%s'):format(
           -- cand1, sel_inp:sub(1,2), cand2[1], sel_inp:sub(3))
         else
-          cand.preedit = ('%s%s'):format(cand1, cand2[1])
+          rep = ('%s%s'):format(cand1, cand2[1])
         end
       end
-      cand.preedit = cand.preedit .. '\t'
+      if cand.preedit:find('\t') then
+        cand.preedit = cand.preedit:gsub('.+\t', rep .. '\t')
+      else
+        cand.preedit = rep .. '\t'
+      end
+      -- simplifier 的候选无法这样修改 preedit，只能用 Candidate() 生成再修改。
       yield(cand)
     end
   else

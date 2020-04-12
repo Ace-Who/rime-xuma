@@ -2,7 +2,7 @@
 
 ---
 name: "xuma_52p"
-version: "2020.04.05"
+version: "2020.04.09"
 sort: original
 import_tables:
   # 仅针对扩展词库中定义了一码或二码词条的情况。因字库不全，会导致无编码词组编
@@ -15,9 +15,9 @@ columns:
 encoder:
   exclude_patterns:
     - '^[a-z][^a-z]*$'  # 一简不参与造词
+    - '[^a-z]'
     - '^bg(zs|zx|ys|yx|jc|hx|sx)$'  # 表格
     - '^sz[lyeswlqbj]'  # 数字
-    - '[^a-z]'
     # - '^dl..$'  # 特殊字符和八卦名 "乾兑坎坤巽离艮震" 的符号编码（dl?g）.
       # 误伤太多，取消这条。
   rules:
@@ -5296,7 +5296,7 @@ encoder:
 ㈩	eu
 
 # 符号区2
-﻿Ⓐ	a
+Ⓐ	a
 ⓐ	a
 ⒜	a
 ㈬	as
