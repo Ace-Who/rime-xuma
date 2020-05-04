@@ -29,10 +29,9 @@ end
 local function preedit_lazy_clock_filter(input, env)
   if env.engine.context:get_option('preedit_lazy_clock') then
     for cand in input:iter() do
-      if cand.preedit:find('\t') then
-        cand.preedit = cand.preedit .. ' ' .. os.date("%H:%M:%S")
-      else
-        cand.preedit = cand.preedit .. '\t' .. os.date("%H:%M:%S")
+      if cand.preedit ~= '' then
+        local tab = cand.preedit:find('\t') and ' ' or '\t'
+        cand.preedit = cand.preedit .. tab .. os.date("%H:%M:%S")
       end
       yield(cand)
     end
@@ -50,7 +49,7 @@ local function os_env_translator(input, seg)
     if val then
       cand = Candidate("os_env", seg.start, seg._end, val:sub(1,199), "")
     else
-      cand = Candidate("os_env", seg.start, seg._end, "<空值>", "")
+      cand = Candidate("os_env", seg.start, seg._end, "", "空值")
     end
     cand.preedit = input .. '\t环境变量'
     yield(cand)

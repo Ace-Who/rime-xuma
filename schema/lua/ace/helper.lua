@@ -2,7 +2,7 @@
 
 -- List features and usage of the schema.
 local function translator(input, seg)
-  if input:find('^help/$') then
+  if input == 'help/' then
     local table = {
           { '繁体简化', 'Ctrl + Shift + 4' }
         , { '簡入繁出', 'Ctrl + Shift + F' }

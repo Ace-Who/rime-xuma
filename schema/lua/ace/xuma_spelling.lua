@@ -21,9 +21,7 @@ schema/dependencies 来让 rime 编译为反查库 *.reverse.bin，最后通过 
 词组中有的取码单字可能没有注解数据，这类词组不作注解。
 
 Todo: 如果要为自造词添加编码注释，其中的单字存在一字多码的情况，先捕获全部再确
-定全码，最后提取词组编码。
-。
-注意特殊单字：八个八卦名，排除其特殊符号编码 dl?g.
+定全码，最后提取词组编码。注意特殊单字：八个八卦名，排除其特殊符号编码 dl?g.
 
 Handle multibye string in Lua:
   https://stackoverflow.com/questions/9003747/splitting-a-multibyte-string-in-lua
@@ -34,33 +32,35 @@ lua_filter 如何判断 cand 是否来自反查或当前是否处于反查状态
 
 local basic = require('ace/lib/basic')
 local map = basic.map
-local index = basic.index
 local utf8chars = basic.utf8chars
-local matchstr = basic.matchstr
+local rime = require 'ace/lib/rime'
+local config = {}
+config.encode_rules = {
+  { length_equal = 2, formula = 'AaAbBaBb' }
+, { length_equal = 3, formula = 'AaBaCaCb' }
+, { length_in_range = {4, 10}, formula = 'AaBaCaZa' }
+}
+-- 注意借用编码规则有局限性：取码索引不一定对应取根索引，尤其是从末尾倒数时。
+local spelling_rules = rime.encoder.load_settings(config.encode_rules)
 
-local function xform(input)
-  -- From: "[spelling,code_code...,pinyin_pinyin...]"
-  -- To: "〔 spelling · code code ... · pinyin pinyin ... 〕"
-  if input == "" then return "" end
-  input = input:gsub('%[', '〔 ')
-  input = input:gsub('%]', ' 〕')
-  input = input:gsub('{', '<')
-  input = input:gsub('}', '>')
-  input = input:gsub('_', ' ')
-  input = input:gsub(',', ' · ')
-  return input
+
+local function xform(s)
+  -- input format: "[spelling,code_code...,pinyin_pinyin...]"
+  -- output format: "〔 spelling · code code ... · pinyin pinyin ... 〕"
+  return s == '' and s or s:gsub('%[', '〔 ')
+                           :gsub('%]', ' 〕')
+                           :gsub('{', '<')
+                           :gsub('}', '>')
+                           :gsub('_', ' ')
+                           :gsub(',', ' · ')
 end
 
-local function subspelling(str, ...)
-  -- Handle spellings like "{于下}{四点}丶"(求) where some radicals are
-  -- represented by multiple characters.
-  local first, last = ...
-  if not first then return str end
+
+local function parse_spll(str)
+  -- Handle spellings like "{于下}{四点}丶"(for 求) where some radicals are
+  -- represented by characters in braces.
   local radicals = {}
-  local s = str
-  s = s:gsub('{', ' {')
-  s = s:gsub('}', '} ')
-  for seg in s:gmatch('%S+') do
+  for seg in str:gsub('%b{}', ' %0 '):gmatch('%S+') do
     if seg:find('^{.+}$') then
       table.insert(radicals, seg)
     else
@@ -69,8 +69,9 @@ local function subspelling(str, ...)
       end
     end
   end
-  return table.concat{ table.unpack(radicals, first, last) }
+  return radicals
 end
+
 
 local function lookup(db)
   return function (str)
@@ -78,111 +79,94 @@ local function lookup(db)
   end
 end
 
-local function parse_spll(str)
+
+local function parse_raw_tricomment(str)
   local s = string.gsub(str, ',.*', '')
   return string.gsub(s, '^%[', '')
 end
 
+
 local function spell_phrase(s, spll_rvdb)
   local chars = utf8chars(s)
-  local rvlk_results
-  if #chars == 2 or #chars == 3 then
-    rvlk_results = map(chars, lookup(spll_rvdb))
-  else
-    rvlk_results = map({chars[1], chars[2], chars[3], chars[#chars]},
-        lookup(spll_rvdb))
+  local rule = spelling_rules[#chars]
+  if not rule then return end
+  local radicals = {}
+  for k, sub_rule in ipairs(rule) do
+    local char_idx, code_idx = sub_rule.char_idx, sub_rule.code_idx
+    if char_idx < 0 then char_idx = #chars + 1 + char_idx end
+    local raw = spll_rvdb:lookup(chars[char_idx])
+    if not raw then return end
+    local char_radicals = parse_spll(parse_raw_tricomment(raw))
+    if code_idx < 0 then code_idx = #char_radicals + 1 + code_idx end
+    local radical = char_radicals[code_idx]
+    radicals[k] = radical and radical or '◇'
   end
-  if index(rvlk_results, '') then return '' end
-  local spellings = map(rvlk_results, parse_spll)
-  local sup = '◇'
-  if #chars == 2 then
-    return subspelling(spellings[1] .. sup, 1, 2) ..
-           subspelling(spellings[2] .. sup, 1, 2)
-  elseif #chars == 3 then
-    return subspelling(spellings[1], 1, 1) ..
-           subspelling(spellings[2], 1, 1) ..
-           subspelling(spellings[3] .. sup, 1, 2)
-  else
-    return subspelling(spellings[1], 1, 1) ..
-           subspelling(spellings[2], 1, 1) ..
-           subspelling(spellings[3], 1, 1) ..
-           subspelling(spellings[4], 1, 1)
-  end
+  return table.concat(radicals)
 end
+
 
 local function get_tricomment(cand, env)
-  local ctext = cand.text
-  if utf8.len(ctext) == 1 then
-    local spll_raw = env.spll_rvdb:lookup(ctext)
-    if spll_raw ~= '' then
-      if env.engine.context:get_option("xmsp_hide_pinyin") then
-        return xform(spll_raw:gsub('%[(.-,.-),.+%]', '[%1]'))
-      else
-        return xform(spll_raw)
-      end
-    end
-  else
-    local spelling = spell_phrase(ctext, env.spll_rvdb)
-    if spelling ~= '' then
-      spelling = spelling:gsub('{(.-)}', '<%1>')
-      -- 候选是否为自造词，可通过在固态词典中查询其编码来确定。
-      local code = env.code_rvdb:lookup(ctext)
-      if code ~= '' then
-        -- 按长度排列多个编码。
-        code = matchstr(code, '%S+')
-        table.sort(code, function(i, j) return i:len() < j:len() end)
-        code = table.concat(code, ' ')
-        return '〔 ' .. spelling .. ' · ' .. code .. ' 〕'
-      else
-        return '〈 ' .. spelling .. ' 〉'
-      end
+  local text = cand.text
+  if utf8.len(text) == 1 then
+    local raw_spelling = env.spll_rvdb:lookup(text)
+    if raw_spelling == '' then return end
+    return env.engine.context:get_option("xmsp_hide_pinyin")
+      and xform(raw_spelling:gsub('%[(.-,.-),.+%]', '[%1]'))
+      or xform(raw_spelling)
+  elseif utf8.len(text) > 1 then
+    local spelling = spell_phrase(text, env.spll_rvdb)
+    if not spelling then return end
+    spelling = spelling:gsub('{(.-)}', '<%1>')
+    local code = env.code_rvdb:lookup(text)
+    if code ~= '' then  -- 按长度排列多个编码。
+      local codes = {}
+      for m in code:gmatch('%S+') do codes[#codes + 1] = m end
+      table.sort(codes, function(i, j) return i:len() < j:len() end)
+      return ('〔 %s · %s 〕'):format(spelling, table.concat(codes, ' '))
+    else  -- 区分显示非本词典之固有词
+      return ('〈 %s 〉'):format(spelling)
     end
   end
-  return ''
 end
 
+
 local function filter(input, env)
-  if env.engine.context:get_option("xuma_spelling") then
-    for cand in input:iter() do
-      --[[
-      用户有时需要通过拼音反查简化字并显示三重注解，但 luna_pinyin 的简化字排
-      序不合理且靠后。开启 simplification 是一个办法，但是 simplifier 会强制覆
-      盖注释，所以为了同时能显示三重注解，只能重新生成一个简单类型候选，并代替
-      原候选。
-      Todo: 测试在对 simplifier 定义 tips: none 的条件下，用 cand.text 和
-      cand:get_genuine().text 分别读到什么值。若分别读到转换前后的候选，则可以
-      仅修改 comment 而不用生成简单类型候选来代替原始候选。这样做的问题是关闭
-      xuma_spelling 时就不显示 tips 了。
-      --]]
-      if cand.type == 'simplified' and env.name_space == 'xmsp_for_rvlk' then
-        local comment = get_tricomment(cand, env) .. cand.comment
-        yield(Candidate("simp_rvlk", cand.start, cand._end, cand.text, comment))
-      else
-        local add_comment = ''
-        if cand.type == 'punct' then
-          add_comment = env.code_rvdb:lookup(cand.text)
-        elseif cand.type ~= 'sentence' then
-          add_comment = get_tricomment(cand, env)
-        end
-        if add_comment ~= '' then
-          -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
-          -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
-          if cand.type ~= 'completion' and (
-              (env.name_space == 'xmsp' and env.is_mixtyping) or
-              (env.name_space == 'xmsp_for_rvlk')
-              ) then
-            cand.comment = add_comment
-          else
-            cand.comment = add_comment .. cand.comment
-          end
-        end
-        yield(cand)
+  if not env.engine.context:get_option("xuma_spelling") then
+    for cand in input:iter() do yield(cand) end
+    return
+  end
+  for cand in input:iter() do
+    --[[
+    用户有时需要通过拼音反查简化字并显示三重注解，但 luna_pinyin 的简化字排序不
+    合理且靠后。开启 simplification 是一个办法，但是 simplifier 会强制覆盖注释
+    ，所以为了同时能显示三重注解，只能重新生成一个简单类型候选，并代替原候选。
+    Todo: 测试在对 simplifier 定义 tips: none 的条件下，用 cand.text 和
+    cand:get_genuine().text 分别读到什么值。若分别读到转换前后的候选，则可以仅
+    修改 comment 而不用生成简单类型候选来代替原始候选。这样做的问题是关闭
+    xuma_spelling 时就不显示 tips 了。
+    --]]
+    if cand.type == 'simplified' and env.name_space == 'xmsp_for_rvlk' then
+      local comment = (get_tricomment(cand, env) or '') .. cand.comment
+      cand = Candidate("simp_rvlk", cand.start, cand._end, cand.text, comment)
+    else
+      local add_comment = cand.type == 'punct'
+        and env.code_rvdb:lookup(cand.text)
+        or cand.type ~= 'sentence'
+        and get_tricomment(cand, env)
+      if add_comment and add_comment ~= '' then
+        -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
+        -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
+        cand.comment = cand.type ~= 'completion'
+          and ((env.name_space == 'xmsp' and env.is_mixtyping)
+            or (env.name_space == 'xmsp_for_rvlk'))
+          and add_comment
+          or add_comment .. cand.comment
       end
     end
-  else
-    for cand in input:iter() do yield(cand) end
+    yield(cand)
   end
 end
+
 
 local function init(env)
   local config = env.engine.schema.config
@@ -193,5 +177,6 @@ local function init(env)
   env.code_rvdb = ReverseDb('build/' .. code_rvdb .. '.reverse.bin')
   env.is_mixtyping = abc_extags_size > 0
 end
+
 
 return { init = init, func = filter }
