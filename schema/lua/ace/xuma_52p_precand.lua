@@ -1,6 +1,5 @@
 -- xuma_52p_precand.lua
 -- 在 preedit 中显示编码的两个分段所对应的两个候选
--- 滤镜只对 [ abc, long ] 标签生效，所以可假定输入码仅含小写字母
 
 local basic = require('ace/lib/basic')
 local map = basic.map

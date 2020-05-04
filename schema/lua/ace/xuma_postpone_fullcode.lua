@@ -105,8 +105,6 @@ end
 return { init = init, func = filter }
 
 --[[ 测试例字：
-和	舌	rov
-中	喝	oku
 我	箋	pffg
 出	艸 糾 ⾋	aau
 在	黄土	hkjv
@@ -116,4 +114,6 @@ return { init = init, func = filter }
 以	(多个词组)	cwuu
 同	同路	mgov
 只	叭	otu
+渐	浙	zfrj
+资	盗	xqms
 --]]
