@@ -18,13 +18,13 @@ local function get_seg_cands(input, detailed, env)
   if input:len() < 3 then
     if not detailed then return end
     local codes = { input .. '_1', input .. '_2', input .. '_3' }
-    return map(codes, lookup(env.code2cand_rvdb))
+    return map(codes, lookup(env.code_to_text_rvdb))
   else
     local seg1 = input:sub(1, 2)
     local seg2 = input:sub(3)
-    cand1 = env.code2cand_rvdb:lookup(seg1 .. '_1')
+    cand1 = env.code_to_text_rvdb:lookup(seg1 .. '_1')
     local codes = { seg2 .. '_1', seg2 .. '_2', seg2 .. '_3' }
-    return cand1, map(codes, lookup(env.code2cand_rvdb))
+    return cand1, map(codes, lookup(env.code_to_text_rvdb))
   end
 end
 
@@ -77,8 +77,8 @@ end
 
 local function init(env)
   local config = env.engine.schema.config
-  local code2cand_rvdb = config:get_string('lua_reverse_db/code_to_cand')
-  env.code2cand_rvdb = ReverseDb('build/' .. code2cand_rvdb .. '.reverse.bin')
+  local code_to_text_rvdb = config:get_string('lua_reverse_db/code_to_text')
+  env.code_to_text_rvdb = ReverseDb('build/' .. code_to_text_rvdb .. '.reverse.bin')
 end
 
 

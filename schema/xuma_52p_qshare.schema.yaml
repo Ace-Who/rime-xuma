@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_52p_qshare
   name: 徐码五二
-  version: "2020-04-05"
+  version: "2020-04-12"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -134,7 +134,7 @@ traditionalize:
 lua_reverse_db:
   spelling: xuma_spelling_pseudo
   code: xuma
-  code_to_cand: xuma_52p_reverse
+  code_to_text: xuma_52p_reverse
 
 xuma_52p_precand:
   tags: [ abc, long ]
@@ -264,8 +264,8 @@ key_binder:
 recognizer:
   # import_preset: default
   patterns:
-    long: "(?<![a-zA-Z`])[a-z]{3,4}$"  # 前面可能有未上屏的符号等
-    uppercase: "(?<![`;])[A-Z][-_+.'0-9A-Za-z]*$"
+    long: "(?<![a-zA-Z`/])[a-z]{3,4}$"  # 前面可能有未上屏的符号等
+    uppercase: "[^`;]*[A-Z][-_+.'0-9A-Za-z]*$"
     reverse_lookup:     "^`([a-z]+'?)*$"
     luna_pinyin_lookup: "`P([a-z]+'?)*$"
     stroke_lookup:      "`B([a-z]+'?)*$"
