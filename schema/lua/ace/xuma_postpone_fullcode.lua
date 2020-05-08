@@ -2,6 +2,7 @@
 -- 出现重码时，将全码匹配且有简码的「单字」「适当」后置。
 -- 目前的实现方式，原理适用于所有使用规则简码的形码方案。
 
+
 local radstr = '\z
     一不了人之大上也子而生自其行十用发天方日\z 
     三小二心又长已月力文王西手工门身由儿入己\z 
@@ -19,6 +20,7 @@ local radstr = '\z
     辶釒镸阝韋飠饣鬥黽\z 
     兀㐄㐅㔾䒑' 
 
+
 local function init(env)
   local config = env.engine.schema.config
   local code_rvdb = config:get_string('lua_reverse_db/code')
@@ -26,6 +28,7 @@ local function init(env)
   env.his_inp = config:get_string('history/input')
   env.delimiter = config:get_string('speller/delimiter')
 end
+
 
 local function get_short(codestr)
   local s = ' ' .. codestr
@@ -35,6 +38,7 @@ local function get_short(codestr)
     end
   end
 end
+
 
 local function has_short_and_is_full(cand, env)
   -- completion 和 sentence 类型不属于精确匹配，但不能仅用 cand.type 判断，因为
@@ -46,7 +50,6 @@ local function has_short_and_is_full(cand, env)
   local input = env.engine.context.input
   local cand_input = input:sub(cand.start + 1, cand._end)
   -- 去掉可能含有的 delimiter。
-  -- cand_input = cand_input:gsub('[ `\']', '')
   cand_input = cand_input:gsub('[' .. env.delimiter .. ']', '')
   -- 字根可能设置了特殊扩展码，不视作全码，不予后置。
   if cand_input:len() > 2 and radstr:find(cand.text, 1, true) then
@@ -56,13 +59,14 @@ local function has_short_and_is_full(cand, env)
   if cand_input == env.his_inp then return end
   local codestr = env.code_rvdb:lookup(cand:get_genuine().text)
   local is_comp = not
-      string.find(' ' .. codestr .. ' ', ' ' .. cand_input .. ' ', 1, true)
+    string.find(' ' .. codestr .. ' ', ' ' .. cand_input .. ' ', 1, true)
   if not is_comp then
     local short = get_short(codestr)
     -- 注意排除有简码但是输入的是不规则编码的情况
     return short and cand_input:find('^' .. short .. '%l+'), is_comp
   end
 end
+
 
 local function filter(input, env)
   local context = env.engine.context
@@ -102,7 +106,9 @@ local function filter(input, env)
   end
 end
 
+
 return { init = init, func = filter }
+
 
 --[[ 测试例字：
 我	箋	pffg
