@@ -18,11 +18,6 @@
 schema/dependencies 来让 rime 编译为反查库 *.reverse.bin，最后通过 Lua 的反查
 函数查询。
 
-词组中有的取码单字可能没有注解数据，这类词组不作注解。
-
-Todo: 如果要为自造词添加编码注释，其中的单字存在一字多码的情况，先捕获全部再确
-定全码，最后提取词组编码。注意特殊单字：八个八卦名，排除其特殊符号编码 dl?g.
-
 Handle multibye string in Lua:
   https://stackoverflow.com/questions/9003747/splitting-a-multibyte-string-in-lua
 
@@ -30,7 +25,7 @@ lua_filter 如何判断 cand 是否来自反查或当前是否处于反查状态
   https://github.com/hchunhui/librime-lua/issues/18
 --]]
 
-local basic = require('ace/lib/basic')
+local basic = require 'ace/lib/basic'
 local map = basic.map
 local utf8chars = basic.utf8chars
 local rime = require 'ace/lib/rime'
@@ -73,16 +68,8 @@ local function parse_spll(str)
 end
 
 
-local function lookup(db)
-  return function (str)
-    return db:lookup(str)
-  end
-end
-
-
 local function parse_raw_tricomment(str)
-  local s = string.gsub(str, ',.*', '')
-  return string.gsub(s, '^%[', '')
+  return str:gsub(',.*', ''):gsub('^%[', '')
 end
 
 
@@ -95,7 +82,7 @@ local function spell_phrase(s, spll_rvdb)
     local char_idx, code_idx = sub_rule.char_idx, sub_rule.code_idx
     if char_idx < 0 then char_idx = #chars + 1 + char_idx end
     local raw = spll_rvdb:lookup(chars[char_idx])
-    if not raw then return end
+    if not raw then return end  -- 若任一取码单字没有注解数据，则不对词组作注。
     local char_radicals = parse_spll(parse_raw_tricomment(raw))
     if code_idx < 0 then code_idx = #char_radicals + 1 + code_idx end
     local radical = char_radicals[code_idx]
@@ -123,8 +110,11 @@ local function get_tricomment(cand, env)
       for m in code:gmatch('%S+') do codes[#codes + 1] = m end
       table.sort(codes, function(i, j) return i:len() < j:len() end)
       return ('〔 %s · %s 〕'):format(spelling, table.concat(codes, ' '))
-    else  -- 区分显示非本词典之固有词
+    else  -- 以括号类型区分非本词典之固有词
       return ('〈 %s 〉'):format(spelling)
+      -- Todo: 如果要为此类词添加编码注释，其中的单字存在一字多码的情况，先捕获
+      -- 全部再确定全码，最后提取词组编码。注意特殊单字：八个八卦名，排除其特殊
+      -- 符号编码 dl?g.
     end
   end
 end
@@ -138,9 +128,9 @@ local function filter(input, env)
   for cand in input:iter() do
     --[[
     用户有时需要通过拼音反查简化字并显示三重注解，但 luna_pinyin 的简化字排序不
-    合理且靠后。开启 simplification 是一个办法，但是 simplifier 会强制覆盖注释
-    ，所以为了同时能显示三重注解，只能重新生成一个简单类型候选，并代替原候选。
-    Todo: 测试在对 simplifier 定义 tips: none 的条件下，用 cand.text 和
+    合理且靠后。用户可开启 simplification 来解决，但是 simplifier 会强制覆盖注
+    释，为了避免三重注解被覆盖，只能生成一个简单类型候选来代替原候选。
+    Todo: 测试在 <simplifier>/tips: none 的条件下，用 cand.text 和
     cand:get_genuine().text 分别读到什么值。若分别读到转换前后的候选，则可以仅
     修改 comment 而不用生成简单类型候选来代替原始候选。这样做的问题是关闭
     xuma_spelling 时就不显示 tips 了。
