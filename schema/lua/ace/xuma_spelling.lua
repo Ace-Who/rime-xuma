@@ -78,15 +78,13 @@ local function spell_phrase(s, spll_rvdb)
   local rule = spelling_rules[#chars]
   if not rule then return end
   local radicals = {}
-  for k, sub_rule in ipairs(rule) do
-    local char_idx, code_idx = sub_rule.char_idx, sub_rule.code_idx
-    if char_idx < 0 then char_idx = #chars + 1 + char_idx end
+  for i, coord in ipairs(rule) do
+    local char_idx = coord[1] > 0 and coord[1] or #chars + 1 + coord[1]
     local raw = spll_rvdb:lookup(chars[char_idx])
     if not raw then return end  -- 若任一取码单字没有注解数据，则不对词组作注。
     local char_radicals = parse_spll(parse_raw_tricomment(raw))
-    if code_idx < 0 then code_idx = #char_radicals + 1 + code_idx end
-    local radical = char_radicals[code_idx]
-    radicals[k] = radical and radical or '◇'
+    local code_idx = coord[2] > 0 and coord[2] or #char_radicals + 1 + coord[2]
+    radicals[i] = char_radicals[code_idx] or '◇'
   end
   return table.concat(radicals)
 end
@@ -112,9 +110,9 @@ local function get_tricomment(cand, env)
       return ('〔 %s · %s 〕'):format(spelling, table.concat(codes, ' '))
     else  -- 以括号类型区分非本词典之固有词
       return ('〈 %s 〉'):format(spelling)
-      -- Todo: 如果要为此类词添加编码注释，其中的单字存在一字多码的情况，先捕获
-      -- 全部再确定全码，最后提取词组编码。注意特殊单字：八个八卦名，排除其特殊
-      -- 符号编码 dl?g.
+      -- Todo: 如果要为此类词组添加编码注释，其中的单字存在一字多码的情况，需先
+      -- 通过比较来确定全码，再提取词组编码。注意特殊单字：八个八卦名，要排除其
+      -- 特殊符号编码 'dl?g'.
     end
   end
 end
