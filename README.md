@@ -121,7 +121,7 @@
 - <kbd>Ctrl</kbd> + <kbd>D</kbd>：详示候选，更详细地预显候选，仅输入状态可用。
 - <kbd>F4</kbd> / <kbd>Ctrl</kbd> + <kbd>\` </kbd> 选单：可控制以上所有开关和字
 符集选择、全码后置。
-- 上面两个是 Rime 内置的快捷键，更多内置功能请参考[官方文档
+- 上面这个是 Rime 内置的快捷键，更多内置功能请参考[官方文档
 ](https://github.com/rime/home/wiki/UserGuide)。
 
 通过 `F4` 选单切换「漢字／汉字」，可记忆简化字开关，通过快捷键切换则不记忆。
@@ -138,6 +138,7 @@
 
 - 使用拼音反查时，默认排序以繁体优先，可通过切换「繁体简化」来改变，同时「简入
 繁出」应当是关闭的。
+
 ![反查繁体](demo/reverse_lookup_traditional.png)
 ![反查简体](demo/reverse_lookup_simplified.png)
 
@@ -205,11 +206,11 @@
 ## 常见问题
 
 部署失败——主要方案未能识别
-> 目前已知一种情况：有的发行版—
-—如同文——可能缺失本方案所引用的 `key_bindings.yaml` 文件，目前暂时的解决方法
-是补充上这个文件，可以在其他发行版——如 Weasel——的程序目录中找到。本方案下次
-更新时（预计为 0.6.9），会解决这个问题。其他情况：尝试重装 Rime 程序。尝试[旧版
-方案 Release](https://github.com/Ace-Who/rime-xuma/releases)。
+> 目前已知一种情况：有的发行版——如同文——可能缺失本方案所引用的
+> `key_bindings.yaml` 文件，目前暂时的解决方法是补充上这个文件，可以在其他发行
+> 版——如 Weasel——的程序目录中找到。本方案下次更新时（预计为 0.6.9），会解决
+> 这个问题。其他情况：尝试重装 Rime 程序。尝试[旧版方案
+> Release](https://github.com/Ace-Who/rime-xuma/releases)。
 
 配置之后打不出汉字怎么办？
 > 答：尝试一次「重新部署」。重装 Rime 程序。尝试[旧版
@@ -220,32 +221,34 @@
 
 为什么 Linux 发行版、手机同文输入法、iOS iRime 输入法不显示三重注解，无法屏蔽词
 组、显示时钟、后置全码单字？怎么办？
-> 答：它们目前不支持 lua 插件，这几个功能是通过 lua 插件实现的。参考 librime-lua
-作者的[解释]( https://github.com/hchunhui/librime-lua/issues/22)。可向发行版开
-发者建议以推动实现对 librime-lua 的支持。同文的正式版不支持，测试版已支持。
+> 答：它们目前不支持 lua 插件，这几个功能是通过 lua 插件实现的。参考
+> librime-lua 作者的[解释]( https://github.com/hchunhui/librime-lua/issues/22)
+> 。可向发行版开发者建议以推动实现对 librime-lua 的支持。同文的正式版不支持，测
+> 试版已支持。
 
 为什么手机同文输入法不能反查？
-> 答：同文输入法官方版可能没有打包预置方案，而反查功能依赖[朙月拼音](
-  https://github.com/rime/rime-luna-pinyin)和[五筆畫](
-https://github.com/rime/rime-stroke)方案。可自行下载并重新部署。
+> 答：同文输入法官方版可能没有打包预置方案，而反查功能依赖[朙月拼音
+> ](https://github.com/rime/rime-luna-pinyin)和[五筆畫
+> ](https://github.com/rime/rime-stroke)方案。可自行下载并重新部署。
 
 为什么输入 `/jt`、`/fh` 等不能打出符号？
-> 答：有的 Rime 发行版，如同文官方版，没有打包符号定义文件 [symbols.yaml](
-  https://github.com/rime/rime-prelude/blob/master/symbols.yaml)，可自行下载并
-重新部署。
+> 答：有的 Rime 发行版，如同文官方版，没有打包符号定义文件
+> [symbols.yaml](https://github.com/rime/rime-prelude/blob/master/symbols.yaml)
+> 或被删除，可自行下载或使用软件选项来恢复文件，并重新部署。
 
 如何删除用户词？
-> 答：删除特定用户词：输入该词编码，移动光标选中该词，敲删词键 <kbd>Ctrl</kbd> +
-<kbd>K</kbd> 或 <kbd>Ctrl</kbd> + <kbd>Delete</kbd> 或 <kbd>Shift</kbd> +
-<kbd>Delete</kbd>。删除整个用户词典：删除用户目录下的 `xuma.userdb` 目录，并重
-新部署（？）。
+> 答：删除特定用户词：输入该词编码，移动光标选中该词，敲删词键
+> <kbd>Ctrl</kbd> + <kbd>Delete</kbd> 或 <kbd>Shift</kbd> + <kbd>Delete</kbd>
+> （Mac OS 用 <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>Delete</kbd>），
+> 默认还绑定了 <kbd>Ctrl</kbd> + <kbd>K</kbd>。删除整个用户词典：删除用户目录下
+> 的 `xuma.userdb` 目录，并重新部署（？）。
 
 为什么码表更新后，有的字用新的编码打不出来？
 > 答：需要「重新部署」。
 
 为什么码表更新后，有的字还能用旧编码打出来？
 > 答：需要「重新部署」。如果以前用旧编码打过这个字，那么它还被记录在用户词典中
-，即是一个用户词，可用删除用户词的方法删除之。
+> ，即是一个用户词，可用删除用户词的方法删除之。
 
 我可以修改方案名称吗？
 > 答：方案名称由配置文件 `<schema_id>.schema.yaml` 的 `schema/name` 节点定义，
