@@ -7,7 +7,7 @@
 
 ---
 name: "xuma_spelling_pseudo"
-version: "2019.11.03"
+version: "2020.05.14"
 sort: by_weight
 columns:
   - text
@@ -14079,7 +14079,7 @@ columns:
 欵	[匕矢欠,VPQi,kuǎn]
 欶	[木口欠,IOQq,shuò_sòu]
 欷	[乂𠂇欠,THQ.i,xī]
-欸	[厶矢欠,APQi,èi_èi_ěi_èi_ǎi]
+欸	[厶矢欠,APQi,ēi_éi_ěi_èi_ǎi]
 欹	[大丁欠,FEQ.d,qī_yī]
 欺	[其欠,HQqq,qī]
 欻	[火火欠,XXQq,xū_chuā_hū]

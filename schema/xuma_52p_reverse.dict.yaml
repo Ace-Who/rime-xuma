@@ -2,7 +2,7 @@
 
 ---
 name: "xuma_52p_reverse"
-version: "2020.03.18"
+version: "2020.05.27"
 sort: original
 columns:
   - code
@@ -1261,7 +1261,7 @@ columns:
 服务	sv_2
 忽视	sw_2
 包装	sx_2
-股市	sy_2
+很高	sy_2
 行为	sz_2
 体验	ta_2
 保险	tb_2
@@ -1604,7 +1604,7 @@ columns:
 接受	fy_3
 连续	fz_3
 到底	ga_3
-不如	gb_3
+不行	gb_3
 不好意思	gc_3
 破坏	gd_3
 而是	ge_3

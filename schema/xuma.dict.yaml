@@ -33,7 +33,7 @@
 
 ---
 name: "xuma"
-version: "2020.04.09"
+version: "2020.05.27"
 sort: original
 import_tables:
   - xuma.extended
@@ -1402,7 +1402,7 @@ encoder:
 服务	sv	2400000000
 忽视	sw	53500000
 包装	sx	123000000
-股市	sy	77500000
+很高	sy
 行为	sz	412000000
 体验	ta	91500000
 保险	tb	102000000
@@ -1745,7 +1745,7 @@ encoder:
 接受	fy	274000000
 连续	fz	85700000
 到底	ga	154000000
-不如	gb	91000000
+不行	gb	69700000
 不好意思	gc	41300000
 破坏	gd	102000000
 而是	ge	123000000
@@ -8579,6 +8579,7 @@ encoder:
 谰	zzx	421000
 
 # 字根扩展码区（设置方式见《置换码研究》或主文档的「置换码」部分）
+飛	bfbv	64900000
 艮	bgo	5590000
 # 予	byhz
 巛	ccj	709000
@@ -8592,6 +8593,7 @@ encoder:
 髟	ebz	228000
 丁	edo	90500000
 甫	eftx	11000000
+馬	emv	99400000
 酉	eye	12600000
 臣	fed	22000000
 戈	fgr	29700000
@@ -52231,7 +52233,6 @@ encoder:
 𮫋	ezfb
 𤤾	ezge	0
 𤩌	ezhc	0
-𫝂	ezje	0
 𩭶	ezkb	0
 𭹿	ezks
 𭹗	ezkt
@@ -57461,6 +57462,7 @@ encoder:
 𠪂	gzmc	0
 𣩀	gzmd	0
 𢄘	gzms	0
+𫝂	gzpj	0
 𠩗	gzqc	0
 𧱚	gzss	0
 𥒁	gztc	0
@@ -83554,8 +83556,8 @@ encoder:
 𨖧	rizm	0
 𣃐	rjac	0
 𥞋	rjai	0
-𠂮	rjbc	0
 𨋟	rjc	0
+𠂮	rjcb	0
 𥟯	rjcj	0
 𦩄	rjco	0
 𮃮	rjcw
@@ -100104,7 +100106,7 @@ encoder:
 𦍾	xtzy	0
 ˦	xu
 	xu
-﻿	xu
+	xu
 ⺦	xu
 	xu
 	xu
