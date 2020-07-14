@@ -33,7 +33,7 @@
 
 ---
 name: "xuma"
-version: "2020.05.27"
+version: "2020.07.14"
 sort: original
 import_tables:
   - xuma.extended
@@ -2013,7 +2013,7 @@ encoder:
 冠军	qg	83900000
 危在旦夕	qh
 多功能	qi	39000000
-几种	qj	27200000
+几次	qj
 馒头	qk	13600000
 外形	ql	23500000
 负担	qm	56500000
@@ -2874,7 +2874,6 @@ encoder:
 鵽	ddu	34500
 選	ddz	160000000
 遐	ded	2470000
-丑	dee	58200000
 韔	dez	56300
 鄈	dfb	20300
 戏	dfg	46800000
@@ -3598,7 +3597,6 @@ encoder:
 硥	gjs	104000
 魇	gju	877000
 餍	gjv	301000
-磚	gjw	4410000
 硖	gjx	370000
 画	gka	135000000
 厚	gkb	98900000
@@ -3607,6 +3605,7 @@ encoder:
 碍	gkg	11700000
 礧	gkk	34700
 黶	gkm	97800
+惠	gko	95500000
 郠	gkt	29400
 碣	gku	1810000
 焉	glc	10200000
@@ -3840,6 +3839,7 @@ encoder:
 黃	hgk	64200000
 薤	hgl	187000
 芾	hgm	1550000
+蕙	hgo	11400000
 蕤	hgp	937000
 藶	hgr	40400
 酀	hgs	36800
@@ -3887,7 +3887,6 @@ encoder:
 蓺	hjr	46100
 葫	hjs	1190000
 菱	hjt	17600000
-蕙	hjw	11400000
 荚	hjx	1390000
 蓮	hjz	51700000
 蔂	hka	73200
@@ -4484,7 +4483,6 @@ encoder:
 軸	jko	15400000
 雷	jkt	127000000
 # 輥	jkv	214000		# qmod:del
-惠	jkw	95500000
 垆	jld	256000
 霏	jlf	4620000
 轛	jli	24900
@@ -4822,7 +4820,6 @@ encoder:
 蛙	ljj	15900000
 蝴	ljs	2450000
 蛯	ljv	180000
-蟪	ljw	172000
 蛱	ljx	266000
 螺	lka	14900000
 蠍	lkc	3580000
@@ -5568,7 +5565,8 @@ encoder:
 嗣	omg	4060000
 躅	oml	842000
 嘤	omm	2020000
-哕	omq	222000
+# 哕	omq	222000		# qmod:del
+啰	omq	3080000		# qmod:add
 蹦	oms	4570000
 呐	omu	22900000
 躢	onc	19500
@@ -5811,6 +5809,7 @@ encoder:
 簸	phd	943000
 钳	phe	6140000
 镆	phf	328000
+舞	phg	131000000
 箬	phh	817000
 簧	phk	5340000
 篝	phm	787000
@@ -6127,6 +6126,7 @@ encoder:
 冠	qgg	63500000
 鯁	qgk	78700
 魳	qgm	23200
+鱄	qgo	29600
 鳜	qgq	573000
 詹	qgt	12400000
 鳳	qgu	12900000
@@ -6156,7 +6156,6 @@ encoder:
 馌	qjm	30600
 鶤	qju	85900
 鲮	qjv	304000
-鱄	qjw	29600
 鳎	qkc	781000
 鲤	qke	6450000
 幂	qkf	1160000
@@ -6593,7 +6592,6 @@ encoder:
 街	sjj	301000000
 胧	sjp	13000000
 臛	sjt	62600
-膞	sjw	54900
 膨	sjx	6110000
 徒	sjz	37000000
 郇	skb	582000
@@ -7209,6 +7207,7 @@ encoder:
 貊	vgk	860000
 鉦	vgl	491000
 顷	vgm	7280000
+鏸	vgo	138000
 獗	vgq	310000
 鋄	vgx	26100
 鑉	vha	22200
@@ -7252,7 +7251,6 @@ encoder:
 錂	vjt	47400
 鶏	vju	9630000
 鋴	vjv	22200
-鏸	vjw	138000
 狭	vjx	5600000
 鏈	vjz	9290000
 鏍	vka	1870000
@@ -8060,6 +8058,7 @@ encoder:
 斌	ygl	43200000
 赟	ygm	495000
 贇	ygn	161000
+譓	ygo	46700
 讈	ygr	21600
 謜	ygu	165000
 諑	ygw	29600
@@ -8087,7 +8086,6 @@ encoder:
 讀	yjm	75600000
 讟	yjn	79300
 誌	yjr	71200000
-譓	yjw	46700
 譆	yjx	231000
 謰	yjz	40200
 鄣	ykb	916000
@@ -9449,7 +9447,7 @@ encoder:
 著	hjkv	177000000
 初	wddi	234000000
 麻	wm	65500000
-舞	phqf	131000000
+舞	phgf	131000000
 市	ymj	1260000000
 翻	pxkc	244000000
 握	fdaj	46000000
@@ -9957,7 +9955,7 @@ encoder:
 犯	vbuq	58600000
 慌	uhcv	21400000
 糊	xjsm	29700000
-扭	fdee	28600000
+扭	fdeu	28600000
 丢	rair	46500000
 羞	xdey	12400000
 判	xfld	41200000
@@ -10598,7 +10596,7 @@ encoder:
 披	fdp	39200000
 跌	opwz	68700000
 阔	zzom	12000000
-丑	deed	58200000
+丑	deu	58200000
 弘	daig	16300000
 昌	kku	44600000
 凄	xecs	22000000
@@ -10770,7 +10768,7 @@ encoder:
 凛	xyfs	10500000
 访	zyuy	268000000
 绽	cwlj	15400000
-惠	jkwr	95500000
+惠	gkor	95500000
 鹿	wl	42800000
 沃	zry	59500000
 沾	zlov	22800000
@@ -11032,7 +11030,7 @@ encoder:
 碌	gbas	2560000
 庙	wkog	20500000
 鹤	qtsn	46100000
-妞	cdee	18300000
+妞	cdeu	18300000
 堕	bhsj	8750000
 昧	kiw	1940000
 蹄	oymz	8540000
@@ -12378,7 +12376,7 @@ encoder:
 橡	iqor	14600000
 馒	qkdi	615000
 陕	bjxu	25400000
-穗	rjwr	18600000
+穗	rgor	18600000
 邺	lxbv	676000
 晁	kvxu	2130000
 藻	hzoi	9470000
@@ -13009,7 +13007,7 @@ encoder:
 隽	tanw	3520000
 堇	heeg	1590000
 萼	hogj	1230000
-忸	udee	378000
+忸	udeu	378000
 戌	fguw	7930000
 筵	pplb	3630000
 濠	zyqg	8700000
@@ -13076,7 +13074,7 @@ encoder:
 呷	okj	2710000
 撸	fqkv	994000
 狻	vavq	870000
-蕙	hjwr	11400000
+蕙	hgor	11400000
 昴	kvpa	2190000
 杈	idwu	1810000
 怆	uubu	395000
@@ -15027,7 +15025,7 @@ encoder:
 簏	pwl	224000
 芗	hcpu	803000
 蝽	lekv	446000
-蟪	ljwr	172000
+蟪	lgor	172000
 郫	upbb	1220000
 钕	pcvj	714000
 钫	pyuj	181000
@@ -16564,7 +16562,7 @@ encoder:
 翻	pxkc	244000000
 塞	whtj	74400000
 梅	ipcm	161000000
-舞	phqf	131000000
+舞	phgf	131000000
 丹	syu	74200000
 赞	pvvm	25600000
 遭	hmkz	113000000
@@ -16760,7 +16758,7 @@ encoder:
 裁	efwy	8110000
 迅	bezi	39200000
 阁	zvom	58400000
-惠	jkwr	95500000
+惠	gkor	95500000
 迟	dwzd	54800000
 沿	zqov	62700000
 享	yobz	351000000
@@ -16788,7 +16786,7 @@ encoder:
 颜	ypml	34200000
 邪	fbvy	30800000
 瑞	emge	102000000
-丑	deed	58200000
+丑	deu	58200000
 宿	wtgk	74600000
 壁	doyj	63500000
 羊	xy	81500000
@@ -17549,7 +17547,7 @@ encoder:
 鲍	qsdy	22100000
 绘	cuaj	50500000
 糖	xwom	71200000
-扭	fdee	28600000
+扭	fdeu	28600000
 劣	cpcx	17500000
 赢	ycmq	67300000
 缴	cupj	21800000
@@ -18892,7 +18890,7 @@ encoder:
 瑚	ejsv	1570000
 葫	hjsv	1190000
 琶	eedb	1690000
-蕙	hjwr	11400000
+蕙	hgor	11400000
 鲤	qkey	6450000
 嫔	cwit	1070000
 谌	zhcy	1740000
@@ -19201,7 +19199,7 @@ encoder:
 菁	hesv	18000000
 昶	zkvo	2110000
 辫	ycyx	2410000
-穗	rjwr	18600000
+穗	rgor	18600000
 镕	pwoj	1580000
 醴	emxy	1110000
 舵	rwvo	8050000
@@ -19407,7 +19405,7 @@ encoder:
 骼	nvog	355000
 涸	znjg	2200000
 陂	bdp	1480000
-妞	cdee	18300000
+妞	cdeu	18300000
 裰	wddi	249000
 淙	zwfs	1930000
 峤	mrtu	719000
@@ -19684,7 +19682,7 @@ encoder:
 阪	brdo	8000000
 淞	zita	4510000
 洳	zcov	698000
-蟪	ljwr	172000
+蟪	lgor	172000
 厝	ghkc	3820000
 噩	eoox	1320000
 谆	zyby	199000
@@ -21307,7 +21305,7 @@ encoder:
 趵	oswz	1100000
 樘	inoj	571000
 痤	wujb	5350000
-忸	udee	378000
+忸	udeu	378000
 纻	cwgj	94000
 硼	gssv	3170000
 泷	zjpu	1140000
@@ -22211,7 +22209,7 @@ encoder:
 骙	adfm	33300
 绹	cspj	45300
 铒	phej	390000
-轉	jjic	66700000
+轉	jgic	66700000
 仫	tpai	557000
 荸	heqb	923000
 筴	pfuu	96700
@@ -22579,7 +22577,7 @@ encoder:
 褷	wsli	35500
 躜	opmz	82100
 蠋	lmsl	115000
-譓	yjwr	46700
+譓	ygor	46700
 阓	zomm	39000
 阛	zmrm	37100
 霨	jdiy	48800
@@ -22631,7 +22629,7 @@ encoder:
 菻	hiiv	99300
 韻	yonn	7670000
 沲	zpbe	102000
-繐	ajwr	635000
+繐	agor	635000
 藚	hjmn	25100
 氇	rqkm	199000
 氆	rxkm	230000
@@ -22726,7 +22724,7 @@ encoder:
 讓	ywoh	190000000
 騼	ewlm	27500
 	qxey	0
-鱄	qjwi	29600
+鱄	qgoi	29600
 鱖	qgaq	56800
 鮧	qfdg	31100
 鎯	vwab	1850000
@@ -23254,7 +23252,7 @@ encoder:
 矔	nhot	41400
 脙	sixw	437000
 茖	hvov	151000
-蓴	hjwi	114000
+蓴	hgoi	114000
 負	qnb	36100000
 邿	jibv	49000
 腽	skmm	77700
@@ -23679,7 +23677,7 @@ encoder:
 袕	wwxi	53800
 袚	whwi	516000
 轗	jfrc	58300
-鄟	jkib	62000
+鄟	gkib	62000
 猹	vigq	86100
 饤	qedi	95900
 盤	rqmo	80000000
@@ -23815,7 +23813,7 @@ encoder:
 禗	wkrs	66100
 鱯	qhtd	22700
 簭	pito	108000
-縳	ajwi	91800
+縳	agoi	91800
 繘	abto	669000
 荓	hxhv	56100
 蔕	hhqm	119000
@@ -24727,7 +24725,7 @@ encoder:
 祩	wpts	165000
 秹	rtrr	372000
 虰	led	38700
-鏸	vjwr	138000
+鏸	vgor	138000
 餟	vdds	28300
 籔	pocp	338000
 鍚	vkss	2870000
@@ -25270,7 +25268,7 @@ encoder:
 紨	atic	164000
 縏	rqao	24800
 脢	spcm	374000
-膞	sjwi	54900
+膞	sgoi	54900
 臩	ffte	79600
 芧	hby	72800
 茠	htiv	154000
@@ -25700,7 +25698,7 @@ encoder:
 錀	vugm	69700
 錇	vyov	71800
 鍘	vnld	1950000
-鏄	vjwi	2270000
+鏄	vgoi	2270000
 阞	bcl	35900
 陑	bge	242000
 陒	bqgb	22300
@@ -26003,7 +26001,7 @@ encoder:
 鸍	june	19100
 齢	lxdz	4810000
 碀	gqbb	24900
-磚	gjwi	4410000
+磚	ggoi	4410000
 繳	auyp	13900000
 耊	jgaj	27400
 葏	hzbf	19500
@@ -26702,7 +26700,7 @@ encoder:
 筣	prld	37400
 箏	pvbb	1250000
 糧	xkem	7500000
-紐	adee	16200000
+紐	adeu	16200000
 緱	atdp	700000
 臚	slkm	211000
 詛	ynq	383000
@@ -26710,7 +26708,7 @@ encoder:
 諂	yquj	1150000
 賂	nvob	237000
 輽	jakc	19400
-鈕	vdee	2980000
+鈕	vdeu	2980000
 鐲	vmsl	156000
 颱	qaof	1110000
 髏	nocg	1080000
@@ -27070,7 +27068,7 @@ encoder:
 鷋	huiu	44800
 鷏	entu	58800
 鷑	pyun	37600
-鷒	jkiu	21800
+鷒	gkiu	21800
 鷜	oecu	21400
 鷢	gxuc	25400
 麮	iuja	117000
@@ -27841,7 +27839,7 @@ encoder:
 傯	tuvr	60000
 傰	tmss	31500
 傱	tsul	24100
-傳	tjwi	110000000
+傳	tgoi	110000000
 傴	tfoo	53300
 債	tenb	6780000
 傶	tflc	27400
@@ -27882,7 +27880,7 @@ encoder:
 僞	tvsu	701000
 僟	tafu	64700
 僠	tpxk	36300
-僡	tjwr	50300
+僡	tgor	50300
 僢	tvqf	72700
 僣	tjjk	127000
 僤	toke	517000
@@ -27928,7 +27926,7 @@ encoder:
 儘	tbsm	7850000
 儙	todz	94300
 儚	thqq	1110000
-儛	tpqf	652000
+儛	tpgf	652000
 儜	twme	410000
 儝	txqi	23400
 儞	tje	97600
@@ -28129,7 +28127,7 @@ encoder:
 創	uwol	36600000
 剶	cgld	30500
 剷	ypll	257000
-剸	jkil	51400
+剸	gkil	51400
 剹	culy	74000
 剺	ipdw	40100
 剻	mssl	56500
@@ -28365,7 +28363,7 @@ encoder:
 吘	opeu	66900
 吙	oxv	302000
 吚	obpu	71500
-吜	odee	97600
+吜	odeu	97600
 吢	rovx	167000
 吤	outu	439000
 吥	ogb	3420000
@@ -28754,7 +28752,7 @@ encoder:
 嚽	oepn	38800
 嚾	ohot	32000
 嚿	ohtu	70500
-囀	ojwi	936000
+囀	ojoi	936000
 囁	ohhh	788000
 囂	ogox	449000
 囃	oyit	212000
@@ -28814,7 +28812,7 @@ encoder:
 圕	nbkw	32900
 圖	noow	207000000
 圗	naew	71300
-團	njiw	44000000
+團	ngiw	44000000
 圙	ntew	39500
 圚	nonw	41200
 圛	nmew	30200
@@ -29050,7 +29048,7 @@ encoder:
 塹	jrjc	410000
 塺	wjvm	30700
 塻	jhkf	41400
-塼	jjwi	121000
+塼	jgoi	121000
 塽	jftt	54500
 塿	jooc	47400
 墂	jefs	30200
@@ -29481,7 +29479,7 @@ encoder:
 嫟	cfho	162000
 嫢	jncf	159000
 嫤	chee	68900
-嫥	cjwi	91200
+嫥	cgoi	91200
 嫧	cenb	73100
 嫨	choj	435000
 嫪	ccus	147000
@@ -29652,7 +29650,7 @@ encoder:
 寪	wvsu	50800
 寫	wuss	73800000
 寬	whnw	23400000
-寭	wjwr	28000
+寭	wgor	28000
 寯	wtmu	104000
 寱	wati	69700
 寲	wvbl	764000
@@ -29668,7 +29666,7 @@ encoder:
 尃	eicf	78200
 尅	jvig	250000
 將	asip	171000000
-專	jkwi	28500000
+專	gkoi	28500000
 尋	bioi	27000000
 尌	joxi	48800
 對	lxji	187000000
@@ -30557,7 +30555,7 @@ encoder:
 慭	ixrw	44300
 慮	lkrh	1760000
 慯	upss	262000
-慱	ujwi	47800
+慱	ugoi	47800
 慲	uhvv	65200
 慳	ufdj	1140000
 慴	ucub	103000
@@ -30587,7 +30585,7 @@ encoder:
 憐	uxqf	1720000
 憑	xers	8570000
 憒	uoon	102000
-憓	ujwr	105000
+憓	ugor	105000
 憕	udox	34000
 憖	iujr	149000
 憗	iupr	56400
@@ -31029,7 +31027,7 @@ encoder:
 摳	ffoo	1860000
 摴	fjgj	85200
 摵	fflc	113000
-摶	fjwi	424000
+摶	fgoi	424000
 摷	fcki	155000
 摻	faus	1050000
 摼	ffdj	103000
@@ -31418,7 +31416,7 @@ encoder:
 暳	kiib	37100
 暵	khoj	47600
 暶	kybl	32700
-暷	kjwi	29000
+暷	kgoi	29000
 暸	kfkc	2160000
 暺	koke	116000
 暻	kkoc	73300
@@ -31543,7 +31541,7 @@ encoder:
 杸	iqs	388000
 杹	itvi	92000
 杺	irx	547000
-杻	idee	568000
+杻	ideu	568000
 杽	irs	200000
 枀	taiv	35200
 枂	isv	192000
@@ -31956,7 +31954,7 @@ encoder:
 槨	iybb	213000
 槩	uvib	41900
 槪	iufv	181000
-槫	ijwi	113000
+槫	igoi	113000
 槬	ifjr	611000
 槮	iaus	550000
 槯	imtw	38500
@@ -32049,7 +32047,7 @@ encoder:
 橚	ibta	38900
 橜	gxic	26500
 橝	iekz	40400
-橞	ijwr	36400
+橞	igor	36400
 機	iafu	163000000
 橠	iwqq	29200
 橢	ibis	93200
@@ -32118,7 +32116,7 @@ encoder:
 檯	ijaj	6490000
 檰	iaum	196000
 檱	iphq	56000
-檲	inwi	50400
+檲	inoi	50400
 檳	iwnn	872000
 檴	ihtd	27400
 檵	iaac	108000
@@ -32457,7 +32455,7 @@ encoder:
 沋	zjo	52100
 沍	zecu	158000
 沎	ztvi	31600
-沑	zdee	22000
+沑	zdeu	22000
 沒	zqdo	99400000
 沕	zssu	66700
 沖	zoku	20900000
@@ -32841,7 +32839,7 @@ encoder:
 漖	zjbp	195000
 漗	zuvr	22000
 漘	zgsv	34600
-漙	zjwi	46900
+漙	zgoi	46900
 漚	zfoo	91200
 漛	zxja	18600
 漜	ziij	23400
@@ -32884,7 +32882,7 @@ encoder:
 潐	ztsh	394000
 潑	zddq	1370000
 潒	zqor	137000
-潓	zjwr	65100
+潓	zgor	65100
 潔	zida	14400000
 潕	zpgs	154000
 潖	zeed	216000
@@ -33135,7 +33133,7 @@ encoder:
 炁	fvsf	174000
 炂	xtai	20800
 炃	tdxv	36300
-炄	xdee	27200
+炄	xdeu	27200
 炆	xyw	887000
 炇	xpp	20200
 炈	xqs	22800
@@ -33861,7 +33859,7 @@ encoder:
 瑹	ehgi	510000
 瑺	enom	154000
 瑻	ecen	36500
-瑼	ejwi	50800
+瑼	egoi	50800
 瑽	esul	44000
 瑿	fpwf	39900
 璂	ehjv	51400
@@ -33891,7 +33889,7 @@ encoder:
 璡	etzd	68300
 璢	ehdk	60800
 璣	eafu	265000
-璤	ejwr	23900
+璤	egor	23900
 璥	ehop	61800
 璦	evrv	344000
 璪	eooi	62400
@@ -33977,7 +33975,7 @@ encoder:
 甊	oech	31200
 甋	yxjh	26700
 甌	fohf	210000
-甎	jkih	58800
+甎	gkih	58800
 甐	xqhm	33600
 甒	phsh	29800
 甔	qgyh	28600
@@ -34441,7 +34439,7 @@ encoder:
 竬	ypml	23700
 竮	ydhl	44500
 竰	ygel	43700
-竱	yjil	23300
+竱	ygil	23300
 竲	yxkl	41200
 竴	yxil	708000
 笂	prwu	557000
@@ -34485,7 +34483,7 @@ encoder:
 篵	psul	50900
 篶	pgcs	141000
 篻	pefs	25600
-篿	pjwi	34400
+篿	pgoi	34400
 簀	penb	125000
 簈	pdpe	62200
 簊	phjv	29400
@@ -35952,7 +35950,7 @@ encoder:
 韛	dhsw	28700
 韜	dvuw	912000
 韞	dkmw	90900
-韢	djrw	22800
+韢	dgrw	22800
 韤	dhww	35100
 頇	egyg	130000
 頏	yqgy	79600
@@ -38041,7 +38039,7 @@ encoder:
 㩘	fxff	3890
 㩙	fwtj	4040
 㩚	fhgg	3950
-㩛	fnwi	3710
+㩛	fnoi	3710
 㩜	ffpm	4360
 㩝	fyqg	3720
 㩞	fxqi	3890
@@ -38828,7 +38826,7 @@ encoder:
 㵯	zqgu	4930
 㵰	zugt	6320
 㵱	zefi	5820
-㵲	zpqf	8680
+㵲	zpgf	8680
 㵳	zwus	7520
 㵴	zfaf	12800
 㵵	zhst	4900
@@ -39148,7 +39146,7 @@ encoder:
 㺯	efd	4070
 㺰	egmj	4690
 㺱	taew	4320
-㺲	edee	3990
+㺲	edeu	3990
 㺳	elp	4630
 㺴	ejq	3810
 㺵	eqq	4190
@@ -39580,7 +39578,7 @@ encoder:
 䁠	nxlt	6960
 䁡	nnuu	5580
 䁢	nybl	5790
-䁣	njwi	5500
+䁣	ngoi	5500
 䁤	nymj	5590
 䁥	nfho	6110
 䁦	nlnq	5770
@@ -40148,7 +40146,7 @@ encoder:
 䊙	gghx	4090
 䊚	xuzm	3830
 䊛	xtqm	3490
-䊜	xjim	3840
+䊜	xgim	3840
 䊝	xprm	3670
 䊞	xyjm	3590
 䊟	xhvm	3360
@@ -40457,7 +40455,7 @@ encoder:
 䏑	smuu	3780
 䏒	stp	3610
 䏓	sggw	3480
-䏔	sdee	3610
+䏔	sdeu	3610
 䏕	srr	3390
 䏖	sdku	3420
 䏗	spq	3360
@@ -40917,7 +40915,7 @@ encoder:
 䖞	lic	3370
 䖟	yclv	3400
 䖠	lqa	3830
-䖡	ldee	3670
+䖡	ldeu	3670
 䖢	lcpu	4300
 䖣	lrz	3510
 䖤	qblx	3850
@@ -41198,7 +41196,7 @@ encoder:
 䚹	yvb	3930
 䚺	ypp	3590
 䚻	syv	3840
-䚼	ydee	3360
+䚼	ydeu	3360
 䚽	yrm	3540
 䚾	yrr	3330
 䚿	yqq	3690
@@ -41901,7 +41899,7 @@ encoder:
 䥿	prbj	3800
 䦀	pcyj	4290
 䦁	pibj	3910
-䦄	pjrj	3730
+䦄	pgrj	3730
 䦇	etcc	3530
 䦈	ehic	4290
 䦉	envc	3820
@@ -41987,12 +41985,12 @@ encoder:
 䧝	bagl	3350
 䧞	bem	3210
 䧟	bvuj	3930
-䧠	bjwi	4120
+䧠	bgoi	4120
 䧡	bwsk	3580
 䧢	bfoo	3200
 䧣	befs	3250
 䧤	blxx	3840
-䧥	bjwr	25500
+䧥	bgor	25500
 䧦	bvsu	3960
 䧧	bxff	5010
 䧨	blxt	3820
@@ -42979,7 +42977,6 @@ encoder:
 𡴠	aaaj	0
 𣈤	aaak	0
 𦮅	aaam	0
-	aaam
 𢥁	aaar	0
 𢇇	aaay	0
 𨾀	aaba	0
@@ -43046,7 +43043,6 @@ encoder:
 𩧯	aafm	0
 𦽣	aafq	0
 𬘁	aafw	0
-	aafy
 𠩃	aagc	0
 𦬟	aagh	0
 𠬘	aagi	0
@@ -43267,7 +43263,6 @@ encoder:
 𢇉	abiy	0
 𮉂	abkg
 𫲬	abkn	0
-󰀲	abkw
 𥾇	abl	0
 𦄦	abll	0
 𤴗	ablu	0
@@ -43331,7 +43326,6 @@ encoder:
 𣢢	acqy	0
 𣢜	acqy	0
 𭆣	acti
-	acu
 𡳾	acu	0
 繅	acui
 𠫖	acui	0
@@ -43354,7 +43348,6 @@ encoder:
 𥿲	adde	0
 𢂭	addm	0
 𢂟	addm	0
-	addm
 𥾤	addo	0
 𥿷	addp	0
 𤕱	addp	0
@@ -43412,8 +43405,6 @@ encoder:
 𮉏	adzd
 𦃐	adzl	0
 𬨸	adzn	0
-	ae
-	ae
 ⼙	ae
 𢆹	aeay	0
 𦂿	aebc	0
@@ -43493,7 +43484,6 @@ encoder:
 𥾛	afdd	0
 𦀊	afdg	0
 𦂘	afdi	0
-	afdi
 𡗞	afdy	0
 𨠒	afei	0
 𬳻	afem	0
@@ -43586,7 +43576,6 @@ encoder:
 𦇒	aggg	0
 𮈥	aggl
 𬳵	aggm	0
-	aggm
 𮨡	aggs
 𭆚	aghi
 𥾦	aghj	0
@@ -43625,6 +43614,7 @@ encoder:
 𦁄	agn	0
 𬗟	agno	0
 𥄾	agnv	0
+𬘄	agoa	0
 𠭆	agod	0
 𤕻	agop	0
 𬅨	agoq	0
@@ -43640,7 +43630,6 @@ encoder:
 𦢖	agsp	0
 𦅎	agss	0
 𬳺	agtm	0
-	agu
 𫄆	ague	0
 𠫧	agui	0
 𤕬	agup	0
@@ -43694,6 +43683,7 @@ encoder:
 𦄧	ahmk	0
 𦃣	ahmo	0
 𮉊	ahok
+𦇠	ahor	0
 𮈆	ahov
 𮈙	ahqe
 𪵎	ahqi	0
@@ -43704,18 +43694,15 @@ encoder:
 𦅢	ahsr	0
 𬘎	ahta	0
 𬴐	ahtm	0
-	ahtm
 𤖖	ahtp	0
 𭷄	ahtp
 𦅶	ahuc	0
 𦆬	ahul	0
 𦆜	ahuu	0
 𦄫	ahvc	0
-	ahvm
 𫄈	ahvo	0
 𦅷	ahwk	0
 𭶾	ahwp
-𦇠	ahwr	0
 𦇎	ahwr	0
 縉	ahxk
 𦆇	ahxo	0
@@ -43724,8 +43711,6 @@ encoder:
 𦀴	ahyc	0
 𦃮	ahyh	0
 ⼛	ai
-	ai
-	ai
 𣷘	aias	0
 𦇀	aibr	0
 𨛟	aibv	0
@@ -43739,7 +43724,6 @@ encoder:
 𡴇	aif	0
 𥾫	aif	0
 𬴃	aigm	0
-	aigm
 𬇔	aigs	0
 𠮅	aihd	0
 𬎨	aihn	0
@@ -43839,7 +43823,6 @@ encoder:
 𤯧	ajvm	0
 𡉟	ajvp	0
 綾	ajvv
-𬘄	ajwa	0
 𦂂	ajwe	0
 𣲉	ajws	0
 𭍼	ajwu
@@ -43922,7 +43905,6 @@ encoder:
 𦁭	aldo	0
 𦆷	alem	0
 𬴂	alfm	0
-	alfm
 𦅵	algn	0
 𤖊	algp	0
 𦇱	alhd	0
@@ -43956,7 +43938,6 @@ encoder:
 𡴧	alyc	0
 𨔢	alzd	0
 ⻢	am
-	am
 𦂣	amaa	0
 𦆮	amap	0
 𠮘	amdi	0
@@ -43980,7 +43961,6 @@ encoder:
 𦄬	amkv	0
 𮈣	amlz
 𦀼	ammu	0
-	amom
 𬳶	amom	0
 𩧲	amom	0
 𫘱	amom	0
@@ -44118,7 +44098,6 @@ encoder:
 𨐠	aoyi	0
 𬔟	aoyi	0
 𬨹	aozi	0
-	ap
 ⽙	ap
 𮈔	apav
 𬘈	apbb	0
@@ -44134,6 +44113,7 @@ encoder:
 𥾿	apeu	0
 𥾑	apfq	0
 𦀅	apfu	0
+𦆞	apgf	0
 𩓎	apgi	0
 𦄙	apgl	0
 𫄏	apgo	0
@@ -44164,13 +44144,11 @@ encoder:
 𤕼	appp	0
 𭷁	appp
 𥾨	apq	0
-𦆞	apqf	0
 𪯊	apqk	0
 𤜁	apri	0
 𦩉	apri	0
 𣭰	apri	0
 𦀈	apve	0
-	apvm
 𬳽	apvm	0
 𩧭	apwm	0
 𦂾	apwz	0
@@ -44382,13 +44360,10 @@ encoder:
 𦁂	atxf	0
 𮉝	atyz
 𬩄	atzn	0
-	au
 凵	au
 𠙴	au	0
 屮	au
-	au
 ⼐	au
-	au
 ⼬	au
 𠂈	au	0
 𦁤	aubr	0
@@ -44412,7 +44387,6 @@ encoder:
 𦇐	augx	0
 𦇳	augx	0
 𦁻	auig	0
-	auim
 𬳿	auim	0
 𣏻	auin	0
 𦃨	auiv	0
@@ -44541,7 +44515,6 @@ encoder:
 𡥭	awbe	0
 𦀬	awbg	0
 𬴀	awbm	0
-	awbm
 𦁶	awbu	0
 𫃣	awbz	0
 𤖡	awcp	0
@@ -44615,7 +44588,6 @@ encoder:
 𫃵	axcv	0
 𦅆	axef	0
 𬘌	axew	0
-	axfm
 𬴊	axfm	0
 𮈴	axhz
 𦅌	axja	0
@@ -44756,7 +44728,6 @@ encoder:
 𬯊	bafs	0
 𪞋	baht	0
 𨾂	baht	0
-	bai
 𡬠	baic	0
 𠫕	baii	0
 𨹃	baiv	0
@@ -44787,7 +44758,6 @@ encoder:
 𨻅	bavm	0
 𥍬	bavm	0
 𬶨	bavq	0
-	bavq
 𢟪	bavr	0
 𪄵	bavu	0
 𧫜	bavy	0
@@ -44804,7 +44774,6 @@ encoder:
 𥍹	bbbm	0
 𮥚	bbbr
 𠨕	bbbu	0
-	bbbu
 𨛃	bbbv	0
 𫕃	bbbz	0
 𡦪	bbbz	0
@@ -44840,12 +44809,8 @@ encoder:
 𦩧	bbrz	0
 𤈗	bbsh	0
 𨿉	bbtw	0
-	bbu
-	bbu
-	bbu
 𢑑	bbu	0
 𠄐	bbu	0
-	bbu
 𠨎	bbu	0
 𦐯	bbue	0
 𢑶	bbuf	0
@@ -44936,7 +44901,6 @@ encoder:
 𨺳	bdsc	0
 𪱝	bdsl	0
 𤇏	bdsl	0
-	bdu
 𦛆	bdul	0
 𭛎	bdvi
 𨧦	bdvv	0
@@ -45057,7 +45021,6 @@ encoder:
 𫕐	bftt	0
 ⾀	bfu
 𭃂	bfu
-	bfu
 𨻤	bfuc	0
 𨻊	bfuj	0
 𡎶	bfuj	0
@@ -45094,6 +45057,7 @@ encoder:
 阮	bggw
 𡦘	bggz	0
 𨸦	bghv	0
+𡦕	bgiz	0
 𭝝	bgjr
 𨻐	bgjv	0
 𡏇	bgjv	0
@@ -45133,7 +45097,6 @@ encoder:
 𨺿	bhcv	0
 𮥠	bhcw
 𫔾	bhe	0
-	bhe
 𨹯	bhec	0
 𥎊	bhem	0
 𬯐	bhfd	0
@@ -45181,10 +45144,8 @@ encoder:
 𪅿	bhsu	0
 𨔳	bhsz	0
 𨼣	bhte	0
-	bhu
 𨼲	bhue	0
 𮥗	bhui
-	bhui
 𫸖	bhv	0
 𬯋	bhvc	0
 𫕕	bhvo	0
@@ -45207,7 +45168,6 @@ encoder:
 𨜙	bibm	0
 𭻋	bibp
 𬩽	bibv	0
-	bibv
 𬻆	bicg
 𡬢	bicm	0
 𠢢	bicm	0
@@ -45271,7 +45231,6 @@ encoder:
 𥒠	bjgv	0
 𮥂	bjic
 𨼢	bjis	0
-𡦕	bjiz	0
 𨺖	bjjo	0
 𨽐	bjjv	0
 𨸑	bjk	0
@@ -45311,7 +45270,6 @@ encoder:
 𤾳	bjue	0
 𦘕	bjug	0
 𨽲	bjuu	0
-	bjv
 𨸪	bjve	0
 𡈾	bjvi	0
 𫡢	bjvi	0
@@ -45362,7 +45320,6 @@ encoder:
 𩙺	bktf	0
 𭻓	bktg
 𨻞	bkto	0
-	bku
 ⺺	bku
 𫕈	bkuc	0
 𦥖	bkuj	0
@@ -45404,7 +45361,6 @@ encoder:
 𩙻	blrf	0
 𨼚	blrx	0
 𭼄	blsc
-	bltu
 ⽦	blu
 𪀑	blun	0
 𨹁	blv	0
@@ -45421,7 +45377,6 @@ encoder:
 𦒑	bmcm	0
 𪧀	bmcz	0
 𬮿	bmdj	0
-	bmdj
 𨸨	bmee	0
 𢨌	bmfm	0
 𮌄	bmgj
@@ -45492,7 +45447,6 @@ encoder:
 𨻻	booc	0
 𬼬	booi
 𬯎	boom	0
-	boom
 𣃏	borj	0
 𢚣	borl	0
 𭴘	bosh
@@ -45515,7 +45469,6 @@ encoder:
 𭄶	bpcm
 𭤇	bpcm
 𠝸	bpdm	0
-󰀐	bpdo
 𣀄	bpel	0
 𬳪	bpem	0
 𨡭	bpem	0
@@ -45537,7 +45490,6 @@ encoder:
 𦥊	bpjz	0
 𭾊	bpkm
 𥎟	bpkm	0
-	bpku
 𮥋	bplb
 𨺲	bplm	0
 𨂣	bplm	0
@@ -45579,8 +45531,6 @@ encoder:
 𭒿	bpsz
 𫩊	bptd	0
 𡥛	bptz	0
-	bpu
-	bpu
 𨼹	bpuu	0
 𬯤	bpvm	0
 𩝕	bpvm	0
@@ -45594,7 +45544,6 @@ encoder:
 𣀆	bpxp	0
 𦢱	bpxq	0
 𡦎	bpxz	0
-	bpzu
 𢑙	bqas	0
 𭒺	bqaz
 𢄥	bqbm	0
@@ -45703,7 +45652,6 @@ encoder:
 𨺃	bsjo	0
 𢑜	bskt	0
 𬎾	bsku	0
-	bsku
 𫛆	bsku	0
 𮥄	bskv
 𢼿	bslp	0
@@ -45730,7 +45678,6 @@ encoder:
 𮥭	btb
 𨸣	btdd	0
 𨼍	btee	0
-	bti
 𬮾	btig	0
 𡍃	btij	0
 𨺣	btiq	0
@@ -45745,7 +45692,6 @@ encoder:
 𮥩	btti
 𠃧	btti	0
 𩙱	btti	0
-	btu
 ⻜	btui
 𬲉	btui	0
 𡭖	btul	0
@@ -45761,16 +45707,13 @@ encoder:
 𠃍	bu	0
 ㇅	bu
 ㇌	bu
-	bu
 ㇕	bu
 ⺂	bu
 ㇡	bu
 𠃎	bu	0
-	bu
 ㇁	bu
 ㇎	bu
 ㇋	bu
-	bu
 ⺕	bu
 ㇆	bu
 ⺋	bu
@@ -45787,7 +45730,6 @@ encoder:
 ㇇	bu
 ㇍	bu
 ㇚	bu
-	bu
 𨹉	buas	0
 𬯏	buas	0
 𨻔	buas	0
@@ -45913,7 +45855,6 @@ encoder:
 𨼈	bwjo	0
 𨽒	bwkc	0
 𨽏	bwkt	0
-󰁁	bwmj
 𥁪	bwmm	0
 𭓍	bwnz
 𨽢	bwoh	0
@@ -45927,7 +45868,6 @@ encoder:
 𨼭	bwtd	0
 𭒻	bwtz
 𭅲	bwu
-	bwu
 𡣀	bwuc	0
 𬼷	bwul
 𥎣	bwum	0
@@ -45974,7 +45914,6 @@ encoder:
 𦄳	bxua	0
 𨸾	bxvi	0
 𪸍	bxvi	0
-	bxvz
 䧦	bxw
 𮥣	bxxo
 𮥐	bxxv
@@ -46012,7 +45951,6 @@ encoder:
 𫕅	byte	0
 𮥱	bytf
 𨹍	bytt	0
-	bytu
 𬯀	bytu	0
 𡥡	bytz	0
 𪦸	bytz	0
@@ -46026,7 +45964,6 @@ encoder:
 𫔻	byw	0
 𪦹	bywz	0
 𬯁	byx	0
-󰁂	byxe
 𥎥	byxm	0
 𨐾	byyi	0
 𨼁	byyj	0
@@ -46160,14 +46097,11 @@ encoder:
 𡣯	cctf	0
 𡢆	cctr	0
 𠃏	ccu	0
-	ccu
 𪦞	ccub	0
 𡣝	ccue	0
 𫄙	ccuj	0
 𦏳	ccuy	0
 𫰊	ccvc	0
-	ccxx
-	ccxx
 𪥵	ccy	0
 𪩡	cdbc	0
 𠠾	cdbl	0
@@ -46189,7 +46123,6 @@ encoder:
 𡟂	cdgj	0
 𢏖	cdgy	0
 𡢀	cdht	0
-	cdig
 𫰛	cdig	0
 𬘸	cdij	0
 𡝕	cdis	0
@@ -46272,7 +46205,6 @@ encoder:
 𫄠	cekj	0
 𡡲	ceks	0
 𡣳	celg	0
-	cemb
 𫰝	cemu	0
 𩢳	cemy	0
 𨝑	cenb	0
@@ -46289,7 +46221,6 @@ encoder:
 𡟔	ceqo	0
 𡠇	cerx	0
 𢢷	cerx	0
-	cesj
 𬘬	cesj	0
 𪦧	cesk	0
 𫰟	cesu	0
@@ -46313,13 +46244,11 @@ encoder:
 𡭻	cfax	0
 𡮍	cfax	0
 𡡛	cfbm	0
-	cfbu
 𫰍	cfbu	0
 𮊽	cfby
 𦈚	cfcj	0
 𬘙	cfcj	0
 𡛟	cfcu	0
-	cfd
 𡚻	cfd	0
 𡢰	cfdc	0
 𡞮	cfdi	0
@@ -46327,7 +46256,6 @@ encoder:
 姬	cfdk
 𪦬	cfdn	0
 𭒆	cfds
-󰀊	cfec
 𪨃	cfex	0
 𫰜	cffd	0
 𡞏	cffs	0
@@ -46370,7 +46298,6 @@ encoder:
 𭗽	cftc
 𬘾	cftj	0
 𡡳	cftw	0
-	cfu
 𭑮	cfu
 𡣴	cfun	0
 𡡌	cfur	0
@@ -46416,7 +46343,6 @@ encoder:
 𫲌	cgfc	0
 𩠝	cgfc	0
 𬘰	cgfj	0
-󰀉	cggc
 𡢉	cgge	0
 𫄞	cggj	0
 𫱯	cggk	0
@@ -46473,6 +46399,7 @@ encoder:
 𫱆	cgok	0
 𬺠	cgom	0
 𭅫	cgoo
+𫱮	cgor	0
 𭛏	cgox
 𢀁	cgpc	0
 𫱑	cgpz	0
@@ -46487,6 +46414,7 @@ encoder:
 𡤌	cgrl	0
 𦧬	cgro	0
 𭒩	cgrv
+𦒎	cgry	0
 𡝍	cgs	0
 𭒦	cgsj
 𢑷	cgsm	0
@@ -46640,7 +46568,6 @@ encoder:
 𡢾	ciif	0
 𫰬	ciig	0
 𬘭	ciij	0
-	ciij
 𪦡	ciim	0
 𡣒	ciio	0
 𠡙	cill	0
@@ -46704,6 +46631,7 @@ encoder:
 𦈍	cjlj	0
 𫱟	cjnj	0
 𡟌	cjoc	0
+𡤛	cjoi	0
 𬙄	cjoj	0
 𬘕	cjoj	0
 𫲚	cjoo	0
@@ -46714,7 +46642,6 @@ encoder:
 𬘨	cjrj	0
 𬙃	cjrj	0
 𡤘	cjrx	0
-𦒎	cjry	0
 𫄵	cjsj	0
 𪦦	cjsw	0
 𡞽	cjtd	0
@@ -46726,8 +46653,6 @@ encoder:
 𡚳	cjv	0
 𡞢	cjvl	0
 𡉂	cjvl	0
-𡤛	cjwi	0
-𫱮	cjwr	0
 𫰈	cjwu	0
 𡮊	cjwx	0
 𭒢	cjxi
@@ -46861,7 +46786,6 @@ encoder:
 𡢿	cmhg	0
 𭬅	cmix
 𬙊	cmjj	0
-	cmjj
 𡣈	cmjk	0
 𡣫	cmjv	0
 𭏭	cmjx
@@ -46927,7 +46851,6 @@ encoder:
 𪦓	cndf	0
 𡛸	cndu	0
 𢆭	cnfc	0
-	cnfj
 𬘡	cnfj	0
 𡟯	cnfr	0
 𫖩	cngc	0
@@ -47105,6 +47028,7 @@ encoder:
 𡭟	cpfx	0
 𬼴	cpge
 𡤪	cpgf	0
+𡣆	cpgf	0
 𫱋	cpgi	0
 𬥇	cpgx	0
 𡭺	cpgx	0
@@ -47145,10 +47069,8 @@ encoder:
 𡛇	cpp	0
 姘	cppe
 𡮏	cppx	0
-	cppx
 𫿛	cppx	0
 𮊻	cppy
-𡣆	cpqf	0
 𩵮	cpqx	0
 𬆠	cpqx	0
 𣢒	cpqx	0
@@ -47162,10 +47084,7 @@ encoder:
 𠢣	cptx	0
 𪨅	cptx	0
 𦐣	cpty	0
-	cpu
 𠚣	cpu	0
-	cpu
-	cpu
 𪢞	cpuo	0
 𫴻	cpux	0
 𣱱	cpux	0
@@ -47176,8 +47095,6 @@ encoder:
 虩	cpvx
 𤔕	cpwe	0
 𮉢	cpwj
-	cpwu
-	cpwu
 𭎇	cpwx
 𡛚	cpxi	0
 𡡁	cpxr	0
@@ -47222,16 +47139,13 @@ encoder:
 𡠵	cqv	0
 𫱦	cqvj	0
 𬘘	cqvj	0
-	cqvj
 𡤹	cqvw	0
 𡟰	cqvw	0
 𡤎	cqvw	0
 𡚵	cqx	0
 𡿪	cqxc	0
-󰀧	cqxc
 𫐪	cqzl	0
 𫲑	crbi	0
-	crbj
 𬘩	crbj	0
 𡟦	crbv	0
 𡛣	crbw	0
@@ -47316,7 +47230,6 @@ encoder:
 𡜬	ctbp	0
 𨞩	ctby	0
 𬘓	ctcj	0
-	ctcj
 𫱧	ctcp	0
 𫦼	ctcy	0
 𡟆	ctdm	0
@@ -47347,15 +47260,12 @@ encoder:
 𠡥	cttl	0
 𡞧	cttv	0
 𩁙	ctty	0
-	ctu
 𡚭	ctu	0
 𮭕	ctux
 𪇲	ctux	0
 𮭜	ctux
-	ctux
 𪅓	ctux	0
 𫰡	ctve	0
-	ctve
 𡠊	ctvi	0
 𡤥	ctvm	0
 𡟞	ctvs	0
@@ -47366,20 +47276,16 @@ encoder:
 𫰿	ctxm	0
 𡜍	ctz	0
 ㇛	cu
-	cu
-	cu
 𠃋	cu	0
 ㇞	cu
 ㇄	cu
 ㇃	cu
-	cu
 𠄌	cu	0
 𠃉	cu	0
 𬼂	cu
 𠃑	cu	0
 ㇜	cu
 ㇉	cu
-	cu
 ㇂	cu
 ⺃	cu
 𡿨	cu	0
@@ -47412,7 +47318,6 @@ encoder:
 𡞆	cueo	0
 𨣻	cuey	0
 𦑠	cuey	0
-	cuez
 𫰰	cuez	0
 𡞃	cufd	0
 𡟷	cufe	0
@@ -47458,7 +47363,6 @@ encoder:
 𩘸	cuqy	0
 𣤊	cuqy	0
 𣯮	cury	0
-󰀳	cusj
 𬘝	cusj	0
 𡛧	cuss	0
 𡛐	cusu	0
@@ -47502,7 +47406,6 @@ encoder:
 𦑛	cvdy	0
 𭀘	cve
 𠃔	cve	0
-󰀍	cve
 𡜶	cvfo	0
 𡚼	cvfq	0
 𡝙	cvfs	0
@@ -47551,11 +47454,9 @@ encoder:
 𡝬	cwew	0
 𡞖	cwfw	0
 𡜷	cwgc	0
-	cwgj
 𬘫	cwgj	0
 𡣑	cwgn	0
 𡡪	cwgn	0
-	cwhj
 𬙋	cwhj	0
 𡣚	cwhn	0
 𫰦	cwic	0
@@ -47581,11 +47482,9 @@ encoder:
 𫰴	cwpn	0
 𡟾	cwrb	0
 𫟇	cwsj	0
-	cwtj
 𬙂	cwtj	0
 𡤐	cwtn	0
 𬚈	cwty	0
-	cwu
 𡚦	cwu	0
 㛮	cwud
 𪦛	cwuf	0
@@ -47656,7 +47555,6 @@ encoder:
 𡤻	cyau	0
 𫱚	cyav	0
 𬘯	cybj	0
-	cybj
 𡡬	cybp	0
 𫟅	cycj	0
 𡞙	cycn	0
@@ -47718,9 +47616,7 @@ encoder:
 𡛻	czo	0
 𡭬	czpx	0
 𭑽	czrx
-	czu
 𬙁	czuj	0
-	czzc
 𠡰	daac	0
 𩣹	daae	0
 𩓦	daag	0
@@ -47768,7 +47664,6 @@ encoder:
 𣭼	darm	0
 𫵝	darx	0
 尿	das
-	das
 𡳍	daso	0
 𡱑	dasv	0
 𩴒	daug	0
@@ -47816,7 +47711,6 @@ encoder:
 𪁵	dbou	0
 𣐱	dbti	0
 𤼥	dbu	0
-	dbu
 𡰩	dbu	0
 𠃚	dbuj	0
 𩿮	dbun	0
@@ -47924,7 +47818,6 @@ encoder:
 𩱎	ddkg	0
 𢏄	ddkg	0
 𩰲	ddkg	0
-	ddkg
 𪳫	ddko	0
 𤼰	ddkv	0
 𪠰	ddlo	0
@@ -48004,20 +47897,17 @@ encoder:
 𡲶	deaa	0
 𡲬	deaa	0
 𡱓	deaq	0
-𨜈	debd	0
-𨙺	debd	0
-𨜉	debd	0
-𡥆	debd	0
-𡚽	decd	0
+𨙺	debv	0
+𡥆	debz	0
 𢏶	decg	0
 𢎸	decg	0
 𢎰	decg	0
 𭚺	decg
 𤚌	decp	0
 𪾈	decp	0
+𡚽	decv	0
 𡰨	ded	0
 𪠪	dedd	0
-𤿿	dedd	0
 𢐓	dedg	0
 𢎼	dedg	0
 𭛂	dedg
@@ -48030,27 +47920,28 @@ encoder:
 𣮱	dedr	0
 𧛣	dedw	0
 𧜷	dedw	0
-	dee
 𡰥	dee	0
 𠄧	deeb	0
+𨜈	deeb	0
 𢻀	deed	0
 𭕝	deee
 𡱕	deef	0
 𢎥	deeg	0
+𤿿	deep	0
 𡱧	deer	0
 𢐕	defg	0
 𤿭	defp	0
 𡱭	deg	0
-𩑧	degd	0
 𩎒	degw	0
+𩑧	degy	0
 𡂶	dehk	0
 𤿬	dehp	0
 𡲷	dehr	0
 𡱯	dehv	0
+𨜉	dehv	0
 𢐇	deig	0
 𩏁	deiw	0
 𡲙	dejv	0
-𬛢	dekd	0
 𩱚	dekg	0
 𩱗	dekg	0
 𡳷	dekv	0
@@ -48063,6 +47954,7 @@ encoder:
 𮚔	dend
 𡱻	denu	0
 𭮭	deod
+𬛢	deok	0
 𡲦	deor	0
 𭀭	deov
 𡳠	deqn	0
@@ -48139,7 +48031,6 @@ encoder:
 𭕣	dfso
 𢎾	dftg	0
 𫸩	dftg	0
-	dftg
 𪓏	dfts	0
 𪓍	dfts	0
 𩀃	dfts	0
@@ -48335,7 +48226,6 @@ encoder:
 𤎧	dixg	0
 𬩛	dizo	0
 ⼰	dj
-	dj
 𡲗	djaa	0
 𤼴	djah	0
 𡱅	djai	0
@@ -48389,14 +48279,12 @@ encoder:
 𡉷	djvb	0
 𪩮	djvb	0
 𮩚	djvg
-	djvg
 𢎳	djvg	0
 𫶶	djvs	0
 𡳋	djwb	0
 屠	djwk
 𤑨	djxg	0
 𨕿	djzg	0
-󰀽	djzo
 𤃻	dkad	0
 𩏞	dkaw	0
 𤱡	dkbe	0
@@ -48404,7 +48292,6 @@ encoder:
 𩏌	dkcw	0
 𬻈	dkdk
 𡖈	dkdk	0
-	dkee
 𫵠	dkef	0
 𢏥	dkeg	0
 𭕶	dkei
@@ -48431,7 +48318,6 @@ encoder:
 𬀺	dksi	0
 𡱿	dkss	0
 𩏰	dksw	0
-	dku
 𢎠	dkug	0
 𢎟	dkug	0
 𡰶	dkv	0
@@ -48461,7 +48347,6 @@ encoder:
 𧌣	dlld	0
 𭃑	dlld
 𢐸	dlmg	0
-𡲇	dlmu	0
 𡳆	dlnq	0
 𪨏	dlnu	0
 𫥸	dlod	0
@@ -48618,6 +48503,7 @@ encoder:
 𥀖	doop	0
 𥀜	doop	0
 𧲜	door	0
+𡲇	doow	0
 𣀟	dopb	0
 𠙱	dopq	0
 𨕮	doqz	0
@@ -48670,7 +48556,6 @@ encoder:
 𡱫	dpff	0
 𭽨	dpfp
 𡲄	dpgf	0
-	dpi
 𡱁	dpi	0
 𤼩	dpi	0
 𡉔	dpjd	0
@@ -48811,7 +48696,6 @@ encoder:
 𣣁	drqj	0
 𪨋	drr	0
 𡳜	drrb	0
-󰀔	drrj
 𪨝	drrk	0
 𫵚	drrq	0
 𫵡	drsg	0
@@ -48852,9 +48736,7 @@ encoder:
 𡲼	dryh	0
 𡲈	dryw	0
 𫵕	drz	0
-	ds
 ⺒	ds
-	ds
 𢑈	dsag	0
 𢑄	dsag	0
 𭺹	dsan
@@ -48888,7 +48770,6 @@ encoder:
 𭕞	dslp
 𡱈	dsov	0
 𩎶	dsqw	0
-	dsr
 𡳸	dsrl	0
 𣭲	dsrm	0
 𡲟	dsro	0
@@ -48992,17 +48873,10 @@ encoder:
 ⽨	du
 𠃜	du	0
 ж	du
-	du
 コ	du
 マ	du
-	du
-	du
 ュ	du
-	du
-	du
 𫝀	du	0
-	du
-	du
 𡳡	duaa	0
 𡲯	duad	0
 𬈄	duag	0
@@ -49033,24 +48907,20 @@ encoder:
 𩏩	duqw	0
 𭃮	durd
 𭚫	dusg
-	dusn
 𡲮	dutv	0
 𨾕	dutw	0
 𡰦	duu	0
-󰀖	duug
 𮭟	duug
 𢎢	duug	0
 𡲜	duum	0
 𡲵	duuq	0
 𡱲	duuq	0
 𪨊	duuu	0
-	duuu
 𩏳	duuw	0
 𢏱	duvg	0
 𠭬	duwo	0
 𨑣	duzd	0
 ⼫	dv
-	dv
 𭕱	dvaf
 𡲐	dvbc	0
 𭕗	dvbe
@@ -49151,7 +49021,6 @@ encoder:
 𢐫	dxbg	0
 𩎸	dxbw	0
 𢐢	dxcg	0
-	dxcu
 𦑫	dxcy	0
 𢑌	dxdg	0
 𢐷	dxdg	0
@@ -49199,7 +49068,6 @@ encoder:
 𢚪	dxrx	0
 𤂞	dxsa	0
 𭛇	dxsg
-	dxsg
 𢐎	dxtg	0
 𩠗	dxtp	0
 𦧃	dxtu	0
@@ -49393,7 +49261,6 @@ encoder:
 𮠗	ebgy
 𪻟	ebhm	0
 𫘸	ebib	0
-	ebic
 𬍤	ebic	0
 𪲑	ebiv	0
 𤧎	ebjs	0
@@ -49429,7 +49296,6 @@ encoder:
 𮓩	ebxc
 𤤂	eby	0
 𨱢	ebyc	0
-󰀚	ebyu
 𡥟	ebzx	0
 𨘭	ebzy	0
 ⻒	ec
@@ -49502,7 +49368,6 @@ encoder:
 𤣫	ecu	0
 𪜀	ecu	0
 𩿍	ecue	0
-	ecue
 ⽆	ecug
 𮬫	ecug
 璅	ecui
@@ -49518,7 +49383,6 @@ encoder:
 𩭅	ecyb	0
 𮪄	ecym
 𮠪	ecyy
-	ed
 𩭪	edab	0
 𨲑	edac	0
 𤪍	edaf	0
@@ -49550,7 +49414,6 @@ encoder:
 𫑆	eddz	0
 𩬋	edeb	0
 𢺸	eded	0
-󰀭	edee
 𪯆	edee	0
 𢏘	edeg	0
 𩣿	edem	0
@@ -49597,7 +49460,6 @@ encoder:
 𩦑	edom	0
 𢻋	edoo	0
 𭣗	edot
-󰀬	edov
 𪠧	edox	0
 𨣊	edoy	0
 𨢫	edoy	0
@@ -49658,7 +49520,6 @@ encoder:
 𮗌	eebx
 𮠫	eeby
 𤨍	eecc	0
-	eece
 瑇	eech
 瑱	eect
 𤧄	eecv	0
@@ -49852,7 +49713,6 @@ encoder:
 戴	efht
 𢦛	efhu	0
 𨠤	efhy	0
-	efi
 𭚟	efie
 𪻙	efig	0
 𡬽	efix	0
@@ -49953,7 +49813,6 @@ encoder:
 𨔐	efzd	0
 𨗆	efzx	0
 𨗇	efzx	0
-	eg
 ⼲	eg
 𤥇	egaj	0
 𤩚	egaq	0
@@ -50027,8 +49886,10 @@ encoder:
 𨑇	egnx	0
 𩭍	egob	0
 𬱎	egod	0
+𫧤	egoi	0
 𩤬	egom	0
 𩣚	egom	0
+𠦽	egor	0
 𪻡	egox	0
 𮠬	egoy
 𨡞	egoy	0
@@ -50102,7 +49963,6 @@ encoder:
 𬍷	ehet	0
 𠦡	eheu	0
 𬎆	ehew	0
-	ehew
 𩰅	ehfb	0
 𤥗	ehfd	0
 𠦪	ehfe	0
@@ -50189,6 +50049,7 @@ encoder:
 𤨢	ehoj	0
 𩥠	ehom	0
 𠧂	ehop	0
+𤫃	ehor	0
 𬍘	ehov	0
 𨢗	ehoy	0
 𪼧	ehpo	0
@@ -50237,7 +50098,6 @@ encoder:
 𠦄	ehv	0
 弄	ehv
 𠦃	ehv	0
-	ehv
 𩥒	ehvm	0
 𮩴	ehvm
 𩤉	ehvm	0
@@ -50247,7 +50107,6 @@ encoder:
 𭺖	ehvv
 𫧥	ehvv	0
 𧟥	ehvx	0
-𤫃	ehwr	0
 𤩿	ehwr	0
 𤣸	ehwu	0
 𥧪	ehwx	0
@@ -50268,7 +50127,6 @@ encoder:
 𤦧	ehzz	0
 𩢞	eibm	0
 𤪳	eibr	0
-	eibv
 𤤑	eibv	0
 𨜼	eibx	0
 𦑵	eicf	0
@@ -50438,8 +50296,6 @@ encoder:
 𤦫	ejvv	0
 𨠬	ejvy	0
 𩮿	ejwb	0
-𫧤	ejwi	0
-𠦽	ejwr	0
 𧞙	ejwx	0
 𬍬	ejxe	0
 𤩠	ejxo	0
@@ -50534,7 +50390,6 @@ encoder:
 𢾜	ekpp	0
 𦩻	ekpr	0
 𣎍	ekps	0
-	ekpu
 𤤺	ekpu	0
 𤥟	ekpw	0
 𬢺	ekpy	0
@@ -50608,7 +50463,6 @@ encoder:
 𠜙	eldf	0
 𤨪	eldi	0
 𩢬	eldm	0
-	eldv
 𤪨	eldy	0
 𮫊	elfb
 𮤁	elfc
@@ -50652,7 +50506,6 @@ encoder:
 𮡅	elty
 𩬄	elub	0
 𤴕	elue	0
-	elue
 𤩰	elui	0
 𤪽	elun	0
 𤪻	elun	0
@@ -50679,7 +50532,6 @@ encoder:
 𩦎	elym	0
 𩤾	elym	0
 𬻟	elzu
-	em
 ⾺	em
 𤪖	emap	0
 𫞥	emb	0
@@ -50764,7 +50616,6 @@ encoder:
 𩮴	emtb	0
 𩣲	emtm	0
 𨡏	emty	0
-	emu
 再	emu
 𫜰	emua	0
 𩬀	emub	0
@@ -51024,10 +50875,8 @@ encoder:
 𫇔	eoqg	0
 𣢯	eoqg	0
 𣡏	eoqi	0
-	eoqi
 𧋌	eoql	0
 𬻧	eoqn
-	eoqu
 𧚐	eoqw	0
 𩮪	eorb	0
 𭜦	eore
@@ -51054,12 +50903,10 @@ encoder:
 𦧖	eoug	0
 𣝐	eoui	0
 𪫈	eous	0
-	eov
 𠰫	eov	0
 𭇷	eovd
 况	eove
 况	eove
-	eovg
 𦧑	eovg	0
 𦧊	eovg	0
 𭊢	eovm
@@ -51097,6 +50944,7 @@ encoder:
 𢦔	epfg	0
 𩢿	epfm	0
 𤣯	epfq	0
+𤪕	epgf	0
 𤥖	epgl	0
 𬎐	epgo	0
 𨲡	ephc	0
@@ -51123,7 +50971,6 @@ encoder:
 𨱝	eppc	0
 𢽊	eppf	0
 𨠓	eppy	0
-𤪕	epqf	0
 𩡹	epqm	0
 𩯙	eprb	0
 𭞑	eprf
@@ -51266,7 +51113,6 @@ encoder:
 𠧋	eqrm	0
 𭐓	eqrw
 𨣺	eqry	0
-	eqry
 𬪩	eqry	0
 𤤄	eqs	0
 𩭛	eqsb	0
@@ -51282,9 +51128,7 @@ encoder:
 𨢜	eqty	0
 𨣯	eqty	0
 𨢎	eqty	0
-	equ
 𫠤	equ	0
-	equ
 𩭥	equb	0
 𫘙	equm	0
 𩤂	equm	0
@@ -51453,7 +51297,6 @@ encoder:
 𨡒	esly	0
 𩯫	esnc	0
 𮫆	esnc
-	esnf
 𬷕	esnf	0
 𮧃	esoj
 𩇢	esor	0
@@ -51561,7 +51404,6 @@ encoder:
 𮞙	etmz
 𤦸	etoi	0
 𩣥	etom	0
-󰀫	etov
 𨲥	etpc	0
 𩢝	etpm	0
 𩮫	etqb	0
@@ -51667,7 +51509,6 @@ encoder:
 𪻼	euiv	0
 𨣣	euiy	0
 𭹉	euj
-	eujg
 𩢹	eujm	0
 𤦴	eukc	0
 𫞄	euke	0
@@ -51740,7 +51581,6 @@ encoder:
 𢾶	euup	0
 𤨌	euur	0
 𤧙	euuu	0
-	euuu
 𪻐	euuu	0
 𭘆	euuu
 𩮷	euvb	0
@@ -51765,13 +51605,11 @@ encoder:
 𮟀	euzx
 𫑷	euzy	0
 王	ev
-	ev
 ⺩	ev
 𤣩	ev	0
 𩬵	evab	0
 𤨊	evaf	0
 𮮇	evap
-	evap
 𤫈	evar	0
 𤦰	evav	0
 𩬈	evbb	0
@@ -51784,7 +51622,6 @@ encoder:
 𪎊	evcp	0
 瑱	evct
 𬍛	evcx	0
-	evcx
 𨠱	evcy	0
 𪌛	evdd	0
 𮮃	evdo
@@ -52081,8 +51918,6 @@ encoder:
 𫘕	extm	0
 𫘚	extm	0
 𨢑	exty	0
-	exu
-	exug
 𪻓	exv	0
 𪼎	exva	0
 𩬊	exvb	0
@@ -52090,7 +51925,6 @@ encoder:
 𠒀	exve	0
 駾	exvm
 𫘉	exvm	0
-󰁅	exvs
 𤩓	exxk	0
 𩤀	exxm	0
 𮪋	exxm
@@ -52178,7 +52012,6 @@ encoder:
 𤧾	eyqd	0
 𤧟	eyqe	0
 𪵐	eyqf	0
-󰀣	eyqf
 𤪗	eyqg	0
 𪻑	eyqj	0
 𪼀	eyqm	0
@@ -52241,7 +52074,6 @@ encoder:
 𨣕	ezmy	0
 𩰄	eznb	0
 𬎑	eznx	0
-	eznx
 𤤯	ezo	0
 𨠕	ezoy	0
 𩭠	ezsb	0
@@ -52301,7 +52133,6 @@ encoder:
 𮂁	faos
 𢪫	fap	0
 𢆟	fape	0
-	fapg
 𮁽	faps
 𫀙	faps	0
 𠘸	faqq	0
@@ -52377,6 +52208,7 @@ encoder:
 𠥍	fbof	0
 𢶝	fbol	0
 𤚹	fbop	0
+𬰶	fbor	0
 𫖖	fbox	0
 𮧴	fbpc
 𫖓	fbpe	0
@@ -52391,7 +52223,6 @@ encoder:
 𬰴	fbti	0
 𢵮	fbto	0
 𫠣	fbtq	0
-	fbtq
 ⻙	fbu
 𬰵	fbuc	0
 𪥁	fbud	0
@@ -52399,7 +52230,6 @@ encoder:
 𬼞	fbug
 𪁋	fbuw	0
 𨙰	fbv	0
-	fbve
 𫖒	fbve	0
 𮧵	fbve
 𢷽	fbvi	0
@@ -52407,7 +52237,6 @@ encoder:
 𢶽	fbvu	0
 𬰷	fbvy	0
 𫖑	fbwb	0
-𬰶	fbwr	0
 𢩴	fbwu	0
 𢵌	fbxr	0
 𢱙	fbyh	0
@@ -52415,7 +52244,6 @@ encoder:
 𢱸	fbzd	0
 𤘅	fbzy	0
 ⻋	fc
-	fc
 祿	fcas
 𫼾	fcaw	0
 𡘏	fcbd	0
@@ -52522,10 +52350,10 @@ encoder:
 𫝼	fdec	0
 𢲈	fded	0
 𫯴	fded	0
+𬒰	fdes	0
 𢳫	fdez	0
 𢲉	fdfs	0
 𡗝	fdgd	0
-	fdgf
 𩔡	fdgf	0
 𠁁	fdgf	0
 𢦘	fdgg	0
@@ -52827,8 +52655,6 @@ encoder:
 𡚌	ffft	0
 𭢳	fffx
 𨅪	fffy	0
-	ffg
-	ffg
 𢦒	ffg	0
 𪥅	ffgd	0
 𠀤	ffgd	0
@@ -52975,6 +52801,7 @@ encoder:
 𪥍	fgkd	0
 𫯫	fgkd	0
 𠥏	fgkf	0
+𢮛	fgko	0
 福	fgks	0
 𢫦	fgkv	0
 𠠘	fgld	0
@@ -52998,6 +52825,7 @@ encoder:
 𭡲	fgnv
 𢰁	fgoa	0
 𠥀	fgof	0
+𢴥	fgor	0
 𠥧	fgov	0
 𠺃	fgov	0
 𢭃	fgox	0
@@ -53023,8 +52851,6 @@ encoder:
 𪮢	fguc	0
 𡗓	fgud	0
 𬼖	fguf
-	fguf
-	fguf
 𪭉	fgug	0
 𭟮	fgug
 𢷡	fgui	0
@@ -53305,7 +53131,6 @@ encoder:
 𢲪	fjke	0
 𢯟	fjkg	0
 𢸲	fjkk	0
-𢮛	fjkw	0
 𬨕	fjlc	0
 𠝥	fjld	0
 𭢲	fjle
@@ -53353,7 +53178,6 @@ encoder:
 𢺓	fjvr	0
 社	fjvs
 𢷛	fjvv	0
-𢴥	fjwr	0
 𥜬	fjws	0
 𬻊	fjwt
 𢩹	fjwu	0
@@ -53420,9 +53244,7 @@ encoder:
 𫾄	fkke	0
 𣊼	fkke	0
 𬛪	fkkf	0
-	fkkf
 𦣞	fkkf	0
-	fkkf
 𦣝	fkkf	0
 𢹮	fkkj	0
 𢵃	fkkr	0
@@ -53450,7 +53272,6 @@ encoder:
 𫯭	fksd	0
 𬸘	fksf	0
 𤇴	fksf	0
-	fksf
 𡌒	fksj	0
 𢱦	fksl	0
 𢒈	fkss	0
@@ -53635,7 +53456,6 @@ encoder:
 𢮶	fmpi	0
 𫯥	fmqd	0
 𫽋	fmqx	0
-	fmrc
 𮝹	fmrc
 𢰌	fmrx	0
 𭣌	fmrz
@@ -53890,6 +53710,7 @@ encoder:
 𮂫	fpfs
 𢬧	fpfu	0
 𤘋	fpfy	0
+𢷵	fpgf	0
 𢱎	fpgi	0
 𢭡	fpgk	0
 𪭻	fpgl	0
@@ -53917,7 +53738,6 @@ encoder:
 𢷷	fpjk	0
 𬻙	fpjw
 𢹺	fpke	0
-	fpke
 𢴈	fpkg	0
 𭠒	fpkp
 𮁼	fpks
@@ -53974,7 +53794,6 @@ encoder:
 𥙌	fpps	0
 𭷥	fppy
 𤛆	fppy	0
-𢷵	fpqf	0
 𢦕	fpqg	0
 𭣊	fpqi
 𫼕	fpqj	0
@@ -54003,11 +53822,9 @@ encoder:
 𢲺	fpuc	0
 𪇖	fpue	0
 𢦍	fpug	0
-󰀕	fpui
 𢸌	fpum	0
 𢺅	fpuq	0
 𭠍	fpuq
-	fpuq
 𢶅	fpuu	0
 𣀗	fpuy	0
 𦣵	fpve	0
@@ -54034,11 +53851,8 @@ encoder:
 𭢪	fpyv
 𮟤	fpze
 𫠠	fq	0
-	fq
-	fq
 𢰽	fqbr	0
 𭠚	fqbu
-	fqbu
 𫼝	fqbu	0
 𪭧	fqcx	0
 𢬘	fqdb	0
@@ -54366,7 +54180,6 @@ encoder:
 𠥔	fttf	0
 𠥥	fttf	0
 𢯧	fttp	0
-	ftu
 𫼻	ftub	0
 𡗕	ftud	0
 𡚒	ftud	0
@@ -54394,12 +54207,8 @@ encoder:
 𮟁	ftzd
 𠥓	fu	0
 Σ	fu
-	fu
 ヰ	fu
-	fu
 ≠	fu
-	fu
-	fu
 𢭧	fuaa	0
 𭆜	fuad
 𣷚	fuad	0
@@ -54484,7 +54293,6 @@ encoder:
 𢮦	fuou	0
 𢧒	fuow	0
 𪮷	fuoy	0
-	fuoy
 𬌗	fuoy	0
 𢶱	fupi	0
 𫾛	fupp	0
@@ -54560,7 +54368,6 @@ encoder:
 𫼣	fveu	0
 𫼺	fvev	0
 𢵶	fvfa	0
-	fvfc
 𬨂	fvfc	0
 𠥯	fvff	0
 𮎁	fvff
@@ -54768,7 +54575,6 @@ encoder:
 𨝼	fxdd	0
 𪭱	fxdu	0
 𦆫	fxea	0
-	fxec
 𬨎	fxec	0
 𩢙	fxed	0
 𮠡	fxed
@@ -54851,7 +54657,6 @@ encoder:
 𡘴	fxtd	0
 𢰢	fxtz	0
 𡗜	fxud	0
-	fxud
 𠥛	fxuf	0
 𢹪	fxus	0
 𢱣	fxus	0
@@ -55101,7 +54906,6 @@ encoder:
 𤬮	gahw	0
 𠫓	gai	0
 𠫔	gai	0
-	gai
 𬆔	gaid	0
 𣩗	gaid	0
 𦓩	gail	0
@@ -55179,7 +54983,6 @@ encoder:
 𫨐	gaxc	0
 𢆰	gay	0
 𨑼	gazd	0
-	gb
 𬆚	gbad	0
 𣩃	gbad	0
 碌	gbas
@@ -55263,7 +55066,6 @@ encoder:
 ⼚	gc
 𠪓	gcac	0
 𠩨	gcbc	0
-	gcc
 𠠿	gccc	0
 𣦾	gccd	0
 𫲜	gccs	0
@@ -55318,14 +55120,12 @@ encoder:
 𡿱	gcrr	0
 𨓷	gcrz	0
 𣩍	gcsd	0
-	gcsh
 𡋬	gcsj	0
 𢚎	gcsr	0
 𨓃	gcsz	0
 𬆛	gctd	0
 𣩰	gctd	0
 𮀿	gctw
-	gcu
 𥐕	gcu	0
 𣦶	gcu	0
 𠀁	gcu	0
@@ -55404,7 +55204,6 @@ encoder:
 𮙣	gdns
 𥄪	gdnv	0
 𫪸	gdnv	0
-	gdoc
 𢆖	gdoe	0
 𩒾	gdog	0
 𤭑	gdoh	0
@@ -55466,7 +55265,6 @@ encoder:
 𧱪	gefs	0
 𬒠	gegb	0
 𠫉	gegc	0
-󰀗	gegc
 𣪀	gegd	0
 𥓈	gehe	0
 𥖀	gehn	0
@@ -55575,14 +55373,12 @@ encoder:
 𥔇	gfqo	0
 𢣓	gfre	0
 𭭮	gfrm
-	gfs
 𮀔	gfs
 𪿤	gfsd	0
 𬑾	gft	0
 𣨊	gftd	0
 𩀋	gfte	0
 𥐰	gfti	0
-	gfu
 𢎔	gfuc	0
 𢎁	gfuc	0
 𭭸	gfuc
@@ -55593,11 +55389,9 @@ encoder:
 𥐵	gfve	0
 𧞕	gfwe	0
 𥔐	gfwm	0
-	gfwu
 𤮵	gfxe	0
 𤐱	gfxe	0
 𪿬	gfxk	0
-	gfzd
 𬆆	ggab	0
 𭮊	ggad
 𥒓	ggaj	0
@@ -55646,6 +55440,7 @@ encoder:
 𨟥	ggib	0
 𣦿	ggid	0
 𭪴	ggid
+𣩘	ggid	0
 𡐷	ggjc	0
 𣧁	ggjd	0
 𣨂	ggjd	0
@@ -55890,7 +55685,6 @@ encoder:
 𠢑	gicn	0
 𪿶	gida	0
 𥗓	gidn	0
-	gif
 𭆌	gifc
 𠨵	gifc	0
 𥖔	giff	0
@@ -55917,7 +55711,6 @@ encoder:
 𣩬	gind	0
 𠁃	giob	0
 𥗈	giol	0
-	giov
 𮀼	gioz
 𪿥	gipp	0
 𠩼	giqc	0
@@ -55976,8 +55769,6 @@ encoder:
 𪿚	gjic	0
 𠫃	gjic	0
 𠪆	gjic	0
-	gjic
-𣩘	gjid	0
 𠄯	gjig	0
 𧏁	gjjc	0
 𪿵	gjjf	0
@@ -55994,6 +55785,7 @@ encoder:
 𪠅	gjoc	0
 𣧗	gjod	0
 𥖲	gjoi	0
+𮁗	gjoi
 𧲙	gjos	0
 𧰰	gjos	0
 𠪚	gjpc	0
@@ -56019,11 +55811,11 @@ encoder:
 𪣗	gjvn	0
 𠪑	gjwc	0
 𥖟	gjwd	0
-𮁗	gjwi
 𫨆	gjxc	0
 𥕱	gjxs	0
 𠩝	gjyc	0
 𬦇	gjzb	0
+𫩄	gkad	0
 𣓧	gkai	0
 𤴛	gkal	0
 𠵤	gkao	0
@@ -56035,6 +55827,7 @@ encoder:
 𨞬	gkbc	0
 𤴝	gkbl	0
 𢞘	gkbr	0
+𢡴	gkbr	0
 𭂾	gkca
 𠩤	gkcc	0
 𣨵	gkcd	0
@@ -56064,16 +55857,20 @@ encoder:
 𣍇	gkhd	0
 𥘀	gkhr	0
 𣌽	gkhx	0
+𦄯	gkia	0
 𣨪	gkid	0
 𤾓	gkii	0
 𭤅	gkil
 𭤈	gkip
+𢞯	gkir	0
 𡕣	gkiv	0
 𥓖	gkiv	0
+𨖇	gkiz	0
 𥑐	gkj	0
 𠪨	gkjc	0
 𫨍	gkjc	0
 𠪷	gkjc	0
+𭕃	gkjj
 𥗼	gkka	0
 𠀞	gkkb	0
 𤳪	gkkc	0
@@ -56093,11 +55890,14 @@ encoder:
 𣍙	gklt	0
 𭻿	gklu
 𬅺	gklz	0
+𬨼	gklz	0
+𬩒	gklz	0
 𫨉	gkmc	0
 𧗖	gkmc	0
 𢅠	gkmc	0
 殟	gkmd
 𥔋	gkmm	0
+𡭇	gkmu	0
 𠦟	gkmv	0
 𥌅	gknc	0
 𤰔	gko	0
@@ -56107,8 +55907,13 @@ encoder:
 𠫆	gkoc	0
 𭆔	gkoc
 𭮻	gkod
+𫸜	gkoh	0
+𡭏	gkoi	0
+𫦂	gkol	0
+𡸸	gkom	0
+𬺡	gkom	0
+𬹢	gkoo	0
 𠦱	gkot	0
-	gkou
 𭽈	gkou
 𣨾	gkpd	0
 𥓓	gkpe	0
@@ -56233,7 +56038,6 @@ encoder:
 𣦎	glmo	0
 𦟆	glms	0
 𬒗	glmv	0
-	glmv
 𢌫	glnb	0
 𣩪	glnd	0
 𥅮	glnd	0
@@ -56261,7 +56065,6 @@ encoder:
 𫠶	glsb	0
 䴕	glsd	18600
 烈	glsd
-	glsv
 𬒔	glsv	0
 𨕆	glsz	0
 𫨡	gltc	0
@@ -56272,7 +56075,6 @@ encoder:
 𭭣	gltf
 𨾖	gltw	0
 𤴓	glu	0
-	glu
 𩿳	glun	0
 𧱠	glus	0
 𪿛	glv	0
@@ -56362,7 +56164,6 @@ encoder:
 麗	gmkw
 𨜦	gmlb	0
 𠚷	gmld	0
-󰁄	gmlg
 𤯳	gmlp	0
 𢻵	gmlp	0
 𮭷	gmls
@@ -56387,7 +56188,6 @@ encoder:
 𧟨	gmph	0
 𧠥	gmpn	0
 𢼋	gmpp	0
-	gmpu
 𪩲	gmpu	0
 𨒘	gmpz	0
 𬜟	gmqd	0
@@ -56557,7 +56357,6 @@ encoder:
 𥔯	gnoz	0
 𥖤	gnoz	0
 𩈚	gnpe
-	gnq
 𦫥	gnqd	0
 𩈌	gnqq	0
 𭮮	gnqs
@@ -56575,7 +56374,6 @@ encoder:
 𩈸	gntj	0
 𡕵	gntj	0
 𩈿	gntk	0
-	gntu
 𬊪	gntx	0
 𩉈	gntx	0
 𠩛	gnuc	0
@@ -56740,7 +56538,6 @@ encoder:
 𥓅	gouu	0
 𧯲	gouu	0
 𫣚	gouu	0
-	gov
 𠮛	gov	0
 𠪒	govc	0
 𬤷	gove	0
@@ -56827,7 +56624,6 @@ encoder:
 磻	gpxk
 𧱲	gpxs	0
 𪿺	gpyx	0
-󰀀	gqa
 𣧼	gqbd	0
 𣧢	gqcd	0
 𥒍	gqdb	0
@@ -56939,7 +56735,6 @@ encoder:
 𦠓	grsc	0
 𣧙	grsd	0
 𣦰	grtc	0
-	gru
 𥗍	grua	0
 𠨸	gruc	0
 𪅼	gruc	0
@@ -57051,7 +56846,6 @@ encoder:
 𭆘	gttc
 𧱩	gtts	0
 𥐙	gtu	0
-	gtu
 𪆒	gtuc	0
 𠩡	gtuc	0
 𣨔	gtud	0
@@ -57351,7 +57145,6 @@ encoder:
 𭏪	gxjc
 𬒙	gxjf	0
 𥕤	gxjm	0
-󰀯	gxjq
 𥓌	gxjv	0
 𤉓	gxkc	0
 𧲅	gxks	0
@@ -57375,7 +57168,6 @@ encoder:
 𦠒	gxsc	0
 𩀾	gxtc	0
 𠪊	gxtc	0
-	gxu
 𪆙	gxuc	0
 𥕂	gxus	0
 𫝃	gxuu	0
@@ -57458,7 +57250,6 @@ encoder:
 𭮃	gzed
 𥐿	gzeu	0
 𥒀	gzgi	0
-	gzh
 𠪂	gzmc	0
 𣩀	gzmd	0
 𢄘	gzms	0
@@ -57467,7 +57258,6 @@ encoder:
 𧱚	gzss	0
 𥒁	gztc	0
 𮁍	gzte
-	gzu
 𭀝	gzuw
 𮑙	haaa
 𦴬	haaa	0
@@ -57531,7 +57321,6 @@ encoder:
 𬟍	haky	0
 𪚁	hale	0
 𪚀	hale	0
-󰁃	halg
 䩶	halg
 𧁅	halv	0
 𬝋	halv	0
@@ -57544,6 +57333,7 @@ encoder:
 𧃒	haoc	0
 𧁭	haoh	0
 𧅂	haoi	0
+𮓁	haoi
 𮑻	haok
 𭃵	haol
 𧄑	haon	0
@@ -57593,7 +57383,6 @@ encoder:
 𮐸	hawe
 𩍽	hawg	0
 𩍑	hawg	0
-𮓁	hawi
 𬟋	hawk	0
 𮒔	haxm
 𮒕	hayc
@@ -57735,8 +57524,8 @@ encoder:
 𦳨	hccs	0
 𫉆	hccs	0
 𦫷	hccu	0
-𬜺	hcde	0
 𩌋	hcdg	0
+𬜺	hcdl	0
 𡯉	hcdo	0
 𦬻	hcdo	0
 𡰀	hcdr	0
@@ -58099,7 +57888,6 @@ encoder:
 𢺿	heds	0
 ⽢	hee
 𦫽	hee	0
-	hee
 𦱚	heea	0
 𦹙	heeb	0
 𦲔	heed	0
@@ -58127,6 +57915,7 @@ encoder:
 𮐈	hefy
 ⺸	heg
 𦲖	hegb	0
+𦨂	hegf	0
 𧁀	hegi	0
 𦹁	hegi	0
 𤯅	hegl	0
@@ -58203,7 +57992,6 @@ encoder:
 𦶾	hepe	0
 𫦽	hepg	0
 𦵫	heqa	0
-𦨂	heqf	0
 𩍋	heqg	0
 𩍊	heqg	0
 𪲣	heqk	0
@@ -58312,7 +58100,6 @@ encoder:
 𩉸	hfdg	0
 𩋕	hfdg	0
 𦸃	hfdj	0
-	hfdj
 𦼾	hfdk	0
 茝	hfdk
 𮐺	hfdm
@@ -58350,7 +58137,6 @@ encoder:
 𬚗	hfje	0
 𩊓	hfjg	0
 𡋲	hfjj	0
-󰀷	hfjk
 𫈻	hfjr	0
 𦼔	hfkc	0
 𦖈	hfke	0
@@ -58362,7 +58148,6 @@ encoder:
 𮏬	hfko
 𢡳	hfkr	0
 𬜣	hfku	0
-󰀹	hflb
 𦸗	hflc	0
 𦷁	hflf	0
 𦿱	hflg	0
@@ -58528,8 +58313,6 @@ encoder:
 𭁔	hggt
 𦯰	hggv	0
 𩑪	hggy	0
-	hghf
-󰀺	hghf
 𦴐	hghf	0
 𠦜	hghg	0
 𪏈	hghk	0
@@ -58546,6 +58329,7 @@ encoder:
 芋	hgiu
 𭩠	hgiv
 𣏼	hgiv	0
+𤮍	hgiw	0
 𪏃	hgix	0
 𨔋	hgiz	0
 𨖑	hgiz	0
@@ -58586,7 +58370,6 @@ encoder:
 𮑟	hgkp
 𣤬	hgkq	0
 𬟁	hgks	0
-	hgks
 𮎩	hgkv
 𤮄	hgkw	0
 𦵀	hgle	0
@@ -58620,8 +58403,6 @@ encoder:
 𦹠	hgoe	0
 𪏇	hgog	0
 𦹊	hgoh	0
-	hgoj
-󰀅	hgoj
 𪏚	hgon	0
 𤎗	hgos	0
 𫖆	hgot	0
@@ -58678,10 +58459,8 @@ encoder:
 𬟡	hgtv	0
 𤓉	hgtx	0
 𠥻	hgu	0
-	hgu
 𬻂	hgu
 𦫺	hgu	0
-	hgu
 𠀍	hgu	0
 𪏦	hgua	0
 𪏧	hgua	0
@@ -58693,14 +58472,12 @@ encoder:
 𣥁	hguq	0
 𡗾	hgut	0
 𬜯	hguu	0
-	hguu
 𦣚	hguu	0
 𧅳	hguw	0
 𣁒	hguy	0
 𫈡	hguz	0
 𦳭	hguz	0
 𦹡	hgvb	0
-	hgve
 𦵏	hgvf	0
 𩊢	hgvg	0
 𣋅	hgvk	0
@@ -58872,7 +58649,6 @@ encoder:
 𦬇	hhv	0
 𦬢	hhv	0
 𠦌	hhv	0
-	hhv
 𦬠	hhv	0
 𩋪	hhvg	0
 𩋖	hhvg	0
@@ -58906,7 +58682,6 @@ encoder:
 𧁜	hibr	0
 𦭭	hibv	0
 𤑒	hibx	0
-󰀸	hica
 𭔶	hici
 𧄥	hicj	0
 𧀗	hick	0
@@ -59000,11 +58775,9 @@ encoder:
 𪭅	hirg	0
 𫉈	hirj	0
 𢜨	hirs	0
-	his
 𤭨	hish	0
 𦲓	hish	0
 𦼴	hiss	0
-	hisv
 𦯪	hisw	0
 𭺺	hisy
 𫞪	hitc	0
@@ -59077,7 +58850,6 @@ encoder:
 𩋮	hjig	0
 𦱰	hjil	0
 𦾫	hjiq	0
-𤮍	hjiw	0
 𦗝	hjje	0
 𫊐	hjjg	0
 𮧦	hjjg
@@ -59152,7 +58924,6 @@ encoder:
 𦿋	hjuc	0
 𦼛	hjus	0
 𤮟	hjuw	0
-	hjv
 𡉄	hjv	0
 𧅑	hjvc	0
 𠒌	hjve	0
@@ -59367,7 +59138,6 @@ encoder:
 𧹨	hktt	0
 𦺏	hktt	0
 ⻩	hktu
-	hku
 𦫳	hku	0
 𦾠	hkuf	0
 𧁢	hkun	0
@@ -59415,7 +59185,6 @@ encoder:
 𧃷	hlgj	0
 𬞲	hlgj	0
 𬞟	hlgm	0
-	hlgm
 𦼫	hlgs	0
 𭺥	hlgw
 𨙊	hlgz	0
@@ -59461,7 +59230,6 @@ encoder:
 𧃀	hltd	0
 䕫	hltv
 𧃍	hltv	0
-	hlu
 𦵵	hluc	0
 𧈠	hlv	0
 𦖖	hlve	0
@@ -59589,11 +59357,9 @@ encoder:
 𠨊	hmql	0
 夢	hmqq
 𤔻	hmqr	0
-	hmqu
 𪅇	hmqu	0
 𪇓	hmqu	0
 𩴲	hmqu	0
-	hmqu
 𬜨	hmqx	0
 𫉐	hmqy	0
 𬩝	hmqz	0
@@ -59614,7 +59380,6 @@ encoder:
 𦿛	hmtu	0
 𦸏	hmtw	0
 𦿚	hmtz	0
-	hmu
 𫈦	hmuf	0
 𩌔	hmug	0
 𦯛	hmuh	0
@@ -59863,7 +59628,6 @@ encoder:
 𧅍	hott	0
 𮦃	hott
 𦭜	hotu	0
-	hotw
 𨙕	hotz	0
 𦻏	houj	0
 𮏳	houu
@@ -60049,9 +59813,7 @@ encoder:
 𦿠	hqth	0
 𬜥	hqti	0
 𧃜	hqtv	0
-	hqu
 𫇦	hqu	0
-	hqu
 𫈬	hquk	0
 𦾉	hqun	0
 𦻁	hquq	0
@@ -60147,6 +59909,7 @@ encoder:
 𦿁	hrok	0
 𦽪	hrok	0
 𦸈	hror	0
+𬟘	hror	0
 𮑏	hrov
 𫈗	hrov	0
 𧀚	hrox	0
@@ -60204,7 +59967,6 @@ encoder:
 𦷘	hrvf	0
 𩊤	hrwg	0
 𩉝	hrwg	0
-𬟘	hrwr	0
 𭜑	hrx
 𧅨	hrxf	0
 𦴏	hrxh	0
@@ -60391,7 +60153,6 @@ encoder:
 𫇨	htc	0
 𫈘	htcc	0
 𦵦	htcd	0
-󰀶	htce
 𭄿	htcl
 𫈆	htco	0
 𦒙	htcq	0
@@ -60436,7 +60197,6 @@ encoder:
 𦷌	htgo	0
 𢌰	htgu	0
 𠀠	htgu	0
-	htgu
 𦰒	htgv	0
 𩒓	htgy	0
 𠮂	hthd	0
@@ -60497,6 +60257,7 @@ encoder:
 𦵋	htok	0
 𦽌	htok	0
 𮜣	htol
+𬞶	htor	0
 𦲺	htot	0
 𩁂	htot	0
 𮑩	htov
@@ -60570,7 +60331,6 @@ encoder:
 𩋘	htwg	0
 𧂤	htwk	0
 𨿣	htwq	0
-𬞶	htwr	0
 𫺯	htwr	0
 𫈄	htwu	0
 𦲤	htwy	0
@@ -60592,7 +60352,6 @@ encoder:
 𦽃	htzm	0
 𦮩	htzz	0
 𠂇	hu	0
-	hu
 龷	hu
 𠀎	hu	0
 聆	huae
@@ -60606,7 +60365,6 @@ encoder:
 𤬯	hubw	0
 𬚔	huce	0
 𦕮	huce	0
-󰀵	huce
 𫉕	huco	0
 𦴞	hucp	0
 𦯌	hucr	0
@@ -60794,10 +60552,7 @@ encoder:
 ⼶	hv
 ⻀	hv
 廾	hv
-	hv
-	hv
 艹	hv
-	hv
 艹	hv
 𦺄	hvaa	0
 𬪋	hvab	0
@@ -60990,7 +60745,6 @@ encoder:
 𩎀	hwlg	0
 𦶉	hwlv	0
 𬞊	hwme	0
-󰀼	hwmj
 𬞹	hwmx	0
 𦖑	hwne	0
 𦶴	hwnj	0
@@ -61047,7 +60801,6 @@ encoder:
 𦺦	hwtz	0
 𠔀	hwu	0
 𠀖	hwu	0
-	hwu
 𢌭	hwu	0
 𦿬	hwun	0
 𤻓	hwuq	0
@@ -61089,7 +60842,6 @@ encoder:
 𦽓	hxbe	0
 𮠑	hxbj
 鄑	hxbj
-󰀴	hxce
 𧅛	hxct	0
 𦽽	hxdf	0
 𩌵	hxdg	0
@@ -61319,7 +61071,6 @@ encoder:
 𭣺	hypp
 𦹭	hypr	0
 𦵖	hyqc	0
-󰀻	hyqc
 𮒑	hyqg
 𫉮	hyqq	0
 𦹾	hyqr	0
@@ -61456,8 +61207,8 @@ encoder:
 𦶜	hzok	0
 𦶶	hzok	0
 𧀌	hzoq	0
+𬟉	hzor	0
 𬜬	hzov	0
-	hzov
 𦷫	hzpc	0
 蓱	hzpe
 𩊮	hzpg	0
@@ -61513,7 +61264,6 @@ encoder:
 𦻂	hzvs	0
 𦱈	hzvw	0
 𦴴	hzwc	0
-𬟉	hzwr	0
 𦮟	hzwu	0
 𮑲	hzxa
 𦲍	hzxt	0
@@ -61615,12 +61365,12 @@ encoder:
 𪴏	ibmd	0
 𣓶	ibmm	0
 𭫜	ibmo
-𣝥	ibow	0
 𣜘	ibox	0
 𦁝	ibpa	0
 𣜔	ibpk	0
 𭪔	ibpp
 𣛾	ibqa	0
+𣝥	ibqo	0
 𣔞	ibrg	0
 𥞱	ibrg	0
 𢭤	ibrg	0
@@ -61733,7 +61483,6 @@ encoder:
 𣡃	idir	0
 𣒺	idiv	0
 𣑔	idiv	0
-󰀪	idjf
 𦥆	idjf	0
 𡊷	idjf	0
 𣕪	idji	0
@@ -61752,7 +61501,6 @@ encoder:
 𡭌	idni	0
 𫅿	idnl	0
 𣑌	idoc	0
-	idof
 𫩬	idof	0
 𣚦	idol	0
 𤋐	idos	0
@@ -61877,8 +61625,6 @@ encoder:
 𤉀	iexv	0
 𪲅	iexw	0
 𣞒	ieyp	0
-	if
-	if
 𣕊	ifas	0
 𣔝	ifaz	0
 𣛮	ifbm	0
@@ -62257,7 +62003,6 @@ encoder:
 𩕌	iiig	0
 𣛧	iiii	0
 𣡕	iiii	0
-	iiii
 𣡽	iiii	0
 𭫼	iiim
 𠾤	iiio	0
@@ -62445,7 +62190,6 @@ encoder:
 𣠌	ijxk	0
 𬅂	ijxr	0
 𬂩	ijxu	0
-	ijxu
 𣠃	ijxx	0
 𣔯	ijy	0
 𦔖	ijzl	0
@@ -62528,7 +62272,6 @@ encoder:
 𨓳	ikzd	0
 𣔴	ikzd	0
 ⽾	il
-	il
 𣞞	ilad	0
 𣒉	ilad	0
 𣚛	ilag	0
@@ -62743,7 +62486,6 @@ encoder:
 𦓾	inrl	0
 𣑟	inrq	0
 𦓴	insl	0
-󰀓	intg
 𣞹	intj	0
 𦔬	intl	0
 𣡞	inty	0
@@ -62886,7 +62628,6 @@ encoder:
 𬩉	iotz	0
 𢖗	ioul	0
 𭬖	ioun
-	ious
 𨙛	iouu	0
 𬩯	iouz	0
 𪱳	iov	0
@@ -63199,7 +62940,6 @@ encoder:
 𠝁	islw	0
 𣝗	isng	0
 𬷾	isng	0
-󰀒	isog
 𪓫	isom	0
 𣕌	isop	0
 𣠡	ispa	0
@@ -63320,7 +63060,6 @@ encoder:
 𪲼	ityv	0
 𣑉	itz	0
 𣛎	itzd	0
-	iu
 𬺰	iu
 ψ	iu
 𪌥	iuaa	0
@@ -63714,7 +63453,6 @@ encoder:
 𣖵	iwuj	0
 𩿯	iwun	0
 𣚲	iwuu	0
-󰀢	iwuu
 𭬙	iwuu
 𣡐	iwvo	0
 𣔳	iwxa	0
@@ -64610,7 +64348,6 @@ encoder:
 𫭛	jft	0
 𮝀	jftc
 𫭟	jfti	0
-	jfti
 𩂉	jfty	0
 𩃑	jfty	0
 𫎿	jftz	0
@@ -64667,7 +64404,6 @@ encoder:
 𡑂	jgge	0
 𡓃	jggg	0
 𫭱	jggu	0
-󰀆	jggw
 𨊻	jghc	0
 𨏄	jghc	0
 𡉨	jghj	0
@@ -64681,7 +64417,9 @@ encoder:
 𣘒	jgig	0
 𩁹	jgiy	0
 𩂀	jgiy	0
+𩅂	jgiy	0
 𧽘	jgiz	0
+𧽢	jgiz	0
 𨏟	jgjc	0
 𨍘	jgjc	0
 𨏬	jgjc	0
@@ -64725,12 +64463,14 @@ encoder:
 𮝣	jgoc
 𭎟	jgov
 𭎞	jgox
+𩃘	jgoy	0
 𧻳	jgoz	0
 𡋫	jgpa	0
 𮝗	jgqc
 𩏻	jgqd	0
 𡑬	jgqf	0
 𧽸	jgqz	0
+𨎥	jgrc	0
 𩆝	jgry	0
 𩅩	jgry	0
 𧽺	jgrz	0
@@ -64795,7 +64535,6 @@ encoder:
 𫕧	jhdy	0
 𧾛	jhdz	0
 𪣌	jhe	0
-	jhe
 𡓅	jhea	0
 𨌀	jhec	0
 𫮝	jhef	0
@@ -64862,7 +64601,6 @@ encoder:
 𡒝	jhpo	0
 𧽾	jhpz	0
 𫭼	jhqc	0
-	jhqc
 𡍙	jhqe	0
 𡑵	jhqf	0
 𡏗	jhqq	0
@@ -65023,9 +64761,7 @@ encoder:
 𥀂	jjid	0
 𪤰	jjii	0
 𧛜	jjiw	0
-𩅂	jjiy	0
 𮦐	jjiy
-𧽢	jjiz	0
 𨏿	jjjc	0
 輦	jjjf
 𫏼	jjjf	0
@@ -65080,7 +64816,6 @@ encoder:
 𡋼	jjqq	0
 𣤛	jjqq	0
 𧽓	jjqz	0
-𨎥	jjrc	0
 𧁁	jjrg	0
 𡐛	jjrj	0
 𫭰	jjrx	0
@@ -65111,7 +64846,6 @@ encoder:
 𧺔	jjvz	0
 𧻩	jjvz	0
 𢍠	jjwh	0
-𩃘	jjwy	0
 𩅀	jjwy	0
 𧺒	jjwz	0
 𨋸	jjxc	0
@@ -65129,13 +64863,11 @@ encoder:
 𨘪	jjzf	0
 𨘧	jjzf	0
 𧼂	jjzz	0
-𫩄	jkad	0
 𪣍	jkan	0
 𡏱	jkav	0
 𩅏	jkay	0
 𧽲	jkaz	0
 𡳣	jkbd	0
-𢡴	jkbr	0
 𬰉	jkby	0
 𩃛	jkby	0
 𫑪	jkby	0
@@ -65168,16 +64900,12 @@ encoder:
 𡌸	jkhj	0
 𡌹	jkhv	0
 𤮚	jkhy	0
-𦄯	jkia	0
 𭏬	jkih
-𢞯	jkir	0
 𮦠	jkiy
 𬰈	jkiy	0
-𨖇	jkiz	0
 𫎹	jkiz	0
 𡊠	jkj	0
 𮝯	jkjc
-𭕃	jkjj
 𡎉	jkjv	0
 𩂘	jkjy	0
 𬧾	jkjy	0
@@ -65201,9 +64929,6 @@ encoder:
 𣀀	jkly	0
 𧒜	jkly	0
 𩄕	jkly	0
-𬩒	jklz	0
-𬨼	jklz	0
-𡭇	jkmu	0
 𡌕	jkmv	0
 𬢎	jkmv	0
 𡑦	jkmy	0
@@ -65215,9 +64940,7 @@ encoder:
 𫏾	jkoc	0
 𨜞	jkod	0
 𡔒	jkoh	0
-𡭏	jkoi	0
 𨇜	jkol	0
-𬺡	jkom	0
 𧻉	jkoz	0
 𧼹	jkoz	0
 𨋯	jkpc	0
@@ -65258,10 +64981,6 @@ encoder:
 𡯟	jkvo	0
 𧺝	jkvz	0
 𪤃	jkwc	0
-𫸜	jkwh	0
-𫦂	jkwl	0
-𡸸	jkwm	0
-𬹢	jkwo	0
 𪣙	jkxu	0
 𮦟	jkxy
 𫮷	jkyo	0
@@ -65345,7 +65064,6 @@ encoder:
 𡔰	jmbl	0
 𧾈	jmbz	0
 𫰹	jmcf	0
-	jmcf
 𥡮	jmco	0
 𩃩	jmcy	0
 𡔘	jmda	0
@@ -65748,7 +65466,6 @@ encoder:
 𩇄	joyy	0
 𧰠	jozc	0
 𧒕	jozl	0
-	jpao
 𧼆	jpaz	0
 𨊰	jpbc	0
 𡊇	jpbe	0
@@ -65820,8 +65537,6 @@ encoder:
 𡋸	jpuf	0
 𠀅	jpuk	0
 ⻰	jpuo
-	jpuq
-󰀩	jpuq
 𧼱	jpvz	0
 𬻓	jpwo
 𡔄	jpxe	0
@@ -65892,7 +65607,6 @@ encoder:
 𭐚	jqgo
 𡎇	jqgp	0
 𣪛	jqgq	0
-	jqgq
 𣪊	jqgq	0
 𥔳	jqgq	0
 𢦁	jqgr	0
@@ -65916,7 +65630,6 @@ encoder:
 𡍦	jqjc	0
 𡐊	jqjc	0
 𣪝	jqjq	0
-󰀇	jqjq
 𣪒	jqjq	0
 𣫂	jqjq	0
 𣫅	jqjq	0
@@ -66000,7 +65713,6 @@ encoder:
 𥡛	jqqr	0
 𫻢	jqqr	0
 𢦆	jqqr	0
-	jqqs
 𩁡	jqqt	0
 𩀠	jqqt	0
 𪅏	jqqu	0
@@ -66036,7 +65748,6 @@ encoder:
 𪤴	jqtm	0
 𪏙	jqtq	0
 𧹲	jqtq	0
-	jqu
 𬤵	jquo	0
 𫯈	jquo	0
 𪕸	jquq	0
@@ -66089,7 +65800,6 @@ encoder:
 𪤔	jref	0
 𪥟	jref	0
 𫯰	jref	0
-	jrem
 𡎆	jren	0
 𡉻	jreu	0
 𤏍	jrex	0
@@ -66402,7 +66112,6 @@ encoder:
 𫐨	jttz	0
 𤓯	jtu	0
 𫭗	jtu	0
-	jtu
 𩲚	jtug	0
 𡐟	jtuj	0
 𥙏	jtuk	0
@@ -66557,8 +66266,6 @@ encoder:
 𧶐	juun	0
 𡓤	juun
 𡓤	juun	0
-	juuu
-	juuu
 𡔡	juuu	0
 𭎂	juuu
 𡕲	juuv	0
@@ -66567,7 +66274,6 @@ encoder:
 𮣣	juvc
 𬧼	juvc	0
 𡌗	juve	0
-	juvi
 𫭢	juvi	0
 𥏷	juvp	0
 𡓻	juvv	0
@@ -66582,7 +66288,6 @@ encoder:
 𨗺	juzy	0
 𫕲	juzy	0
 ⼟	jv
-	jv
 𨋕	jvac	0
 𨋖	jvac	0
 𡊁	jvae	0
@@ -66625,7 +66330,6 @@ encoder:
 𨋪	jvfc	0
 𠒲	jvfg	0
 𭧳	jvfk
-	jvfu
 𡊶	jvga	0
 𦓜	jvgf	0
 𬱆	jvgg	0
@@ -66643,7 +66347,6 @@ encoder:
 𤭝	jvjh	0
 𮋜	jvjo
 𨿲	jvjt	0
-	jvjv
 𠒶	jvjv	0
 𦓈	jvjv	0
 𦓋	jvjv	0
@@ -66928,7 +66631,6 @@ encoder:
 𨎚	jxkc	0
 𢆪	jxke	0
 𫮃	jxke	0
-	jxke
 𡌡	jxkp	0
 𧾃	jxkz	0
 𪯋	jxlf	0
@@ -66960,7 +66662,6 @@ encoder:
 𢱬	jxsr	0
 𩄤	jxsy	0
 𨍣	jxtc	0
-󰀎	jxto
 𡏆	jxtu	0
 𩄡	jxty	0
 𫮐	jxtz	0
@@ -66997,9 +66698,6 @@ encoder:
 𩄲	jxzy	0
 ⾬	jy
 ⻗	jy
-	jy
-	jy
-	jy
 𨏷	jyac	0
 𡍕	jyai	0
 𡔖	jyap	0
@@ -67073,7 +66771,6 @@ encoder:
 𢧴	jypf	0
 𣘢	jypi	0
 𣊁	jypk	0
-	jypp
 𩘮	jypq	0
 𡎑	jyps	0
 𤎅	jypx	0
@@ -67305,7 +67002,6 @@ encoder:
 𭻤	kcbt
 𤱘	kcbt	0
 𬏒	kcbt	0
-󰀛	kcbu
 𬪀	kcbv	0
 𡿯	kcc	0
 𭦀	kccc
@@ -67354,12 +67050,11 @@ encoder:
 𪰣	kcy	0
 𦐇	kcy	0
 𣋲	kczc	0
-	kd
 𤰷	kdbs	0
 𭻆	kdbt
 𣇽	kddd	0
 𣉕	kddi	0
-𣅴	kdee	0
+𣅴	kdeu	0
 𣉉	kdft	0
 𤱕	kdft	0
 𡳧	kdho	0
@@ -67417,7 +67112,6 @@ encoder:
 𤿧	kedp	0
 𭻁	kedt
 𣄾	kee	0
-	keee
 𭧧	keei
 𮡙	keej
 里	keej
@@ -67478,7 +67172,6 @@ encoder:
 晴	kesv
 𪰓	ketu	0
 𨿑	ketw	0
-	keu
 𭦜	keue
 𭥕	kev
 𩰋	kev	0
@@ -67498,7 +67191,6 @@ encoder:
 𨲖	kezy	0
 𦀤	kfav	0
 𬀩	kfbu	0
-	kfbu
 𨛴	kfbv	0
 𭥏	kfd
 𪰩	kfdd	0
@@ -67506,7 +67198,6 @@ encoder:
 𣆰	kfdg	0
 𣈓	kfdp	0
 𭧾	kfds
-	kfe
 𪰫	kfeh	0
 𧷤	kfen	0
 𤱥	kfet	0
@@ -67554,7 +67245,6 @@ encoder:
 𣇗	kgbd	0
 𣈟	kgbe	0
 𥝂	kgby	0
-	kgc
 𣇁	kgci	0
 𠡎	kgcl	0
 𧵯	kgcn	0
@@ -67599,7 +67289,6 @@ encoder:
 𣅘	kgjk	0
 𭧇	kgjp
 𪱀	kgka	0
-	kgkb
 𪰲	kgkb	0
 量	kgke
 𬁔	kgke	0
@@ -67623,7 +67312,6 @@ encoder:
 𫃆	kglx	0
 𨕒	kglz	0
 𬱖	kgmo	0
-	kgmo
 𬀼	kgnc	0
 𮧏	kgno
 𤲆	kgnt	0
@@ -67633,6 +67321,7 @@ encoder:
 𭨎	kgog
 𣊰	kgol	0
 𧸯	kgon	0
+𪱇	kgor	0
 𣆘	kgot	0
 𣇊	kgov	0
 𬼲	kgpb
@@ -67672,7 +67361,6 @@ encoder:
 𬉨	kgua	0
 𠭲	kgud	0
 𠦆	kgus	0
-	kgut
 𨕈	kguz	0
 𪰒	kgv	0
 𭦯	kgvf
@@ -67814,8 +67502,6 @@ encoder:
 𣉶	kirm	0
 𣮔	kirm	0
 𤔖	kirz	0
-	kis
-	kis
 𭪹	kiso
 𢒙	kiss	0
 𭧔	kiua
@@ -67887,7 +67573,6 @@ encoder:
 𣇾	kjvv	0
 暑	kjwk
 暑	kjwk
-𪱇	kjwr	0
 𬀧	kjwu	0
 𣈑	kjxe	0
 𣉊	kjxg	0
@@ -67908,7 +67593,6 @@ encoder:
 𭆪	kkdo
 𠭒	kkdo	0
 𢁐	kkdt	0
-󰀜	kkee
 𭨋	kkeh
 𤴍	kket	0
 𤳣	kket	0
@@ -67962,7 +67646,6 @@ encoder:
 𤳍	kkkt	0
 𤳹	kkkt	0
 𤴑	kkkt	0
-	kkkt
 𤴄	kkkt	0
 𤳳	kkkt	0
 𤴐	kkkt	0
@@ -68082,7 +67765,6 @@ encoder:
 𨔒	kmuz	0
 𣉀	kmvd	0
 𬀪	kmve	0
-	kmve
 𣌬	kmvg	0
 𤳸	kmvo	0
 𣅚	kmvr	0
@@ -68186,8 +67868,6 @@ encoder:
 𮂭	kpsy
 𣆦	kptu	0
 ʧ	kpu
-	kpu
-	kpu
 𪀕	kpud	0
 𬁚	kpuu	0
 𣊜	kpuu	0
@@ -68386,14 +68066,12 @@ encoder:
 𭦣	ktjb
 𤳬	ktot	0
 𭻗	ktot
-	ktov
 𭦎	ktpl
 𤰽	ktpt	0
 𭧭	ktsh
 𪽢	ktst	0
 𤱀	kttt	0
 𨾳	kttw	0
-	ktu
 𨾡	ktws	0
 𩀍	ktwy	0
 𣌻	ktxm	0
@@ -68405,7 +68083,6 @@ encoder:
 ⽈	ku
 ⼁	ku
 ◫	ku
-	ku
 𣋵	kuai	0
 𣆆	kub	0
 𭦼	kubg
@@ -68579,8 +68256,6 @@ encoder:
 𭨘	kwud
 𬁎	kwuo	0
 𪀙	kwus	0
-	kwus
-	kwus
 𣅸	kwvi	0
 𭥾	kwy
 𫞫	kwyt	0
@@ -68613,7 +68288,6 @@ encoder:
 𪱌	kxqc	0
 𣊶	kxtp	0
 𣅋	kxu	0
-	kxu
 𬁍	kxva	0
 𣌫	kxvi	0
 𤰹	kxvt	0
@@ -68691,7 +68365,6 @@ encoder:
 𪱓	kyxd	0
 𤜔	kyxp	0
 𪰤	kzcv	0
-	kzd
 𫐞	kzd	0
 𨑨	kzd	0
 𨒇	kzdj	0
@@ -68772,7 +68445,6 @@ encoder:
 𧏶	lbjc	0
 𬠨	lbjm	0
 𪟽	lbl	0
-	lblu
 𧋜	lblv	0
 𪗪	lboc	0
 𪊀	lbol	0
@@ -68895,7 +68567,6 @@ encoder:
 𪾋	ldmm	0
 𭾴	ldns
 𣥸	ldnz	0
-	ldo
 𧆛	ldoh	0
 𠧘	ldoh	0
 𮔔	ldov
@@ -68944,7 +68615,6 @@ encoder:
 𧍔	lecv	0
 𫠢	leds	0
 ᅤ	lee
-	lee
 𧑡	leed	0
 蚈	leeg
 𧓥	leen	0
@@ -69002,7 +68672,6 @@ encoder:
 𬠂	lex	0
 𠦺	lexf	0
 ⾮	lf
-	lf
 𨽾	lfas	0
 𧉙	lfau	0
 𣦧	lfaz	0
@@ -69016,7 +68685,6 @@ encoder:
 𨞣	lfbz	0
 𧊎	lfcu	0
 𬟽	lfcx	0
-	lfcx
 𫊧	lfdd	0
 𬟧	lfdh	0
 𮔟	lfdi
@@ -69173,6 +68841,7 @@ encoder:
 𥈠	lgnh	0
 𧏡	lgnv	0
 𧢏	lgnz	0
+𧐕	lgoi	0
 𫊳	lgot	0
 𫋏	lgov	0
 𭭢	lgoz
@@ -69190,9 +68859,7 @@ encoder:
 𪘌	lgtc	0
 𩁋	lgth	0
 𧓠	lgto	0
-󰀘	lgtr
 𣥱	lgtz	0
-	lgu
 ⾲	lguf
 𪆺	lguh	0
 𧍿	lgus	0
@@ -69211,7 +68878,6 @@ encoder:
 𧏿	lgzd	0
 𧐝	lgze	0
 ⾌	lh
-	lh
 𪚄	lhac	0
 𮔂	lhae
 𧕨	lhaf	0
@@ -69386,7 +69052,6 @@ encoder:
 𬆁	ljvz	0
 𫭠	ljvz	0
 𣥻	ljvz	0
-𧐕	ljwi	0
 蝫	ljwk
 𠧗	ljws	0
 𬟶	ljwu	0
@@ -69574,7 +69239,6 @@ encoder:
 𤋈	llss	0
 𣥌	llsz	0
 𧉆	llu	0
-	llu
 𪆛	lluh	0
 𩴥	lluh	0
 𮓝	lluh
@@ -69747,6 +69411,7 @@ encoder:
 𨘵	lnnz	0
 𧍚	lnob	0
 𪙃	lnoc	0
+𧓘	lnoi	0
 𫦛	lnol	0
 𧑽	lnol	0
 𧒪	lnon	0
@@ -69806,7 +69471,6 @@ encoder:
 𠧾	lnvv	0
 𨔁	lnvz	0
 𮢸	lnvz
-𧓘	lnwi	0
 𡍏	lnwj	0
 𣤦	lnwq	0
 𣰮	lnxr	0
@@ -69900,6 +69564,7 @@ encoder:
 𧊦	lpf	0
 𪘐	lpfc	0
 𢧶	lpfh	0
+𬠴	lpgf	0
 𪉡	lpgl	0
 𭁈	lpgt
 𪚈	lpic	0
@@ -69931,13 +69596,11 @@ encoder:
 𫊨	lpq	0
 𭓕	lpqb
 𪗟	lpqc	0
-𬠴	lpqf	0
 𬟵	lpqj	0
 𭭎	lpqs
 𧏣	lpry	0
 𧐀	lpss	0
 𧑄	lpst	0
-	lpu
 𣦇	lpvz	0
 𪗫	lpwc	0
 𫞓	lpwz	0
@@ -70070,7 +69733,6 @@ encoder:
 𪉘	lqsl	0
 𣨖	lqsn	0
 𧒻	lqsx	0
-	lqu
 𧎑	lquf	0
 𪂬	lquh	0
 𧇚	lquh	0
@@ -70100,7 +69762,6 @@ encoder:
 ⺞	lqx
 𮈀	lqxc
 𧇸	lqxh	0
-󰀈	lqxs
 𪆶	lqxu	0
 𧕇	lqxy	0
 𦍲	lqxy	0
@@ -70232,6 +69893,7 @@ encoder:
 𧇖	ltnh	0
 𥅵	ltnz	0
 𧍕	ltoa	0
+𧓆	ltoi	0
 𧐄	ltoq	0
 𧍇	ltot	0
 𧈼	ltp	0
@@ -70246,9 +69908,7 @@ encoder:
 𧇀	ltth	0
 𮕐	ltto
 𧕺	lttq	0
-	ltu
 𧈢	ltu	0
-	ltu
 𪗔	ltuc	0
 𪇦	ltuh	0
 𩴛	ltuh	0
@@ -70260,7 +69920,6 @@ encoder:
 𬠡	ltvs	0
 𨾇	ltwb	0
 𪘮	ltwc	0
-𧓆	ltwi	0
 𥜾	ltws	0
 𬠊	ltwu	0
 𬠔	ltxm	0
@@ -70268,9 +69927,7 @@ encoder:
 𮕙	ltyz
 𫊡	ltzh	0
 ╘	lu
-	lu
 ╞	lu
-	lu
 龰	lu
 〢	lu
 ⺊	lu
@@ -70310,7 +69967,6 @@ encoder:
 𫜬	lukz	0
 𪉰	lull	0
 𬺓	lulz	0
-	lulz
 𮯘	lumc
 𬠒	lumj	0
 𬺂	lumz	0
@@ -70331,7 +69987,6 @@ encoder:
 𬺈	luoz	0
 𬹿	luoz	0
 𬺄	luoz	0
-	luoz
 𬺍	luoz	0
 𬺅	lupz	0
 𣣕	luqh	0
@@ -70349,7 +70004,6 @@ encoder:
 𫜮	lusz	0
 𧏀	lutr	0
 𬹼	lutz	0
-	lutz
 𫜪	lutz	0
 𬺕	lutz	0
 𬠮	luue	0
@@ -70386,7 +70040,6 @@ encoder:
 𤿙	lvdz	0
 𩦶	lveh	0
 𭤜	lveh
-	lveh
 𧈜	lveh	0
 𠑷	lves	0
 𬠃	lveu	0
@@ -70409,7 +70062,6 @@ encoder:
 𧈈	lvih	0
 𣥅	lviz	0
 𬆀	lviz	0
-	lviz
 𭪠	lviz
 𧇡	lvjh	0
 𧆻	lvjh	0
@@ -70652,7 +70304,6 @@ encoder:
 𧒴	lxtz	0
 𨗩	lxtz	0
 𮓼	lxu
-	lxu
 𪓌	lxue	0
 𩇧	lxuf	0
 𣫞	lxuq	0
@@ -70874,7 +70525,6 @@ encoder:
 𦊛	mbow	0
 𭗅	mbpa
 𡹙	mbqm	0
-	mbqu
 𪒛	mbrh	0
 𦋆	mbrw	0
 𫵵	mbsu	0
@@ -70988,7 +70638,6 @@ encoder:
 𢃼	mdnj	0
 𧶑	mdnt	0
 𠕀	mdo	0
-	mdo
 𫵴	mdo	0
 𢅂	mdoj	0
 𢁾	mdoj	0
@@ -71048,7 +70697,6 @@ encoder:
 𢃽	mecj	0
 𭘓	mecj
 𢁢	mecj	0
-	mecj
 𠞈	mecl	0
 𭞕	mecr
 𦊂	mecw	0
@@ -71057,7 +70705,6 @@ encoder:
 𡴵	med	0
 𭖗	medc
 𢿕	medl	0
-󰀏	medo
 𤿣	medp	0
 𦉬	medw	0
 𫅉	medw	0
@@ -71286,7 +70933,6 @@ encoder:
 𭗥	mgbz
 𡷨	mgci	0
 𫵷	mgcl	0
-	mgcl
 𩿭	mgcu	0
 𮋏	mgcw
 𪑉	mgdh	0
@@ -71367,6 +71013,7 @@ encoder:
 𩒗	mgog	0
 𤭁	mgoh	0
 𣑸	mgoi	0
+𪩍	mgoi	0
 𪩳	mgoj	0
 𢾷	mgop	0
 𪀭	mgou	0
@@ -71386,6 +71033,7 @@ encoder:
 𬤹	mgqr	0
 𢘖	mgra	0
 𮋟	mgrd
+𪒜	mgrh	0
 𣂟	mgrj	0
 𡵐	mgrj	0
 𢽠	mgrp	0
@@ -71401,11 +71049,8 @@ encoder:
 𡻛	mgte	0
 𭗟	mgtt
 𡽛	mgtw	0
-	mgu
 𠔼	mgu	0
 𠕋	mgu	0
-	mgu
-	mgu
 𠀃	mgu	0
 𡾖	mgug	0
 𡽐	mgus	0
@@ -71432,7 +71077,6 @@ encoder:
 𡹼	mgyv	0
 𦍇	mgyw	0
 𣜅	mgzi	0
-	mgzu
 𮟃	mgzw
 ⿊	mh
 𫷠	mhaa	0
@@ -71525,7 +71169,6 @@ encoder:
 𧰢	mhqf	0
 𢅘	mhqj	0
 𫶇	mhqm	0
-	mhqm
 𡻺	mhqm	0
 𡿚	mhqv	0
 𦋊	mhqw	0
@@ -71543,11 +71186,9 @@ encoder:
 𡶵	mhtu	0
 𡿟	mhtv	0
 𦍀	mhtw	0
-	mhu
 𩳄	mhug	0
 𮊡	mhuw
 𡾲	mhuy	0
-	mhv
 𢌲	mhv	0
 𡻹	mhvi	0
 𢆃	mhvj
@@ -71639,7 +71280,6 @@ encoder:
 𪔒	mjdw	0
 𡽂	mjed	0
 𠰛	mjg	0
-	mjg
 𭘖	mjgj
 𩑺	mjgy	0
 𢍰	mjhw	0
@@ -71680,7 +71320,6 @@ encoder:
 𤜧	mjqj	0
 𫜳	mjqk	0
 𮉿	mjqw
-𪒜	mjrh	0
 𣂲	mjrj	0
 𢂴	mjrj	0
 𣮳	mjrj	0
@@ -71704,7 +71343,6 @@ encoder:
 𡹃	mjvv	0
 𬙞	mjvw	0
 𦉷	mjvw	0
-𪩍	mjwi	0
 𪨢	mjwu	0
 𭖄	mjwu
 𬙖	mjww	0
@@ -71820,7 +71458,6 @@ encoder:
 𪑷	mlmh	0
 𫷌	mlmj	0
 𧖂	mlmj	0
-	mlmj
 𪒩	mlnh	0
 𪑳	mlnh	0
 𡷚	mlnv	0
@@ -71854,7 +71491,6 @@ encoder:
 𡿏	mmat	0
 𧹒	mmbw	0
 𢁶	mmdj	0
-	mmee
 𠛹	mmel	0
 𪥠	mmfb	0
 𡻍	mmff	0
@@ -71948,7 +71584,6 @@ encoder:
 𢆀	mnej	0
 𦌃	mnew	0
 𮚜	mnew
-	mnfb
 𡹊	mnfd	0
 𪓆	mnfh	0
 𪩊	mnfr	0
@@ -72128,7 +71763,6 @@ encoder:
 𡽅	mqjz	0
 𦌥	mqlw	0
 𪑎	mqnh	0
-󰀑	mqog
 𪒧	mqoh	0
 𡸊	mqov	0
 𡷂	mqov	0
@@ -72295,6 +71929,7 @@ encoder:
 𦋙	mtfk	0
 𮊎	mtfm
 𭾬	mtfw
+𦌳	mtgf	0
 𠝦	mtgl	0
 𦊪	mtgo	0
 𦋑	mtgo	0
@@ -72346,7 +71981,6 @@ encoder:
 𬥽	mtpb	0
 𪑻	mtph	0
 𪑁	mtph	0
-𦌳	mtqf	0
 𢄌	mtqj	0
 𪛂	mtqo	0
 𣂹	mtrj	0
@@ -72380,7 +72014,6 @@ encoder:
 𦊮	mttx	0
 𦋫	mtty	0
 𧧧	mtty	0
-	mtu
 𦋟	mtuc	0
 𦋙	mtuc
 𡻆	mtue	0
@@ -72421,10 +72054,7 @@ encoder:
 𨗴	mtzw	0
 ⼌	mu
 𠕁	mu	0
-	mu
-	mu
 Ω	mu
-	mu
 𦛶	muaa	0
 嶺	muag
 𪑅	muah	0
@@ -72549,7 +72179,6 @@ encoder:
 𮊊	muqm
 𡾴	muqq	0
 𬛎	muqt	0
-	muqu
 𦜿	muqu	0
 𡿆	murc	0
 𪑡	murh	0
@@ -72570,7 +72199,6 @@ encoder:
 罹	mutw
 𡾵	muty	0
 𠔿	muu	0
-	muu
 內	muu
 𮌊	muub
 𨛇	muub	0
@@ -72685,7 +72313,6 @@ encoder:
 𢄰	mvoj	0
 𠜛	mvol	0
 𬚽	mvos	0
-	mvov
 𦊲	mvow	0
 𧨣	mvoy	0
 𪨫	mvpa	0
@@ -72767,7 +72394,6 @@ encoder:
 𡾝	mwma	0
 𡾨	mwma	0
 𡾢	mwmr	0
-	mwmw
 𡹠	mwnq	0
 𡽆	mwnt	0
 𡿃	mwog	0
@@ -72788,7 +72414,6 @@ encoder:
 𢅏	mwtj	0
 𡾶	mwtr	0
 𪩐	mwtw	0
-	mwu
 𫶎	mwuo	0
 𡽟	mwus	0
 𡽦	mwus	0
@@ -72812,7 +72437,6 @@ encoder:
 𪒿	mxeh	0
 𪩷	mxej	0
 𠠊	mxek	0
-	mxeu
 𭖓	mxeu
 𡺚	mxey	0
 𡶡	mxfu	0
@@ -72827,7 +72451,6 @@ encoder:
 𡺹	mxjr	0
 𪒟	mxkh	0
 𢅋	mxkj	0
-	mxku
 𡸱	mxkv	0
 𤎚	mxkx	0
 𡼷	mxkx	0
@@ -72856,7 +72479,6 @@ encoder:
 𡺬	mxtm	0
 𦋰	mxtw	0
 𦉰	mxu	0
-	mxu
 𦁒	mxuc	0
 𠕒	mxuj	0
 𡵼	mxv	0
@@ -72938,7 +72560,6 @@ encoder:
 𢅖	mytj	0
 𫅅	mytw	0
 𬙩	mytw	0
-	myu
 𢁸	myuj	0
 𬙙	myuw	0
 𡿣	myvw	0
@@ -73167,8 +72788,8 @@ encoder:
 𡇄	nddw	0
 𥉧	nddx	0
 𥄿	ndee	0
-𥄨	ndee	0
 𨳞	ndem	0
+𥄨	ndeu	0
 𤧩	ndew	0
 𤦼	ndew	0
 𡆴	ndew	0
@@ -73423,7 +73044,6 @@ encoder:
 𧠖	nfyj	0
 𭾺	nfyl
 𮤨	nfzm
-	ng
 ⾻	ng
 ⻣	ng
 𧵇	ngab	0
@@ -73471,6 +73091,7 @@ encoder:
 𥇼	nghv	0
 𫎏	ngib	0
 𩩋	ngig	0
+𮪴	ngig
 𧢁	ngij	0
 𠒽	ngik	0
 𧸪	ngjb	0
@@ -73561,8 +73182,6 @@ encoder:
 𧇲	ngti	0
 具	ngtu
 𬯬	ngtw	0
-	ngu
-	ngu
 𤾗	ngue	0
 𩳁	ngug	0
 𨳵	ngum	0
@@ -73774,7 +73393,6 @@ encoder:
 𫔜	njgm	0
 𡈦	njgw	0
 𧸰	njib	0
-𮪴	njig
 𧠴	njij	0
 𥆮	njjc	0
 𥌦	njjj	0
@@ -73951,7 +73569,6 @@ encoder:
 𭿳	nmat
 𥆹	nmaw	0
 𭕆	nmb
-	nmb
 𥉀	nmct	0
 𥄞	nmdo	0
 𢻒	nmed	0
@@ -74031,7 +73648,6 @@ encoder:
 𥈮	nmyu	0
 𡈴	nnaw	0
 𥆘	nnb	0
-	nnb
 𨟙	nnbb	0
 𡈟	nnbw	0
 𭒱	nncb
@@ -74217,7 +73833,6 @@ encoder:
 𥆻	nouu	0
 𪀟	nouw	0
 𫭐	nouw	0
-	nov
 𫌝	novj	0
 𢢸	novr	0
 𡕭	novw	0
@@ -74254,6 +73869,7 @@ encoder:
 𥈧	npfn	0
 𭾮	npfu
 𡆰	npfw	0
+𥌇	npgf	0
 𩨺	npgg	0
 𪾾	npgo	0
 𭍵	nphw
@@ -74281,7 +73897,6 @@ encoder:
 𭾢	npp
 𬥧	nppb	0
 𫾴	nppj	0
-𥌇	npqf	0
 𥃶	npqj	0
 𩨶	nprg	0
 𮪨	npsg
@@ -74298,7 +73913,6 @@ encoder:
 𡈏	npxw	0
 𪿄	npyk	0
 𧷹	npzb	0
-	nq
 𥃵	nqa	0
 𧵥	nqbb	0
 𧶄	nqbb	0
@@ -74376,7 +73990,6 @@ encoder:
 𫵅	nqor	0
 𠤠	nqov	0
 𫩠	nqov	0
-	nqov
 𧨲	nqoy	0
 𬔢	nqoy	0
 𡭿	nqoz	0
@@ -74401,7 +74014,6 @@ encoder:
 𡭠	nqvi	0
 𨶢	nqvm	0
 𨵃	nqvm	0
-󰁀	nqvm
 𭍯	nqvw
 𫭃	nqvw	0
 𬥥	nqwb	0
@@ -74560,7 +74172,6 @@ encoder:
 𧷚	ntcb	0
 𮙰	ntcb
 𬢁	ntcj	0
-	ntcw
 𬥏	ntdb	0
 𩰏	ntdd	0
 𨳚	ntdm	0
@@ -74650,9 +74261,7 @@ encoder:
 𥇁	ntwe	0
 𩀜	ntwg	0
 𡇝	ntzw	0
-	ntzw
 𨕚	ntzw	0
-	nu
 ╬	nu
 𣥂	nu	0
 ⺌	nu
@@ -74743,7 +74352,6 @@ encoder:
 𫔧	nuum	0
 𥌶	nuun	0
 𡈶	nuuw	0
-	nuuw
 𫭌	nuuw	0
 𥆒	nuve	0
 𩩢	nuvg	0
@@ -74802,7 +74410,6 @@ encoder:
 𥈦	nvmj	0
 𥅹	nvmj	0
 𨵂	nvmm	0
-	nvmw
 𥂗	nvmw	0
 𥁰	nvmw	0
 𧖸	nvmw	0
@@ -74829,7 +74436,6 @@ encoder:
 𥉰	nvuj	0
 𥌹	nvum	0
 𨶒	nvum	0
-	nvuw
 𥇶	nvv	0
 𩰔	nvvd	0
 𨴡	nvxm	0
@@ -74924,7 +74530,6 @@ encoder:
 𨳉	nwum	0
 𥋰	nwuu	0
 𡆡	nwuw	0
-	nwuw
 𠮚	nwuw	0
 𥈚	nwuz	0
 𩨭	nwvg	0
@@ -74991,7 +74596,6 @@ encoder:
 𨶅	nxsm	0
 𨷨	nxtm	0
 𥋗	nxtp	0
-	nxuw
 𥄣	nxv	0
 𫎙	nxvb	0
 𬑜	nxvs	0
@@ -75121,7 +74725,6 @@ encoder:
 𧸓	nzkb	0
 𮤥	nzkm
 𨷉	nzkm	0
-	nzkv
 𬑗	nzkv	0
 𨷇	nzmm	0
 𨵨	nzmm	0
@@ -75190,6 +74793,7 @@ encoder:
 𬦠	oanz	0
 𭍋	oaog
 𡃃	oaoh	0
+𭌯	oaoi
 𡅠	oaom	0
 𠷂	oaor	0
 𠼨	oaox	0
@@ -75218,7 +74822,6 @@ encoder:
 𠹌	oavv	0
 𬫈	oavv	0
 𨃳	oavz	0
-𭌯	oawi
 吸	oawu
 𨅶	oawz	0
 𡁖	oaxt	0
@@ -75354,7 +74957,6 @@ encoder:
 𡅗	oclq	0
 𧾼	oclz	0
 𧿹	ocmz	0
-	ocmz
 𬦻	ocmz	0
 𮜗	ocnz
 𡃉	ocoe	0
@@ -75617,7 +75219,6 @@ encoder:
 𫫆	oeok	0
 𡁉	oeok	0
 𡂣	oeot	0
-	oeov
 𭇎	oeov
 𭊀	oeow
 𭈑	oeox
@@ -75652,8 +75253,6 @@ encoder:
 𡆛	oetx	0
 𨘠	oetz	0
 𨈃	oetz	0
-	oeu
-	oeu
 𠿨	oeue	0
 𠽅	oeuj	0
 𡀅	oeun	0
@@ -75829,7 +75428,6 @@ encoder:
 𫬬	ofte	0
 𠽄	ofti	0
 𡁯	ofti	0
-	oftq
 𫪘	oftq	0
 𠼙	oftt	0
 𠾒	oftw	0
@@ -75927,8 +75525,9 @@ encoder:
 𠯊	ogiu	0
 𭍖	ogix
 𨃮	ogiz	0
-𨆼	ogiz	0
 𨃽	ogiz	0
+𨄔	ogiz	0
+𨆼	ogiz	0
 𠮱	ogjk	0
 𠴼	ogjl	0
 𫩫	ogjq	0
@@ -75963,7 +75562,9 @@ encoder:
 𫫗	ognb	0
 𫪓	ogno	0
 𨅂	ognz	0
+𭉾	ogoi
 𠸢	ogok	0
+𠽡	ogor	0
 𠸸	ogov	0
 𠳝	ogov	0
 𡆔	ogox	0
@@ -75989,8 +75590,6 @@ encoder:
 𡃌	ogtu	0
 𩀇	ogtx	0
 𨁈	ogtz	0
-	ogu
-	ogu
 𠺿	oguc	0
 𡀬	ogue	0
 𠶺	ogul	0
@@ -75999,7 +75598,6 @@ encoder:
 𠯚	ogvu	0
 𨇄	ogvz	0
 𠮾	ogw	0
-󰀡	ogwi
 𪳓	ogwi	0
 𡏔	ogwj	0
 𨁿	ogwz	0
@@ -76042,7 +75640,6 @@ encoder:
 𡀣	ohec	0
 𭇐	ohee
 𠻨	ohee	0
-󰀃	oheg
 𫫻	ohek	0
 𡁣	ohem	0
 𠶾	oheo	0
@@ -76173,7 +75770,6 @@ encoder:
 𡂕	ohus	0
 𠶋	ohut	0
 𭊮	ohuu
-	ohux
 𧿱	ohuz	0
 𨅼	ohuz	0
 𠯢	ohv	0
@@ -76194,7 +75790,6 @@ encoder:
 𭉟	ohxk
 𪢙	ohxk	0
 𫪂	ohxp	0
-	ohxr
 𫫇	ohxr	0
 𨀡	ohxz	0
 𨈆	ohxz	0
@@ -76212,7 +75807,6 @@ encoder:
 𨇞	oiaz	0
 𡀐	oibi	0
 𠿝	oibl	0
-	oibv
 𠳐	oibv	0
 𭇶	oibz
 𨀯	oibz	0
@@ -76370,7 +75964,6 @@ encoder:
 𠱾	ojic	0
 𫬭	ojio	0
 𡭈	ojix	0
-𨄔	ojiz	0
 𨅒	ojiz	0
 𮋽	ojjh
 𡆀	ojjj	0
@@ -76440,7 +76033,6 @@ encoder:
 𠿙	ojsd	0
 𭌋	ojsl
 𢒡	ojsx	0
-	ojsz
 𬧞	ojsz	0
 𭉞	ojtb
 𭊥	ojtd
@@ -76463,15 +76055,12 @@ encoder:
 𡋐	ojvx	0
 𮛄	ojvz
 𨀼	ojvz	0
-𭉾	ojwi
-𠽡	ojwr	0
 𭆼	ojwu
 𨄴	ojwz	0
 𮛃	ojwz
 𪡒	ojxe	0
 𠾢	ojxi	0
 𡀛	ojxi	0
-	ojxz
 𨂧	ojxz	0
 𬦯	ojxz	0
 𫬝	ojyc	0
@@ -76631,7 +76220,6 @@ encoder:
 𭋻	olgi
 𫫾	olgm	0
 𡃧	olgq	0
-	olgu
 𡅇	olhd	0
 𠾋	olio	0
 𨄥	oliz	0
@@ -76824,7 +76412,6 @@ encoder:
 𠽗	onbg	0
 𫬊	onbo	0
 𪠽	onbu	0
-	onbu
 𮛗	onbz
 𠶼	oncc	0
 𫦲	oncl	0
@@ -76878,6 +76465,7 @@ encoder:
 𫬡	onmf	0
 𠶤	onmo	0
 𭍕	onnu
+𡁴	onoi	0
 𠼔	onom	0
 𭍀	onom
 𭋋	onon
@@ -76919,7 +76507,6 @@ encoder:
 𧸫	onvo	0
 𡁤	onvo	0
 𨁞	onvz	0
-𡁴	onwi	0
 𭌙	onwk
 𠺯	onyc	0
 𠿷	onym	0
@@ -77025,7 +76612,6 @@ encoder:
 𡂟	oosd	0
 𫩢	ooti	0
 𨔂	ootz	0
-	oou
 𠀐	oou	0
 𠁸	ooue	0
 𠻝	oous	0
@@ -77070,6 +76656,7 @@ encoder:
 𧿌	opfz	0
 𨅗	opfz	0
 𠷢	opge	0
+𭋩	opgf
 𫬧	opgm	0
 𪢉	opgo	0
 𡌍	ophj	0
@@ -77115,7 +76702,6 @@ encoder:
 𧿲	oppz	0
 𫏂	oppz	0
 𠯏	opq	0
-𭋩	opqf
 𫩓	opqj	0
 𫪽	opqq	0
 𫫉	opqq	0
@@ -77295,7 +76881,6 @@ encoder:
 𧿐	orqz	0
 𮛧	orqz
 𨄼	orqz	0
-	orr
 𠰃	orr	0
 𠽶	orrr	0
 𬦱	orrz	0
@@ -77505,6 +77090,7 @@ encoder:
 𠶸	otoa	0
 𫬦	otoi	0
 𠸒	otoi	0
+𡀯	otoi	0
 𭊒	otoq
 𫪉	otot	0
 𫪊	otot	0
@@ -77558,7 +77144,6 @@ encoder:
 𨁑	otvz	0
 𫪢	otwc	0
 𠴒	otwd	0
-𡀯	otwi	0
 𠳎	otwu	0
 𨾴	otwx	0
 𠵱	otwy	0
@@ -77644,6 +77229,7 @@ encoder:
 𨇚	ounz	0
 𠵴	ouoa	0
 𠹞	ouoh	0
+𭋪	ouoi
 𭌨	ouop
 𡄏	ouor	0
 𮛜	ouoz
@@ -77675,7 +77261,6 @@ encoder:
 𪢀	ouvp	0
 𡂇	ouvx	0
 𬦧	ouvz	0
-𭋪	ouwi
 𡀮	ouwy	0
 𭋔	ouxe
 𠿋	ouxj	0
@@ -77940,7 +77525,6 @@ encoder:
 𭊻	owtz
 𨄻	owtz	0
 𨇁	owtz	0
-	owu
 𭉍	owuc
 𠷃	owud	0
 𠹍	owuo	0
@@ -78374,7 +77958,6 @@ encoder:
 𠚗	pbda	0
 𮅮	pbda
 𤚆	pbdn	0
-	pbdo
 𭚕	pbds
 𤋅	pbdx	0
 𫂫	pbei	0
@@ -78428,7 +78011,6 @@ encoder:
 𥳜	pbss	0
 𥶻	pbsz	0
 𥭰	pbti	0
-	pbu
 𥫘	pbu	0
 𩿽	pbun	0
 𩾥	pbun	0
@@ -78474,7 +78056,6 @@ encoder:
 𥲀	pcki	0
 𣬁	pckm	0
 𠂔	pckp	0
-	pcl
 𠧩	pclb	0
 𠜮	pcld	0
 𩐈	pclg	0
@@ -78483,7 +78064,6 @@ encoder:
 𠡏	pcls	0
 𥬦	pcm	0
 𥎳	pcmi	0
-	pcmj
 𬭁	pcmj	0
 𨱌	pcmj	0
 𤯟	pcms	0
@@ -78518,7 +78098,6 @@ encoder:
 𢙽	pcrx	0
 𪖬	pctb	0
 𤛹	pctn	0
-	pcu
 𬉯	pcua	0
 𥱵	pcub	0
 𥲀	pcui
@@ -78583,7 +78162,6 @@ encoder:
 𤚤	pdnn	0
 𫨸	pdoi	0
 𬬿	pdoj	0
-	pdoj
 𤛒	pdon	0
 𤛴	pdon	0
 𥳨	pdoq	0
@@ -78694,7 +78272,6 @@ encoder:
 𥵦	pens	0
 𥮳	penu	0
 𥎵	peoi	0
-	peoj
 𪵤	peoq	0
 𭅦	pepe
 𪵧	pepq	0
@@ -78718,19 +78295,16 @@ encoder:
 𨾟	petw	0
 𠀆	peu	0
 𥬟	peu	0
-	peu
 𮅩	peub
 𥵏	peue	0
 𥎧	peui	0
 𮅢	peus
-	pevj
 𤘱	pevn	0
 𠆕	pevw	0
 𢆏	pewe	0
 𦈭	pewf	0
 𬔵	pewu	0
 𬭄	pexj	0
-	pexj
 𤘾	pexn	0
 𬔳	pexu	0
 𥭛	pey	0
@@ -78745,10 +78319,8 @@ encoder:
 𥮁	pfaw	0
 𢌜	pfbd	0
 𢩥	pfbi	0
-	pfbj
 𬬬	pfbj	0
 𫁳	pfbu	0
-󰀿	pfbv
 𥭕	pfbv	0
 𨚶	pfbv	0
 𨙲	pfbv	0
@@ -78810,7 +78382,6 @@ encoder:
 𤭘	pfhw	0
 𥫝	pfi	0
 𫅫	pfic	0
-	pfij
 𬬩	pfij	0
 𫟸	pfij	0
 𤘚	pfin	0
@@ -78849,7 +78420,6 @@ encoder:
 𪿃	pfoi	0
 𥏜	pfoi	0
 𪓳	pfoi	0
-	pfoj
 𢬚	pfom	0
 𫾖	pfon	0
 𤛐	pfon	0
@@ -78861,7 +78431,6 @@ encoder:
 𮅖	pfpl
 𥴻	pfpo	0
 𫾧	pfpp	0
-	pfq
 𥲳	pfqm	0
 𭿧	pfqq
 𢆘	pfqq	0
@@ -78891,7 +78460,6 @@ encoder:
 𬼇	pfuu
 𢴞	pfuu	0
 𥽧	pfux	0
-	pfv
 𭙂	pfvb
 𥱮	pfvc	0
 𢧲	pfve	0
@@ -78953,8 +78521,10 @@ encoder:
 𥲁	pghw	0
 𥯙	pgic	0
 𦈵	pgif	0
+𥶸	pgih	0
 𬭦	pgij	0
 𤚾	pgin	0
+𭷰	pgin
 𬑸	pgji	0
 𥎹	pgji	0
 𥯅	pgjj	0
@@ -78981,7 +78551,6 @@ encoder:
 𮆶	pglu
 𩛒	pglv	0
 𨘉	pglz	0
-	pglz
 𦈢	pglz	0
 𮟆	pglz
 𪿏	pgmi	0
@@ -78999,6 +78568,8 @@ encoder:
 𥐐	pgoi	0
 𥐔	pgoi	0
 𥐏	pgoi	0
+𭆢	pgoo
+𫂠	pgor	0
 𬕃	pgov	0
 𥵔	pgpe	0
 𮗮	pgpf
@@ -79016,8 +78587,6 @@ encoder:
 𥐋	pgti	0
 𭺵	pgts
 𮥶	pgtw
-	pgu
-	pgu
 𥱗	pguf	0
 𥰑	pguv	0
 𬬷	pgvj	0
@@ -79062,8 +78631,6 @@ encoder:
 𥷯	phgi	0
 𮀆	phgi
 𤯻	phgs	0
-	phgu
-𭆢	phgw
 𭴿	phgx
 𫧪	phhg	0
 𥷨	phhh	0
@@ -79166,7 +78733,6 @@ encoder:
 𥷗	piba	0
 𬕤	pibg	0
 𬭬	pibj	0
-	pibj
 𬭑	pibj	0
 𥶙	pibr	0
 𥶬	pibs	0
@@ -79186,7 +78752,6 @@ encoder:
 𬕣	pifm	0
 𥮹	pifu	0
 𦉆	pigf	0
-	pigj
 𮣲	pigj
 𬭠	pigj	0
 𫂊	pigl	0
@@ -79200,7 +78765,6 @@ encoder:
 𫂡	piim	0
 𫂧	piio	0
 𬭊	pijj	0
-	pijj
 𥬤	pijk	0
 𥮊	pijv	0
 𮅤	pikg
@@ -79212,7 +78776,6 @@ encoder:
 𬇑	pilq	0
 𥬎	pim	0
 𬕂	pimb	0
-	pimb
 𥵡	pimj	0
 𢿸	piml	0
 𥰍	piml	0
@@ -79274,7 +78837,6 @@ encoder:
 𦓤	piw	0
 𥯸	piwe	0
 𮅳	piwf
-	piwj
 𨱇	piwj	0
 𬬸	piwj	0
 𤙠	piwn	0
@@ -79318,10 +78880,8 @@ encoder:
 𥴊	pjhp	0
 𥴋	pjhq	0
 𥮎	pjhv	0
-𥶸	pjih	0
 𥮻	pjil	0
 𠟚	pjil	0
-𭷰	pjin
 𤚦	pjin	0
 𬃿	pjin	0
 𥵠	pjiq	0
@@ -79346,7 +78906,6 @@ encoder:
 𭾩	pjnv
 𦉢	pjof	0
 𬭳	pjoj	0
-	pjoj
 𫂨	pjok	0
 𥵈	pjom	0
 𤘜	pjon	0
@@ -79391,7 +78950,6 @@ encoder:
 𥸐	pjvo	0
 𮆠	pjwj
 𧚒	pjwn	0
-𫂠	pjwr	0
 𥫫	pjwu	0
 𪈢	pjwu	0
 𮆟	pjxd
@@ -79457,12 +79015,10 @@ encoder:
 𮫯	pksh
 𥏫	pksi	0
 𬬹	pksj	0
-	pksj
 𬌤	pksn	0
 𣱢	pksq	0
 𬀷	pkss	0
 𥮬	pkss	0
-	pkss
 𥯕	pkss	0
 𥯋	pksv	0
 𥮀	pksw	0
@@ -79474,7 +79030,6 @@ encoder:
 𥎴	pkti	0
 𣱟	pktq	0
 𥫪	pktu	0
-	pku
 𥭷	pkuc	0
 𭥍	pkv
 𫞾	pkvb	0
@@ -79491,7 +79046,6 @@ encoder:
 𬭔	plaj	0
 𥸖	plak	0
 𮔭	plak
-	plb
 𫁰	plb	0
 𪽁	plbs	0
 𦉟	plcf	0
@@ -79499,7 +79053,6 @@ encoder:
 𫓺	plcj	0
 𬙎	pldf	0
 𬬻	pldj	0
-	pldj
 𥴷	pldx	0
 𣥋	plee	0
 𦉛	plef	0
@@ -79531,7 +79084,6 @@ encoder:
 𨟭	plmb	0
 𥝀	plmb	0
 𩔔	plmg	0
-	plmj
 𫂜	plml	0
 𥲜	plmm	0
 𥭩	plmo	0
@@ -79555,12 +79107,10 @@ encoder:
 𣱞	plqq	0
 𬆢	plqs	0
 𥳠	plqz	0
-	plrb
 𥳭	plrd	0
 𦉌	plrf	0
 𦈾	plrf	0
 𮣶	plrj
-	plrj
 𪺵	plrn	0
 𨕋	plsz	0
 𮔺	pltd
@@ -79588,7 +79138,6 @@ encoder:
 𫁺	plxu	0
 𤚳	plyn	0
 𥱲	plyw	0
-	plz
 𠂛	plz	0
 𨑶	plzd	0
 𨒂	plzd	0
@@ -79629,7 +79178,6 @@ encoder:
 𥳬	pmh	0
 𧗀	pmhc	0
 𥵛	pmhg	0
-	pmhj
 𬭶	pmhj	0
 𧗐	pmhp	0
 𥮏	pmht	0
@@ -79703,11 +79251,9 @@ encoder:
 𥸣	pmty	0
 𨖼	pmtz	0
 𥫚	pmu	0
-󰀱	pmuf
 𥰓	pmuf	0
 𥴎	pmug	0
 𦜾	pmun	0
-	pmun
 𤛲	pmun	0
 𧖼	pmuo	0
 𧗋	pmus	0
@@ -79719,7 +79265,6 @@ encoder:
 𨧳	pmvn	0
 𥷾	pmvs	0
 𥶓	pmvv	0
-	pmw
 𢜷	pmwr	0
 𧖾	pmxa	0
 𧗌	pmxi	0
@@ -79749,7 +79294,6 @@ encoder:
 𥭒	pnfa	0
 𮅕	pnfd
 𥲻	pnfd	0
-	pnfd
 𦉘	pnff	0
 𥴌	pnfi	0
 𨏉	pnfj	0
@@ -79940,7 +79484,6 @@ encoder:
 𬑲	ppci	0
 𡠅	ppci	0
 𬬮	ppcj	0
-	ppcj
 𫂂	ppcm	0
 𤙩	ppcn	0
 𪵥	ppcq	0
@@ -80010,7 +79553,6 @@ encoder:
 𨕀	ppzq	0
 ⽓	pq
 𭂫	pqa
-	pqa
 𥯼	pqaw	0
 𥎾	pqbi	0
 𫓮	pqbj	0
@@ -80084,7 +79626,6 @@ encoder:
 𬼃	prj
 𫂪	prjb	0
 𫟲	prjj	0
-	prjj
 𬬱	prjj	0
 𥬊	prju	0
 𥵾	prke	0
@@ -80200,7 +79741,6 @@ encoder:
 𢜓	psrn	0
 𢝰	psrn	0
 𤙹	psrn	0
-	pssj
 𬭖	pssj	0
 𥬼	pssl	0
 𢒢	pssn	0
@@ -80211,7 +79751,6 @@ encoder:
 𥰴	pstj	0
 𫟻	pstj	0
 𥰹	pstt	0
-	psu
 𥬅	psv	0
 𥬜	psvi	0
 𣱙	psvq	0
@@ -80237,7 +79776,6 @@ encoder:
 𪴄	ptbn	0
 𫁻	ptbz	0
 𥫨	ptc	0
-	ptcj
 𬭩	ptcj	0
 𦐨	ptcn	0
 𫟴	ptdj	0
@@ -80292,7 +79830,6 @@ encoder:
 𮆺	ptoi
 𠱒	pton	0
 𬭤	ptpj	0
-	ptpj
 𫾭	ptpn	0
 𬔼	ptpp	0
 𥷜	ptqf	0
@@ -80337,7 +79874,6 @@ encoder:
 𨒲	ptzn	0
 𤯣	ptzs	0
 ⼃	pu
-	pu
 ⺧	pu
 𠂉	pu	0
 𠂒	pu	0
@@ -80346,7 +79882,6 @@ encoder:
 𠭡	puad	0
 𬭇	puaj	0
 𬭣	puaj	0
-	puaj
 𬎺	puas	0
 𥬝	pub	0
 𥎷	pubi	0
@@ -80372,7 +79907,6 @@ encoder:
 𣱰	pugq	0
 𥷔	pugt	0
 𥰩	puhv	0
-	puij
 𢿹	puil	0
 𥳹	puin	0
 𥳸	puin	0
@@ -80446,7 +79980,6 @@ encoder:
 𥭨	puve	0
 𮅙	puve
 𫔇	puvj	0
-	puvj
 𬬭	puvj	0
 𤚪	puvn	0
 𨪔	puvn	0
@@ -80468,7 +80001,6 @@ encoder:
 𦈴	pvbf	0
 𬙌	pvbf	0
 𥎬	pvbi	0
-	pvbj
 𬬫	pvbj	0
 𤙤	pvbn	0
 𤘥	pvbn	0
@@ -80544,7 +80076,6 @@ encoder:
 𥯀	pvv	0
 𤄳	pvva	0
 𥷓	pvvc	0
-	pvvj
 𧑯	pvvl	0
 𫌦	pvvn	0
 𠓀	pvvo	0
@@ -80563,7 +80094,6 @@ encoder:
 𥱳	pwab	0
 𫂈	pwaf	0
 𥏕	pwai	0
-	pwaj
 𬭎	pwaj	0
 𤜄	pwan	0
 𥲡	pwar	0
@@ -80679,7 +80209,6 @@ encoder:
 𥷖	pxfh	0
 𣗷	pxfi	0
 𬑰	pxfi	0
-	pxfj
 𬭸	pxfj	0
 𨤕	pxfk	0
 𪙖	pxfl	0
@@ -80722,7 +80251,6 @@ encoder:
 𣱫	pxkq	0
 𣱩	pxkq	0
 𬸪	pxks	0
-	pxks
 𨤡	pxkt	0
 𩀷	pxkt	0
 𨊃	pxkt	0
@@ -80748,7 +80276,6 @@ encoder:
 𥰭	pxpi	0
 𬑳	pxpi	0
 𥐈	pxpi	0
-	pxpj
 𬭯	pxpj	0
 𫾶	pxpp	0
 𥱞	pxpq	0
@@ -80790,9 +80317,7 @@ encoder:
 𬏗	pxxq	0
 𥬴	pxy	0
 𥰌	pxya	0
-	pxyj
 𫂗	pxzd	0
-	pxzj
 𬭼	pxzj	0
 𥮧	pyai	0
 𥎸	pyai	0
@@ -80800,7 +80325,6 @@ encoder:
 𮆅	pyav
 𥬱	pyav	0
 𮆝	pybe
-	pybj
 𬭚	pybj	0
 𥏡	pyci	0
 𥳛	pycj	0
@@ -80913,7 +80437,6 @@ encoder:
 𥷧	pzct	0
 𮆒	pzdi
 𨒔	pzdi	0
-	pzdj
 𬭛	pzdj	0
 𥶅	pzdk	0
 𥵄	pzdk	0
@@ -81065,7 +80588,6 @@ encoder:
 𤆒	qbsh	0
 𩠋	qbsi	0
 𬸅	qbsn	0
-	qbsn
 𦙵	qbsx	0
 𤇘	qbsx	0
 𫚊	qbsy	0
@@ -81226,7 +80748,6 @@ encoder:
 𫖽	qedj	0
 𩵾	qedo	0
 𬳄	qeei	0
-	qeej
 𬲁	qeej	0
 𩗴	qeff	0
 𫗦	qefi	0
@@ -81294,7 +80815,6 @@ encoder:
 𫗁	qezj	0
 𫗂	qezj	0
 𭐳	qezu
-	qf
 ⾵	qf
 𫙡	qfac	0
 𩖤	qfaf	0
@@ -81392,7 +80912,6 @@ encoder:
 𩽊	qggg	0
 𫗟	qggi	0
 𠜍	qggl	0
-	qggm
 𬱟	qggm	0
 𭁵	qggp
 𢒎	qggs	0
@@ -81400,6 +80919,7 @@ encoder:
 𫚈	qggy	0
 𩵧	qghj	0
 𩸷	qghv	0
+𩘯	qgif	0
 𬲨	qgii	0
 𪑪	qgim	0
 𨊬	qgjc	0
@@ -81423,7 +80943,6 @@ encoder:
 𩖭	qgmf	0
 𦓛	qgmg	0
 𫥞	qgmj	0
-	qgmj
 𩺂	qgmu	0
 𩶁	qgmu	0
 𫤸	qgmv	0
@@ -81433,6 +80952,7 @@ encoder:
 𠙒	qgnj	0
 𮬆	qgnv
 𧷪	qgon	0
+𬵪	qgor	0
 𩺦	qgov	0
 𨜫	qgpb	0
 𮋊	qgpc
@@ -81592,7 +81112,6 @@ encoder:
 𩹬	qijg	0
 𫙛	qil	0
 𩘊	qilf	0
-	qily
 𬶟	qily	0
 𩼜	qimn	0
 𭂅	qimr
@@ -81618,7 +81137,6 @@ encoder:
 𩶄	qiwu	0
 𩾁	qiwy	0
 𩠄	qixi	0
-	qixy
 𬶠	qixy	0
 𫙤	qiyq	0
 𬲸	qizi	0
@@ -81642,7 +81160,6 @@ encoder:
 𮙡	qjgs
 𩽷	qjhs	0
 𩶬	qjic	0
-𩘯	qjif	0
 𮬙	qjiq
 𮬖	qjjn
 𬵁	qjk	0
@@ -81655,7 +81172,6 @@ encoder:
 𩗊	qjof	0
 𩻭	qjox	0
 𬶮	qjoy	0
-	qjoy
 𩵥	qjq	0
 𩖮	qjqf	0
 𣣞	qjqq	0
@@ -81671,9 +81187,7 @@ encoder:
 𩵘	qjv	0
 𬶂	qjvy	0
 𫚜	qjvy	0
-𬵪	qjwr	0
 𩠃	qjxi	0
-	qjxi
 𮩞	qjxi
 𩻬	qjxs	0
 𬵗	qjy	0
@@ -81684,7 +81198,6 @@ encoder:
 𡖄	qkbx	0
 𮩝	qkci
 𬳑	qkci	0
-	qkci
 𬳉	qkci	0
 𩷑	qkcv	0
 𬶩	qkcy	0
@@ -81726,7 +81239,6 @@ encoder:
 𩘠	qkqx	0
 𣰯	qkrm	0
 𬂏	qkrs	0
-	qkru
 𠖓	qkrx	0
 𠢴	qksc	0
 𠢰	qksc	0
@@ -81735,10 +81247,8 @@ encoder:
 𭂁	qkss
 𩹂	qksv	0
 𬊟	qksx	0
-	qkt
 𥃠	qktm	0
 𤰧	qktx	0
-	qku
 𩹄	qkuc	0
 𪈂	qkun	0
 𠕾	qkv	0
@@ -81869,11 +81379,9 @@ encoder:
 𩖯	qmuf	0
 𩟿	qmui	0
 𩻲	qmul	0
-	qmuu
 𦘫	qmuu	0
 𩶩	qmuu	0
 ⻇	qmuu
-	qmuu
 𤉯	qmux	0
 𮌉	qmux
 𡴲	qmv	0
@@ -81916,6 +81424,7 @@ encoder:
 𩽩	qnnt	0
 𩽥	qnnx	0
 𩗵	qnof	0
+𩼯	qnoi	0
 𩼉	qnok	0
 𫙲	qnom	0
 𩽳	qnom	0
@@ -81936,7 +81445,6 @@ encoder:
 𪃓	qnun	0
 𤋳	qnux	0
 𩶖	qnv	0
-𩼯	qnwi	0
 𠟮	qnxl	0
 𮬔	qnym
 𫐶	qoaz	0
@@ -82029,7 +81537,6 @@ encoder:
 𭂴	qouj
 𮬶	qoux
 𠮥	qov	0
-	qov
 𪞁	qova	0
 𨞭	qovb	0
 勉	qovc
@@ -82039,7 +81546,6 @@ encoder:
 𣔵	qovi	0
 𨌜	qovj	0
 𤟭	qovj	0
-	qovj
 𣆶	qovk	0
 𪞂	qovk	0
 𫿅	qovl	0
@@ -82056,7 +81562,6 @@ encoder:
 𪚽	qovz	0
 𨓜	qovz	0
 𫥎	qovz	0
-	qovz
 𠣄	qowc	0
 𩖌	qowg	0
 𤮭	qowh	0
@@ -82093,7 +81598,6 @@ encoder:
 𩼿	qpos	0
 𩸴	qpov	0
 𬶔	qpoy	0
-	qpoy
 𮬤	qpoy
 𩵸	qpqj	0
 𬲰	qpsi	0
@@ -82124,7 +81628,6 @@ encoder:
 𡦄	qqbx	0
 𨛅	qqbx	0
 𬶏	qqby	0
-	qqby
 𩶗	qqcx	0
 𡖎	qqcx	0
 𡖽	qqcx	0
@@ -82327,7 +81830,6 @@ encoder:
 𢵠	qsfr	0
 𧢾	qsfv	0
 𫞴	qsfx	0
-	qsfy
 𬶭	qsfy	0
 𧣎	qsga	0
 𧣂	qsgb	0
@@ -82423,7 +81925,6 @@ encoder:
 𧣫	qsol	0
 𧤄	qsov	0
 𭐷	qsox
-	qsoy
 𬶋	qsoy	0
 𧣟	qspb	0
 𠢲	qspc	0
@@ -82435,7 +81936,6 @@ encoder:
 𩼠	qspq	0
 𢢣	qspr	0
 𧤟	qspx	0
-	qspy
 𮬣	qspy
 𧤆	qsqc	0
 𧥉	qsqg	0
@@ -82516,7 +82016,6 @@ encoder:
 𩺫	qtan	0
 𩷇	qtav	0
 𫗈	qtbj	0
-	qtbj
 𬱵	qtbj	0
 𪞐	qtbz	0
 𩵙	qtc	0
@@ -82524,7 +82023,6 @@ encoder:
 𬲅	qtcj	0
 𬯳	qtct	0
 𦑱	qtcy	0
-	qtcy
 𮬢	qtcy
 𫙨	qtdd	0
 𩙥	qtdj	0
@@ -82568,7 +82066,6 @@ encoder:
 𩙬	qtmj	0
 𩙮	qtoj	0
 𬲆	qtoj	0
-	qtoj
 𪞑	qtok	0
 𩸲	qtot	0
 𩘋	qtpf	0
@@ -82609,9 +82106,7 @@ encoder:
 𩽲	qtyz	0
 𠂊	qu	0
 ⼍	qu
-	qu
 ⺈	qu
-	qu
 𩘘	quaf	0
 𩸺	quay	0
 𩶑	qub	0
@@ -82663,7 +82158,6 @@ encoder:
 𤑰	qusy	0
 𩻐	qutv	0
 𬶇	quty	0
-	quty
 𫙓	quty	0
 𬲪	quui	0
 𬲦	quui	0
@@ -82671,7 +82165,6 @@ encoder:
 𮫿	quuu
 𩵋	quuy	0
 𬶁	quuy	0
-	quuy
 𩾉	quuy	0
 𩹕	quvo	0
 𩹻	quvv	0
@@ -82699,7 +82192,6 @@ encoder:
 冗	qve
 ⺴	qve
 ⺳	qve
-	qvei
 𮩛	qvei
 𠖑	qvek	0
 𦉲	qveu	0
@@ -82724,7 +82216,6 @@ encoder:
 𮫺	qvjv
 𮉾	qvke
 𪳨	qvki	0
-	qvky
 𮬜	qvky
 𫅃	qvkz	0
 𮬐	qvla
@@ -82763,7 +82254,6 @@ encoder:
 𬲮	qvwi	0
 𦌛	qvxk	0
 𩷎	qvxv	0
-	qvxy
 𬶐	qvxy	0
 𦊇	qvyt	0
 𨑻	qvzd	0
@@ -82796,7 +82286,6 @@ encoder:
 𬵟	qwgd	0
 𩸎	qwgl	0
 𡖸	qwgt	0
-𮬁	qwgw
 𫗵	qwhi	0
 𠖌	qwic	0
 𭁺	qwic
@@ -82807,6 +82296,7 @@ encoder:
 𩘰	qwkf	0
 𬳇	qwki	0
 𩹶	qwko	0
+𮬁	qwko
 𩺮	qwl	0
 𩺋	qwld	0
 𩠆	qwli	0
@@ -82838,7 +82328,6 @@ encoder:
 𡖷	qwtx	0
 𬶶	qwty	0
 々	qwu
-	qwu
 𠚤	qwu	0
 𩘎	qwuf	0
 𩼶	qwus	0
@@ -82846,12 +82335,10 @@ encoder:
 𪇤	qwux	0
 𠤓	qwvi	0
 𬲱	qwvi	0
-	qwvi
 𩼼	qwvj	0
 𩹃	qwvo	0
 𩼵	qwvv	0
 𬶍	qwvy	0
-	qwvy
 𫙕	qwx	0
 𩹔	qwxd	0
 ⼣	qx
@@ -83171,10 +82658,10 @@ encoder:
 𥞐	rddu	0
 𥢘	rdea	0
 𥞓	rdee	0
-𥝦	rdee	0
 𠪻	rdei	0
 𦩙	rdeo	0
 𭠖	rdes
+𥝦	rdeu	0
 𥞔	rdfq	0
 𫀭	rdfu	0
 𥝙	rdg	0
@@ -83190,6 +82677,7 @@ encoder:
 𭽽	rdmq
 𪵟	rdnm	0
 𥝐	rdo	0
+𡭍	rdoi	0
 𠬚	rdoj	0
 𦨣	rdoo	0
 𣬼	rdpm	0
@@ -83209,7 +82697,6 @@ encoder:
 𫡘	rdur	0
 𥝭	rduu	0
 𣭙	rdvm	0
-𡭍	rdwi	0
 𦨔	rdwo	0
 𫀷	rdwr	0
 𬓤	rdwu	0
@@ -83390,6 +82877,8 @@ encoder:
 𮞏	rgmz
 𨔄	rgmz	0
 𥢈	rgnf	0
+𡭐	rgoi	0
+𥡵	rgoi	0
 𣮗	rgom	0
 𣢨	rgoq	0
 𮃂	rgot
@@ -83411,12 +82900,10 @@ encoder:
 𥠛	rgup	0
 𣭏	rgvm	0
 𭐰	rgvq
-𡭐	rgwi	0
 𪢈	rgxc	0
 𮃃	rgxv
 𩑙	rgyr	0
 𪯬	rgze	0
-	rh
 ⼾	rh
 𮎅	rhao
 𡸁	rhaq	0
@@ -83483,6 +82970,7 @@ encoder:
 𥤜	rhoo	0
 𬜗	rhoo	0
 𫇜	rhoo	0
+𬔄	rhor	0
 𥤊	rhot	0
 𦈼	rhpr	0
 𥡘	rhps	0
@@ -83510,7 +82998,6 @@ encoder:
 𭺘	rhwg
 𭠃	rhwh
 𤭂	rhwo	0
-𬔄	rhwr	0
 𫇡	rhxo	0
 𨙡	rhzq	0
 𨙔	rhzr	0
@@ -83631,7 +83118,6 @@ encoder:
 𦪟	rjso	0
 𫁆	rjtm	0
 𥢡	rjtt	0
-	rju
 ⽄	rju
 𥢑	rjuo	0
 𣂝	rjuo	0
@@ -83649,7 +83135,6 @@ encoder:
 𣃅	rjvw	0
 𥢴	rjwd	0
 𫖞	rjwg	0
-𥡵	rjwi	0
 𣯭	rjwm	0
 𭣨	rjwp
 𪉄	rjws	0
@@ -83734,7 +83219,6 @@ encoder:
 𥣬	rkkk	0
 馧	rkkm
 𣮑	rkkm	0
-󰁆	rkkn
 𬪽	rkkq	0
 𮡕	rkkq
 𥣲	rkkr	0
@@ -84199,7 +83683,6 @@ encoder:
 𣭛	rpzm	0
 𮎊	rpzo
 𨒜	rpzx	0
-	rq
 𦨹	rqbo	0
 𦨨	rqbo	0
 𫀬	rqbu	0
@@ -84276,7 +83759,6 @@ encoder:
 𥡿	rqze	0
 𨕴	rqzo	0
 𡈼	rr	0
-	rr
 𣮁	rram	0
 𬜜	rrao	0
 𦁞	rrax	0
@@ -84474,12 +83956,9 @@ encoder:
 𥤓	rtyz	0
 𬔀	rtzd	0
 𮎌	rtzo
-	ru
-	ru
 𧘇	ru	0
 𠂆	ru	0
 ⺁	ru
-	ru
 𧰨	ru	0
 𨞃	ruab	0
 𪏮	ruac	0
@@ -85029,18 +84508,14 @@ encoder:
 𢖀	sbkr	0
 𪫓	sbkr	0
 𭨥	sbl
-𠄗	sbl	0
 𬷽	sbln	0
 𦙬	sblu	0
-𫡂	sblx	0
-𫡁	sblx	0
 𧗃	sbms	0
 𭩉	sbod
 𦠅	sboi	0
 𣎟	sboi	0
 𭛝	sbor
 𭉅	sbot
-	sbpo
 𬂁	sbpo	0
 𢕲	sbpr	0
 𭨭	sbpu
@@ -85048,7 +84523,6 @@ encoder:
 𦢪	sbsz	0
 𦝗	sbti	0
 𦡿	sbtm	0
-	sbu
 𢒿	sbur	0
 𣎛	sbvo	0
 𦠈	sbvo	0
@@ -85184,12 +84658,10 @@ encoder:
 𠣓	seai	0
 𦡀	seal	0
 𢓦	sear	0
-󰀞	seas
 𬛍	seas	0
 𢕖	sebr	0
 𭛫	sebr
 𬛂	secm	0
-	secu
 𦙁	secu	0
 䏝	secw	16600
 𦘭	sed	0
@@ -85351,10 +84823,12 @@ encoder:
 𧗦	sghx	0
 𦞹	sgic	0
 𮌦	sgim
+𪫖	sgir	0
 𦟔	sgjp	0
 𢔸	sgjr	0
 𩓾	sgjs	0
 𦝟	sgke	0
+𦝏	sgko	0
 𭛷	sgkr
 𦛟	sgkt	0
 𦟢	sgkv	0
@@ -85375,6 +84849,7 @@ encoder:
 𫟙	sgmx	0
 𭛪	sgnr
 𢓲	sgor	0
+𫆵	sgor	0
 𭛱	sgor
 𢒷	sgos	0
 𦞶	sgov	0
@@ -85389,7 +84864,6 @@ encoder:
 𫹒	sgtr	0
 𦜒	sgtv	0
 𧗡	sgtx	0
-	sgu
 勺	sgu
 𪆦	sgus	0
 𫆯	sguv	0
@@ -85528,6 +85002,7 @@ encoder:
 𬛟	sjan	0
 𭛟	sjar
 𭛰	sjax
+𠄗	sjbl	0
 𢓧	sjbr	0
 𭎈	sjbz
 𠣞	sjc	0
@@ -85548,7 +85023,6 @@ encoder:
 𫸞	sjhv	0
 𢖋	sjhx	0
 𢖡	sjhx	0
-𪫖	sjir	0
 𫹚	sjir	0
 𡦝	sjjb	0
 𦠎	sjjj	0
@@ -85561,7 +85035,6 @@ encoder:
 𢔪	sjkr	0
 𪏎	sjkt	0
 𠣰	sjkv	0
-𦝏	sjkw	0
 𣎧	sjkx	0
 𣥲	sjls	0
 𧌌	sjlv	0
@@ -85610,7 +85083,6 @@ encoder:
 𢓂	sjvr	0
 𢔁	sjvr	0
 𧗥	sjvx	0
-𫆵	sjwr	0
 𫆖	sjwu	0
 𦜔	sjxm	0
 𮌺	sjxo
@@ -85703,7 +85175,6 @@ encoder:
 𦢠	slc	0
 𡿽	slcs	0
 𠣏	slcu	0
-	sld
 𭨶	sldj
 𨕼	slds	0
 𢀽	slds	0
@@ -85783,7 +85254,6 @@ encoder:
 𭨪	slz
 𣥆	slz	0
 𢓊	slzr	0
-	slzs
 𨖤	slzs	0
 𨖪	slzs	0
 𨗬	slzs	0
@@ -85830,8 +85300,6 @@ encoder:
 𦣂	smox	0
 𭩂	smpl
 𢕄	smpr	0
-	smpr
-	smpr
 𢖄	smpr	0
 𢖢	smpr	0
 𢓹	smpr	0
@@ -85867,7 +85335,6 @@ encoder:
 𢕅	smyx	0
 𨘳	smzr	0
 ⻦	sn
-	sn
 𧴭	snbs	0
 𢖠	sncr	0
 𫋱	sncx	0
@@ -85892,6 +85359,7 @@ encoder:
 𧘆	snlx	0
 𦝋	snm	0
 𣎃	snmo	0
+𣎫	snoi	0
 𦡁	snok	0
 𣎲	snom	0
 𭩖	snqc
@@ -85905,7 +85373,6 @@ encoder:
 𦡎	sntv	0
 𭛢	snur
 𢓼	snvr	0
-𣎫	snwi	0
 𦣜	snwp	0
 𫹟	sobr	0
 𦛺	socl	0
@@ -85973,6 +85440,7 @@ encoder:
 𦞖	spfn	0
 𦘴	spfq	0
 𨚄	spgb	0
+𭩐	spgf
 𭜊	spgr
 𪣪	sphj	0
 𬄧	spir	0
@@ -85995,7 +85463,6 @@ encoder:
 𫧅	sppa	0
 𭛿	sppr
 𫹘	sppr	0
-𭩐	spqf
 𣣳	spqq	0
 𢔾	spqr	0
 𢔫	spqr	0
@@ -86005,7 +85472,6 @@ encoder:
 𮌷	spss
 𦠱	sptf	0
 𩀘	sptw	0
-	spu
 𠠲	spu	0
 𦙋	spvi	0
 𣎯	spvk	0
@@ -86131,7 +85597,6 @@ encoder:
 𫚷	ssgu	0
 𩑮	ssgy	0
 𬨡	ssgz	0
-	ssh
 𩒶	sshg	0
 𩓬	ssig	0
 𭛗	ssis
@@ -86251,17 +85716,10 @@ encoder:
 𦟞	stxe	0
 𭾽	styn
 𦟋	styo	0
-	su
 ⫽	su
 Ӡ	su
 ‰	su
-	su
-	su
 ∥	su
-	su
-	su
-	su
-	su
 ⼓	su
 »	su
 ⺆	su
@@ -86336,7 +85794,6 @@ encoder:
 𢕨	suyr	0
 ⺼	sv
 ⺝	sv
-	sv
 ⽉	sv
 𫆗	svae	0
 𦣅	svai	0
@@ -86497,10 +85954,8 @@ encoder:
 𭩅	sxjf
 𣎮	sxjf	0
 𦣍	sxjf	0
-	sxjf
 𦝺	sxjf	0
 𣎒	sxjk	0
-	sxjm
 𪾕	sxjm	0
 𬂉	sxjm	0
 䲢	sxjq	21300
@@ -86556,7 +86011,6 @@ encoder:
 𦠇	sxxk	0
 𤎢	sxxx	0
 𦟂	sxzd	0
-	sy
 ⽤	sy
 𦣋	syaa	0
 𦣐	syaa	0
@@ -86667,7 +86121,6 @@ encoder:
 𮌹	szti
 𦝹	szti	0
 𢓟	sztr	0
-	szu
 𪱬	szvr	0
 𦟸	szvw	0
 𩜾	szvx	0
@@ -86686,7 +86139,6 @@ encoder:
 𪴱	tacq	0
 𫣂	tadm	0
 𨈞	tads	0
-󰀁	tadw
 𭁓	taef
 𡗳	tafd	0
 𭑄	tafi
@@ -86840,7 +86292,6 @@ encoder:
 𠇡	tdcx	0
 𦐈	tdcy	0
 𮊺	tdcy
-	tdd
 𫢈	tdd	0
 𪖲	tddb	0
 𪖱	tddb	0
@@ -86860,7 +86311,6 @@ encoder:
 𬥬	tddt	0
 𠔢	tded	0
 𢺹	tded	0
-𪜫	tdee	0
 𣛊	tdei	0
 𫣖	tdez	0
 𦤊	tdez	0
@@ -86987,9 +86437,9 @@ encoder:
 𭄀	tedw
 Ӈ	tee
 𠀉	tee	0
-	tee
 𪝾	teek	0
 𪝰	teem	0
+𪜫	teeu	0
 𭐣	teev
 𤦨	teew	0
 𠏹	teew	0
@@ -87046,7 +86496,6 @@ encoder:
 𠑘	tetg	0
 𨿃	tetw	0
 𩀹	tetz	0
-	teu
 什	teu
 𪄅	teui
 𩳙	teui	0
@@ -87188,6 +86637,8 @@ encoder:
 𨉿	tggs	0
 𨊚	tggs	0
 𠆻	tghv	0
+𫮯	tgij	0
+𬩘	tgiz	0
 𪖣	tgjb	0
 𦤸	tgjc	0
 𦤴	tgji	0
@@ -87223,6 +86674,7 @@ encoder:
 𨃫	tgol	0
 𠇅	tgov	0
 𧯚	tgox	0
+𬨽	tgoz	0
 𫿆	tgpp	0
 𬎼	tgps	0
 𤗕	tgqp	0
@@ -87286,7 +86738,6 @@ encoder:
 𠌾	thff	0
 𨊙	thfs	0
 𫢯	thfy	0
-	thg
 𠉾	thgb	0
 𠐁	thgg	0
 𭔿	thgi
@@ -87382,7 +86833,6 @@ encoder:
 𠑫	thyy	0
 𫢭	thzc	0
 𨓇	thzi	0
-	ti
 𠋗	tiaa	0
 𠬿	tiad	0
 𦤙	tiaz	0
@@ -87471,7 +86921,6 @@ encoder:
 𢝪	tiqr	0
 𢞒	tiri	0
 𠉟	tirq	0
-	tis
 𤍁	tisi	0
 𬸌	tisi	0
 𣉠	tiss	0
@@ -87532,9 +86981,7 @@ encoder:
 𫢑	tjgu	0
 𨝈	tjhb	0
 𫣼	tjii	0
-𫮯	tjij	0
 𤘀	tjip	0
-𬩘	tjiz	0
 𪖢	tjjb	0
 𠡬	tjjc	0
 𠑭	tjjj	0
@@ -87602,7 +87049,6 @@ encoder:
 𭎗	tjvz
 𠏡	tjwd	0
 𬽥	tjwu
-𬨽	tjwz	0
 𠎎	tjxs	0
 𠎌	tjxv	0
 𠉻	tjxv	0
@@ -87692,14 +87138,12 @@ encoder:
 𪅭	tksu	0
 𭀌	tktz
 𦤏	tktz	0
-	tku
 𭀈	tkun
 𦣺	tkuz	0
 𬽪	tkv
 絛	tkva
 齃	tkvb
 𬧨	tkvs	0
-	tkvu
 𠋻	tkvv	0
 𠋍	tkvv	0
 𠗆	tkvz	0
@@ -87801,16 +87245,13 @@ encoder:
 𪝱	tmqk	0
 𠌝	tmqp	0
 𠊵	tmqq	0
-󰁈	tmqu
 𫤇	tmrz	0
 𫣧	tmsc	0
 𬾎	tmsv
 𫤀	tmtn	0
 𤗯	tmtp	0
 𬧦	tmts	0
-	tmtt
 𪂟	tmtu	0
-	tmtu
 𪖾	tmub	0
 𠎺	tmug	0
 𠈕	tmum	0
@@ -87944,8 +87385,6 @@ encoder:
 𨒄	tozd	0
 𫿵	toze	0
 ⽚	tp
-	tp
-	tp
 𠐉	tpaa	0
 𠇓	tpay	0
 𠬬	tpbd	0
@@ -88323,13 +87762,11 @@ encoder:
 𨈠	ttts	0
 𨾝	tttw	0
 𮍙	tttz
-	ttu
 𠔁	ttu	0
 𤕗	ttud	0
 𩾾	ttui	0
 𠉚	ttum	0
 𩾿	ttun	0
-𠱦	ttuo	0
 𪇣	ttus	0
 𪕿	ttvb	0
 𪖻	ttvb	0
@@ -88348,13 +87785,9 @@ encoder:
 𠑟	ttyz	0
 𬿫	ttzd
 𨈻	ttzs	0
-	tu
-	tu
 Л	tu
 ⼋	tu
-	tu
 «	tu
-	tu
 𧮷	tuaa	0
 𧯗	tuaf	0
 𠫥	tuai	0
@@ -88496,7 +87929,6 @@ encoder:
 𠈈	tuti	0
 𨉍	tuts	0
 𠆧	tuu	0
-	tuu
 𠔒	tuu	0
 𡴤	tuua	0
 𦃃	tuua	0
@@ -88510,6 +87942,7 @@ encoder:
 𧯕	tuun	0
 𧯖	tuun	0
 𠈻	tuuo	0
+𠱦	tuuo	0
 𦉈	tuup	0
 𤗝	tuup	0
 𨈦	tuus	0
@@ -88767,7 +88200,6 @@ encoder:
 𠌍	txjy	0
 𠏜	txjy	0
 𠍵	txjz	0
-	txke
 𫢸	txke	0
 𫣸	txkj	0
 僧	txkk
@@ -88886,6 +88318,7 @@ encoder:
 𪖘	tzeb	0
 𫺅	tzer	0
 𬽫	tzeu
+𠌏	tzgf	0
 𣼪	tzgo	0
 𬽬	tzh
 𠑊	tzhp	0
@@ -88896,14 +88329,12 @@ encoder:
 𠑈	tzpm	0
 𠈹	tzpp	0
 𬾣	tzqb
-𠌏	tzqf	0
 𫢨	tzrx	0
 𠎯	tzss	0
 𠊘	tzsv	0
 𩰡	tzti	0
 𩰢	tzti	0
 𠂭	tzui	0
-	tzui
 𡕰	tzvi	0
 𠊔	tzyl	0
 𢢟	uaaa	0
@@ -88956,7 +88387,6 @@ encoder:
 𢚝	uapi	0
 𣪕	uaqb	0
 𣤰	uaqb	0
-	uas
 𢗷	uas	0
 𩴑	uasg	0
 𦞩	uasv	0
@@ -89081,7 +88511,6 @@ encoder:
 𪖀	ucts	0
 𢣷	uctw	0
 𢖪	ucu	0
-	ucu
 𤼾	ucub	0
 𢟺	ucuc	0
 𩾐	ucun	0
@@ -89096,7 +88525,6 @@ encoder:
 𨑟	uczd	0
 𨕙	uczn	0
 𠂤	ud	0
-	ud
 𢘌	udai	0
 𢠌	udal	0
 𢗌	udb	0
@@ -89107,7 +88535,6 @@ encoder:
 𢝄	uddd	0
 𨽄	uddd	0
 𨼱	uddd	0
-	uddd
 𨺅	uddd	0
 𨽡	uddd	0
 𨽩	uddd	0
@@ -89346,7 +88773,6 @@ encoder:
 𤽷	ufbb	0
 𩴋	ufbg	0
 𫹴	ufbu	0
-	ufc
 𤽘	ufcb	0
 𤽵	ufcb	0
 𩴤	ufcg	0
@@ -89453,7 +88879,6 @@ encoder:
 𡦈	ugbr	0
 念	ugbr
 𢛪	ugbr	0
-	ugbu
 𭜌	ugbu
 𭜒	ugbu
 𩚜	ugbv	0
@@ -89463,7 +88888,6 @@ encoder:
 𫹮	ugcg	0
 𥃋	ugcg	0
 𢙼	ugci	0
-	ugck
 𠟊	ugcl	0
 𪫡	ugcl	0
 𢿴	ugcp	0
@@ -89493,7 +88917,6 @@ encoder:
 𣬹	ugdr	0
 𨾠	ugdt	0
 𭜐	ugdu
-	ugdu
 𪝃	ugdw	0
 𬪓	ugeb	0
 𤾑	ugeb	0
@@ -89549,6 +88972,7 @@ encoder:
 𫣘	ugii	0
 𡌆	ugij	0
 𣥳	ugil	0
+𪅘	ugin	0
 𬹡	ugio	0
 𤫿	ugir	0
 𫛬	ugis	0
@@ -89556,6 +88980,7 @@ encoder:
 𪕣	ugis	0
 𫶨	ugit	0
 𢖳	ugiu	0
+𭟫	ugiu
 𬡛	ugiw	0
 𣁏	ugiy	0
 𡑸	ugjd	0
@@ -89742,8 +89167,6 @@ encoder:
 𢥝	ugtv	0
 𦏜	ugtx	0
 𨘕	ugtz	0
-	ugu
-	ugu
 𢘈	ugua	0
 𢘔	ugub	0
 𬐃	ugub	0
@@ -89864,6 +89287,7 @@ encoder:
 𢠦	uhoj	0
 𪇅	uhon	0
 𢢩	uhop	0
+𢤺	uhor	0
 𪬠	uhou	0
 𭟭	uhox
 𭟇	uhpo
@@ -89909,7 +89333,6 @@ encoder:
 𬶽	uhvn	0
 𢣅	uhvo	0
 𩴾	uhwg	0
-𢤺	uhwr	0
 𢤄	uhwr	0
 𢗆	uhwu	0
 𤾸	uhxb	0
@@ -90030,10 +89453,8 @@ encoder:
 𢥻	ujhs	0
 𢍉	ujhv	0
 𦦰	ujij	0
-𪅘	ujin	0
 𪀔	ujin	0
 𢟾	ujir	0
-𭟫	ujiu
 𬐈	ujjb	0
 𢤠	ujjj	0
 𪬷	ujjj	0
@@ -90103,14 +89524,12 @@ encoder:
 𤾐	ujvb	0
 𨡛	ujve	0
 𢚛	ujve	0
-	ujve
 𬵀	ujvj	0
 𬴾	ujvl	0
 𬵙	ujvq	0
 𮫜	ujvr
 𩲆	ujvs	0
 𤿂	ujwb	0
-󰁇	ujwe
 𢤢	ujws	0
 𢗄	ujwu	0
 𥽂	ujxj	0
@@ -90202,7 +89621,6 @@ encoder:
 𦥔	uku	0
 𤼽	ukub	0
 𪅉	ukuj	0
-	ukuj
 𠁭	ukuk	0
 𢥶	ukun	0
 𬜀	ukuv	0
@@ -90333,7 +89751,6 @@ encoder:
 𦦇	umgj	0
 𪇌	umgn	0
 𬽽	umgo
-	umgo
 𦧅	umgt	0
 𠔻	umgt	0
 𨮆	umgv	0
@@ -90363,7 +89780,6 @@ encoder:
 𢄗	umob	0
 𢍯	umoh	0
 𬷍	umon	0
-	umoq
 𪕍	umos	0
 𪕙	umos	0
 𪕥	umos	0
@@ -90419,7 +89835,6 @@ encoder:
 𤓕	umxx	0
 𬜃	umzg	0
 ⿃	un
-	un
 𥝅	unaj	0
 𬛿	unat	0
 𭜼	unb
@@ -90589,7 +90004,6 @@ encoder:
 𨿵	uptb	0
 𩳅	uptg	0
 𠆥	upu	0
-	upub
 𪬻	upuf	0
 𤽪	upvb	0
 𫒺	upvd	0
@@ -90600,7 +90014,6 @@ encoder:
 𠃆	upxd	0
 𮁨	upxf
 𢍢	upxh	0
-	upxm
 𤒥	upxq	0
 𭼽	upxu
 𢥆	upyk	0
@@ -90651,7 +90064,6 @@ encoder:
 𪕂	uqss	0
 𬣏	uqsy	0
 𢞕	uqtw	0
-	uqu
 𬷥	uqun	0
 𢠐	uqv	0
 𪽿	uqvb	0
@@ -90669,7 +90081,6 @@ encoder:
 𩲁	uqxg	0
 𤒡	uqxq	0
 𢥌	uqxy	0
-󰀾	uqzb
 𮞾	uqzb
 𨕵	uqzd	0
 𢝥	uras	0
@@ -90871,7 +90282,6 @@ encoder:
 𢥠	uttd	0
 𠌂	utte	0
 𡘻	uttf	0
-󰀰	uttg
 𥕭	uttg	0
 𫙉	uttg	0
 𢍙	utth	0
@@ -90880,11 +90290,9 @@ encoder:
 𦤟	uttj	0
 𥂞	uttm	0
 𦥯	uttq	0
-	uttq
 𫚃	uttq	0
 𢡔	uttr	0
 𭀐	utts
-	uttv
 𢙋	utue	0
 𫙈	utug	0
 𦦂	utuj	0
@@ -90919,15 +90327,11 @@ encoder:
 𭞷	utzd
 𨑸	utzd	0
 𬿋	utzf
-	uu
 𠆢	uu	0
 ⼈	uu
-	uu
 ⺽	uu
 り	uu
-	uu
 б	uu
-	uu
 𦥑	uu	0
 𣹻	uuab	0
 𦦒	uuad	0
@@ -90954,7 +90358,6 @@ encoder:
 𪕌	uuds	0
 𢙓	uuea	0
 𤾍	uueb	0
-󰀮	uueb
 𤾁	uueb	0
 𤽹	uueb	0
 𬾵	uuec
@@ -91077,7 +90480,6 @@ encoder:
 𢥯	uutg	0
 𢍹	uuth	0
 𢍱	uuth	0
-	uuti
 𩀑	uutj	0
 𦦷	uutk	0
 𪾙	uutm	0
@@ -91165,7 +90567,6 @@ encoder:
 𠒰	uvcj	0
 𬷸	uvcn	0
 𢚶	uvcv	0
-󰀙	uvdb
 𢞓	uvdk	0
 𥤢	uve	0
 𢝾	uvea	0
@@ -91393,7 +90794,6 @@ encoder:
 𣉭	uxkv	0
 𢛰	uxlx	0
 𢘺	uxm	0
-	uxm
 𥜼	uxma	0
 𢁰	uxmj	0
 𪀳	uxmn	0
@@ -91654,7 +91054,6 @@ encoder:
 𫃛	vaze	0
 𩛓	vazs	0
 ⽐	vb
-	vb
 𤞁	vbaq	0
 𤟘	vbaq	0
 𤜿	vbaq	0
@@ -91933,7 +91332,6 @@ encoder:
 𨧻	vdya	0
 𤢣	vdyq	0
 𨪊	vdzl	0
-	ve
 ⼉	ve
 𠚒	veae	0
 𨥕	veai	0
@@ -92147,7 +91545,6 @@ encoder:
 𤇡	vfgs	0
 𩚧	vfgs	0
 𨾦	vfgt	0
-	vfgu
 𣋯	vfgv	0
 𩑥	vfgy	0
 𮙦	vfgz
@@ -92389,8 +91786,6 @@ encoder:
 𮍈	vgsv
 𮩂	vgts
 𧳅	vgtz	0
-	vgu
-	vgu
 𨦖	vguc	0
 𨪛	vguc	0
 𤔹	vguk	0
@@ -92475,7 +91870,6 @@ encoder:
 𤟬	vhiq	0
 𭸗	vhiq
 𭸘	vhiq
-	vhiq
 𩝇	vhis	0
 𩟛	vhis	0
 𧲭	vhiz	0
@@ -92587,11 +91981,7 @@ encoder:
 𩟆	vhzs	0
 𧴟	vhzz	0
 𠤎	vi	0
-	vi
-	vi
-	vi
 ⼔	vi
-	vi
 𢌢	vibd	0
 𨭣	vibl	0
 𨯚	vibr	0
@@ -93308,6 +92698,7 @@ encoder:
 𨦧	vpfu	0
 𧲢	vpfz	0
 𬫋	vpgd	0
+𨮧	vpgf	0
 𫒲	vpgi	0
 𩓙	vpgi	0
 𮣜	vpgm
@@ -93368,7 +92759,6 @@ encoder:
 𪵊	vppi	0
 𨯏	vppp	0
 𨥊	vpq	0
-𨮧	vpqf	0
 𪴬	vpqi	0
 𩚤	vpqs	0
 𢣕	vpri	0
@@ -93386,7 +92776,6 @@ encoder:
 𭄒	vptl
 𤝹	vptq	0
 𨯥	vptv	0
-	vpu
 𠂎	vpu	0
 𪁬	vpui	0
 𩴷	vpui	0
@@ -93446,7 +92835,6 @@ encoder:
 𤞶	vqeq	0
 𩗩	vqf	0
 𤯷	vqfp	0
-	vqfq
 𩝆	vqfs	0
 𤔆	vqfu	0
 𨭶	vqge	0
@@ -93505,7 +92893,6 @@ encoder:
 𭸏	vqsq
 𤢧	vqsq	0
 𩚺	vqss	0
-	vqu
 𨩉	vquf	0
 𨭷	vqun	0
 𤟅	vquq	0
@@ -93611,10 +92998,8 @@ encoder:
 𮢐	vrzd
 𤜶	vrzq	0
 𩙿	vs	0
-	vs
 ⻟	vs
 ⾷	vs
-	vs
 ⻞	vs
 ⻝	vs
 𡕜	vsaa	0
@@ -93782,9 +93167,6 @@ encoder:
 𨯑	vtyr	0
 𩛙	vtys	0
 𤝼	vtzq	0
-	vu
-	vu
-	vu
 ⺥	vu
 爫	vu
 ⺤	vu
@@ -93793,7 +93175,6 @@ encoder:
 ⼡	vu
 С	vu
 𫶧	vu	0
-	vu
 𤢌	vuaq	0
 𠚡	vuau	0
 𠚜	vuau	0
@@ -93872,7 +93253,6 @@ encoder:
 𩜶	vuls	0
 𪵕	vumb	0
 𤔱	vumh	0
-	vumq
 𫚰	vunb	0
 𩾕	vuni	0
 𤡕	vunq	0
@@ -94045,7 +93425,6 @@ encoder:
 𨦂	vwcu	0
 𨰆	vwcw	0
 𫒮	vwda	0
-	vwdd
 𮝉	vwdj
 留	vwdk
 𥁚	vwdm	0
@@ -94053,7 +93432,6 @@ encoder:
 𬬣	vwdq	0
 𤢶	vwdq	0
 𤟫	vwdq	0
-	vwdq
 𨪞	vwds	0
 𩜯	vwds	0
 館	vwds	0
@@ -94111,7 +93489,6 @@ encoder:
 𨮄	vwlt	0
 𨬈	vwm	0
 𬪍	vwmb	0
-	vwmb
 𨭋	vwme	0
 𬍄	vwmq	0
 𨯶	vwmr	0
@@ -94150,9 +93527,6 @@ encoder:
 𬍅	vwtq	0
 𤜥	vwtq	0
 𮣫	vwty
-	vwu
-	vwu
-	vwu
 𨨿	vwud	0
 𨫈	vwuj	0
 𬌩	vwuq	0
@@ -94443,7 +93817,6 @@ encoder:
 𮢚	vzqi
 𨬥	vzqn	0
 𨨱	vzro	0
-	vzsq
 𬸚	vzsq	0
 𨫟	vzti	0
 𮢤	vzvo
@@ -94527,7 +93900,6 @@ encoder:
 𥨷	waox	0
 𬩏	waoz	0
 𪧇	wap	0
-	wap
 𤶗	wapb	0
 𢈟	wapg	0
 𡧷	wapn	0
@@ -94597,7 +93969,6 @@ encoder:
 𠨙	wbaa	0
 𭅺	wbaa
 𪪗	wbag	0
-	wbai
 䘵	wbai
 𪋵	wbal	0
 朗	wbas
@@ -94654,7 +94025,6 @@ encoder:
 𭓙	wbjk
 𠻡	wbjo	0
 𥨁	wbjx	0
-	wbku
 𬻺	wbl
 剆	wbld
 𭄊	wblg
@@ -94871,7 +94241,6 @@ encoder:
 𢊜	wdeg	0
 𧘥	wdei	0
 𧜄	wdei	0
-𬒰	wdes	0
 𮕩	wdey
 𤵤	wdfb	0
 𮕸	wdfi
@@ -94978,7 +94347,6 @@ encoder:
 𧛴	wdti	0
 𥘬	wdts	0
 𡧐	wdtu	0
-	wdu
 𦠫	wdui	0
 𪁲	wdui	0
 𬒮	wdus	0
@@ -95157,7 +94525,6 @@ encoder:
 𫳚	weus	0
 𬻾	weuz
 𭼆	wevb
-麻	wevg
 𡪇	wevs	0
 𥘛	wevs	0
 𧘦	wevy	0
@@ -95410,6 +94777,7 @@ encoder:
 𥤴	wghx	0
 𡪮	wghx	0
 𤹘	wgib	0
+𤹵	wgib	0
 𢋏	wgig	0
 𢊍	wgig	0
 𭙥	wgig
@@ -95419,6 +94787,7 @@ encoder:
 𢊢	wgim	0
 𥛑	wgis	0
 𥙠	wgis	0
+𥛥	wgis	0
 𧙶	wgiw	0
 𥦼	wgix	0
 𥥻	wgix	0
@@ -95501,6 +94870,7 @@ encoder:
 𤷋	wgrb	0
 𧘾	wgri	0
 𡫯	wgrl	0
+𥛸	wgrs	0
 𪬅	wgrx	0
 𥧛	wgrx	0
 𤹐	wgsb	0
@@ -95628,7 +94998,6 @@ encoder:
 𮖡	whfi
 𮖪	whfi
 𥜁	whfs	0
-	whgg
 𩔼	whgg	0
 𭓵	whgi
 𡩱	whgj	0
@@ -95786,7 +95155,6 @@ encoder:
 𧶼	whtn	0
 𠹟	whto	0
 𬸣	whts	0
-	whts
 𦞫	whts	0
 𥙖	whts	0
 𡨄	whtu	0
@@ -95955,7 +95323,6 @@ encoder:
 𪃜	wiou	0
 𩟸	wiov	0
 𡧱	wiov	0
-	wiov
 𥨸	wiox	0
 𥦈	wiox	0
 𬏛	wipb	0
@@ -96049,12 +95416,10 @@ encoder:
 𥜗	wjgs	0
 𥜝	wjgs	0
 𥥖	wjgx	0
-𤹵	wjib	0
 𫴤	wjib	0
 𡫉	wjid	0
 𫴶	wjig	0
 𮖻	wjii
-𥛥	wjis	0
 𮂞	wjis
 𥩄	wjix	0
 𤻡	wjjb	0
@@ -96122,7 +95487,6 @@ encoder:
 突	wjqx
 𫁜	wjqx	0
 𪽷	wjrb	0
-𥛸	wjrs	0
 𪧢	wjrw	0
 𥧟	wjrx	0
 𭔚	wjrz
@@ -96146,7 +95510,6 @@ encoder:
 𪪕	wjug	0
 𧟙	wjui	0
 𥩔	wjux	0
-󰀋	wjv
 𫲵	wjv	0
 𤷖	wjvb	0
 𤶁	wjvb	0
@@ -96222,7 +95585,6 @@ encoder:
 𥧤	wkfx	0
 𥦏	wkfx	0
 𧟕	wkgi	0
-	wkgi
 𪪤	wkgm	0
 𫳳	wkgn	0
 𥘵	wkgs	0
@@ -96260,8 +95622,8 @@ encoder:
 𬏾	wkmb	0
 瘟	wkmb
 𬡔	wkmi	0
-	wkmi
 𫀚	wkms	0
+𭓱	wkou
 𥥉	wkox	0
 𬔈	wkox	0
 𧙏	wkoy	0
@@ -96323,8 +95685,6 @@ encoder:
 𫑈	wkzd	0
 𨕫	wkzs	0
 鹿	wl
-	wl
-	wl
 ⿅	wl
 𤴩	wlbb	0
 𬏝	wlbb	0
@@ -96358,7 +95718,6 @@ encoder:
 𢌁	wlgm	0
 𥛳	wlgs	0
 𥜅	wlgs	0
-𭓱	wlgu
 𤹣	wlib	0
 𤻫	wlib	0
 𢉪	wlig	0
@@ -96436,6 +95795,7 @@ encoder:
 𫲺	wlz	0
 𤵁	wlzb	0
 𧘲	wlzi	0
+麻	wm
 ⿇	wm
 瘝	wmab
 𤸄	wmab	0
@@ -96847,7 +96207,6 @@ encoder:
 𤴸	wpqb	0
 𤵎	wpqb	0
 𫷷	wpqg	0
-	wpqg
 𥨼	wpqx	0
 𥤶	wpqx	0
 𢞱	wprb	0
@@ -97534,7 +96893,6 @@ encoder:
 𡩺	wudo	0
 𥙢	wuds	0
 𥦋	wudx	0
-	wudx
 𪠮	wudx	0
 𥥋	wudx	0
 𤷎	wueb	0
@@ -97877,7 +97235,6 @@ encoder:
 𧟄	wwhi	0
 𮂜	wwhs
 𡨜	wwhz	0
-󰀌	wwic
 𢉹	wwig	0
 𢈵	wwig	0
 𧚬	wwii	0
@@ -97940,8 +97297,6 @@ encoder:
 𥥴	wwyx	0
 𨘃	wwzb	0
 ⽳	wx
-	wx
-	wx
 𤹤	wxab	0
 𭼸	wxab
 𭙬	wxag
@@ -98201,7 +97556,6 @@ encoder:
 𫳺	wzcd	0
 𮄝	wzdx
 𤶶	wzeb	0
-	wzeb
 𬏟	wzeb	0
 𫴣	wzed	0
 𧘞	wzei	0
@@ -98229,7 +97583,6 @@ encoder:
 𫳎	wzqq	0
 𧜎	wzri	0
 𭓻	wzrp
-	wzsg
 𤺮	wztb	0
 𡪜	wzti	0
 𪧓	wzub	0
@@ -98327,7 +97680,6 @@ encoder:
 𫅔	xbgy	0
 𠔥	xbhs	0
 𬊈	xbic	0
-	xbic
 𬖋	xbim	0
 𫤾	xbis	0
 𦎤	xbiy	0
@@ -98335,6 +97687,8 @@ encoder:
 𠖭	xbls	0
 𧈁	xblu	0
 𪸢	xblu	0
+𫡁	xblx	0
+𫡂	xblx	0
 𪹁	xbmm	0
 𪾚	xbmm	0
 𥺬	xbmm	0
@@ -98406,11 +97760,9 @@ encoder:
 𥽎	xctm	0
 𠔃	xcu	0
 𬺸	xcu
-	xcu
 𠔄	xcu	0
 𭳿	xcu
 𪺀	xcue	0
-	xcum
 𠖬	xcus	0
 𤊲	xcut	0
 𢖖	xcvm	0
@@ -98449,7 +97801,6 @@ encoder:
 𫃌	xdfm	0
 𤇜	xdfq	0
 𪞝	xdfs	0
-󰀥	xdfu
 𣍄	xdfw	0
 𫅒	xdfy	0
 𦎾	xdfy	0
@@ -98546,7 +97897,6 @@ encoder:
 𤆏	xecu	0
 𪸒	xecu	0
 𭴊	xecu
-	xecu
 𡞜	xecv	0
 𦍞	xecy	0
 𥸳	xedm	0
@@ -98628,9 +97978,7 @@ encoder:
 𠗰	xess	0
 𭴼	xesv
 𢆉	xeu	0
-	xeu
 𠦂	xeu	0
-	xeu
 𨢅	xeue	0
 𨡡	xeug	0
 𤊿	xeuj	0
@@ -98734,14 +98082,12 @@ encoder:
 𠘕	xfss	0
 𠘑	xfss	0
 凞	xfss	0
-	xfti
 𡭉	xfti	0
 𬉼	xfti	0
 𥻪	xftm	0
 𪞩	xfts	0
 𠗾	xfts	0
 𠦻	xftv	0
-	xfu
 𠗉	xfus	0
 𤇦	xfw	0
 𠖱	xfws	0
@@ -98804,8 +98150,10 @@ encoder:
 𤌤	xgnv	0
 𦏀	xgny	0
 𣚱	xgoi	0
+𤍿	xgoi	0
 𨆜	xgol	0
 𥺖	xgom	0
+𬋅	xgor	0
 𠗐	xgos	0
 𤈆	xgot	0
 𭴧	xgox
@@ -98819,7 +98167,6 @@ encoder:
 𤏚	xgtt	0
 𪺈	xgtv	0
 𤆂	xgu	0
-	xgu
 𥹘	xgum	0
 𪹄	xgur	0
 𢝦	xgur	0
@@ -98843,7 +98190,6 @@ encoder:
 𭵨	xhbf
 𨚜	xhbv	0
 𤇉	xhcc	0
-	xhcm
 𫃒	xhcm	0
 𠗮	xhcs	0
 𤒽	xhct	0
@@ -98872,10 +98218,11 @@ encoder:
 𬗂	xhhm	0
 𥻔	xhhm	0
 𤌕	xhho	0
-𥽒	xhim	0
-𥻹	xhim	0
-𥼧	xhim	0
 𥻈	xhim	0
+𥻹	xhim	0
+𥼢	xhim	0
+𥼧	xhim	0
+𥽒	xhim	0
 𭫮	xhim
 𦎖	xhio	0
 𤌃	xhis	0
@@ -98933,14 +98280,12 @@ encoder:
 𥽫	xhsm	0
 糒	xhsm
 𫛨	xhsn	0
-󰀝	xhsv
 𪹴	xhsz	0
 𤑳	xhta	0
 𤐰	xhtd	0
 𤊈	xhtd	0
 𤈝	xhti	0
 𥽼	xhtm	0
-𥼢	xhtm	0
 𮇗	xhtm
 𤐟	xhto	0
 𦍍	xhu	0
@@ -98987,13 +98332,11 @@ encoder:
 𥽍	xifm	0
 𫂶	xifm	0
 𤒛	xigi	0
-	xigm
 𬖓	xigm	0
 𥻗	xigm	0
 𤊴	xigv	0
 𩓮	xigy	0
 𬊍	xiic	0
-	xiic
 𤐖	xiif	0
 𬋔	xiig	0
 𤏗	xiii	0
@@ -99200,13 +98543,11 @@ encoder:
 𦏪	xjoy	0
 𦎁	xjoy	0
 𢆤	xjpf	0
-	xjpi
 𥏇	xjpi	0
 𨌅	xjpj	0
 𧗍	xjpm	0
 𥼲	xjpm	0
 𥼏	xjpm	0
-	xjpu
 𤇭	xjpu	0
 𤈩	xjpx	0
 𧨁	xjpy	0
@@ -99270,8 +98611,6 @@ encoder:
 𦍑	xjvw	0
 𮊫	xjvw
 𫝥	xjwb	0
-𤍿	xjwi	0
-𬋅	xjwr	0
 𤆧	xjwu	0
 𧙯	xjwy	0
 𩱋	xjxk	0
@@ -99321,7 +98660,6 @@ encoder:
 𮫭	xkfd
 𪸮	xkfd	0
 𫃘	xkfm	0
-󰀦	xkfu
 𤒺	xkfx	0
 𤓊	xkfy	0
 𪱗	xkgb	0
@@ -99382,7 +98720,6 @@ encoder:
 𪞦	xkss	0
 𤊉	xksv	0
 𦎪	xksy	0
-	xkt
 𬎿	xkt	0
 𤑥	xkti	0
 𫂺	xktm	0
@@ -99390,7 +98727,6 @@ encoder:
 𪞛	xkts	0
 𭶤	xktz
 𫢊	xku	0
-	xku
 ￥	xku
 𮬨	xkun
 𤋽	xkut	0
@@ -99403,7 +98739,6 @@ encoder:
 𧚵	xkwy	0
 𥼑	xkxm	0
 𭵒	xkxt
-	xkxu
 𬊴	xkxv	0
 𭴽	xkxv
 𤋉	xkya	0
@@ -99616,7 +98951,6 @@ encoder:
 𡈤	xnor	0
 𬊵	xnov	0
 𭶏	xnoz
-	xnpm
 𥻠	xnpm	0
 𤇙	xnq	0
 𤇅	xnq	0
@@ -99861,7 +99195,6 @@ encoder:
 𠖮	xqws	0
 𮊣	xqwy
 𦏇	xqwy	0
-	xqx
 𥼫	xqxm	0
 𥻒	xqxm	0
 𥼨	xqxm	0
@@ -100075,7 +99408,6 @@ encoder:
 𩠵	xtti	0
 𮇡	xttm
 𩠩	xttp	0
-	xtu
 𤈰	xtuj	0
 𩠟	xtuk	0
 𬖍	xtum	0
@@ -100105,12 +99437,7 @@ encoder:
 𣜦	xtzi	0
 𦍾	xtzy	0
 ˦	xu
-	xu
-	xu
 ⺦	xu
-	xu
-	xu
-	xu
 Ҳ	xu
 𬼀	xu
 𥼝	xuam	0
@@ -100193,7 +99520,6 @@ encoder:
 𤎑	xutv	0
 𦏮	xuty	0
 𦎊	xuty	0
-	xuu
 𤉛	xuuj	0
 𤎳	xuuk	0
 𥸪	xuum	0
@@ -100251,7 +99577,6 @@ encoder:
 𬊺	xvhd	0
 𮌱	xvht
 冀	xvht
-	xvi
 北	xvi
 𤆇	xvi	0
 北	xvi
@@ -100400,7 +99725,6 @@ encoder:
 𥼌	xwsm	0
 𬊼	xwta	0
 𠘛	xwts	0
-	xwu
 𥺧	xwum	0
 𤏶	xwvi	0
 𥹈	xwvm	0
@@ -100475,7 +99799,6 @@ encoder:
 𤏽	xxjy	0
 𭌠	xxjy
 𤎔	xxjz	0
-	xxke
 𬊤	xxke	0
 𭂡	xxks
 𦏏	xxky	0
@@ -100514,7 +99837,6 @@ encoder:
 𠢸	xxqc	0
 𦫟	xxqd	0
 燐	xxqf
-󰀨	xxqf
 𤌠	xxqf	0
 𩗹	xxqf	0
 𤐪	xxqf	0
@@ -100785,12 +100107,10 @@ encoder:
 𠔚	yaht	0
 𬢢	yahv	0
 𨓋	yahz	0
-	yai
 𭤩	yai
 𨜎	yaib	0
 𢽫	yail	0
 𦣔	yaiq	0
-	yaiv
 𨓫	yaiz	0
 𫧔	yajc	0
 𬍏	yajw	0
@@ -100831,7 +100151,6 @@ encoder:
 𣱵	yas	0
 𧮌	yasd	0
 𠅵	yasi	0
-	yasp
 𤰑	yasq	0
 𣣎	yasq	0
 育	yasv
@@ -100988,7 +100307,6 @@ encoder:
 𠂅	ycrw	0
 望	ycse
 𣎆	ycsq	0
-	ycsq
 𥩿	ycsy	0
 𬪘	yctb	0
 𡿫	yctc	0
@@ -101137,7 +100455,6 @@ encoder:
 請	yesv
 𥪧	yetl
 𮄪	yetl
-	yeu
 𦞍	yeuu	0
 𧥶	yev	0
 䚾	yev
@@ -101215,7 +100532,6 @@ encoder:
 𧬣	yfyn	0
 𧦚	ygay	0
 𣄂	ygbl	0
-	ygcw
 𧦠	ygds	0
 𫸲	ygdw	0
 𦫨	ygdw	0
@@ -101377,7 +100693,6 @@ encoder:
 𧪽	yhxk	0
 𧨔	yhyc	0
 𨐮	yhyx	0
-	yi
 𥪲	yial	0
 𫐚	yibx	0
 𮄧	yicl
@@ -101475,7 +100790,6 @@ encoder:
 𩑊	yjun	0
 𧪡	yjvk	0
 讀	yjvn
-󰀄	yjvw
 諸	yjwk	0
 𨮲	yjwv	0
 𨬇	yjwv	0
@@ -101617,7 +100931,6 @@ encoder:
 𧪓	yky	0
 𧬚	ykyb	0
 𣁌	ykzw	0
-	yl
 ⽴	yl
 立	yl
 𠂫	ylan	0
@@ -101632,7 +100945,6 @@ encoder:
 𥃐	yldm	0
 𫦊	yldn	0
 𩐮	ylen	0
-	yleq
 𣂂	ylew	0
 𠢻	ylgc	0
 𧭙	ylgg	0
@@ -101777,6 +101089,7 @@ encoder:
 𣁪	ynnw	0
 𪜥	ynof	0
 𪲪	ynoi	0
+𬣍	ynoi	0
 𬣖	ynok	0
 𫢀	ynol	0
 𥂡	ynom	0
@@ -101799,7 +101112,6 @@ encoder:
 𥃰	ynv	0
 𧨛	ynvi	0
 𪯣	ynvw	0
-𬣍	ynwi	0
 𪯜	ynxp	0
 𧮍	ynyn	0
 𥌊	ynyx	0
@@ -101958,7 +101270,6 @@ encoder:
 𧪼	yonb	0
 𥪾	yonl	0
 𥪩	yonl	0
-	yono
 𩫃	yoob	0
 𫘵	yoob	0
 𩙷	yoob	0
@@ -101998,7 +101309,6 @@ encoder:
 𩫘	yoos	0
 𩫙	yoot	0
 𩫬	yoot	0
-	yoov
 𡕨	yoov	0
 𠆃	yoov	0
 𬴔	yoov	0
@@ -102037,10 +101347,8 @@ encoder:
 𢑸	yoqm	0
 𩫎	yoqm	0
 𥆕	yoqn	0
-	yoqo
 𮌔	yoqs
 𪁚	yoqu	0
-	yoqu
 亮	yoqv
 𠆒	yoqy	0
 𣂳	yorj	0
@@ -102070,7 +101378,6 @@ encoder:
 𠆏	youk	0
 𩫦	yous	0
 𠆔	youv	0
-	yov
 𧥣	yov	0
 𠑽	yove	0
 𣬙	yovl	0
@@ -102201,7 +101508,6 @@ encoder:
 𢾚	yppn	0
 𩺯	yppq	0
 𢳈	yppr	0
-	ypps
 𬸦	ypps	0
 𩀥	yppt	0
 𫾨	yppw	0
@@ -102235,7 +101541,6 @@ encoder:
 𧦻	yptj	0
 𠔳	yptl	0
 𭤨	ypu
-	ypu
 𪯸	ypub	0
 𪯞	ypue	0
 𫝸	ypul	0
@@ -102517,6 +101822,7 @@ encoder:
 𥄈	ytnv	0
 𮚁	ytnw
 𩕴	ytog	0
+𬣋	ytoi	0
 𤟞	ytoj	0
 𠅾	ytok	0
 𥪉	ytol	0
@@ -102571,7 +101877,6 @@ encoder:
 𩘍	ytvq	0
 𭑁	ytvu
 𨾔	ytw	0
-𬣋	ytwi	0
 𭎲	ytwj
 𭐺	ytwr
 𬂃	ytws	0
@@ -102604,7 +101909,6 @@ encoder:
 𦑋	yuec	0
 𮘅	yueg
 𤭢	yueh	0
-	yueh
 𣖛	yuei	0
 𧪺	yuel	0
 𨿼	yuet	0
@@ -102799,7 +102103,6 @@ encoder:
 𧩰	ywzz	0
 ⾟	yx
 𨐋	yx	0
-	yx
 𡦔	yxab	0
 𬣐	yxar	0
 𧪜	yxas	0
@@ -102812,7 +102115,6 @@ encoder:
 𪗒	yxcv	0
 𪗑	yxcv	0
 𩙜	yxdq	0
-	yxdr
 𬪜	yxeb	0
 𪗅	yxed	0
 𪗈	yxeg	0
@@ -102828,7 +102130,6 @@ encoder:
 𬩣	yxez	0
 𧧤	yxfd	0
 𢄫	yxfd	0
-	yxfg
 𥫃	yxfl	0
 𤎷	yxfn	0
 𭤲	yxfu
@@ -102864,7 +102165,6 @@ encoder:
 𭘽	yxmj
 𪯐	yxmp	0
 𢝃	yxmr	0
-	yxmu
 𨝗	yxob	0
 𣎘	yxok	0
 𢿪	yxol	0
@@ -102888,7 +102188,6 @@ encoder:
 𧫺	yxqm	0
 𬌟	yxqp	0
 𧫎	yxqr	0
-	yxqu
 𡖍	yxqw	0
 𧭓	yxqx	0
 𨢞	yxre	0
@@ -102908,7 +102207,6 @@ encoder:
 𪗓	yxtv	0
 𮥹	yxtw
 𨐩	yxtx	0
-	yxu
 𩍷	yxuh	0
 𪗌	yxuu	0
 𮘹	yxuu
@@ -103105,14 +102403,12 @@ encoder:
 𣶰	zbeo	0
 𣲌	zbeu	0
 𬍡	zbew	0
-	zbew
 𫍙	zbey	0
 𣸁	zbfs	0
 𣶊	zbgk	0
 𨸄	zbgm	0
 𣾎	zbgs	0
 𬤅	zbgy	0
-	zbgy
 𬣳	zbgy	0
 𣵊	zbia	0
 𣼼	zbik	0
@@ -103146,7 +102442,6 @@ encoder:
 𣷋	zbpl	0
 𣲫	zbpu	0
 浸	zbqd
-	zbry
 𮙊	zbry
 𭳋	zbsf
 𬂱	zbsi	0
@@ -103312,7 +102607,6 @@ encoder:
 梁	zdti
 𬈕	zdtm	0
 𥞹	zdtr	0
-	zdtu
 𬤥	zdty	0
 𬣧	zdty	0
 𤂿	zdtz	0
@@ -103328,7 +102622,6 @@ encoder:
 𩜥	zdvs	0
 𣼣	zdvv	0
 𥺜	zdvx	0
-󰀠	zdwi
 鿄	zdwi
 𣽔	zdwj	0
 𣼇	zdxa	0
@@ -103361,7 +102654,6 @@ encoder:
 𡝝	zecv	0
 𬇘	zecw	0
 𪬬	zecw	0
-	zecw
 𪶪	zedj	0
 𤄍	zedk	0
 𮤫	zedm
@@ -103397,12 +102689,10 @@ encoder:
 𤃈	zehr	0
 𭱃	zehv
 𤅤	zeje	0
-	zejm
 𬮱	zejm	0
 湮	zejv
 𡏋	zejv	0
 𡊺	zejv	0
-	zejy
 𬤇	zejy	0
 𬉧	zekd	0
 𭳱	zekv
@@ -103613,7 +102903,6 @@ encoder:
 𭑎	zfze
 𣿬	zfzt	0
 𬣽	zfzy	0
-	zfzy
 𬣵	zfzy	0
 𬈖	zgab	0
 𤃁	zgaj	0
@@ -103625,7 +102914,6 @@ encoder:
 𬮙	zgbm	0
 𣵑	zgbp	0
 𬇕	zgbu	0
-	zgbu
 𬇵	zgcg	0
 𭰛	zgcl
 𣶖	zgcr	0
@@ -103641,7 +102929,6 @@ encoder:
 𣻝	zgfb	0
 𥂆	zgfm	0
 𬣡	zgfy	0
-	zgfy
 𬣨	zgfy	0
 𪵱	zggb	0
 𣽈	zgge	0
@@ -103661,7 +102948,6 @@ encoder:
 𤁋	zgil	0
 𣸺	zgiv	0
 𬣙	zgiy	0
-	zgiy
 𡜂	zgjc	0
 𪵭	zgjk	0
 𪶌	zgjl	0
@@ -103698,7 +102984,7 @@ encoder:
 𤃝	zgrk	0
 𫔷	zgrm	0
 𤃉	zgrr	0
-	zgry
+𬤝	zgry	0
 𣵠	zgs	0
 𦚑	zgsh	0
 𫆬	zgsv	0
@@ -103707,9 +102993,7 @@ encoder:
 𬇝	zgtl	0
 𤂮	zgtu	0
 𪶫	zgtw	0
-	zgu
 𢨿	zguh	0
-	zguh
 𬈇	zgui	0
 𣽀	zgut	0
 𭳺	zguw
@@ -103840,6 +103124,7 @@ encoder:
 𤁮	zhoo	0
 𤀂	zhop	0
 𢢉	zhor	0
+𪷺	zhor	0
 𬉊	zhor	0
 𭲑	zhot
 𣸿	zhov	0
@@ -103906,7 +103191,6 @@ encoder:
 𣸃	zhvw	0
 𭯽	zhw
 𣻡	zhwb	0
-𪷺	zhwr	0
 𤁬	zhwr	0
 𮢗	zhwv
 𣽐	zhxe	0
@@ -104080,8 +103364,6 @@ encoder:
 𣼳	zjrw	0
 𢜃	zjrx	0
 𬇨	zjrx	0
-𬤝	zjry	0
-	zjry
 𣵒	zjsu	0
 𬮨	zjtm	0
 𣻪	zjtp	0
@@ -104161,7 +103443,6 @@ encoder:
 𣷐	zklu	0
 𣼮	zklv	0
 𬤊	zkly	0
-	zkly
 𤀰	zkmo	0
 𭳃	zknt
 𪸈	zkoi	0
@@ -104290,7 +103571,6 @@ encoder:
 𤄷	zmat	0
 𣵵	zmaw	0
 𬇙	zmb	0
-	zmb
 𫍬	zmcy	0
 𬤚	zmcy	0
 𣴬	zmdd	0
@@ -104383,7 +103663,6 @@ encoder:
 𣿽	znef	0
 𣵼	zneg	0
 𭱿	znes
-	znew
 𬇹	znew	0
 𣿐	znfh	0
 𬤧	znfy	0
@@ -104533,7 +103812,6 @@ encoder:
 𥁩	zpfm	0
 𣲃	zpfq	0
 𣷥	zpfs	0
-	zpfy
 𤁰	zpge	0
 𤂥	zpgj	0
 𣳴	zpgl	0
@@ -104620,7 +103898,6 @@ encoder:
 𣸦	zqgc	0
 𬇺	zqgk	0
 𣳽	zqgm	0
-	zqgv
 𬒈	zqgv	0
 𣹞	zqgw	0
 𤃽	zqhs	0
@@ -104639,7 +103916,6 @@ encoder:
 𣺆	zqkh	0
 𣵥	zqkk	0
 𣳢	zqlb	0
-	zqlm
 𬮡	zqlm	0
 𧇳	zqlv	0
 𮔓	zqlv
@@ -104669,7 +103945,6 @@ encoder:
 𭲧	zqss
 𣿨	zqsx	0
 𣵫	zqtf	0
-	zqu
 𣽌	zquq	0
 𤃚	zquu	0
 𬈒	zquv	0
@@ -104758,7 +104033,6 @@ encoder:
 𣲲	zrv	0
 𣺡	zrve	0
 𬈹	zrvv	0
-	zrvy
 𪟛	zrwc	0
 𣑱	zrwi	0
 𪎤	zrwm	0
@@ -104924,9 +104198,7 @@ encoder:
 ッ	zu
 ⺀	zu
 𭕄	zu
-	zu
 ⺍	zu
-	zu
 𤃗	zuam	0
 𣵂	zuba	0
 𣶗	zuba	0
@@ -104949,7 +104221,6 @@ encoder:
 𠦭	zueu	0
 𬤍	zuey	0
 𤄻	zufb	0
-	zufq
 𪶅	zufs	0
 𬤡	zufy	0
 𭰅	zuga
@@ -104986,7 +104257,6 @@ encoder:
 𭏄	zuoj
 𣼕	zuom	0
 𭲃	zuom
-	zuom
 𬮤	zuom	0
 𣹱	zuoq	0
 𣿆	zuqj	0
@@ -105065,7 +104335,6 @@ encoder:
 𥁼	zvgm	0
 𣻳	zvgy	0
 𭱵	zvhd
-󰀤	zvig
 𣶶	zviv	0
 𪸊	zvjg	0
 𭲹	zvjj
@@ -105151,7 +104420,6 @@ encoder:
 𣻎	zwgp	0
 𣺊	zwgs	0
 𭲩	zwgs
-	zwgy
 𬣞	zwgy	0
 𣼄	zwha	0
 𣵉	zwhf	0
@@ -106529,7 +105797,7 @@ encoder:
 儿童	veyj	105000000
 通知	dspo	351000000
 作者	tpjk	984000000
-优惠	tjjk	249000000
+优惠	tjgk	249000000
 团体	niti	69000000
 综合	cwug	337000000
 适合	roug	245000000
@@ -107586,7 +106854,7 @@ encoder:
 进阶	fkbu
 不明	gbks	104000000
 手法	rszj	31900000
-受惠	vqjk
+受惠	vqgk
 若有	hhhs	30100000
 一篇	gupz	256000000
 也许	bezp	153000000
@@ -110548,7 +109816,7 @@ encoder:
 军队	qfbu	26000000
 套现	feem
 海底	zpwv	15000000
-特惠	pjjk	30000000
+特惠	pjgk	30000000
 喜好	jocb	15900000
 须经	sgcd
 传呼	teop	2370000
@@ -113680,7 +112948,7 @@ encoder:
 单人	xkuu
 几何	qjte	22400000
 复原	pkgu	6410000
-惠普	jkxl	1860000
+惠普	gkxl	1860000
 朝着	ekxn	8880000
 发烧	afxf	21600000
 试探	zffq	8120000
@@ -115129,7 +114397,7 @@ encoder:
 立足	ylol	20400000
 流水	zyas	23200000
 神学	wkzq	1930000
-惠顾	jkgb	7100000
+惠顾	gkgb	7100000
 滞留	zhvw	4520000
 繁华	pctv	13800000
 一元	gugg
@@ -115329,7 +114597,7 @@ encoder:
 原为	guzc
 假使	tdtg	2210000
 最美	khxj	24000000
-惠州	jkst	29700000
+惠州	gkst	29700000
 关节	xfha	12300000
 护卫	fzag	4500000
 大意	fdyr	10100000
@@ -115425,7 +114693,7 @@ encoder:
 人寿	uuii
 人称	uurq	13600000
 凡在	qahk
-互惠	ecjk	8610000
+互惠	ecgk	8610000
 两手	gmrs	8160000
 波幅	zdmg
 争霸	qbjh
@@ -116256,7 +115524,7 @@ encoder:
 向南	uoem
 忘掉	ycfl	6940000
 呼叫	opoa	12700000
-恩惠	nfjk	3480000
+恩惠	nfgk	3480000
 耗用	irsy
 高明	yoks	17900000
 伪钞	tzpc	357000
@@ -117321,7 +116589,7 @@ encoder:
 肩膀	zssy	20800000
 毒素	ecea	6750000
 专电	eckd	2340000
-惠及	jkaw	2230000
+惠及	gkaw	2230000
 善事	xxio
 多分	qqtd	36500000
 收起	apjd
@@ -117525,7 +116793,7 @@ encoder:
 喝了	okbl
 提炼	fkxf	5210000
 贴切	mlfd	4430000
-实惠	wzjk	18100000
+实惠	wzgk	18100000
 下落	jwhz	19200000
 内销	mupn	2780000
 天性	ftup	8340000
@@ -123199,7 +122467,7 @@ encoder:
 一个劲儿	gudv	1250000
 一句话	gszr	47900000
 一口气	gopq	24500000
-惠民	jkdf
+惠民	gkdf
 一块儿	gjve	3590000
 一溜烟	gzxn	1410000
 一路上	gols	11800000
@@ -125142,7 +124410,7 @@ encoder:
 响彻云霄	osej	377000
 想入非非	ivll	2100000
 逍遥法外	nvzq	746000
-小恩小惠	cncj	334000
+小恩小惠	cncg	334000
 唯心	otrx	1480000
 小巧玲珑	ciee
 小心谨慎	crzu	2260000
@@ -126956,7 +126224,7 @@ encoder:
 崇洋媚外	mzcq	692000
 宠辱不惊	wggu
 带病	hqwg	1030000
-抽穗	fkrj	415000
+抽穗	fkrg	415000
 猛增	vbjx	3830000
 愁云惨雾	reuj
 眼眶	nbnf	7250000
@@ -133382,7 +132650,7 @@ encoder:
 用心良苦	srwh
 渔港	zqzh
 管束	pwio
-优惠价	tjtu
+优惠价	tgtu
 优胜劣汰	tscz	1790000
 楼阁	ixzv	2810000
 优胜者	tsjk	962000
@@ -134205,7 +133473,7 @@ encoder:
 应到	wzga
 谨防	zhby
 最后通牒	krdt	783000
-最惠国	kjne	436000
+最惠国	kgne	436000
 罪恶滔天	mhzf
 难眠	dtnd
 罪该万死	mzgg
@@ -136202,7 +135470,7 @@ encoder:
 国戚	nefl
 国色天香	nqfr
 跃起	orjd
-果穗	kirj
+果穗	kirg
 果味	kioi
 过关斩将	ixfx
 亡魂	ycea
@@ -136498,7 +135766,7 @@ encoder:
 禁绝	iicq
 汇费	zfdt
 尽忠	dwok
-惠灵顿	jbfa	833000
+惠灵顿	gbfa	833000
 绿水	cbas
 昏昏沉沉	vvzz	1460000
 昏天黑地	vfmj
@@ -145715,7 +144983,7 @@ encoder:
 当断不断	nxgx
 当耳边风	nhcq
 大驾	fdco
-小惠	cxjk
+小惠	cxgk
 公馆	taqw	2450000
 党同伐异	nmtd
 荡检逾闲	hiuz
@@ -150682,7 +149950,7 @@ encoder:
 家给人足	wcuo
 解析几何	qiqt
 酒曲	zemh
-口惠	ovjk
+口惠	ovgk
 拉力器	fcoj
 牢稳	wprq
 俚歌	tkeo
@@ -151621,7 +150889,7 @@ encoder:
 申城	ksjf
 农民工	qdig
 彩屏	vidx
-惠赐	jkmk
+惠赐	gkmk
 科学主义	rzww
 禽流感	uzfg
 展位	dhty	5360000
@@ -153639,7 +152907,7 @@ encoder:
 不會	gbug
 關於	nayu
 小時	cxkj
-傳真	tjen
+傳真	tgen
 結果	ajki
 認為	ydxw
 繼續	aaaj
@@ -153727,7 +152995,7 @@ encoder:
 積極	reib
 購買	nhmn
 面對	gnlx
-專題	jkkg
+專題	gkkg
 通訊	dsyb
 舉辦	ugyc
 修訂	tkye
@@ -153745,8 +153013,8 @@ encoder:
 帶來	hgiu
 語言	ygyv
 兒童	uvyj
-優惠	tgjk
-團體	njnm
+優惠	tggk
+團體	ngnm
 綜合	awug
 適合	yxug
 分鐘	tdvy
@@ -153793,7 +153061,7 @@ encoder:
 關鍵	navb
 議員	yxon
 以來	cwiu
-宣傳	wetj
+宣傳	wetg
 規劃	jnbj
 每個	pctn
 條款	tkjf
@@ -153809,7 +153077,7 @@ encoder:
 工業	iglx
 地圖	jbno
 階段	bvti
-傳統	tjay
+傳統	tgay
 節目	pbnv
 資格	xqiv
 名單	qook
@@ -153840,7 +153108,7 @@ encoder:
 收費	apdt
 科學	rzut
 溼度	zgwh
-轉載	jjef
+轉載	jgef
 為主	xwwe
 曾經	xkag
 價格	teiv
@@ -153877,7 +153145,7 @@ encoder:
 組成	anfb
 局長	dbez
 狀況	ajzo
-傳媒	tjch
+傳媒	tgch
 署長	mjez
 學會	utug
 日後	kvsa
@@ -154083,7 +153351,7 @@ encoder:
 觀察	hows
 刪除	mlbu
 保險	tobu
-專欄	jkin
+專欄	gkin
 權利	ihrl
 難以	hgcw
 實用	wcsy
@@ -154132,7 +153400,7 @@ encoder:
 學員	uton
 具備	ntth
 金額	vvwv
-轉變	jjya
+轉變	jgya
 官員	wdon
 業主	lxwe
 構成	ihfb
@@ -154192,7 +153460,7 @@ encoder:
 合適	ugyx
 地鐵	jbve
 百萬	gkhk
-專輯	jkjo
+專輯	gkjo
 化學	tvut
 尋求	biix
 進修	tztk
@@ -154231,7 +153499,7 @@ encoder:
 喜愛	jovq
 郵件	rhtp
 複雜	wpyu
-傳送	tjxf
+傳送	tgxf
 興建	umbf
 總會	auug
 條文	tkyw
@@ -154248,7 +153516,7 @@ encoder:
 疑問	vpno
 權力	ihcl
 拍攝	fufh
-專門	jknm
+專門	gknm
 動作	rktp
 連線	jzau
 網友	amhd
@@ -154466,7 +153734,7 @@ encoder:
 美術	xjsi
 累積	kare
 平臺	exjo
-專用	jksy
+專用	gksy
 對手	lxrs
 別的	oqus
 傑出	tqaa
@@ -154690,7 +153958,7 @@ encoder:
 問答	nopu
 貨幣	tvxm
 提問	fkno
-傳播	tjfp
+傳播	tgfp
 備有	thhs
 兩天	gmft
 夥伴	kitx
@@ -154724,7 +153992,7 @@ encoder:
 荷蘭	hthn
 興奮	umft
 檢控	iufw
-轉換	jjfq
+轉換	jgfq
 也沒	bezq
 決賽	zdwh
 並由	xlko
@@ -154743,7 +154011,7 @@ encoder:
 首個	xttn
 更換	gkfq
 活躍	zroc
-專員	jkon
+專員	gkon
 帶著	hghj
 衝擊	srja
 四時	nvkj
@@ -154783,7 +154051,7 @@ encoder:
 名額	qowv
 對其	lxhq
 當天	nqft
-轉移	jjrq
+轉移	jgrq
 仍會	taug
 審議	wpyx
 鞏固	iqnj
@@ -154840,7 +154108,7 @@ encoder:
 合資	ugxq
 載有	efhs
 鄰近	xqrj
-大專	fdjk
+大專	fdgk
 房間	zynk
 客觀	wvho
 毫無	yoph
@@ -154983,7 +154251,7 @@ encoder:
 周圍	sjnd
 時段	kjti
 夫婦	jfcb
-轉為	jjxw
+轉為	jgxw
 顧及	ztaw
 康復	wbsp
 命運	ugqj
@@ -155032,7 +154300,7 @@ encoder:
 預留	bgvw
 檢驗	iueu
 一組	guan
-專區	jkfo
+專區	gkfo
 細心	akrx
 對待	lxsj
 環節	empb
@@ -155055,7 +154323,7 @@ encoder:
 繽紛	awat
 削減	nszf
 眾人	mtuu
-傳說	tjyt
+傳說	tgyt
 確是	gqkg
 多麼	qqwa
 報刊	jxel
@@ -155098,7 +154366,7 @@ encoder:
 相機	inia
 零點	juml
 預料	bgxz
-轉型	jjgh
+轉型	jggh
 攜手	fmrs
 人選	uudd
 抱著	fshj
@@ -155182,7 +154450,7 @@ encoder:
 警務	hsbv
 另類	ocxj
 堅決	fdzd
-專注	jkzw
+專注	gkzw
 強勁	dagc
 這也	yzbe
 這套	yzfe
@@ -155247,7 +154515,7 @@ encoder:
 已將	dias
 內外	mvql
 多於	qqyu
-專利	jkrl
+專利	gkrl
 強勢	dajt
 督導	lcxt
 誤會	youg
@@ -155277,8 +154545,8 @@ encoder:
 素質	earj
 商標	yxie
 著手	hjrs
-傳聞	tjnh
-傳遞	tjrl
+傳聞	tgnh
+傳遞	tgrl
 遠離	joyt
 靚女	escv
 機票	iaef
@@ -155366,7 +154634,7 @@ encoder:
 部隊	yobx
 監禁	fpii
 幫忙	jjuy
-轉向	jjuo
+轉向	jguo
 內人	mvuu
 文娛	ywco
 全場	uejk
@@ -155397,7 +154665,7 @@ encoder:
 樂意	uayr
 上漲	lszd
 週五	sjgd
-專心	jkrx
+專心	gkrx
 細胞	akss
 場所	jkrr
 尊嚴	xeog
@@ -155428,7 +154696,7 @@ encoder:
 動用	rksy
 參照	aakd
 集會	tiug
-傳出	tjaa
+傳出	tgaa
 調節	yspb
 親友	yihd
 禮品	wmoo
@@ -155454,7 +154722,7 @@ encoder:
 按鈕	fwvd
 追蹤	uzos
 帶到	hgga
-傳道	tjxt
+傳道	tgxt
 審閱	wpnt
 懲罰	smmy
 相繼	inaa
@@ -155479,8 +154747,8 @@ encoder:
 認定	ydwg
 樓市	ioym
 永恆	zoue
-好轉	cbjj
-社團	wjnj
+好轉	cbjg
+社團	wjng
 與會	ugug
 劇院	lgbw
 數月	oesv
@@ -155507,12 +154775,12 @@ encoder:
 決心	zdrx
 況且	zonq
 做個	tjtn
-專線	jkau
+專線	gkau
 貪汙	uwzg
 裁員	efon
 貼士	nlju
 新舊	yiht
-轉化	jjtv
+轉化	jgtv
 闡述	noiw
 行車	sxjc
 週末	sjim
@@ -155721,7 +154989,7 @@ encoder:
 軟硬	jqgg
 實地	wcjb
 戰略	okkv
-轉讓	jjyw
+轉讓	jgyw
 生於	psyu
 吃飯	opvr
 釐米	ipxm
@@ -155739,7 +155007,7 @@ encoder:
 門票	nmef
 春運	ekqj
 將要	asec
-傳達	tjjx
+傳達	tgjx
 新興	yium
 對她	lxcb
 對面	lxgn
@@ -155862,7 +155130,7 @@ encoder:
 後期	sahs
 研討	ggyi
 兼顧	xbzt
-專科	jkrz
+專科	gkrz
 運送	qjxf
 課本	ykig
 擴充	fwya
@@ -155895,9 +155163,9 @@ encoder:
 放寬	ypwh
 情侶	ueto
 絕無	adph
-傳奇	tjfe
+傳奇	tgfe
 極速	ibio
-樂團	uanj
+樂團	uang
 熱點	jtml
 選手	ddrs
 壓縮	gkaw
@@ -155906,10 +155174,10 @@ encoder:
 包圍	sdnd
 成龍	fbys
 自覺	tzut
-扭轉	fdjj
+扭轉	fdjg
 來年	iupf
 油價	zkte
-專訪	jkyy
+專訪	gkyy
 掃描	fbfh
 較好	jycb
 漲幅	zdmg
@@ -155939,7 +155207,7 @@ encoder:
 過高	noyo
 對著	lxhj
 靚仔	estb
-轉到	jjga
+轉到	jgga
 讚揚	ypfk
 收報	apjx
 而後	gesa
@@ -156003,7 +155271,7 @@ encoder:
 國企	nful
 猶如	vxco
 註釋	ywpx
-傳來	tjiu
+傳來	tgiu
 寧願	wrgu
 精簡	xepn
 縮減	awzf
@@ -156046,7 +155314,7 @@ encoder:
 軍隊	qjbx
 套現	feen
 須經	sgag
-傳呼	tjop
+傳呼	tgop
 數額	oewv
 激動	zurk
 獲贈	vhnx
@@ -156094,7 +155362,7 @@ encoder:
 花費	htdt
 屍體	dgnm
 風水	qfas
-專營	jkxx
+專營	gkxx
 最長	khez
 登陸	dgbj
 盜版	zqtr
@@ -156124,7 +155392,7 @@ encoder:
 評定	yewg
 詞彙	ybcg
 辦事	ycio
-轉交	jjyt
+轉交	jgyt
 平穩	exrv
 車上	jcls
 附註	btyw
@@ -156169,7 +155437,7 @@ encoder:
 自稱	tzrv
 告別	pooq
 來這	iuyz
-流傳	zytj
+流傳	zytg
 現身	ents
 開市	ngym
 群眾	bpmt
@@ -156179,7 +155447,7 @@ encoder:
 母語	cmyg
 收錄	apvc
 改編	dpaz
-專長	jkez
+專長	gkez
 掛牌	fjtu
 剩餘	rxvu
 視訊	wnyb
@@ -156276,7 +155544,7 @@ encoder:
 相連	injz
 發音	ddyn
 勢必	jtrp
-團隊	njbx
+團隊	ngbx
 締造	aypo
 震驚	jghs
 彌補	djwe
@@ -156334,7 +155602,7 @@ encoder:
 巡迴	czno
 防禦	bysp
 風光	qfng
-專人	jkuu
+專人	gkuu
 望著	ychj
 終極	avib
 這篇	yzpz
@@ -156362,7 +155630,7 @@ encoder:
 風波	qfzd
 乾淨	ekzv
 條規	tkjn
-傳輸	tjju
+傳輸	tgju
 製衣	pmwy
 髮型	ehgh
 邊境	twjy
@@ -156460,7 +155728,7 @@ encoder:
 優勝	tgsx
 營辦	xxyc
 輿論	ujyu
-轉發	jjdd
+轉發	jgdd
 同樂	mgua
 多達	qqjx
 沒法	zqzj
@@ -156471,7 +155739,7 @@ encoder:
 這可	yzeo
 曾說	xkyt
 渡輪	zwju
-傳訊	tjyb
+傳訊	tgyb
 慈愛	xavq
 網際	ambs
 齊全	yxue
@@ -156561,7 +155829,7 @@ encoder:
 國人	nfuu
 情懷	ueuw
 陰影	buky
-傳授	tjfv
+傳授	tgfv
 萬物	hkps
 榮獲	xxvh
 寫出	wuaa
@@ -156664,7 +155932,7 @@ encoder:
 理學	ekut
 復興	spum
 湧現	zden
-傳言	tjyv
+傳言	tgyv
 價目	tenv
 賬戶	nerh
 講求	yhix
@@ -156743,13 +156011,13 @@ encoder:
 所寫	rrwu
 哪個	obtn
 狹窄	vfwp
-財團	ninj
+財團	ning
 堅固	fdnj
 販毒	nrec
 報表	jxer
 試試	yfyf
 頒佈	tdth
-團員	njon
+團員	ngon
 語音	ygyn
 劇烈	lggl
 衝動	srrk
@@ -156774,7 +156042,7 @@ encoder:
 備忘	thyc
 訴求	yrix
 飯店	vrwl
-傳教	tjjb
+傳教	tgjb
 極力	ibcl
 實為	wcxw
 熱賣	jtjm
@@ -156952,7 +156220,7 @@ encoder:
 頂級	egaa
 殘酷	gfep
 超額	jdwv
-傳記	tjyd
+傳記	tgyd
 搖頭	fsgo
 煙花	xeht
 試題	yfkg
@@ -157040,7 +156308,7 @@ encoder:
 頻次	lnxq
 獲利	vhrl
 鮮花	qxht
-轉口	jjov
+轉口	jgov
 贏取	ychd
 一頓	gufa
 三臺	isjo
@@ -157048,7 +156316,7 @@ encoder:
 年滿	pfzh
 百億	gkty
 法輪	zjju
-專程	jkro
+專程	gkro
 敏銳	pcvt
 連任	jztr
 廢氣	wdpx
@@ -157132,7 +156400,7 @@ encoder:
 賣出	jmaa
 適量	yxkg
 遲遲	dada
-遺傳	ootj
+遺傳	ootg
 鎖定	vnwg
 十數	euoe
 內向	mvuo
@@ -157182,7 +156450,7 @@ encoder:
 殊榮	gpxx
 陷於	bqyu
 發火	ddxv
-傳揚	tjfk
+傳揚	tgfk
 匯兌	fzto
 經銷	agvn
 解脫	qsst
@@ -157228,7 +156496,7 @@ encoder:
 景氣	kypx
 發電	ddjk
 絲毫	aayo
-傳給	tjau
+傳給	tgau
 概論	ibyu
 羨慕	xjhk
 電路	jkov
@@ -157301,7 +156569,7 @@ encoder:
 較難	jyhg
 電玩	jkeg
 嘉許	joyp
-劇團	lgnj
+劇團	lgng
 據稱	flrv
 親密	yiwr
 隨身	bhts
@@ -157358,7 +156626,7 @@ encoder:
 購併	nhtx
 點心	mlrx
 禮貌	wmvu
-轉身	jjts
+轉身	jgts
 難民	hgdf
 議價	yxte
 驗證	euyd
@@ -157380,7 +156648,7 @@ encoder:
 結識	ajyy
 賄賂	nhnv
 僕人	tluu
-團聚	njhd
+團聚	nghd
 手腳	rsst
 多國	qqnf
 壯大	ajfd
@@ -157388,7 +156656,7 @@ encoder:
 油畫	zkbj
 國王	nfev
 帶頭	hggo
-旋轉	ypjj
+旋轉	ypjg
 異議	khyx
 詞典	ybmh
 源頭	zggo
@@ -157466,7 +156734,7 @@ encoder:
 直線	enau
 勉勵	qogh
 時限	kjbb
-逆轉	xajj
+逆轉	xajg
 動搖	rkfs
 掩飾	ffvp
 莊嚴	haog
@@ -157549,7 +156817,7 @@ encoder:
 譯本	ymig
 聽講	heyh
 上臺	lsjo
-上傳	lstj
+上傳	lstg
 士氣	jupx
 申奧	ksup
 劫機	jaia
@@ -157603,7 +156871,7 @@ encoder:
 應許	wtyp
 獲勝	vhsx
 療法	wfzj
-轉運	jjqj
+轉運	jgqj
 贈送	nxxf
 關切	nafd
 闡明	noks
@@ -157633,7 +156901,7 @@ encoder:
 學友	uthd
 壓制	gkpm
 簡潔	pnzi
-轉動	jjrk
+轉動	jgrk
 纔算	aqpn
 出產	aayg
 古蹟	jgoe
@@ -157691,7 +156959,7 @@ encoder:
 認清	ydze
 戲曲	lgmh
 雖說	olyt
-轉送	jjxf
+轉送	jgxf
 觸及	qsaw
 變數	yaoe
 中風	okqf
@@ -157787,7 +157055,7 @@ encoder:
 預估	bgtj
 飼養	vbxw
 飽受	vsvq
-團長	njez
+團長	ngez
 實體	wcnm
 輕巧	jgij
 銀幕	vbhk
@@ -157872,7 +157140,7 @@ encoder:
 牆報	ajjx
 親戚	yifl
 歸向	uluo
-轉機	jjia
+轉機	jgia
 壞事	jwio
 警訊	hsyb
 騰出	sxaa
@@ -157938,12 +157206,12 @@ encoder:
 推論	ftyu
 減免	zfqo
 學報	utjx
-轉會	jjug
+轉會	jgug
 修復	tksp
 無用	phsy
 解開	qsng
 樞紐	ifad
-轉用	jjsy
+轉用	jgsy
 揣測	fmzn
 同屬	mgda
 無悔	phup
@@ -157974,7 +157242,7 @@ encoder:
 應予	wtby
 島上	umls
 賽程	whro
-轉入	jjvr
+轉入	jgvr
 制約	pmas
 前輩	xslj
 創出	uwaa
@@ -157994,7 +157262,7 @@ encoder:
 減薪	zfhy
 越過	jfno
 會社	ugwj
-轉而	jjge
+轉而	jgge
 包羅	sdma
 司長	bgez
 說說	ytyt
@@ -158125,7 +157393,7 @@ encoder:
 章節	ykpb
 無常	phnq
 膨脹	sjse
-轉賬	jjne
+轉賬	jgne
 視之	wnzz
 愛惜	vquh
 獲救	vhix
@@ -158269,7 +157537,7 @@ encoder:
 金獎	vvas
 小兒	cxuv
 河內	zemv
-傳染	tjzr
+傳染	tgzr
 一線	guau
 分層	tddx
 著眼	hjnb
@@ -158384,7 +157652,7 @@ encoder:
 強項	daig
 旗幟	ypmy
 領會	uwug
-輾轉	jdjj
+輾轉	jdjg
 變態	yaas
 為民	xwdf
 紅酒	aize
@@ -158426,10 +157694,10 @@ encoder:
 長途	ezug
 剛巧	mxij
 神聖	wkho
-專項	jkig
+專項	gkig
 尋覓	bivn
 開賽	ngwh
-兵團	tinj
+兵團	ting
 兒科	uvrz
 標榜	ieiy
 職權	hyih
@@ -158603,7 +157871,7 @@ encoder:
 召喚	dooq
 青蔥	eshu
 大樹	fdij
-外傳	qltj
+外傳	qltg
 法門	zjnm
 發稿	ddry
 駁回	etno
@@ -158712,7 +157980,7 @@ encoder:
 電廠	jkwn
 應從	wtsu
 擾亂	fgvd
-轉播	jjfp
+轉播	jgfp
 伉儷	tytg
 佔領	tluw
 東海	ikzp
@@ -158728,7 +157996,7 @@ encoder:
 觸摸	qsfh
 體質	nmrj
 神學	wkut
-惠顧	jkzt
+惠顧	gkzt
 滯留	zhvw
 繁華	pche
 共處	htlv
@@ -158751,7 +158019,7 @@ encoder:
 敵對	yxlx
 騎士	efju
 日經	kvag
-盛傳	fbtj
+盛傳	fbtg
 導論	xtyu
 果實	kiwc
 俄國	tpnf
@@ -158806,7 +158074,7 @@ encoder:
 有錯	hsvh
 春節	ekpb
 攻讀	ipyj
-專車	jkjc
+專車	gkjc
 暗戀	kyya
 腸胃	skks
 腦中	scok
@@ -158934,7 +158202,7 @@ encoder:
 搖滾	fszw
 新裝	yiaj
 衝出	sraa
-轉手	jjrs
+轉手	jgrs
 剋制	jvpm
 謙卑	yxup
 雙親	ttyi
@@ -159006,7 +158274,7 @@ encoder:
 最遲	khda
 郵輪	rhju
 誠然	yfsj
-團伙	njtx
+團伙	ngtx
 戰機	okia
 錦繡	vuab
 羅漢	mazh
@@ -159041,7 +158309,7 @@ encoder:
 軍人	qjuu
 喻為	ouxw
 蹤影	osky
-反轉	rdjj
+反轉	rdjg
 向後	uosa
 偵測	tlzn
 樹上	ijls
@@ -159050,7 +158318,7 @@ encoder:
 各佔	votl
 南亞	emen
 應按	wtfw
-自傳	tztj
+自傳	tztg
 草圖	hkno
 發熱	ddjt
 滅火	zfxv
@@ -159092,7 +158360,7 @@ encoder:
 愛女	vqcv
 誇大	yffd
 餘年	vupf
-轉達	jjjx
+轉達	jgjx
 關卡	nall
 關門	nanm
 基數	hjoe
@@ -159133,7 +158401,7 @@ encoder:
 聖者	hojk
 畫素	bjea
 來吧	iuod
-相傳	intj
+相傳	intg
 組裝	anaj
 粵曲	upmh
 壽險	jbbu
@@ -159150,7 +158418,7 @@ encoder:
 右腳	host
 尼龍	dvys
 誹謗	ylyy
-一團	gunj
+一團	gung
 脈絡	srav
 停課	tyyk
 選拔	ddfh
@@ -159214,7 +158482,7 @@ encoder:
 卻會	tuug
 減去	zfja
 集結	tiaj
-傳動	tjrk
+傳動	tgrk
 領土	uwjv
 鋪位	vety
 還給	mgau
@@ -159274,7 +158542,7 @@ encoder:
 暫緩	jrav
 整數	iooe
 小計	cxye
-流轉	zyjj
+流轉	zyjg
 連忙	jzuy
 對聯	lxha
 燒錄	xjvc
@@ -159398,7 +158666,7 @@ encoder:
 赴會	jlug
 教養	jbxw
 規矩	jnpf
-傳承	tjbi
+傳承	tgbi
 裝卸	ajpg
 撤離	fyyt
 駐華	ewhe
@@ -159456,7 +158724,7 @@ encoder:
 星號	kpoj
 風帆	qfmq
 收貨	aptv
-專職	jkhy
+專職	gkhy
 勝於	sxyu
 幾近	aarj
 聖地	hojb
@@ -159491,7 +158759,7 @@ encoder:
 閃閃	nunu
 國畫	nfbj
 異同	khmg
-傳情	tjue
+傳情	tgue
 愛意	vqyr
 餅乾	vxek
 簡章	pnyk
@@ -159502,7 +158770,7 @@ encoder:
 再經	emag
 同臺	mgjo
 安樂	wcua
-傳譯	tjym
+傳譯	tgym
 認得	ydsk
 獨到	vmga
 驚慌	hsuh
@@ -159615,10 +158883,10 @@ encoder:
 防線	byau
 帶入	hgvr
 揮手	fqrs
-傳票	tjef
+傳票	tgef
 彈藥	dohu
 離隊	ytbx
-中轉	okjj
+中轉	okjg
 內疚	mvwq
 飛躍	bfoc
 差勁	xigc
@@ -159714,7 +158982,7 @@ encoder:
 精進	xetz
 弘揚	dafk
 男裝	kcaj
-軍團	qjnj
+軍團	qjng
 無處	phlv
 精裝	xeaj
 謙虛	yxla
@@ -159759,7 +159027,7 @@ encoder:
 上屆	lsdj
 合夥	ugki
 孝順	jbtg
-傳閱	tjnt
+傳閱	tgnt
 搶眼	funb
 慘重	uark
 綜觀	awho
@@ -159794,7 +159062,7 @@ encoder:
 走動	jzrk
 兩節	gmpb
 誠心	yfrx
-運轉	qjjj
+運轉	qjjg
 靜止	eslz
 議政	yxgl
 日韓	kvek
@@ -159823,7 +159091,7 @@ encoder:
 再獲	emvh
 快點	udml
 兩頭	gmgo
-傳單	tjok
+傳單	tgok
 劃定	bjwg
 奮力	ftcl
 入圍	vrnd
@@ -159870,7 +159138,7 @@ encoder:
 受著	vqhj
 房門	zynm
 高過	yono
-組團	annj
+組團	anng
 跟風	obqf
 昇天	kpft
 取貨	hdtv
@@ -159952,7 +159220,7 @@ encoder:
 質料	rjxz
 諾言	yhyv
 就問	yono
-團團	njnj
+團團	ngng
 橫掃	ihfb
 小鳥	cxun
 後臺	sajo
@@ -159997,7 +159265,7 @@ encoder:
 這道	yzxt
 極難	ibhg
 加碼	coge
-專電	jkjk
+專電	gkjk
 柯達	iejx
 首張	xtde
 榕樹	iwij
@@ -160031,7 +159299,7 @@ encoder:
 搶修	futk
 聽力	hecl
 佳麗	tjgm
-專誠	jkyf
+專誠	gkyf
 患難	oohg
 情誼	ueyw
 睦鄰	njxq
@@ -160077,7 +159345,7 @@ encoder:
 真偽	entx
 連連	jzjz
 無間	phnk
-傳遍	tjzm
+傳遍	tgzm
 潛伏	zftj
 三峽	ismf
 制動	pmrk
@@ -160119,7 +159387,7 @@ encoder:
 貪心	uwrx
 提煉	fkxi
 貼切	nlfd
-實惠	wcjk
+實惠	wcgk
 內銷	mvvn
 水運	asqj
 耳邊	hetw
@@ -160229,7 +159497,7 @@ encoder:
 長跑	ezos
 後盾	sare
 捕魚	feqv
-專制	jkpm
+專制	gkpm
 文選	ywdd
 育嬰	yann
 潛逃	zfvx
@@ -160438,7 +159706,7 @@ encoder:
 緊縮	fdaw
 說給	ytau
 獨裁	vmef
-轉彎	jjya
+轉彎	jgya
 黨籍	nqpi
 變通	yads
 長進	eztz
@@ -160666,7 +159934,7 @@ encoder:
 許願	ypgu
 頗受	dgvq
 鮮有	qxhs
-轉折	jjfr
+轉折	jgfr
 內經	mvag
 出廠	aawn
 可惡	eoen
@@ -160846,7 +160114,7 @@ encoder:
 螞蟻	lelx
 應允	wtav
 欄位	inty
-迴轉	nojj
+迴轉	nojg
 來向	iuuo
 退縮	bzaw
 選人	dduu
@@ -160911,7 +160179,7 @@ encoder:
 遺蹟	oooe
 舉重	ugrk
 鮮果	qxki
-轉嫁	jjcw
+轉嫁	jgcw
 戶內	rhmv
 並肩	xlzs
 炒賣	xcjm
@@ -160929,7 +160197,7 @@ encoder:
 巨響	fdcp
 年產	pfyg
 狙擊	vnja
-專有	jkhs
+專有	gkhs
 漢口	zhov
 線性	auup
 拆毀	fruj
@@ -160944,7 +160212,7 @@ encoder:
 失竊	pwwp
 相稱	inrv
 風中	qfok
-專攻	jkip
+專攻	gkip
 得體	sknm
 處死	lvgv
 潛艇	zfrr
@@ -161118,7 +160386,7 @@ encoder:
 後排	safl
 軍警	qjhs
 面紗	gnac
-家傳	wgtj
+家傳	wgtg
 敬愛	hsvq
 奪魁	ftuz
 導引	xtdk
@@ -161231,11 +160499,11 @@ encoder:
 創匯	uwfz
 普爾	xlje
 虛幻	laab
-團費	njdt
+團費	ngdt
 滿臉	zhsu
 龍珠	ysep
 覬覦	mgug
-轉車	jjjc
+轉車	jgjc
 礦物	gwps
 打撈	fefx
 犯規	vbjn
@@ -161322,7 +160590,7 @@ encoder:
 餐後	lqsa
 體形	nmgh
 火勢	xvjt
-正傳	gltj
+正傳	gltg
 同體	mgnm
 格調	ivys
 狹小	vfcx
@@ -161512,7 +160780,7 @@ encoder:
 養老	xwjv
 天鵝	ftpf
 年檢	pfiu
-使團	tgnj
+使團	tgng
 長袖	ezwk
 風靡	qfwl
 校風	iyqf
@@ -161541,7 +160809,7 @@ encoder:
 陳詞	biyb
 甦醒	gkek
 舊情	htue
-轉回	jjno
+轉回	jgno
 韻味	yooi
 驚覺	hsut
 小將	cxas
@@ -161741,7 +161009,7 @@ encoder:
 包機	sdia
 共賞	htnq
 後門	sanm
-傳神	tjwk
+傳神	tgwk
 譁然	yhsj
 複習	wpcu
 興衰	umwo
@@ -161813,7 +161081,7 @@ encoder:
 動詞	rkyb
 情愛	uevq
 閒聊	nshv
-傳開	tjng
+傳開	tgng
 聖餐	holq
 遊蹤	ypos
 劃清	bjze
@@ -161825,7 +161093,7 @@ encoder:
 灰塵	hxwj
 軍訓	qjyt
 財運	niqj
-專政	jkgl
+專政	gkgl
 眼線	nbau
 菜館	hvvw
 綠豆	acgo
@@ -161911,7 +161179,7 @@ encoder:
 河邊	zetw
 長裙	ezwb
 相會	inug
-專一	jkgu
+專一	gkgu
 帶子	hgbz
 喜慶	jowb
 韶關	ydna
@@ -161940,7 +161208,7 @@ encoder:
 擊斃	jaxm
 包紮	sdic
 國庫	nfwj
-傳人	tjuu
+傳人	tguu
 腳上	stls
 銷路	vnov
 少時	cpkj
@@ -162135,7 +161403,7 @@ encoder:
 利誘	rlyr
 阻滯	bnzh
 黃土	hgjv
-傳銷	tjvn
+傳銷	tgvn
 媳婦	ctcb
 嘴裡	olwk
 靜默	esmj
@@ -162267,7 +161535,7 @@ encoder:
 寫好	wucb
 講明	yhks
 舊事	htio
-轉行	jjsx
+轉行	jgsx
 藥材	huii
 驗屍	eudg
 體裁	nmef
@@ -162340,7 +161608,7 @@ encoder:
 磨損	wgfo
 積木	reiv
 鴻溝	zizh
-轉速	jjio
+轉速	jgio
 引為	dkxw
 他鄉	tbcp
 同齡	mglu
@@ -162605,7 +161873,7 @@ encoder:
 擁戴	fyef
 應分	wttd
 謙遜	yxbp
-轉述	jjiw
+轉述	jgiw
 癡呆	wvoi
 羅拉	mafy
 韻母	yocm
@@ -162760,7 +162028,7 @@ encoder:
 恬靜	ures
 為宜	xwwn
 偷襲	tuys
-專賣	jkjm
+專賣	gkjm
 強悍	dauk
 極好	ibcb
 舞動	phrk
@@ -162814,7 +162082,7 @@ encoder:
 車水馬龍	jaey
 成千上萬	frlh
 成群結隊	fbab
-週轉	sjjj
+週轉	sjjg
 乘風破浪	rqgz
 吃喝玩樂	ooeu
 叱吒風雲	ooqj
@@ -162843,7 +162111,7 @@ encoder:
 頂天立地	efyj
 東山再起	imej
 單數	okoe
-獨斷專行	vajs
+獨斷專行	vags
 鄉間	cpnk
 獨一無二	vgpe
 多才多藝	qiqh
@@ -162864,7 +162132,7 @@ encoder:
 濾鏡	zlvy
 風平浪靜	qeze
 風起雲湧	qjjz
-轉瞬	jjnv
+轉瞬	jgnv
 扶老攜幼	fjfa
 黨羽	nqcy
 剛愎自用	muts
@@ -163034,7 +162302,7 @@ encoder:
 說一不二	ygge
 戰線	okau
 四通八達	ndtj
-轉業	jjlx
+轉業	jglx
 頌古非今	tjlu
 隨機應變	biwy
 艦隊	rfbx
@@ -163090,7 +162358,7 @@ encoder:
 想方設法	iyyz
 餘波	vuzd
 銷聲匿跡	vjfo
-謠傳	ystj
+謠傳	ystg
 協定	ecwg
 駿馬	eaem
 心懷叵測	rufz
@@ -163143,7 +162411,7 @@ encoder:
 有氣無力	hppc
 逃過	vxno
 有聲有色	hjhq
-又紅又專	dadj
+又紅又專	dadg
 參股	aasq
 語重心長	yrre
 暈頭轉向	kgju
@@ -163168,7 +162436,7 @@ encoder:
 周而復始	sgsc
 廠內	wnmv
 諸如此類	yclx
-專心致志	jrgj
+專心致志	grgj
 轉危為安	jqxw
 隱居	bvdj
 裝腔作勢	astj
@@ -163449,11 +162717,11 @@ encoder:
 罐裝	phaj
 二則	eenl
 體弱多病	ndqw
-右轉	hojj
+右轉	hojg
 天然氣	fspx
 天有不測風雲	fhgj
 同歸於盡	muyb
-團團轉	nnjj
+團團轉	nnjg
 腿腳	sbst
 拖拉機	ffia
 玩意兒	eyuv
@@ -163483,7 +162751,7 @@ encoder:
 小夥子	ckbz
 小賣部	cjyo
 遲鈍	davf
-頻傳	lntj
+頻傳	lntg
 小汽車	czjc
 小時候	cktk
 總的	auus
@@ -163529,7 +162797,7 @@ encoder:
 熒光屏	xndx
 軀體	tfnm
 螢火蟲	xxll
-轉告	jjpo
+轉告	jgpo
 對映	lxkm
 用不著	sghj
 用得著	sshj
@@ -163554,7 +162822,7 @@ encoder:
 指南針	feve
 指戰員	foon
 求愛	ixvq
-專著	jkhj
+專著	gkhj
 抽調	fkys
 紫外線	lqau
 長存	ezhk
@@ -163582,7 +162850,7 @@ encoder:
 順風	tgqf
 啟動	zork
 資信	xqty
-電傳	jktj
+電傳	jktg
 指標	fvie
 愛莫能助	vhan
 潛藏	zfhf
@@ -163614,7 +162882,7 @@ encoder:
 百戰百勝	gogs
 班門弄斧	enet
 半斤八兩	xrtg
-左轉	hijj
+左轉	hijg
 半途而廢	xugw
 打點	feml
 包羅萬象	smhq
@@ -163742,7 +163010,7 @@ encoder:
 躊躇滿志	oozj
 醜態百出	eaga
 隱私	bvra
-轉接	jjfy
+轉接	jgfy
 驕陽	erbk
 出爾反爾	ajrj
 觀禮	howm
@@ -164402,7 +163670,7 @@ encoder:
 配製	edpm
 氣急敗壞	pqnj
 氣象萬千	pqhr
-專修	jktk
+專修	gktk
 棄暗投明	ykfk
 掃毒	fbec
 棄舊圖新	yhny
@@ -164552,7 +163820,7 @@ encoder:
 詩情畫意	yuby
 詩選	yjdd
 十惡不赦	eegj
-團圓	njno
+團圓	ngno
 十拿九穩	eurr
 盤算	rqpn
 十萬火急	ehxq
@@ -164740,7 +164008,7 @@ encoder:
 萬象更新	hqgy
 網開一面	angg
 枉費心機	idri
-瓷磚	xqgj
+瓷磚	xqgg
 忘恩負義	ynqx
 票選	efdd
 望塵莫及	ywha
@@ -164857,7 +164125,7 @@ encoder:
 物以類聚	pcxh
 息事寧人	tiwu
 息息相關	ttin
-列傳	gltj
+列傳	gltg
 洗耳恭聽	zhhh
 喜氣洋洋	jpzz
 喜聞樂見	jnun
@@ -165156,7 +164424,7 @@ encoder:
 蛛絲馬跡	laeo
 鑑賞	vfnq
 助人為樂	nuxu
-專橫跋扈	jioz
+專橫跋扈	gioz
 轉彎抹角	jyfq
 一頂	gueg
 裝模作樣	aiti
@@ -165227,7 +164495,7 @@ encoder:
 大雜院	fybw
 大字報	fwjx
 單細胞	oass
-中專	okjk
+中專	okgk
 單行本	osig
 叨唸	odou
 電話機	jyia
@@ -165417,7 +164685,7 @@ encoder:
 出車	aajc
 加侖	coug
 珠光寶氣	enwp
-專案	jkwc
+專案	gkwc
 古廟	jgwe
 啄木鳥	oiun
 資本家	xiwg
@@ -165444,7 +164712,7 @@ encoder:
 挨門逐戶	fngr
 捱整	fgio
 癌細胞	wass
-專櫃	jkif
+專櫃	gkif
 愛財如命	vncu
 愛爾蘭	vjhn
 淪落	zuhz
@@ -165496,7 +164764,7 @@ encoder:
 對質	lxrj
 奧地利	ujrl
 奧林匹克	uifj
-疑團	vpnj
+疑團	vpng
 奧委會	urug
 奧運會	uqug
 澳大利亞	zfre
@@ -165540,11 +164808,11 @@ encoder:
 務請	bvye
 擺闊	fmnz
 擺在面前	fhgx
-移轉	rqjj
+移轉	rqjg
 敗下陣來	njbi
 減除	zfbu
 辦不到	ygga
-傳球	tjei
+傳球	tgei
 辦公樓	ytio
 厭煩	gkxg
 辦公室	ytwg
@@ -165599,7 +164867,7 @@ encoder:
 過節	nopb
 報復性	jsup
 報告會	jpug
-報告團	jpnj
+報告團	jpng
 賭錢	njvf
 報告文學	jpyu
 鋼板	vmir
@@ -166021,7 +165289,7 @@ encoder:
 大戶	fdrh
 超聲波	jjzd
 反動	rdrk
-失傳	pwtj
+失傳	pwtg
 超員	jdon
 朝不謀夕	egyq
 朝氣蓬勃	ephe
@@ -166122,7 +165390,7 @@ encoder:
 蔚藍	hdhf
 導購	xtnh
 出入證	avyd
-據傳	fltj
+據傳	fltg
 築起	pijd
 總能	auas
 聽筒	hepm
@@ -166176,7 +165444,7 @@ encoder:
 鄰國	xqnf
 橫生	ihps
 應制	wtpm
-轉租	jjrn
+轉租	jgrn
 創造力	upcl
 創造性	upup
 吹風機	oqia
@@ -166237,7 +165505,7 @@ encoder:
 聰明伶俐	hktt
 粗茶淡飯	xhzv
 粗線條	xatk
-自轉	tzjj
+自轉	tzjg
 促膝談心	tsyr
 催化劑	ttyx
 攻堅	ipfd
@@ -166274,7 +165542,7 @@ encoder:
 大放厥詞	fygy
 靈芝	johz
 大放異彩	fykv
-小傳	cxtj
+小傳	cxtg
 大鍋飯	fvvr
 大好形勢	fcgj
 字義	wbxj
@@ -166320,8 +165588,8 @@ encoder:
 大雜燴	fyxu
 大政方針	fgyv
 獻技	lgfe
-大專生	fjps
-大專院校	fjbi
+大專生	fgps
+大專院校	fgbi
 呆若木雞	ohiv
 代辦處	tylv
 幻燈	abxd
@@ -166743,7 +166011,7 @@ encoder:
 放虎歸山	ylum
 一幫	gujj
 叮嚀	oeow
-打轉	fejj
+打轉	fejg
 飛蛾撲火	blfx
 飛機場	bijk
 尖頭	cfgo
@@ -166913,7 +166181,7 @@ encoder:
 幹勁十足	egeo
 破財	gdni
 幹群	ekbp
-專場	jkjk
+專場	gkjk
 強加	daco
 干擾素	efea
 幹什麼	etwa
@@ -167008,7 +166276,7 @@ encoder:
 還價	mgte
 更新換代	gyft
 點播	mlfp
-翻轉	pxjj
+翻轉	pxjg
 巔峰	memv
 工程處	irlv
 匯流排	fzfl
@@ -167092,7 +166360,7 @@ encoder:
 共患難	hohg
 罵人	meuu
 鋒利	vvrl
-共青團	henj
+共青團	heng
 養分	xwtd
 憲政	wigl
 共同點	hmml
@@ -167303,7 +166571,7 @@ encoder:
 到貨	gatv
 浩然正氣	zsgp
 承當	binq
-合唱團	uonj
+合唱團	uong
 合成纖維	ufaa
 合訂本	uyig
 後山	samv
@@ -167351,7 +166619,7 @@ encoder:
 剪紙	xsav
 橫向聯合	iuhu
 轟動一時	jrgk
-哄傳	ohtj
+哄傳	ohtg
 鬨堂大笑	nnfp
 紅得發紫	asdl
 頂替	egjj
@@ -167414,7 +166682,7 @@ encoder:
 時令	kjuw
 花好月圓	hcsn
 記性	ydup
-專機	jkia
+專機	gkia
 花名冊	hqmu
 花團錦簇	hnvp
 報送	jxxf
@@ -167575,7 +166843,7 @@ encoder:
 急於求成	qyif
 急診室	qywg
 急轉彎	qjya
-專刊	jkel
+專刊	gkel
 整合度	iuwh
 情敵	ueyx
 脫手	strs
@@ -167765,7 +167033,7 @@ encoder:
 鄰家	xqwg
 錯愕	vhuo
 解剖學	qyut
-轉戰	jjok
+轉戰	jgok
 解說詞	qyyb
 讓路	ywov
 介紹信	uaty
@@ -167818,7 +167086,7 @@ encoder:
 進進出出	ttaa
 進口車	tojc
 點評	mlye
-轉角	jjqs
+轉角	jgqs
 進口貨	totv
 藝壇	hjjy
 競價	yote
@@ -167848,7 +167116,7 @@ encoder:
 穹蒼	wdhu
 經久不息	aqgt
 經久耐用	aqgs
-前傳	xstj
+前傳	xstg
 姦淫	cczv
 屋裡	dgwk
 經銷商	avyx
@@ -167998,7 +167266,7 @@ encoder:
 抗日戰爭	fkov
 抗壓強度	fgdw
 抗藥性	fhup
-考察團	jwnj
+考察團	jwng
 犒勞	pyxx
 為伍	xwtg
 科技館	rfvw
@@ -168357,7 +167625,7 @@ encoder:
 螺絲釘	lave
 螺絲帽	lamm
 螺旋槳	lyas
-傳導	tjxt
+傳導	tgxt
 勤學	heut
 慌張	uhde
 麻紡	wmay
@@ -168375,7 +167643,7 @@ encoder:
 馬馬虎虎	eell
 馬尼拉	edfy
 馬前卒	exyu
-馬戲團	elnj
+馬戲團	elng
 碼本	geig
 機房	iazy
 機長	iaez
@@ -168436,7 +167704,7 @@ encoder:
 雲霧	jejb
 美術界	xsku
 搭訕	fhym
-鎂磚	vxgj
+鎂磚	vxgg
 門當戶對	nnrl
 門可羅雀	nemc
 漢墓	zhhk
@@ -168830,7 +168098,7 @@ encoder:
 青年節	eppb
 測出	znaa
 貼圖	nlno
-青年團	epnj
+青年團	epng
 歲數	lfoe
 當世	nqhs
 青飼料	evxz
@@ -169411,7 +168679,7 @@ encoder:
 死衚衕	gssm
 四邊形	ntgh
 四處奔波	nlfz
-轉給	jjau
+轉給	jgau
 四個現代化	ntet
 藥性	huup
 嚴明	ogks
@@ -169622,7 +168890,7 @@ encoder:
 護髮	yheh
 驟降	ehbv
 土洋結合	jzau
-土專家	jjwg
+土專家	jgwg
 纔敢	aqbh
 團市委	nyrc
 團體操	nnfo
@@ -169671,7 +168939,7 @@ encoder:
 購進	nhtz
 歸順	ultg
 玩忽職守	eshw
-轉檯	jjij
+轉檯	jgij
 雙膝	ttsi
 譏笑	yapr
 婉言謝絕	cyya
@@ -169736,7 +169004,7 @@ encoder:
 唯心主義	orwx
 糞土	xkjv
 維生素	apea
-轉制	jjpm
+轉制	jgpm
 維吾爾	agje
 癡情	wvue
 維也納	abam
@@ -169774,7 +169042,7 @@ encoder:
 溫情脈脈	zuss
 文房四寶	yznw
 明鏡	ksvy
-文工團	yinj
+文工團	ying
 文化宮	ytwo
 文化館	ytvw
 文化節	ytpb
@@ -170076,7 +169344,7 @@ encoder:
 惡霸	enjh
 新華書店	yhbw
 新紀元	yagg
-傳世	tjhs
+傳世	tghs
 新領域	yujf
 趕忙	jkuy
 噓聲	oljd
@@ -170308,7 +169576,7 @@ encoder:
 一語中的	gyou
 交電	ytjk
 如雲	coje
-一專多能	gjqa
+一專多能	ggqa
 醫護人員	fyuo
 醫療隊	fwbx
 醫療費	fwdt
@@ -170351,7 +169619,7 @@ encoder:
 電容	jkwu
 藝術品	hsoo
 漢化	zhtv
-藝術團	hsnj
+藝術團	hsng
 緊抱	fdfs
 議定書	ywbj
 導管	xtpw
@@ -170415,7 +169683,7 @@ encoder:
 用人單位	suot
 達賴	jxio
 漁港	zqzh
-優惠價	tjte
+優惠價	tgte
 優勝劣汰	tscz
 樓閣	ionv
 優勝者	tsjk
@@ -170454,7 +169722,7 @@ encoder:
 有根有據	hihf
 有過之而無不及	hnza
 紅心	airx
-紅磚	aigj
+紅磚	aigg
 有機玻璃	hiee
 有機體	hinm
 重則	rknl
@@ -170556,7 +169824,7 @@ encoder:
 鳥獸	unok
 無雙	phtt
 雜貨鋪	ytve
-雜技團	yfnj
+雜技團	yfng
 雜七雜八	yfyt
 傲視	tewn
 災年	cxpf
@@ -170752,7 +170020,7 @@ encoder:
 農產	mhyg
 運籌	qjpj
 質量關	rkna
-智囊團	penj
+智囊團	peng
 智勇雙全	pdtu
 皺眉	sadn
 穀物	jqps
@@ -170853,7 +170121,7 @@ encoder:
 水車	asjc
 主席臺	wwjo
 半邊	xftw
-主席團	wwnj
+主席團	wwng
 民風	dfqf
 用錯	syvh
 住宅樓	twio
@@ -170865,16 +170133,16 @@ encoder:
 花鳥	htun
 返國	rdnf
 後主	sawe
-專利權	jrih
+專利權	grih
 流線	zyau
-專門化	jntv
+專門化	gntv
 重審	rkwp
-專業對口	jllo
-專業戶	jlrh
+專業對口	gllo
+專業戶	glrh
 神廟	wkwe
-專業化	jltv
-專業課	jlyk
-專業人員	jluo
+專業化	gltv
+專業課	glyk
+專業人員	gluo
 退燒	bzxj
 馬車	emjc
 側目	tnnv
@@ -170998,7 +170266,7 @@ encoder:
 應到	wtga
 謹防	yhby
 最後通牒	ksdt
-最惠國	kjnf
+最惠國	kgnf
 罪惡滔天	mezf
 難眠	hgnd
 罪該萬死	myhg
@@ -171348,7 +170616,7 @@ encoder:
 拜金主義	pvwx
 獨攬	vmff
 磨難	wghg
-磚頭	gjgo
+磚頭	gggo
 靜物	esps
 板鴨	irku
 爵祿	vmwc
@@ -171385,7 +170653,7 @@ encoder:
 能動	asrk
 悲天憫人	lfuu
 荊州	hgst
-專橫	jkih
+專橫	gkih
 北伐軍	xtqj
 淚流	zzzy
 祭禮	sfwm
@@ -171402,7 +170670,7 @@ encoder:
 養母	xwcm
 燈會	xdug
 本草綱目	ihan
-磚塊	gjju
+磚塊	ggju
 親嘴	yiol
 遲延	dapl
 隨喜	bhjo
@@ -171525,7 +170793,7 @@ encoder:
 不為所動	gxrr
 不為瓦全	gxhu
 乾草	ekhk
-婉轉	cwjj
+婉轉	cwjg
 不務空名	gbwq
 啟齒	zolc
 斜陽	ugbk
@@ -171575,7 +170843,7 @@ encoder:
 安設	wcyq
 彩鳳隨鴉	vqbf
 參差錯落	axvh
-參觀團	ahnj
+參觀團	ahng
 參悟	aaug
 參議員	ayon
 殘編斷簡	gaap
@@ -171820,7 +171088,7 @@ encoder:
 滋陰	zxbu
 買單	mnok
 得魚忘筌	sqyp
-傳誦	tjyd
+傳誦	tgyd
 登陸艇	dbrr
 楊柳	ikiv
 摟著	fohj
@@ -172045,7 +171313,7 @@ encoder:
 風風光光	qqnn
 風花雪月	qhjs
 簡寫	pnwu
-轉世	jjhs
+轉世	jghs
 風景名勝	qkqs
 風景如畫	qkcb
 穩住	rvtw
@@ -172093,7 +171361,7 @@ encoder:
 滑動	znrk
 經委	agrc
 聚積	hdre
-誤傳	yotj
+誤傳	yotg
 億噸	tyof
 復活節	szpb
 撫慰	fpdf
@@ -172107,7 +171375,7 @@ encoder:
 擦乾	fwek
 環形	emgh
 檳榔	iwiw
-轉學	jjut
+轉學	jgut
 富貴榮華	woxh
 競標	yoie
 灑淚	zgzz
@@ -172442,7 +171710,7 @@ encoder:
 歡愛	hovq
 歡鬧	hony
 還不如	mgco
-還鄉團	mcnj
+還鄉團	mcng
 求饒	ixvj
 幻燈片	axtp
 兩重	gmrk
@@ -172477,11 +171745,11 @@ encoder:
 超絕	jdad
 黃梅	hgip
 悔不當初	ugnw
-傳佈	tjth
+傳佈	tgth
 禁絕	iiad
 匯費	fzdt
 盡忠	book
-惠靈頓	jjfa
+惠靈頓	gjfa
 綠水	acas
 誤區	yofo
 婚外戀	cqya
@@ -172608,7 +171876,7 @@ encoder:
 郊縣	ytnc
 屍骸	dgny
 膠合板	suir
-星團	kpnj
+星團	kpng
 膠柱鼓瑟	sije
 風沙	qfzc
 倒頭	tggo
@@ -172978,7 +172246,7 @@ encoder:
 卵塊	vxju
 亂糟糟	vxxh
 錦旗	vuyp
-亂轉	vdjj
+亂轉	vdjg
 營房	xxzy
 縫隙	avbc
 點陣	mlbj
@@ -173028,7 +172296,7 @@ encoder:
 核彈	iydo
 茫無頭緒	hpga
 討伐	yitf
-專款	jkjf
+專款	gkjf
 得時	skkj
 桿菌	ikhn
 冒天下之大不韙	mfjk
@@ -173172,7 +172440,7 @@ encoder:
 整肅	iobe
 頭骨	gong
 溼氣	zgpx
-謎團	yxnj
+謎團	yxng
 題詞	kgyb
 鐵軌	vejr
 小腸	cxsk
@@ -173461,7 +172729,7 @@ encoder:
 兩翼	gmck
 柔腸百結	bsga
 柔腸寸斷	bsia
-空轉	wijj
+空轉	wijg
 拜讀	pfyj
 肉豬	mugj
 肉贅	mueq
@@ -173744,7 +173012,7 @@ encoder:
 談資	yxxq
 電大	jkfd
 電極	jkib
-團委	njrc
+團委	ngrc
 緊缺	fdpd
 探測器	fzoj
 遠播	jofp
@@ -173894,7 +173162,7 @@ encoder:
 戰俘	oktv
 點睛	mlne
 挖肉補瘡	fmww
-轉錄	jjvc
+轉錄	jgvc
 贈與	nxug
 關羽	nacy
 鐵門	venm
@@ -174091,7 +173359,7 @@ encoder:
 瑕瑜互見	eeen
 下車伊始	jjtc
 准將	xtas
-師專	ugjk
+師專	uggk
 推車	ftjc
 仙風道骨	tqxn
 產房	ygzy
@@ -174329,7 +173597,7 @@ encoder:
 曳光彈	kndo
 夜不閉戶	ygnr
 火雞	xvva
-左傳	hitj
+左傳	hitg
 一敗如水	gnca
 一筆錢	gpvf
 交錢	ytvf
@@ -174639,7 +173907,7 @@ encoder:
 斑馬	eyem
 結腸	ajsk
 閒適	nsyx
-傳述	tjiw
+傳述	tgiw
 圓錐	novt
 莊稼地	hrjb
 裝瘋賣傻	awjt
@@ -174784,7 +174052,7 @@ encoder:
 瀕臨絕境	zfaj
 書林	bjii
 狹長	vfez
-真傳	entj
+真傳	entg
 耽擱	hqfn
 併發症	tdwg
 並非易事	xlki
@@ -174931,7 +174199,7 @@ encoder:
 治亂	zavd
 催還	tmmg
 若問	hhno
-大兵團	ftnj
+大兵團	ftng
 挫傷	futp
 大客車	fwjc
 大力加強	fccd
@@ -175113,7 +174381,7 @@ encoder:
 建軍	bfqj
 後身	sats
 割線	wiau
-歌舞團	epnj
+歌舞團	epng
 狡辯	vyyy
 相聲	injd
 革命軍	huqj
@@ -175160,7 +174428,7 @@ encoder:
 公開賽	tnwh
 斃命	xmug
 點題	mlkg
-轉贈	jjnx
+轉贈	jgnx
 公用事業	tsil
 贈禮	nxwm
 攻堅戰	ifok
@@ -175494,7 +174762,7 @@ encoder:
 開進	ngtz
 絕緣體	aanm
 絕緣子	aabz
-傳熱	tjjt
+傳熱	tgjt
 圓規	nojn
 填鴨	jeku
 愈發	ugdd
@@ -175522,7 +174790,7 @@ encoder:
 軍郵	qjrh
 人禍	uuwn
 軍屬	qjda
-君主專制	bwjp
+君主專制	bwgp
 開倒車	ntjc
 開放性	nyup
 開戶行	nrsx
@@ -175565,7 +174833,7 @@ encoder:
 勞動者	xrjk
 老老實實	jjww
 老齡化	jltv
-結轉	ajjj
+結轉	ajjg
 進貢	tzin
 雷陣雨	jbjy
 佇列	twgl
@@ -175627,7 +174895,7 @@ encoder:
 爐膛	xlsn
 錄影帶	vkhg
 錄音帶	vyhg
-旅遊團	yynj
+旅遊團	yyng
 旅遊資源	yyxz
 氯綸	pbau
 活該	zryy
@@ -175700,11 +174968,11 @@ encoder:
 強權政治	digz
 強制性	dpup
 悖論	ueyu
-敲門磚	yngj
+敲門磚	yngg
 僑匯	trfz
 僑資	trxq
 切切實實	ffww
-祖傳	wntj
+祖傳	wntg
 紙樣	avix
 迴盪	nozk
 勤工助學	hinu
@@ -175717,7 +174985,7 @@ encoder:
 清明節	zkpb
 閉口	niov
 求助於	inyu
-評傳	yetj
+評傳	yetg
 詞人	ybuu
 曲線圖	mano
 買辦	mnyc
@@ -175866,7 +175134,7 @@ encoder:
 世界語	hkyg
 世上無難事	hlpi
 公憤	taue
-公轉	tajj
+公轉	tajg
 市場競爭	yjyv
 市轄區	yjfo
 史蹟	otoe
@@ -175877,7 +175145,7 @@ encoder:
 試運行	yqsx
 適應性	ywup
 適用於	ysyu
-地磚	jbgj
+地磚	jbgg
 手術室	rswg
 手續費	radt
 肉絲	muaa
@@ -175962,7 +175230,7 @@ encoder:
 艱澀	hgzd
 體育館	nyvw
 舊聞	htnh
-轉調	jjys
+轉調	jgys
 雙肩	ttzs
 天時地利人和	fkjr
 田徑賽	kswh
@@ -176015,9 +175283,9 @@ encoder:
 偽軍	txqj
 委託書	rybj
 未知數	ipoe
-慰問團	dnnj
+慰問團	dnng
 慰問信	dnty
-留傳	vwtj
+留傳	vwtg
 砥礪	gvgg
 帶路	hgov
 文學家	yuwg
@@ -176455,7 +175723,7 @@ encoder:
 周總理	saek
 男隊	kcbx
 諸方面	yygn
-並轉	xljj
+並轉	xljg
 主觀能動性	whau
 怯場	ujjk
 主教練	wjai
@@ -176465,7 +175733,7 @@ encoder:
 著書立說	hbyy
 鑄錠	vjvw
 流質	zyrj
-專利局	jrdb
+專利局	grdb
 麵皮	iudp
 剛走	mxjz
 莊稼漢	hrzh
@@ -176712,7 +175980,7 @@ encoder:
 螺紋	lkay
 韓劇	eklg
 點發	mldd
-轉盤	jjrq
+轉盤	jgrq
 雛菊	sahs
 雞眼	vanb
 賓客盈門	wwan
@@ -176860,7 +176128,7 @@ encoder:
 給水	auas
 詔書	ydbj
 抵掌而談	fngy
-地板磚	jigj
+地板磚	jigg
 進港	tzzh
 勤儉	hetu
 圓桌	nolk
@@ -176987,7 +176255,7 @@ encoder:
 賣藝	jmhj
 舊學	htut
 觸感	qsfg
-口傳	ovtj
+口傳	ovtg
 過不去	ngja
 工價	igte
 哈薩克族	ohjy
@@ -177113,7 +176381,7 @@ encoder:
 老壽星	jjkp
 老鼠過街	juns
 淚如泉湧	zcuz
-冷氣團	xpnj
+冷氣團	xpng
 禮儀之邦	wtzi
 公孫	tabp
 力大無窮	cfpw
@@ -177377,7 +176645,7 @@ encoder:
 壽比南山	jvem
 受氣包	vpsd
 單挑	okfv
-單傳	oktj
+單傳	oktg
 受制於人	vpyu
 發軟	ddjq
 結紮	ajic
@@ -177423,7 +176691,7 @@ encoder:
 螳螂捕蟬，黃雀在後	llfs
 中衛	oksd
 天敵	ftyx
-特快專遞	pujr
+特快專遞	pugr
 去汙	jazg
 去職	jahy
 天寒地凍	fwjx
@@ -177477,7 +176745,7 @@ encoder:
 裂紋	glay
 進宮	tzwo
 進賬	tzne
-傳喚	tjoq
+傳喚	tgoq
 感測	fgzn
 嗎啡	oeol
 刎頸之交	sgzy
@@ -177817,7 +177085,7 @@ encoder:
 電熱器	jjoj
 惦記	uwyd
 電影節	jkpb
-掉轉	fljj
+掉轉	fljg
 斬首	jrxt
 短資訊	pxyb
 笛聲	pkjd
@@ -177883,7 +177151,7 @@ encoder:
 收銀臺	avjo
 雙重性	trup
 水處理	alek
-水滸傳	aztj
+水滸傳	aztg
 私有權	rhih
 算什麼	ptwa
 米爾	xmje
@@ -177937,7 +177205,7 @@ encoder:
 雪蓮	jbhj
 助記詞	nyyb
 富饒	wgvj
-專賣店	jjwl
+專賣店	gjwl
 絨布	afhm
 絕句	adso
 詞類	ybxj
@@ -178079,7 +177347,7 @@ encoder:
 貴國	oonf
 順口	tgov
 亂叫	vdoa
-傳頌	tjta
+傳頌	tgta
 暖風	kvqf
 菸斗	hyze
 裝傻	ajtu
@@ -178097,7 +177365,7 @@ encoder:
 縱隊	asbx
 臨江	fpzi
 歸西	ulex
-轉圈	jjnx
+轉圈	jgnx
 雜感	yufg
 額角	wvqs
 關東	naik
@@ -178336,7 +177604,7 @@ encoder:
 艱險	hgbu
 舊業	htlx
 豐沛	mizg
-轉念	jjuw
+轉念	jguw
 雞毛	varm
 鐘鼓	vyjo
 鐵匠	vefr
@@ -178702,7 +177970,7 @@ encoder:
 蝦醬	ldas
 豬皮	gjdp
 賠禮	nywm
-磚瓦	gjhw
+磚瓦	gghw
 諧和	yvro
 遵義	xexj
 錐體	vtnm
@@ -178733,7 +178001,7 @@ encoder:
 好樣	cbix
 擺擺	fmfm
 前邊	xstw
-轉悠	jjtk
+轉悠	jgtk
 悲鳴	lrou
 留種	vwrr
 花草蟲魚	hhlq
@@ -178821,7 +178089,7 @@ encoder:
 屍骨	dgng
 勞模	xxih
 聽候	hetk
-蒲團	hznj
+蒲團	hzng
 衛隊	sdbx
 閨秀	njra
 錚錚	vqvq
@@ -179297,7 +178565,7 @@ encoder:
 唾罵	orme
 雪恥	jbhr
 隱痛	bvwd
-調轉	ysjj
+調轉	ysjg
 發案	ddwc
 臉型	sugh
 慘禍	uawn
@@ -179368,7 +178636,7 @@ encoder:
 貽誤	nayo
 鑽牛角尖	vpqc
 暗語	kyyg
-風傳	qftj
+風傳	qftg
 高爐	yoxl
 歸心	ulrx
 褲腰	wwse
@@ -179710,7 +178978,7 @@ encoder:
 匪幫	fljj
 脛骨	sgng
 鋪面	vegn
-氣團	pxnj
+氣團	pxng
 人販子	unbz
 隱語	bvyg
 遊逛	ypve
@@ -179790,7 +179058,7 @@ encoder:
 遺民	oodf
 田畝	ktyk
 陰曆	bugr
-轉正	jjgl
+轉正	jggl
 分贓	tdnf
 婚戀	cvya
 禍胎	wnsa
@@ -179913,7 +179181,7 @@ encoder:
 財貿	nivw
 舊曆	htgr
 私產	rayg
-團扇	njzc
+團扇	ngzc
 財閥	nint
 古典主義	jmwx
 古蘭經	jhag
@@ -180029,7 +179297,7 @@ encoder:
 留駐	vwew
 貧弱	tddx
 書札	bjic
-團練	njai
+團練	ngai
 疑義	vpxj
 隕落	bohz
 竹馬	pkem
@@ -180050,7 +179318,7 @@ encoder:
 打槍	feiu
 電影劇本	jkli
 浮蕩	zvhz
-民團	dfnj
+民團	dfng
 夜車	ytjc
 摘編	fyaz
 敞篷車	npjc
@@ -180150,7 +179418,7 @@ encoder:
 題花	kght
 統配	ayed
 種畜	rrya
-磚窯	gjwx
+磚窯	ggwx
 儘先	tbpv
 誆騙	yfez
 言不及義	ygax
@@ -180276,7 +179544,7 @@ encoder:
 答詞	puyb
 灘地	zhjb
 顯目	kanv
-轉椅	jjif
+轉椅	jgif
 寸陰	icbu
 彈殼	dojq
 風土	qfjv
@@ -180321,7 +179589,7 @@ encoder:
 薰染	hrzr
 菸農	hymh
 衝壓	srgk
-訛傳	yttj
+訛傳	yttg
 紡車	ayjc
 國格	nfiv
 嬌癡	crwv
@@ -180356,7 +179624,7 @@ encoder:
 雲崖	jemg
 質點	rjml
 複試	wpyf
-花磚	htgj
+花磚	htgg
 艦隻	rftd
 亂兵	vdti
 統銷	ayvn
@@ -180618,7 +179886,7 @@ encoder:
 追贓	uznf
 滾珠	zwep
 虛字	lawb
-專差	jkxi
+專差	gkxi
 詞尾	ybdr
 複眼	wpnb
 高山反應	ymrw
@@ -180649,7 +179917,7 @@ encoder:
 餘弦	vudy
 怨氣沖天	qpzf
 貯備	nwth
-專號	jkoj
+專號	gkoj
 醜類	euxj
 詞譜	ybyx
 電椅	jkif
@@ -180870,7 +180138,7 @@ encoder:
 銅綠	vmac
 圖籍	nopi
 摘發	fydd
-轉軸	jjjk
+轉軸	jgjk
 戳記	ctyd
 辭賦	vdng
 蜂鳥	lvun
@@ -180978,7 +180246,7 @@ encoder:
 臺本	joig
 夏曆	gngr
 蒸餃	hbvy
-專署	jkmj
+專署	gkmj
 版權頁	tigy
 筆誤	pbyo
 單簧管	oppw
@@ -181271,7 +180539,7 @@ encoder:
 白湯	ubzk
 吃大戶	ofrh
 膽瓶	sqxh
-兒童團	uynj
+兒童團	uyng
 慣賊	ucnf
 貨位	tvty
 精鹽	xefp
@@ -181349,7 +180617,7 @@ encoder:
 膳費	sxdt
 樞要	ifec
 水皰	asds
-團魚	njqv
+團魚	ngqv
 外貨	qltv
 心窩兒	rwuv
 形隻影單	gtko
@@ -181453,7 +180721,7 @@ encoder:
 懸臂	ncdo
 影子內閣	kbmn
 助桀為虐	nqxl
-磚茶	gjhu
+磚茶	gghu
 拙筆	fapb
 諳練	yyai
 帛畫	umbj
@@ -181719,7 +180987,7 @@ encoder:
 礦物纖維	gpaa
 來回來去	inij
 鱗莖	qxhg
-煤磚	xhgj
+煤磚	xhgg
 木馬計	ieye
 上黨梆子	lnib
 蛇紋石	lagv
@@ -181728,7 +180996,7 @@ encoder:
 鏜床	vnwi
 膛線	snau
 圖畫文字	nbyw
-團粒	njxy
+團粒	ngxy
 娃娃親	ccyi
 物理診斷	peya
 仙山瓊閣	tmen
@@ -181846,7 +181114,7 @@ encoder:
 脣音	gsyn
 雌雄異株	lhki
 攛弄	fweh
-缸磚	pigj
+缸磚	pigg
 僱傭觀點	tthm
 鶴嘴鎬	qovy
 環靶	emhd
@@ -182016,10 +181284,10 @@ encoder:
 求購	ixnh
 經貿委	avrc
 什麼呢	twod
-跳轉	ovjj
+跳轉	ovjg
 發表於	deyu
 校園網	inam
-團購	njnh
+團購	ngnh
 清熱解毒	zjqe
 實名	wcqo
 滿漢全席	zzuw
@@ -182030,11 +181298,11 @@ encoder:
 荒淫無度	hzpw
 導讀	xtyj
 進球	tzei
-專稿	jkry
+專稿	gkry
 新浪網	yzam
 大面積	fgre
 做強	tjda
-專家們	jwtn
+專家們	gwtn
 運營商	qxyx
 千龍	rqys
 第六屆	pydj
@@ -182091,7 +181359,7 @@ encoder:
 半形	xfgh
 整車	iojc
 農民工	mdig
-惠賜	jknk
+惠賜	gknk
 科學主義	ruwx
 網校	amiy
 服務商	sbyx
@@ -182308,7 +181576,7 @@ encoder:
 公辦	tayc
 上海灘	lzzh
 新幹線	yeau
-批轉	fvjj
+批轉	fvjg
 病蟲	wgll
 盡享	boyo
 區外	foql
@@ -182527,7 +181795,7 @@ encoder:
 賢才	fdip
 群發	bpdd
 禽類	uyxj
-專兼職	jxhy
+專兼職	gxhy
 郵市	rhym
 兩肋插刀	gsfd
 菌種	hnrr
@@ -182713,7 +181981,7 @@ encoder:
 飄紅	efai
 縣內	ncmv
 電平	jkex
-團校	njiy
+團校	ngiy
 位址列	tjgl
 三點式	imfi
 乍現	plen
@@ -183116,7 +182384,7 @@ encoder:
 核計劃	iybj
 假賬	tdne
 鐵軍	veqj
-專營店	jxwl
+專營店	gxwl
 臉盆	sutd
 納賢	amfd
 機修	iatk
@@ -183266,11 +182534,11 @@ encoder:
 遲滯	dazh
 梨樹	rlij
 葉利欽	hrvq
-專兼	jkxb
+專兼	gkxb
 納西	amex
 架橋	coir
 陪練	byai
-中專生	ojps
+中專生	ogps
 垂範百世	rpgh
 斗轉星移	zjkr
 晚禮服	kwsa
@@ -183306,7 +182574,7 @@ encoder:
 一塊錢	gjvf
 共慶	htwb
 竊喜	wpjo
-妙傳	cctj
+妙傳	cctg
 稍顯	rnka
 除塵器	bwoj
 涼氣	zypx
@@ -183422,13 +182690,13 @@ encoder:
 表現	eren
 現在	enhk
 環境	emjy
-專業	jklx
+專業	gklx
 可見	eonj
 現象	enqo
 動手	rkrs
 運行	qjsx
 無比	phvb
-專家	jkwg
+專家	gkwg
 幹部	ekyo
 無法	phzj
 醫院	fpbw
@@ -183440,7 +182708,7 @@ encoder:
 技術	fesi
 大師	fdug
 進步	tzln
-轉眼	jjnb
+轉眼	jgnb
 成員	fbon
 接觸	fyqs
 擔心	fqrx
@@ -183540,7 +182808,7 @@ encoder:
 見狀	njaj
 同學	mgut
 國際	nfbs
-團結	njaj
+團結	ngaj
 困難	nihg
 當真	nqen
 回來	noiu
@@ -183627,7 +182895,7 @@ encoder:
 身邊	tstw
 保護	toyh
 低聲	tvjd
-集團	tinj
+集團	ting
 分別	tdoq
 什麼	tewa
 作風	tpqf
@@ -183782,7 +183050,7 @@ encoder:
 啓示	zpfs
 爲首	vsxt
 列爲	glvs
-轉爲	jjvs
+轉爲	jgvs
 裏面	wkgn
 高峯	yomv
 發佈	ddth
@@ -184479,7 +183747,7 @@ encoder:
 天機不可泄露	figj
 覈酸	euea
 僞科學	trut
-傳感	tjfg
+傳感	tgfg
 主峯	wemv
 性價比	utvb
 兇殺案	ttwc
