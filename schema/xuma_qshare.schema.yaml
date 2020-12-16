@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_qshare
   name: 徐码·QS
-  version: "2020-05-27"
+  version: "2020-12-16"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -232,26 +232,25 @@ key_bindings:
     - { when: composing, accept: "Control+y", toggle: xmsp_hide_pinyin }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
     - { when: composing, accept: "Control+t", toggle: lazy_clock }
-    # default 中的预设包括逗号和句号翻页，在此取消
-    - { when: has_menu, accept: comma, send: comma }
-    - { when: has_menu, accept: period, send: period }
     - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
     - { when: has_menu, accept: apostrophe, send: 3 }  # 引号三选
 
 key_binder:
-  import_preset: default
   bindings:
     __patch:
+      - key_bindings:/emacs_editing?
+      - key_bindings:/move_by_word_with_tab?
+      - key_bindings:/paging_with_minus_equal?
+      - key_bindings:/numbered_mode_switch?
       - key_bindings
       # 可仿照 key_bindings 根节点在 *.custom.yaml 文件中添加按键绑定。
       - xuma_qshare.custom:/keybindings?
 
 recognizer:
-  # import_preset: default
   patterns:
     uppercase: "[^`;]*[A-Z][-_+.'0-9A-Za-z]*$"
-    reverse_lookup:     "`([a-z]+'?)*$"
-    luna_pinyin_lookup: "`P([a-z]+'?)*$"
-    stroke_lookup:      "`B([a-z]+'?)*$"
+    reverse_lookup:     "^`([a-z]+'?)*$"
+    luna_pinyin_lookup: "^`P([a-z]+'?)*$"
+    stroke_lookup:      "^`B([a-z]+'?)*$"
     os_env: '^env/\w+'
     helper: '^help/$'
