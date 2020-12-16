@@ -2,7 +2,7 @@
 
 ---
 name: "xuma_52p_reverse"
-version: "2020.05.27"
+version: "2020.12.16"
 sort: original
 columns:
   - code
@@ -69,27 +69,27 @@ columns:
 中国	o_2
 啊	o_3
 我们	p_2
-我就	p_3
+生活	p_3
 多少	q_2
 解释	q_3
 所以	r_2
 手机	r_3
 得到	s_2
-得很	s_3
+包括	s_3
 他们	t_2
 们	t_3
 的是	u_2
 的时候	u_3
 儿子	v_2
 留着	v_3
-家里	w_2
+应该	w_2
 家庭	w_3
-道理	x_2
+关系	x_2
 状态	x_3
 这个	y_2
 就是	y_3
 没有	z_2
-没事	z_3
+认为	z_3
 
 # 单字二级简码或二码全码区
 出	aa_1
@@ -168,15 +168,15 @@ columns:
 女	cv_1
 娘	cw_1
 小	cx_1
-统	cy_1
+羽	cy_1
 边	cz_1
 屈	da_1
 巴	db_1
 劝	dc_1
-双	dd_1
+刀	dd_1
 层	de_1
 民	df_1
-屋	dg_1
+弓	dg_1
 展	dh_1
 已	di_1
 己	dj_1
@@ -219,7 +219,7 @@ columns:
 王	ev_1
 玉	ew_1
 西	ex_1
-醉	ey_1
+酉	ey_1
 長	ez_1
 报	fa_1
 成	fb_1
@@ -271,7 +271,7 @@ columns:
 死	gv_1
 兀	gw_1
 灭	gx_1
-碎	gy_1
+頁	gy_1
 还	gz_1
 节	ha_1
 艺	hb_1
@@ -379,7 +379,7 @@ columns:
 早	kz_1
 蚂	la_1
 卜	lb_1
-叔	lc_1
+齒	lc_1
 紧	ld_1
 歧	le_1
 非	lf_1
@@ -412,7 +412,7 @@ columns:
 同	mg_1
 黑	mh_1
 财	mi_1
-默	mj_1
+巾	mj_1
 赐	mk_1
 则	ml_1
 皿	mm_1
@@ -438,10 +438,10 @@ columns:
 光	ng_1
 瞒	nh_1
 团	ni_1
-固	nj_1
+見	nj_1
 髃	nk_1
 眦	nl_1
-尚	nm_1
+門	nm_1
 瞿	nn_1
 回	no_1
 眨	np_1
@@ -460,7 +460,7 @@ columns:
 别	oc_1
 吧	od_1
 叶	oe_1
-吴	of_1
+呀	of_1
 践	og_1
 哄	oh_1
 味	oi_1
@@ -620,11 +620,11 @@ columns:
 合	ug_1
 懂	uh_1
 毁	ui_1
-忧	uj_1
+臼	uj_1
 个	uk_1
 企	ul_1
 愣	um_1
-悄	un_1
+鳥	un_1
 向	uo_1
 性	up_1
 懈	uq_1
@@ -839,7 +839,7 @@ columns:
 好看	cp_2
 姓名	cq_2
 以后	cr_2
-以往	cs_2
+纪律	cs_2
 如何	ct_2
 综合	cu_2
 加入	cv_2
@@ -977,7 +977,7 @@ columns:
 有关	hx_2
 有效	hy_2
 取消	hz_2
-功能	ia_2
+才能	ia_2
 样子	ib_2
 权力	ic_2
 相对	id_2
@@ -1069,7 +1069,7 @@ columns:
 监督	ll_2
 上网	lm_2
 非常	ln_2
-上路	lo_2
+鉴别	lo_2
 上午	lp_2
 战争	lq_2
 此后	lr_2
@@ -1185,7 +1185,7 @@ columns:
 知道	px_2
 生产	py_2
 告诉	pz_2
-外出	qa_2
+写出	qa_2
 危险	qb_2
 多少钱	qc_2
 免费	qd_2
@@ -1199,7 +1199,7 @@ columns:
 农业	ql_2
 罕见	qm_2
 外国	qn_2
-风味	qo_2
+名叫	qo_2
 几乎	qp_2
 角色	qq_2
 名称	qr_2
@@ -1248,7 +1248,7 @@ columns:
 周末	si_2
 行走	sj_2
 忽略	sk_2
-行业	sl_2
+彼此	sl_2
 肌肉	sm_2
 周围	sn_2
 用品	so_2
@@ -1351,7 +1351,7 @@ columns:
 实在	wh_2
 完整	wi_2
 广场	wj_2
-容易	wk_2
+家里	wk_2
 视频	wl_2
 宝贝	wm_2
 应当	wn_2
@@ -1366,7 +1366,7 @@ columns:
 定义	ww_2
 完美	wx_2
 官方	wy_2
-应该	wz_2
+广泛	wz_2
 普及	xa_2
 弟子	xb_2
 减少	xc_2
@@ -1382,7 +1382,7 @@ columns:
 装置	xm_2
 并且	xn_2
 道路	xo_2
-关系	xp_2
+首先	xp_2
 装饰	xq_2
 关心	xr_2
 前往	xs_2
@@ -1456,7 +1456,7 @@ columns:
 卫生	ag_3
 收藏夹	ah_3
 马来西亚	ai_3
-参考资料	aj_3
+马克思	aj_3
 参照物	ak_3
 骑虎难下	al_3
 马路	am_3
@@ -1469,7 +1469,7 @@ columns:
 驳回	at_3
 验证	au_3
 允许	av_3
-及格	aw_3
+及其	aw_3
 参差不齐	ax_3
 发言人	ay_3
 骗子	az_3
@@ -1483,7 +1483,7 @@ columns:
 随便	bh_3
 承认	bi_3
 陕西	bj_3
-随时随地	bk_3
+那时候	bk_3
 蛋糕	bl_3
 矛盾	bm_3
 阻止	bn_3
@@ -1517,7 +1517,7 @@ columns:
 少年	cp_3
 绝对	cq_3
 纤维	cr_3
-约为	cs_3
+约束	cs_3
 办法	ct_3
 给予	cu_3
 女孩	cv_3
@@ -1556,7 +1556,7 @@ columns:
 要求	ec_3
 支持	ed_3
 二十	ee_3
-截至	ef_3
+现成的	ef_3
 干净	eg_3
 互联网	eh_3
 球员	ei_3
@@ -1575,7 +1575,7 @@ columns:
 王国	ev_3
 玉米	ew_3
 平均	ex_3
-醉酒	ey_3
+玩意儿	ey_3
 无论如何	ez_3
 报告	fa_3
 成功	fb_3
@@ -1598,7 +1598,7 @@ columns:
 抱歉	fs_3
 区域	ft_3
 搜索	fu_3
-指南	fv_3
+批评	fv_3
 态度	fw_3
 拼音	fx_3
 接受	fy_3
@@ -1613,7 +1613,7 @@ columns:
 形式	gh_3
 于是	gi_3
 压力	gj_3
-更新	gk_3
+更加	gk_3
 政府	gl_3
 两个	gm_3
 面对	gn_3
@@ -1653,18 +1653,18 @@ columns:
 获得	hv_3
 蘑菇	hw_3
 严肃	hx_3
-薪酬	hy_3
+共产党	hy_3
 落后	hz_3
 极为	ia_3
 帮忙	ib_3
-功效	ic_3
+功能	ic_3
 权利	id_3
 植物	ie_3
 标准	if_3
 工具	ig_3
 模式	ih_3
 材料	ii_3
-杜绝	ij_3
+想起来	ij_3
 查询	ik_3
 朴素	il_3
 刺激	im_3
@@ -1718,7 +1718,7 @@ columns:
 时期	ki_3
 暑假	kj_3
 曝光	kk_3
-显示	kl_3
+显著	kl_3
 曼谷	km_3
 日常生活	kn_3
 由此	ko_3
@@ -1803,7 +1803,7 @@ columns:
 眨眼	np_3
 常见	nq_3
 睡觉	nr_3
-削减	ns_3
+削弱	ns_3
 具体	nt_3
 囚犯	nu_3
 目标	nv_3
@@ -1826,17 +1826,17 @@ columns:
 员工	om_3
 咀嚼	on_3
 品牌	oo_3
-呼吁	op_3
+呼吸	op_3
 唤醒	oq_3
 听到	or_3
-跑马	os_3
+跑到	os_3
 只是	ot_3
 哈哈	ou_3
 路上	ov_3
 踪影	ow_3
 蹉跎	ox_3
 咬牙	oy_3
-跳梁小丑	oz_3
+中学生	oz_3
 系列	pa_3
 键盘	pb_3
 长期	pc_3
@@ -1872,7 +1872,7 @@ columns:
 冠军	qg_3
 危在旦夕	qh_3
 多功能	qi_3
-几种	qj_3
+几次	qj_3
 馒头	qk_3
 外形	ql_3
 负担	qm_3
@@ -1918,7 +1918,7 @@ columns:
 服装	sa_3
 律师	sb_3
 胁迫	sc_3
-包括	sd_3
+包含	sd_3
 德国	se_3
 彻底	sf_3
 须知	sg_3
@@ -1952,7 +1952,7 @@ columns:
 休息	ti_3
 优惠	tj_3
 修改	tk_3
-仆人	tl_3
+侦察	tl_3
 侧面	tm_3
 倘若	tn_3
 保存	to_3
@@ -1971,7 +1971,7 @@ columns:
 创造	ub_3
 惯例	uc_3
 快递	ud_3
-会员	ue_3
+情感	ue_3
 舆论	uf_3
 怀疑	ug_3
 恢复	uh_3
@@ -1980,7 +1980,7 @@ columns:
 慢慢	uk_3
 企图	ul_3
 人山人海	um_3
-惧怕	un_3
+悄悄	un_3
 向上	uo_3
 性质	up_3
 白名单	uq_3
@@ -2039,7 +2039,7 @@ columns:
 究竟	wr_3
 察觉	ws_3
 义务	wt_3
-容量	wu_3
+容易	wu_3
 客厅	wv_3
 裤子	ww_3
 廉政	wx_3
@@ -2064,11 +2064,11 @@ columns:
 资源	xq_3
 半斤八两	xr_3
 前面	xs_3
-首先	xt_3
+道理	xt_3
 冷冷	xu_3
 背后	xv_3
 粮食	xw_3
-善用	xx_3
+善于	xx_3
 羊毛	xy_3
 迷你	xz_3
 充满	ya_3
@@ -2117,7 +2117,7 @@ columns:
 话题	zr_3
 调整	zs_3
 训练	zt_3
-认为	zu_3
+认识	zu_3
 阁下	zv_3
 注册	zw_3
 说话	zx_3
