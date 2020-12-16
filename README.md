@@ -2,6 +2,7 @@
 
 [发布地址](https://github.com/Ace-Who/rime-xuma) ·
 [项目主页](https://ace-who.github.io/rime-xuma/) ·
+[更新日志](CHANGELOG.md) ·
 [徐码文档](https://www.xumax.top) ·
 [徐码五二顶](misc/五二顶)
 
