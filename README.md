@@ -12,7 +12,7 @@
 徐码简繁通打输入法，又名爾雅简繁通打输入法。这是一个初学者为了让自己用最舒服的
 姿势学会徐码和日常打字而设计的用于 Rime 平台的方案。
 
-配置和使用中可能遇到的大多数问题，答案都在本说明中，请仔细阅读。找不到答案的问
+配置和使用中可能遇到的大多数问题，答案都在本说明中，请仔细查阅。找不到答案的问
 题，欢迎提交 issue 反馈。
 
 特色功能「三重注解」：
@@ -208,8 +208,8 @@
 部署失败——主要方案未能识别
 > 目前已知一种情况：有的发行版——如同文——可能缺失本方案所引用的
 > `key_bindings.yaml` 文件，目前暂时的解决方法是补充上这个文件，可以在其他发行
-> 版——如 Weasel——的程序目录中找到。本方案下次更新时（预计为 0.6.9），会解决
-> 这个问题。其他情况：尝试重装 Rime 程序。尝试[旧版方案
+> 版——如 Weasel——的程序目录中找到。`v0.6.9` 解决了这个问题。其他情况：尝试
+> 重装 Rime 程序。尝试[旧版方案
 > Release](https://github.com/Ace-Who/rime-xuma/releases)。
 
 配置之后打不出汉字怎么办？
@@ -219,22 +219,29 @@
 为什么有些候选词显示为方块或空白？
 > 答：你使用的字体没有收取这个字。
 
-为什么 Linux 发行版、手机同文输入法、iOS iRime 输入法不显示三重注解，无法屏蔽词
+为什么 Linux 发行版、安卓同文输入法、iOS iRime 输入法不显示三重注解，无法屏蔽词
 组、显示时钟、后置全码单字？怎么办？
-> 答：它们目前不支持 lua 插件，这几个功能是通过 lua 插件实现的。参考
-> librime-lua 作者的[解释]( https://github.com/hchunhui/librime-lua/issues/22)
-> 。可向发行版开发者建议以推动实现对 librime-lua 的支持。同文的正式版不支持，测
-> 试版已支持。
+> 答：它们的当前或较旧版本不支持 lua 插件，这几个功能是通过 lua 插件实现的。参
+> 考 librime-lua 作者的[解释
+> ](https://github.com/hchunhui/librime-lua/issues/22) 。可向发行版开发者建议以
+> 推动实现对 librime-lua 的支持。同文的正式版不支持，测试版已支持。
 
-为什么手机同文输入法不能反查？
+为什么安卓同文输入法不能反查？
 > 答：同文输入法官方版可能没有打包预置方案，而反查功能依赖[朙月拼音
 > ](https://github.com/rime/rime-luna-pinyin)和[五筆畫
 > ](https://github.com/rime/rime-stroke)方案。可自行下载并重新部署。
 
+为什么 `Ctrl+Shift+4` 等快捷键不起作用？
+> 答：有的 Rime 发行版，没有基础配置文件
+> [default.yaml](https://github.com/rime/rime-prelude/blob/master/default.yaml)
+> 、 [key_bindings.yaml
+> ](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml) 或被删
+> 除，可自行下载或使用软件选项来恢复文件（如同文），并重新部署。
+
 为什么输入 `/jt`、`/fh` 等不能打出符号？
-> 答：有的 Rime 发行版，如同文官方版，没有打包符号定义文件
+> 答：有的 Rime 发行版，没有打包符号定义文件
 > [symbols.yaml](https://github.com/rime/rime-prelude/blob/master/symbols.yaml)
-> 或被删除，可自行下载或使用软件选项来恢复文件，并重新部署。
+> 或被删除，可自行下载或使用软件选项来恢复文件（如同文），并重新部署。
 
 如何删除用户词？
 > 答：删除特定用户词：输入该词编码，移动光标选中该词，敲删词键
