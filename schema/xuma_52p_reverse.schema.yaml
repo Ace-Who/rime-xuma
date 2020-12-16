@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_52p_reverse
   name: 徐码五二反·伪方案·勿用勿改
-  version: "2020.02.06"
+  version: "2020.12.16"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -15,3 +15,4 @@ schema:
 
 translator:
   dictionary: xuma_52p_reverse
+  enable_user_dict: false
