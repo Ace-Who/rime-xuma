@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_52p_qshare
   name: 徐码五二
-  version: "2020-05-27"
+  version: "2020-12-16"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -168,8 +168,8 @@ translator:
   enable_user_dict: false
   enable_encoder: false
   encode_commit_history: false
-  preedit_format:
-    - xform/$/\t〔主〕/
+  # preedit_format:
+    # - xform/$/\t〔主〕/
 
 # 结合 recognizer，仅翻译长度为三到四的输入段。
 long:
@@ -177,8 +177,8 @@ long:
   dictionary: xuma_52p_long
   enable_user_dict: false
   enable_sentence: false
-  preedit_format:
-    - xform/$/\t〔长〕/
+  # preedit_format:
+    # - xform/$/\t〔长〕/
 
 make_phrase:
   dictionary: xuma
@@ -249,14 +249,14 @@ key_bindings:
     - { when: always, accept: "Control+Shift+P", toggle: xuma_52p_precand }
     - { when: composing, accept: "Control+d", toggle: detailed_x52_precand }
     - { when: composing, accept: Tab, send: bracketleft }
-    # default 中的预设包括逗号和句号翻页，在此取消
-    - { when: has_menu, accept: comma, send: comma }
-    - { when: has_menu, accept: period, send: period }
 
 key_binder:
-  import_preset: default
   bindings:
     __patch:
+      - key_bindings:/emacs_editing?
+      - key_bindings:/move_by_word_with_tab?
+      - key_bindings:/paging_with_minus_equal?
+      - key_bindings:/numbered_mode_switch?
       - key_bindings
       # 可仿照 key_bindings 根节点在 *.custom.yaml 文件中添加按键绑定。
       - xuma_52p_qshare.custom:/keybindings?
@@ -267,8 +267,8 @@ recognizer:
     long: "(?<![a-zA-Z`/])[a-z]{3,4}$"  # 前面可能有未上屏的符号等
     uppercase: "[^`;]*[A-Z][-_+.'0-9A-Za-z]*$"
     reverse_lookup:     "^`([a-z]+'?)*$"
-    luna_pinyin_lookup: "`P([a-z]+'?)*$"
-    stroke_lookup:      "`B([a-z]+'?)*$"
+    luna_pinyin_lookup: "^`P([a-z]+'?)*$"
+    stroke_lookup:      "^`B([a-z]+'?)*$"
     make_phrase: "^([a-z]{1,4}`)([a-z]+[`;']?)*$"
     os_env: '^env/\w+'
     helper: '^help/$'
