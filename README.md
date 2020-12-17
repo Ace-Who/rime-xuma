@@ -175,8 +175,8 @@
 所有简码单字的修改汇总在[→这里←](misc/xuma_shortcode_patch.txt) 。以下仅列出
 一级简码单字的修改：
 
-| 一级简码 | 原字原编码 | 现字原编码 | 原字现编码 | 现字现编码 |
-| -------- | ---------- | ---------- | ---------- | ---------- |
+| 一级简码 | 原编码 | 原编码 | 新编码 | 新编码 |
+| -------- | ------ | ------ | ------ | ------ |
 | `a` | 出 `a aau`  | 能 `asv` | 出 `aa aau`  | 能 `a asv` |
 | `h` | 在 `h hkjv` | 有 `hsv` | 在 `hk hkjv` | 有 `h hsv` |
 | `m` | 同 `m mgov` | 见 `mve` | 同 `mg mgov` | 见 `m mve` |
@@ -233,23 +233,26 @@
 > ](https://github.com/rime/rime-stroke)方案。可自行下载并重新部署。
 
 为什么 `Ctrl+Shift+4` 等快捷键不起作用？
-> 答：有的 Rime 发行版，没有基础配置文件
-> [default.yaml](https://github.com/rime/rime-prelude/blob/master/default.yaml)
-> 、 [key_bindings.yaml
-> ](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml) 或被删
-> 除，可自行下载或使用软件选项来恢复文件（如同文），并重新部署。
+> 答：部分快捷键不是直接在方案中定义，而是引用基础配置文件 [`default.yaml`
+> ](https://github.com/rime/rime-prelude/blob/master/default.yaml)
+> 或 [`key_bindings.yaml`
+> ](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml) 的定义
+> 。有的 Rime 发行版，没有打包这些文件或被删除，可自行下载或使用软件选项来恢复
+> 文件（如同文），并重新部署。
 
 为什么输入 `/jt`、`/fh` 等不能打出符号？
-> 答：有的 Rime 发行版，没有打包符号定义文件
-> [symbols.yaml](https://github.com/rime/rime-prelude/blob/master/symbols.yaml)
-> 或被删除，可自行下载或使用软件选项来恢复文件（如同文），并重新部署。
+> 答：由斜杠「/」引导的符号定义在基础配置文件
+> [`symbols.yaml`
+> ](https://github.com/rime/rime-prelude/blob/master/symbols.yaml) 中。有的
+> Rime 发行版，没有打包这个文件或被删除，可自行下载或使用软件选项来恢复文件（如
+> 同文），并重新部署。
 
 如何删除用户词？
 > 答：删除特定用户词：输入该词编码，移动光标选中该词，敲删词键
 > <kbd>Ctrl</kbd> + <kbd>Delete</kbd> 或 <kbd>Shift</kbd> + <kbd>Delete</kbd>
 > （Mac OS 用 <kbd>Shift</kbd> + <kbd>Fn</kbd> + <kbd>Delete</kbd>），
-> 默认还绑定了 <kbd>Ctrl</kbd> + <kbd>K</kbd>。删除整个用户词典：删除用户目录下
-> 的 `xuma.userdb` 目录，并重新部署（？）。
+> 默认还绑定了 <kbd>Ctrl</kbd> + <kbd>K</kbd>。删除整个用户词典：先退出输入法程
+> 序或算法服务，然后删除用户目录下的 `xuma.userdb` 目录，再启动输入法。
 
 为什么码表更新后，有的字用新的编码打不出来？
 > 答：需要「重新部署」。
