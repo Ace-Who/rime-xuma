@@ -182,6 +182,7 @@ long:
 
 make_phrase:
   dictionary: xuma
+  prism: xuma_qshare
   user_dict: xuma
   enable_encoder: true
   enable_user_dict: true
