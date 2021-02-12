@@ -48,7 +48,7 @@ C42。
 
 徐码五二顶沿用常规版码表，一级简码和二级简码设置了三重候选，第一重为单字，二三
 重为词组。为一简和二简增设区重补码 `[;'`，打出补码后自动上屏。如 `u` 的三重候选
-为 「的」「的是」「的时候」，它们同时还有另一组编码，即 `u[`、`u;`、`u'` 输入这
+为 「的」「的是」「的时候」，它们同时还有另一组编码，即 `u[`、`u;`、`u'`，输入这
 组编码即可自动上屏这三个词条。为方便和效率计，补码 `[` 还绑定到了 `TAB` 键，这
 样安排在双手对称位置，尽可能接近敲空格的体验。
 
@@ -119,22 +119,24 @@ C42。
 
 原始文本：
 冰灯是流行于中国北方的一种古老的民间艺术形式。因为独特的地域优势，黑龙江可以说是制作冰灯最早的地方。
-xa xed k zy sx gi o ne xvi yu u g rok jg jvi u df zk hb iwu ghs figi.nf zc vlv pji u j jfo tjo fr,mh jpu zi eo c zx k pm tpl xa xed kh kz u j yu.
-xa xed k zy sx gi o;xvi yu u g rok jg jvi u df zk hb3gh3.n2vl3u j jfo tjo fr,mh jpu zi e2zx k pt2xa xed kh kz u j3.
-xaxed k zysxgio[nexvi yuu[g rok jgjvi u dfzkhbiwu ghs figi.nfzcvlv pji u j jfo tjo fr,mhjpu zieoc[zxk[pmtpl xaxed khkzu[j yu.
-xaxed k zysxgio;xvi yuu[g rok jgjvi u dfzkhb'gh'.n;vl'u j jfo tjo fr,mhjpu zie;zxk[pt;xaxed khkzu[j'.
-
-按照引入置换码后的码表：
-xa xed k zy sx gi o ne xvi yu u g ro jg jv u df zk hb iwu ghs fi.nf zc vlv pji u j jfo tjo fr,mh jpu zi eo c zx k pm tp xa xed kh kz u j yu.
-xa xed k zy xs gi o;xvi yu u g ro jg jv u df zk hb3gh3.n2vl3u j jfo tjo fr,mh jpu zi e2zx k pt2xa xed kh kz u j3.
-xaxed k zysxgio[nexvi yuu[g rojgjvu[dfzkhbiwu ghs fi.nfzcvlv pji u j jfo tjo fr,mhjpu zieoc[zxk[pmtpxaxed khkzu[j yu.
-xaxed k zysxgio;xvi yuu[g rojgjvu[dfzkhb'gh'.n;vl'u j jfo tjo fr,mhjpu zie;zxk[pt;xaxed khkzu[j'.
+xa_xed_k_zy_sx_gi_o_ne_xvi_yu_u_g_ro_jg_jv_u_df_zk_hb_iwu_ghs_fi.nf_zc_vlv_pji_u_j_jfo_tjo_fr,mh_jpu_zi_eo_c_zx_k_pm_tp_xa_xed_kh_kz_u_j_yu.
+xa_xed_k_zy_xs_gi_o;xvi_yu_u_g_ro_jg_jv_u_df_zk_hb3gh3.n2vl3u_j_jfo_tjo_fr,mh_jpu_zi_e2zx_k_pt2xa_xed_kh_kz_u_j3.
+xaxed_k_zysxgio[nexvi_yuu[g_rojgjvu[dfzkhbiwu_ghs_fi.nfzcvlv_pji_u_j_jfo_tjo_fr,mhjpu_zieoc[zxk[pmtpxaxed_khkzu[j_yu.
+xaxed_k_zysxgio;xvi_yuu[g_rojgjvu[dfzkhb'gh'.n;vl'u_j_jfo_tjo_fr,mhjpu_zie;zxk[pt;xaxed_khkzu[j'.
 ```
 
-以下是单字打法和简词打法的慢速动态演示（使用的是较旧的码表，码长较长）：
+以下是单字打法和简词打法的慢速动态演示，包含「预显候选」开启和关闭两种情况：
 
-![单字打法](demo/xuma_52p_single_style.gif)
-![简词打法](demo/xuma_52p_phrase_style.gif)
+![单字慢速](demo/slow_single_style.gif)
+![单字慢速](demo/slow_single_style_with_precand.gif)
+
+![简词慢速](demo/slow_phrase_style.gif)
+![简词慢速](demo/slow_phrase_style_with_detailed_precand.gif)
+
+以下是单字打法和简词打法的正常速度动态演示：
+
+![单字常速](demo/single_style_with_precand.gif)
+![简词常速](demo/phrase_style_with_precand.gif)
 
 一二简的第一候选总是可以用 `[` 上屏的，而空格上屏只能用在单独打的时候（即不是紧
 接在二码字后）。如果每次先判断前一个字是不是单独打的、是不是一码或二码字，可能
@@ -143,12 +145,8 @@ xaxed k zysxgio;xvi yuu[g rojgjvu[dfzkhb'gh'.n;vl'u j jfo tjo fr,mhjpu zie;zxk[p
 
 ```
 冰灯是流行于中国北方的一种古老的民间艺术形式。因为独特的地域优势，黑龙江可以说是制作冰灯最早的地方。
-xaxed k[zysxgio[nexvi yuu[g[rok jgjvi u[dfzkhbiwu ghs figi.nfzcvlv pji u[j[jfo tjo fr,mhjpu zieoc[zxk[pmtpl xaxed khkzu[j[yu.
-xaxed k[zysxgio;xvi yuu[g[rok jgjvi u[dfzkhb'gh'.n;vl'u[j[jfo tjo fr,mhjpu zie;zxk[pt;xaxed khkzu[j'.
-
-按照引入置换码后的码表：
-xaxed k[zysxgio[nexvi yuu[g[rojgjvu[dfzkhbiwu ghs fi.nfzcvlv pji u[j[jfo tjo fr,mhjpu zieoc[zxk[pmtpxaxed khkzu[j[yu.
-xaxed k[zysxgio;xvi yuu[g[rojgjvu[dfzkhb'gh'.n;vl'u[j[jfo tjo fr,mhjpu zie;zxk[pt;xaxed khkzu[j'.
+xaxed_k[zysxgio[nexvi_yuu[g[rojgjvu[dfzkhbiwu_ghs_fi.nfzcvlv_pji_u[j[jfo_tjo_fr,mhjpu_zieoc[zxk[pmtpxaxed_khkzu[j[yu.
+xaxed_k[zysxgio;xvi_yuu[g[rojgjvu[dfzkhb'gh'.n;vl'u[j[jfo_tjo_fr,mhjpu_zie;zxk[pt;xaxed_khkzu[j'.
 ```
 
 ## 与常规版功能的差异
