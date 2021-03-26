@@ -16,7 +16,7 @@
 - 新增：全码后置功能增加设置项 `xuma_postpone_fullcode/lua/max_index`，用于指定最大后置位置。
 
 <details>
-  <summary>简码变更</br>点击查看详情</summary>
+  <summary>简码变更</br>点击展开详情</summary>
 
 ```
 -得	s
@@ -2044,7 +2044,7 @@ issue1）
 明，增加最佳实践的说明，删除关于学习时机的观点。
 
 <details>
-  <summary>简码和置换码调整</br>点击查看详情</summary>
+  <summary>简码和置换码调整</br>点击展开详情</summary>
 
 ```
 -我就	p
