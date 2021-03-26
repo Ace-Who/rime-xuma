@@ -4,7 +4,7 @@
 schema:
   schema_id: xuma_qshare
   name: 徐码·QS
-  version: "2020-12-16"
+  version: "2021-03-26"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
@@ -39,11 +39,14 @@ switches:
     states: [ 简体保持, 簡入繁出 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: xuma_spelling  # 三重注解
-    reset: 1
-    states: [ 拆, 扌⺁丅丶 ]
-  - name: xmsp_hide_pinyin  # 是否显示三重注解中的拼音
-    # states: [ 音, 哑 ]
+  # 切换热键由 xuma_spelling/lua 下的 cycle_key 和 switch_key 定义
+  - options:
+    - xuma_spelling.off
+    - xuma_spelling.lv1
+    - xuma_spelling.lv2
+    - xuma_spelling.lv3
+    states: [ 〇注解, 一重注解, 二重注解, 三重注解 ]
+    reset: 3
   - name: xuma_postpone_fullcode  # 仅作用于单字。
     reset: 1
     states: [ ＝原始排序, ↓全码后置 ]
@@ -56,6 +59,7 @@ engine:
   processors:
     - ascii_composer
     - recognizer
+    - lua_processor@xuma_spelling_processor
     - key_binder
     - speller
     - punctuator
@@ -87,7 +91,7 @@ engine:
     - charset_filter@gb2312
     - charset_filter@gbk
     - charset_filter@big5
-    - charset_filter@utf8
+    # - charset_filter@utf8  # 该组件在 librime 1.6.* 以后错误过滤字符，暂时停用
     - simplifier@simplify
     - simplifier@traditionalize
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
@@ -128,6 +132,12 @@ lua_reverse_db:
   spelling: xuma_spelling_pseudo
   code: xuma
 
+xuma_spelling:
+  lua:
+    switch_key: 'Control+c'
+    cycle_key: 'Shift+Control+C'
+    # 注意写法：Shift 在前，Control 在后。
+
 xmsp:
   tags: [ abc, punct ]
 
@@ -137,6 +147,8 @@ xmsp_for_rvlk:
 
 xuma_postpone_fullcode:
   tags: [ abc ]
+  lua:
+    # max_index: 6  # 最大后置位置，默认为 4
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -228,8 +240,6 @@ punctuator:
 key_bindings:
   __append:
     - { when: always, accept: "Control+Shift+F", toggle: traditionalization }
-    - { when: composing, accept: "Control+c", toggle: xuma_spelling }
-    - { when: composing, accept: "Control+y", toggle: xmsp_hide_pinyin }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
     - { when: composing, accept: "Control+t", toggle: lazy_clock }
     - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
@@ -243,12 +253,12 @@ key_binder:
       - key_bindings:/paging_with_minus_equal?
       - key_bindings:/numbered_mode_switch?
       - key_bindings
-      # 可仿照 key_bindings 根节点在 *.custom.yaml 文件中添加按键绑定。
-      - xuma_qshare.custom:/keybindings?
+      # 方案用户可仿照 key_bindings 节点在 *.custom.yaml 文件中添加按键绑定：
+      - xuma_qshare.custom:/key_bindings?
 
 recognizer:
   patterns:
-    uppercase: "[^`;]*[A-Z][-_+.'0-9A-Za-z]*$"
+    uppercase: "^(?![`;]).*[A-Z][-_+.'0-9A-Za-z]*$"
     reverse_lookup:     "^`([a-z]+'?)*$"
     luna_pinyin_lookup: "^`P([a-z]+'?)*$"
     stroke_lookup:      "^`B([a-z]+'?)*$"

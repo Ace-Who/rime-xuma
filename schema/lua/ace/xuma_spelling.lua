@@ -31,12 +31,25 @@ local utf8chars = basic.utf8chars
 local rime = require 'ace/lib/rime'
 local config = {}
 config.encode_rules = {
-  { length_equal = 2, formula = 'AaAbBaBb' }
-, { length_equal = 3, formula = 'AaBaCaCb' }
-, { length_in_range = {4, 10}, formula = 'AaBaCaZa' }
+  { length_equal = 2, formula = 'AaAbBaBb' },
+  { length_equal = 3, formula = 'AaBaCaCb' },
+  { length_in_range = {4, 10}, formula = 'AaBaCaZa' }
 }
 -- 注意借用编码规则有局限性：取码索引不一定对应取根索引，尤其是从末尾倒数时。
 local spelling_rules = rime.encoder.load_settings(config.encode_rules)
+-- options 要与方案保持一致
+local options = {
+  'xuma_spelling.off',
+  'xuma_spelling.lv1',
+  'xuma_spelling.lv2',
+  'xuma_spelling.lv3'
+}
+options.default = 4
+
+
+local processor = rime.make_option_cycler(options,
+    'xuma_spelling/lua/cycle_key',
+    'xuma_spelling/lua/switch_key')
 
 
 local function xform(s)
@@ -81,7 +94,8 @@ local function spell_phrase(s, spll_rvdb)
   for i, coord in ipairs(rule) do
     local char_idx = coord[1] > 0 and coord[1] or #chars + 1 + coord[1]
     local raw = spll_rvdb:lookup(chars[char_idx])
-    if not raw then return end  -- 若任一取码单字没有注解数据，则不对词组作注。
+    -- 若任一取码单字没有注解数据，则不对词组作注。
+    if raw == '' then return end
     local char_radicals = parse_spll(parse_raw_tricomment(raw))
     local code_idx = coord[2] > 0 and coord[2] or #char_radicals + 1 + coord[2]
     radicals[i] = char_radicals[code_idx] or '◇'
@@ -95,18 +109,23 @@ local function get_tricomment(cand, env)
   if utf8.len(text) == 1 then
     local raw_spelling = env.spll_rvdb:lookup(text)
     if raw_spelling == '' then return end
-    return env.engine.context:get_option("xmsp_hide_pinyin")
-      and xform(raw_spelling:gsub('%[(.-,.-),.+%]', '[%1]'))
-      or xform(raw_spelling)
+    return env.engine.context:get_option('xuma_spelling.lv1')
+      and xform(raw_spelling:gsub('%[(.-),.*%]', '[%1]'))
+      or env.engine.context:get_option('xuma_spelling.lv2')
+      and xform(raw_spelling:gsub('%[(.-,.-),.*%]', '[%1]'))
+      or xform(raw_spelling)  -- xuma_spelling.lv3 is on
   elseif utf8.len(text) > 1 then
     local spelling = spell_phrase(text, env.spll_rvdb)
     if not spelling then return end
     spelling = spelling:gsub('{(.-)}', '<%1>')
+    if env.engine.context:get_option('xuma_spelling.lv1') then
+      return ('〔 %s 〕'):format(spelling)
+    end
     local code = env.code_rvdb:lookup(text)
     if code ~= '' then  -- 按长度排列多个编码。
       local codes = {}
       for m in code:gmatch('%S+') do codes[#codes + 1] = m end
-      table.sort(codes, function(i, j) return i:len() < j:len() end)
+      table.sort(codes, function (i, j) return i:len() < j:len() end)
       return ('〔 %s · %s 〕'):format(spelling, table.concat(codes, ' '))
     else  -- 以括号类型区分非本词典之固有词
       return ('〈 %s 〉'):format(spelling)
@@ -119,7 +138,7 @@ end
 
 
 local function filter(input, env)
-  if not env.engine.context:get_option("xuma_spelling") then
+  if env.engine.context:get_option('xuma_spelling.off') then
     for cand in input:iter() do yield(cand) end
     return
   end
@@ -164,7 +183,8 @@ local function init(env)
   env.spll_rvdb = ReverseDb('build/' .. spll_rvdb .. '.reverse.bin')
   env.code_rvdb = ReverseDb('build/' .. code_rvdb .. '.reverse.bin')
   env.is_mixtyping = abc_extags_size > 0
+  rime.init_options(options, env.engine.context)
 end
 
 
-return { init = init, func = filter }
+return { filter = { init = init, func = filter }, processor = processor }

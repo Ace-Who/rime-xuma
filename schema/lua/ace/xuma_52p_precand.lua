@@ -4,6 +4,19 @@
 
 local basic = require('ace/lib/basic')
 local map = basic.map
+local rime = require 'ace.lib.rime'
+-- options 要与方案保持一致
+local options = {
+  'xuma_52p_precand.off',
+  'xuma_52p_precand.brief',
+  'xuma_52p_precand.detailed'
+}
+options.default = 2
+
+
+local processor = rime.make_option_cycler(options,
+    'xuma_52p_precand/lua/cycle_key',
+    'xuma_52p_precand/lua/switch_key')
 
 
 local function lookup(db)
@@ -37,7 +50,7 @@ local function yield_with_precand(input, context, env)
   if sel_inp:find('%l$') then  -- 一定要加这个判断，否则会影响符号键的功能
     sel_inp = sel_inp:match('%l+$')  -- 去掉前置标点部分
   end
-  local detailed = context:get_option("detailed_x52_precand")
+  local detailed = context:get_option("xuma_52p_precand.detailed")
   -- 这是以候选迭代为基础的，因此要求无空码。
   for cand in input:iter() do
     local cand1, cand2 = get_seg_cands(sel_inp, detailed, env)
@@ -65,9 +78,11 @@ end
 
 local function filter(input, env)
   local context = env.engine.context
-  if context:get_option("xuma_52p_precand")
+  if not context:get_option("xuma_52p_precand.off")
       and (context.input:find('%l$')
-        or context.input:find('^;')) then
+        or context.input:find('^;'))
+      and not context.input:find('`')  -- 排除反查和造词模式
+      then
     yield_with_precand(input, context, env)
   else
     for cand in input:iter() do yield(cand) end
@@ -79,7 +94,8 @@ local function init(env)
   local config = env.engine.schema.config
   local code_to_text_rvdb = config:get_string('lua_reverse_db/code_to_text')
   env.code_to_text_rvdb = ReverseDb('build/' .. code_to_text_rvdb .. '.reverse.bin')
+  rime.init_options(options, env.engine.context)
 end
 
 
-return { init = init, func = filter }
+return { filter = { init = init, func = filter }, processor = processor }

@@ -69,6 +69,13 @@ function basic.random_in_ranges(table, ...)
 end
 
 
+-- Todo: Work with an argument like os.time().
+function basic.time_accurate()
+  local time, clock = os.time(), os.clock()
+  return time + clock - math.floor(clock)
+end
+
+
 function basic.utf8chars(str)
   local chars = {}
   for pos, code in utf8.codes(str) do

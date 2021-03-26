@@ -9,8 +9,12 @@ lazy_clock = os_tools.lazy_clock_filter
 preedit_lazy_clock = os_tools.preedit_lazy_clock_filter
 os_env = os_tools.os_env_translator
 
-xuma_spelling = require("ace/xuma_spelling")
+local t = require("ace/xuma_spelling")
+xuma_spelling = t.filter
+xuma_spelling_processor = t.processor
 
 xuma_postpone_fullcode = require("ace/xuma_postpone_fullcode")
 
-xuma_52p_precand = require("ace/xuma_52p_precand")
+local t = require("ace/xuma_52p_precand")
+xuma_52p_precand = t.filter
+xuma_52p_precand_processor = t.processor
