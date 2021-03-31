@@ -13,7 +13,7 @@
 
 ---
 name: "xuma_spelling_pseudo"
-version: "2021.03.26"
+version: "2021.03.31"
 sort: by_weight
 columns:
   - text
@@ -8929,7 +8929,7 @@ columns:
 圓	[囗口貝,NONw,yuán]
 圔	[囗土皿,NJMw,yà]
 圕	[囗彐曰,NBKw,tuān_tú]
-圖	[囗口口,NOOw,tú]
+圖	[囗口口,NOO.w,tú]
 圗	[囗厶二,NAE.w,tú]
 團	[囗一寸,NGIw,tuán]
 圙	[囗八二,NTEw,lüè]
@@ -17281,7 +17281,7 @@ columns:
 瞳	[目音土,NY.Jv,tóng]
 瞴	[目𠂉一灬,NPGS,wǔ_mí_móu]
 瞵	[目米夕㐄,NXQ.F,lín]
-瞶	[目口丄貝,NOO.N,guì_kuì_wèi]
+瞶	[目口丄貝,NOON,guì_kuì_wèi]
 瞷	[目門日,NNK.v,jiàn]
 瞸	[目艹世木,NHHI,yè]
 瞹	[目爫心夂,NVR.V,ài]
@@ -17383,7 +17383,7 @@ columns:
 砙	[石瓦,GHw,wǎ_pān]
 砚	[石冂儿,GMV.e,yàn]
 砛	[石人丶乛,GUW.B,jīn]
-砜	[石几乂,GQT.i,fēng]
+砜	[石几乂,GQTi,fēng]
 砝	[石土厶,GJAi,fǎ]
 砞	[石末,GIm,mò]
 砟	[石𠂉{乍下},GPL.u,zhǎ]
@@ -17541,7 +17541,7 @@ columns:
 碷	[石⺁十目,GREN,dùn]
 碸	[石風,GQf,fēng]
 碹	[石宀二日,GWEK,xuàn]
-確	[石冖隹,GQTw,què]
+確	[石冖隹,GQT.w,què]
 碻	[石亠冂口,GYM.O,què_qiāo]
 碼	[石馬,GEm,mǎ]
 碽	[石工貝,GINb,gōng]

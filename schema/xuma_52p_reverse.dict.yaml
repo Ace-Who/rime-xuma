@@ -2,7 +2,7 @@
 
 ---
 name: "xuma_52p_reverse"
-version: "2021.03.26"
+version: "2021.03.31"
 sort: original
 columns:
   - code
@@ -1911,7 +1911,7 @@ columns:
 稀有	rt_3
 手忙脚乱	ru_3
 心狠手辣	rv_3
-稳定性	rw_3
+程序员	rw_3
 心情	rx_3
 航空	ry_3
 毛泽东	rz_3

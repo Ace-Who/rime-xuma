@@ -20,7 +20,7 @@
 
 ---
 name: "xuma"
-version: "2021.03.26"
+version: "2021.03.31"
 sort: original
 import_tables:
   - xuma.extended
@@ -2048,7 +2048,7 @@ encoder:
 稀有	rt	6730000
 手忙脚乱	ru	3080000
 心狠手辣	rv	1330000
-稳定性	rw	17100000
+程序员	rw
 心情	rx	404000000
 航空	ry	134000000
 毛泽东	rz	21100000
@@ -4037,7 +4037,7 @@ encoder:
 磔	gqf	916000
 硊	gqg	648000
 殁	gqs	695000
-砜	gqt	989000
+確	gqt	7520000
 磤	grb	28900
 砕	gre	841000
 磿	grg	755000
@@ -6146,7 +6146,7 @@ encoder:
 剮	nol	517000
 圆	nom	90600000
 闠	non	34900
-瞶	noo	831000
+圖	noo	207000000
 睊	nos	32200
 眖	nov	142000
 過	noz	144000000
@@ -184057,6 +184057,7 @@ encoder:
 ·	dlsh
 ‥	dlmh
 …	dldd
+︙	dldd
 〒	dlhy
 〓	dlfk
 ☆	dlwj
