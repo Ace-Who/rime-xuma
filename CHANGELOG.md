@@ -573,6 +573,8 @@
 +殞	gon
 +歿	gqd
 +磔	gqf
+-砜	gqt
++確	gqt
 +砕	gre
 +曆	grk
 -磃	grl
@@ -1111,6 +1113,8 @@
 +煛	nnx
 +廻	nob
 +剮	nol
+-瞶	noo
++圖	noo
 +敗	npp
 +貶	npz
 +甞	nqh
