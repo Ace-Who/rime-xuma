@@ -2,7 +2,7 @@
 
 ---
 name: "xuma_52p_long"
-version: "2020.01.24"
+version: "2021.03.07"
 sort: original
 import_tables:
   - xuma
@@ -16,7 +16,8 @@ columns:
   - stem
 encoder:
   exclude_patterns:
-    - '^[a-z][^a-z]*$'  # 一简不参与造词
+    - '^[a-z]$'  # 一简不参与造词
+    - '[^a-z]'
     - '^bg(zs|zx|ys|yx|jc|hx|sx)$'  # 表格
     - '^sz[lyeswlqbj]'  # 数字
     # - '^dl..$'  # 特殊字符和八卦名 "乾兑坎坤巽离艮震" 的符号编码（dl?g）.
@@ -29,4 +30,3 @@ encoder:
     - length_in_range: [4, 10]
       formula: "AaBaCaZa"
 ...
-
