@@ -1,4 +1,8 @@
 ﻿以后通过 github 更新维护。QQ 群文件不保证更新。
-请前往 https://github.com/Ace-Who/rime-xuma 下载最新版本。
-请务必前往，「仔细阅读说明」，多数疑问都能解决。
-尤其提醒，本方案的简码在官方码表基础上做出了适当修改，改善了体验。一级简码也在修改之列。
+请前往 https://github.com/Ace-Who/rime-xuma 下载最新 release。
+说明文档也在该地址，请务必前往，仔细阅读，多数疑问都能解决。
+文档地址二：
+  https://ace-who.github.io/rime-xuma/
+也可用 VNote、Typora 等 markdown 阅读器（也是编辑器）打开文件 README.md 以阅读本地文档。
+  https://github.com/vnotex/vnote
+  https://typora.io
